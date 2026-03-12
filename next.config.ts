@@ -4,7 +4,7 @@ import createMDX from "@next/mdx";
 
 const nextConfig: NextConfig = {
   output: "export",
-  trailingSlash: false, // FIX: Don't add trailing slashes to URLs
+  trailingSlash: true, // Creates /page/index.html structure for Apache compatibility
   pageExtensions: ["ts", "tsx", "md", "mdx"],
   images: {
     unoptimized: true, // Required for static export
