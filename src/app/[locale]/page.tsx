@@ -249,6 +249,7 @@ export default async function HomePage({ params }: Props) {
             room="Room 90"
             year="c. 1597"
             image="/images/medusa.jpg"
+            href={`/${locale}/artists/caravaggio`}
           />
         </div>
       </section>

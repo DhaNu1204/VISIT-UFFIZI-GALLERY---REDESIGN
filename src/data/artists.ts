@@ -437,6 +437,53 @@ export const artists: Artist[] = [
       },
     ],
   },
+  {
+    slug: "caravaggio",
+    name: "Caravaggio",
+    title: "Caravaggio at the Uffizi | Medusa, Bacchus & Sacrifice of Isaac",
+    description:
+      "See Caravaggio's Medusa, Bacchus & Sacrifice of Isaac at the Uffizi Room 90. Dramatic Baroque masterpieces of light and shadow.",
+    h1: "Caravaggio at the Uffizi Gallery",
+    born: "September 29, 1571, Milan",
+    died: "July 18, 1610, Porto Ercole, Tuscany",
+    movement: "Baroque",
+    ufficiRoom: "Room 90 (First Floor)",
+    masterpieces: [
+      "Medusa (c. 1597)",
+      "Bacchus (c. 1598)",
+      "Sacrifice of Isaac (c. 1603)",
+    ],
+    intro:
+      "Walk into Room 90 and Caravaggio punches you in the face. After the ethereal beauty of Botticelli and the serene perfection of Raphael, Caravaggio's Medusa — her mouth frozen in a scream, blood pouring from her severed neck — is a shock. This is art that doesn't ask for your admiration. It demands your attention.",
+    atTheUffizi:
+      "The Uffizi's Caravaggio collection occupies Room 90 on the first floor, a dramatic contrast to the Renaissance masterpieces upstairs. These three paintings represent Caravaggio at the height of his powers, before his violent temper forced him to flee Rome.\n\nMedusa (c. 1597) is painted on a circular wooden shield — not a canvas. It was commissioned by Cardinal Francesco Maria del Monte as a gift for the Grand Duke of Tuscany. The Gorgon is shown at the moment of her beheading by Perseus, mouth open in a silent scream, snakes writhing in her hair. Blood spurts from her neck. What makes it even more disturbing: it's a self-portrait. Caravaggio painted his own face in the moment of death.\n\nBacchus (c. 1598) shows the god of wine as a street hustler — bare-shouldered, slightly drunk, offering you a glass of wine with a knowing smirk. The fruit on the table is rotting. This isn't mythological grandeur — it's reality slapped onto a classical subject. Look closely at the carafe of wine: you can see Caravaggio's tiny self-portrait reflected in the glass.\n\nSacrifice of Isaac (c. 1603) captures the terrifying instant before Abraham's knife plunges into his son's neck. The boy's face is frozen in horror, his mouth open in a scream that mirrors Medusa. The angel's hand stops the blade at the last possible second. The lamb — the substitute sacrifice — waits patiently in the corner. It's unbearably tense.\n\nCaravaggio's revolutionary technique — dramatic chiaroscuro (light emerging from darkness) — is on full display here. Bodies emerge from black backgrounds like actors spotlit on a stage. Every detail is rendered with brutal honesty: dirty fingernails, wrinkled skin, the weight of flesh.",
+    biography:
+      "Michelangelo Merisi da Caravaggio was born in Milan in 1571 during a plague outbreak. His father died when he was young. He trained in Milan, then moved to Rome around 1592, where he lived in poverty, painting genre scenes and still lifes.\n\nHis breakthrough came when Cardinal Francesco Maria del Monte became his patron around 1595. The Cardinal commissioned religious works and mythological subjects that showcased Caravaggio's revolutionary style. He painted directly from live models — often prostitutes, street people, and criminals — without preliminary drawings. What you see is what was in front of him.\n\nBut Caravaggio was as violent as his paintings. He brawled constantly, was arrested multiple times, and in 1606 killed a man during a fight over a tennis match. He fled Rome and spent his final four years on the run — Malta, Sicily, Naples — painting increasingly dark and desperate works. He died in 1610 at age 38, possibly from malaria, possibly from a wound infection, possibly murdered. His body was never found.\n\nDespite his short, chaotic life, Caravaggio revolutionized European painting. His dramatic use of light and shadow, his unflinching realism, and his psychological intensity influenced generations of artists. The 'Caravaggisti' — his followers — spread his style across Europe.",
+    legacy:
+      "Caravaggio died in obscurity and was largely forgotten for 200 years. His work was considered too shocking, too realistic, too dark. The 20th century rediscovered him, and today he's recognized as one of the most influential painters in Western art. His chiaroscuro technique influenced Rembrandt, Velázquez, and nearly every Baroque painter. His psychological intensity paved the way for modern realism.",
+    faq: [
+      {
+        q: "Where are Caravaggio's paintings in the Uffizi?",
+        a: "Caravaggio's works are in Room 90 on the first floor (ground floor in European numbering). This room features Baroque art and is separate from the main Renaissance galleries upstairs.",
+      },
+      {
+        q: "Why is Medusa on a shield?",
+        a: "In Greek mythology, Perseus used his polished shield as a mirror to avoid looking directly at Medusa (whose gaze turned people to stone). After beheading her, he mounted her head on his shield. Caravaggio painted on an actual ceremonial shield for authenticity.",
+      },
+      {
+        q: "Is Medusa a self-portrait?",
+        a: "Yes. Caravaggio used his own face for Medusa's features. This wasn't unusual for him — he often inserted himself into his paintings, sometimes in shocking ways.",
+      },
+      {
+        q: "Why is Caravaggio so famous?",
+        a: "Caravaggio revolutionized painting with his dramatic use of light and shadow (chiaroscuro), unflinching realism, and psychological intensity. He painted directly from life without preliminary sketches, creating works of shocking immediacy. His influence on Baroque art was immense.",
+      },
+      {
+        q: "Was Caravaggio a criminal?",
+        a: "Yes. Caravaggio was frequently arrested for brawling, vandalism, and assault. In 1606, he killed a man during a fight and spent his final four years fleeing justice. He died on the run in 1610.",
+      },
+    ],
+  },
 ];
 
 export function getArtistBySlug(slug: string): Artist | undefined {
