@@ -224,6 +224,7 @@ export default async function HomePage({ params }: Props) {
             artist="Sandro Botticelli"
             room="Rooms 10-14"
             year="c. 1485"
+            image="/images/birth-of-venus.jpg"
             href={`/${locale}/artists/sandro-botticelli`}
           />
           <ArtworkCard
@@ -231,6 +232,7 @@ export default async function HomePage({ params }: Props) {
             artist="Sandro Botticelli"
             room="Rooms 10-14"
             year="c. 1482"
+            image="/images/primavera.jpg"
             href={`/${locale}/artists/sandro-botticelli`}
           />
           <ArtworkCard
@@ -238,6 +240,7 @@ export default async function HomePage({ params }: Props) {
             artist="Michelangelo"
             room="Room 35"
             year="c. 1507"
+            image="/images/doni-tondo.jpg"
             href={`/${locale}/artists/michelangelo`}
           />
           <ArtworkCard
@@ -245,6 +248,7 @@ export default async function HomePage({ params }: Props) {
             artist="Caravaggio"
             room="Room 90"
             year="c. 1597"
+            image="/images/medusa.jpg"
           />
         </div>
       </section>
