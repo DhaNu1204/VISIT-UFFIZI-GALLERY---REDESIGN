@@ -1,0 +1,64 @@
+{
+  "common": {
+    "siteName": "Visita gli Uffizi",
+    "comingSoon": "Prossimamente",
+    "bookNow": "Prenota Ora",
+    "learnMore": "Scopri di Più",
+    "viewAll": "Vedi Tutti",
+    "readMore": "Leggi di Più",
+    "backTo": "Torna a {page}",
+    "lastUpdated": "Ultimo aggiornamento: {date}",
+    "shareThis": "Condividi questa pagina",
+    "tableOfContents": "Indice",
+    "faq": "Domande Frequenti",
+    "relatedPages": "Potrebbe Interessarti",
+    "minutes": "{count} min di lettura"
+  },
+  "nav": {
+    "tickets": "Biglietti",
+    "tours": "Tour",
+    "visiting": "Visita",
+    "artworks": "Opere d'Arte",
+    "artists": "Artisti",
+    "vasariCorridor": "Corridoio Vasariano",
+    "blog": "Blog",
+    "openingHours": "Orari di Apertura",
+    "visitorInfo": "Info Visitatori",
+    "directions": "Come Arrivare",
+    "history": "Storia",
+    "skipTheLine": "Salta la Fila",
+    "ticketPrices": "Prezzi Biglietti",
+    "guidedTour": "Tour Guidato",
+    "privateTour": "Tour Privato",
+    "comboTour": "Uffizi + Accademia"
+  },
+  "footer": {
+    "quickLinks": "Link Utili",
+    "visitInfo": "Info Visita",
+    "about": "Chi Siamo",
+    "legal": "Note Legali",
+    "privacy": "Privacy Policy",
+    "terms": "Termini di Utilizzo",
+    "cookies": "Cookie Policy",
+    "copyright": "© {year} Visit Uffizi. Tutti i diritti riservati.",
+    "affiliate": "Questo sito contiene link affiliati. Potremmo guadagnare una commissione senza costi aggiuntivi per te."
+  },
+  "booking": {
+    "from": "Da",
+    "perPerson": "a persona",
+    "bestSeller": "Più Venduto",
+    "instantConfirmation": "Conferma Immediata",
+    "freeCancellation": "Cancellazione Gratuita",
+    "mobileTicket": "Biglietto Mobile",
+    "skipTheLine": "Salta la Fila",
+    "duration": "Durata",
+    "languages": "Lingue",
+    "includes": "Include",
+    "meetingPoint": "Punto di Incontro"
+  },
+  "home": {
+    "hero": "Galleria degli Uffizi Firenze",
+    "heroSubtitle": "La tua guida al più grande museo di Firenze",
+    "tagline": "Biglietti • Tour • Info Visitatori • Arte e Artisti"
+  }
+}

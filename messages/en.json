@@ -1,0 +1,64 @@
+{
+  "common": {
+    "siteName": "Visit Uffizi",
+    "comingSoon": "Coming Soon",
+    "bookNow": "Book Now",
+    "learnMore": "Learn More",
+    "viewAll": "View All",
+    "readMore": "Read More",
+    "backTo": "Back to {page}",
+    "lastUpdated": "Last updated: {date}",
+    "shareThis": "Share this page",
+    "tableOfContents": "Table of Contents",
+    "faq": "Frequently Asked Questions",
+    "relatedPages": "You Might Also Like",
+    "minutes": "{count} min read"
+  },
+  "nav": {
+    "tickets": "Tickets",
+    "tours": "Tours",
+    "visiting": "Visiting",
+    "artworks": "Artworks",
+    "artists": "Artists",
+    "vasariCorridor": "Vasari Corridor",
+    "blog": "Blog",
+    "openingHours": "Opening Hours",
+    "visitorInfo": "Visitor Info",
+    "directions": "Directions",
+    "history": "History",
+    "skipTheLine": "Skip the Line",
+    "ticketPrices": "Ticket Prices",
+    "guidedTour": "Guided Tour",
+    "privateTour": "Private Tour",
+    "comboTour": "Uffizi + Accademia"
+  },
+  "footer": {
+    "quickLinks": "Quick Links",
+    "visitInfo": "Visit Info",
+    "about": "About",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "cookies": "Cookie Policy",
+    "copyright": "© {year} Visit Uffizi. All rights reserved.",
+    "affiliate": "This site contains affiliate links. We may earn a commission at no extra cost to you."
+  },
+  "booking": {
+    "from": "From",
+    "perPerson": "per person",
+    "bestSeller": "Best Seller",
+    "instantConfirmation": "Instant Confirmation",
+    "freeCancellation": "Free Cancellation",
+    "mobileTicket": "Mobile Ticket",
+    "skipTheLine": "Skip the Line",
+    "duration": "Duration",
+    "languages": "Languages",
+    "includes": "Includes",
+    "meetingPoint": "Meeting Point"
+  },
+  "home": {
+    "hero": "Uffizi Gallery Florence",
+    "heroSubtitle": "Your guide to Florence's greatest museum",
+    "tagline": "Tickets • Tours • Visitor Info • Art & Artists"
+  }
+}

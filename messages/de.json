@@ -1,0 +1,64 @@
+{
+  "common": {
+    "siteName": "Uffizien Besuchen",
+    "comingSoon": "Demnächst",
+    "bookNow": "Jetzt Buchen",
+    "learnMore": "Mehr Erfahren",
+    "viewAll": "Alle Anzeigen",
+    "readMore": "Weiterlesen",
+    "backTo": "Zurück zu {page}",
+    "lastUpdated": "Zuletzt aktualisiert: {date}",
+    "shareThis": "Diese Seite teilen",
+    "tableOfContents": "Inhaltsverzeichnis",
+    "faq": "Häufig Gestellte Fragen",
+    "relatedPages": "Das Könnte Sie Auch Interessieren",
+    "minutes": "{count} Min. Lesezeit"
+  },
+  "nav": {
+    "tickets": "Tickets",
+    "tours": "Führungen",
+    "visiting": "Besuch",
+    "artworks": "Kunstwerke",
+    "artists": "Künstler",
+    "vasariCorridor": "Vasari-Korridor",
+    "blog": "Blog",
+    "openingHours": "Öffnungszeiten",
+    "visitorInfo": "Besucherinfo",
+    "directions": "Anfahrt",
+    "history": "Geschichte",
+    "skipTheLine": "Ohne Anstehen",
+    "ticketPrices": "Ticketpreise",
+    "guidedTour": "Geführte Tour",
+    "privateTour": "Private Führung",
+    "comboTour": "Uffizien + Accademia"
+  },
+  "footer": {
+    "quickLinks": "Schnelllinks",
+    "visitInfo": "Besuchsinfo",
+    "about": "Über Uns",
+    "legal": "Rechtliches",
+    "privacy": "Datenschutz",
+    "terms": "Nutzungsbedingungen",
+    "cookies": "Cookie-Richtlinie",
+    "copyright": "© {year} Visit Uffizi. Alle Rechte vorbehalten.",
+    "affiliate": "Diese Seite enthält Affiliate-Links. Wir erhalten möglicherweise eine Provision ohne zusätzliche Kosten für Sie."
+  },
+  "booking": {
+    "from": "Ab",
+    "perPerson": "pro Person",
+    "bestSeller": "Bestseller",
+    "instantConfirmation": "Sofortige Bestätigung",
+    "freeCancellation": "Kostenlose Stornierung",
+    "mobileTicket": "Mobiles Ticket",
+    "skipTheLine": "Ohne Anstehen",
+    "duration": "Dauer",
+    "languages": "Sprachen",
+    "includes": "Inklusive",
+    "meetingPoint": "Treffpunkt"
+  },
+  "home": {
+    "hero": "Uffizien Galerie Florenz",
+    "heroSubtitle": "Ihr Führer durch das größte Museum von Florenz",
+    "tagline": "Tickets • Führungen • Besucherinfo • Kunst & Künstler"
+  }
+}

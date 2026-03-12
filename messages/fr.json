@@ -1,0 +1,64 @@
+{
+  "common": {
+    "siteName": "Visiter les Offices",
+    "comingSoon": "Bientôt Disponible",
+    "bookNow": "Réserver",
+    "learnMore": "En Savoir Plus",
+    "viewAll": "Voir Tout",
+    "readMore": "Lire la Suite",
+    "backTo": "Retour à {page}",
+    "lastUpdated": "Dernière mise à jour : {date}",
+    "shareThis": "Partager cette page",
+    "tableOfContents": "Sommaire",
+    "faq": "Questions Fréquentes",
+    "relatedPages": "Vous Aimerez Aussi",
+    "minutes": "{count} min de lecture"
+  },
+  "nav": {
+    "tickets": "Billets",
+    "tours": "Visites",
+    "visiting": "Visite",
+    "artworks": "Œuvres d'Art",
+    "artists": "Artistes",
+    "vasariCorridor": "Corridor de Vasari",
+    "blog": "Blog",
+    "openingHours": "Horaires",
+    "visitorInfo": "Info Visiteurs",
+    "directions": "Comment y Aller",
+    "history": "Histoire",
+    "skipTheLine": "Coupe-File",
+    "ticketPrices": "Tarifs",
+    "guidedTour": "Visite Guidée",
+    "privateTour": "Visite Privée",
+    "comboTour": "Offices + Accademia"
+  },
+  "footer": {
+    "quickLinks": "Liens Rapides",
+    "visitInfo": "Info Visite",
+    "about": "À Propos",
+    "legal": "Mentions Légales",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions d'Utilisation",
+    "cookies": "Politique de Cookies",
+    "copyright": "© {year} Visit Uffizi. Tous droits réservés.",
+    "affiliate": "Ce site contient des liens affiliés. Nous pouvons percevoir une commission sans frais supplémentaires pour vous."
+  },
+  "booking": {
+    "from": "À partir de",
+    "perPerson": "par personne",
+    "bestSeller": "Meilleure Vente",
+    "instantConfirmation": "Confirmation Immédiate",
+    "freeCancellation": "Annulation Gratuite",
+    "mobileTicket": "Billet Mobile",
+    "skipTheLine": "Coupe-File",
+    "duration": "Durée",
+    "languages": "Langues",
+    "includes": "Inclus",
+    "meetingPoint": "Point de Rendez-vous"
+  },
+  "home": {
+    "hero": "Galerie des Offices Florence",
+    "heroSubtitle": "Votre guide du plus grand musée de Florence",
+    "tagline": "Billets • Visites • Info Visiteurs • Art et Artistes"
+  }
+}

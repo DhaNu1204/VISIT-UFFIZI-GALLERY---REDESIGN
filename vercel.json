@@ -1,0 +1,324 @@
+{
+  "redirects": [
+    {
+      "source": "/giotto",
+      "destination": "/en/artists/giotto",
+      "permanent": true
+    },
+    {
+      "source": "/giotto/",
+      "destination": "/en/artists/giotto",
+      "permanent": true
+    },
+    {
+      "source": "/michelangelo",
+      "destination": "/en/artists/michelangelo",
+      "permanent": true
+    },
+    {
+      "source": "/michelangelo/",
+      "destination": "/en/artists/michelangelo",
+      "permanent": true
+    },
+    {
+      "source": "/sandro-botticelli",
+      "destination": "/en/artists/sandro-botticelli",
+      "permanent": true
+    },
+    {
+      "source": "/sandro-botticelli/",
+      "destination": "/en/artists/sandro-botticelli",
+      "permanent": true
+    },
+    {
+      "source": "/leonardo-da-vinci",
+      "destination": "/en/artists/leonardo-da-vinci",
+      "permanent": true
+    },
+    {
+      "source": "/leonardo-da-vinci/",
+      "destination": "/en/artists/leonardo-da-vinci",
+      "permanent": true
+    },
+    {
+      "source": "/giorgio-vasari",
+      "destination": "/en/artists/giorgio-vasari",
+      "permanent": true
+    },
+    {
+      "source": "/giorgio-vasari/",
+      "destination": "/en/artists/giorgio-vasari",
+      "permanent": true
+    },
+    {
+      "source": "/raffaello-sanzio",
+      "destination": "/en/artists/raphael",
+      "permanent": true
+    },
+    {
+      "source": "/raffaello-sanzio/",
+      "destination": "/en/artists/raphael",
+      "permanent": true
+    },
+    {
+      "source": "/tiziano",
+      "destination": "/en/artists/titian",
+      "permanent": true
+    },
+    {
+      "source": "/tiziano/",
+      "destination": "/en/artists/titian",
+      "permanent": true
+    },
+    {
+      "source": "/rembrandt",
+      "destination": "/en/artists/rembrandt",
+      "permanent": true
+    },
+    {
+      "source": "/rembrandt/",
+      "destination": "/en/artists/rembrandt",
+      "permanent": true
+    },
+    {
+      "source": "/dante-alighieri",
+      "destination": "/en/artists/dante-alighieri",
+      "permanent": true
+    },
+    {
+      "source": "/dante-alighieri/",
+      "destination": "/en/artists/dante-alighieri",
+      "permanent": true
+    },
+    {
+      "source": "/piero-della-francesca",
+      "destination": "/en/artists/piero-della-francesca",
+      "permanent": true
+    },
+    {
+      "source": "/piero-della-francesca/",
+      "destination": "/en/artists/piero-della-francesca",
+      "permanent": true
+    },
+    {
+      "source": "/filippo-brunelleschi-biography-artwork",
+      "destination": "/en/artists/filippo-brunelleschi",
+      "permanent": true
+    },
+    {
+      "source": "/filippo-brunelleschi-biography-artwork/",
+      "destination": "/en/artists/filippo-brunelleschi",
+      "permanent": true
+    },
+    {
+      "source": "/famous-renaissance-artists",
+      "destination": "/en/artists",
+      "permanent": true
+    },
+    {
+      "source": "/famous-renaissance-artists/",
+      "destination": "/en/artists",
+      "permanent": true
+    },
+    {
+      "source": "/history-of-uffizi-gallery",
+      "destination": "/en/history",
+      "permanent": true
+    },
+    {
+      "source": "/history-of-uffizi-gallery/",
+      "destination": "/en/history",
+      "permanent": true
+    },
+    {
+      "source": "/plan-your-visit-to-uffizi-gallery",
+      "destination": "/en/visitor-info",
+      "permanent": true
+    },
+    {
+      "source": "/plan-your-visit-to-uffizi-gallery/",
+      "destination": "/en/visitor-info",
+      "permanent": true
+    },
+    {
+      "source": "/getting-to-the-uffizi-gallery",
+      "destination": "/en/directions",
+      "permanent": true
+    },
+    {
+      "source": "/getting-to-the-uffizi-gallery/",
+      "destination": "/en/directions",
+      "permanent": true
+    },
+    {
+      "source": "/uffizi-artworks",
+      "destination": "/en/artworks",
+      "permanent": true
+    },
+    {
+      "source": "/uffizi-artworks/",
+      "destination": "/en/artworks",
+      "permanent": true
+    },
+    {
+      "source": "/it/giotto",
+      "destination": "/it/artists/giotto",
+      "permanent": true
+    },
+    {
+      "source": "/it/giotto/",
+      "destination": "/it/artists/giotto",
+      "permanent": true
+    },
+    {
+      "source": "/it/michelangelo",
+      "destination": "/it/artists/michelangelo",
+      "permanent": true
+    },
+    {
+      "source": "/it/michelangelo/",
+      "destination": "/it/artists/michelangelo",
+      "permanent": true
+    },
+    {
+      "source": "/it/sandro-botticelli",
+      "destination": "/it/artists/sandro-botticelli",
+      "permanent": true
+    },
+    {
+      "source": "/it/sandro-botticelli/",
+      "destination": "/it/artists/sandro-botticelli",
+      "permanent": true
+    },
+    {
+      "source": "/it/leonardo-da-vinci",
+      "destination": "/it/artists/leonardo-da-vinci",
+      "permanent": true
+    },
+    {
+      "source": "/it/leonardo-da-vinci/",
+      "destination": "/it/artists/leonardo-da-vinci",
+      "permanent": true
+    },
+    {
+      "source": "/it/giorgio-vasari",
+      "destination": "/it/artists/giorgio-vasari",
+      "permanent": true
+    },
+    {
+      "source": "/it/giorgio-vasari/",
+      "destination": "/it/artists/giorgio-vasari",
+      "permanent": true
+    },
+    {
+      "source": "/it/raffaello-sanzio",
+      "destination": "/it/artists/raphael",
+      "permanent": true
+    },
+    {
+      "source": "/it/raffaello-sanzio/",
+      "destination": "/it/artists/raphael",
+      "permanent": true
+    },
+    {
+      "source": "/it/tiziano",
+      "destination": "/it/artists/titian",
+      "permanent": true
+    },
+    {
+      "source": "/it/tiziano/",
+      "destination": "/it/artists/titian",
+      "permanent": true
+    },
+    {
+      "source": "/it/rembrandt",
+      "destination": "/it/artists/rembrandt",
+      "permanent": true
+    },
+    {
+      "source": "/it/rembrandt/",
+      "destination": "/it/artists/rembrandt",
+      "permanent": true
+    },
+    {
+      "source": "/it/dante-alighieri",
+      "destination": "/it/artists/dante-alighieri",
+      "permanent": true
+    },
+    {
+      "source": "/it/dante-alighieri/",
+      "destination": "/it/artists/dante-alighieri",
+      "permanent": true
+    },
+    {
+      "source": "/it/piero-della-francesca",
+      "destination": "/it/artists/piero-della-francesca",
+      "permanent": true
+    },
+    {
+      "source": "/it/piero-della-francesca/",
+      "destination": "/it/artists/piero-della-francesca",
+      "permanent": true
+    },
+    {
+      "source": "/it/filippo-brunelleschi-biography-artwork",
+      "destination": "/it/artists/filippo-brunelleschi",
+      "permanent": true
+    },
+    {
+      "source": "/it/filippo-brunelleschi-biography-artwork/",
+      "destination": "/it/artists/filippo-brunelleschi",
+      "permanent": true
+    },
+    {
+      "source": "/it/famous-renaissance-artists",
+      "destination": "/it/artists",
+      "permanent": true
+    },
+    {
+      "source": "/it/famous-renaissance-artists/",
+      "destination": "/it/artists",
+      "permanent": true
+    },
+    {
+      "source": "/it/history-of-uffizi-gallery",
+      "destination": "/it/history",
+      "permanent": true
+    },
+    {
+      "source": "/it/history-of-uffizi-gallery/",
+      "destination": "/it/history",
+      "permanent": true
+    },
+    {
+      "source": "/it/plan-your-visit-to-uffizi-gallery",
+      "destination": "/it/visitor-info",
+      "permanent": true
+    },
+    {
+      "source": "/it/plan-your-visit-to-uffizi-gallery/",
+      "destination": "/it/visitor-info",
+      "permanent": true
+    },
+    {
+      "source": "/it/getting-to-the-uffizi-gallery",
+      "destination": "/it/directions",
+      "permanent": true
+    },
+    {
+      "source": "/it/getting-to-the-uffizi-gallery/",
+      "destination": "/it/directions",
+      "permanent": true
+    },
+    {
+      "source": "/it/uffizi-artworks",
+      "destination": "/it/artworks",
+      "permanent": true
+    },
+    {
+      "source": "/it/uffizi-artworks/",
+      "destination": "/it/artworks",
+      "permanent": true
+    }
+  ]
+}

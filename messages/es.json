@@ -1,0 +1,64 @@
+{
+  "common": {
+    "siteName": "Visita los Uffizi",
+    "comingSoon": "Próximamente",
+    "bookNow": "Reservar Ahora",
+    "learnMore": "Más Información",
+    "viewAll": "Ver Todos",
+    "readMore": "Leer Más",
+    "backTo": "Volver a {page}",
+    "lastUpdated": "Última actualización: {date}",
+    "shareThis": "Compartir esta página",
+    "tableOfContents": "Índice",
+    "faq": "Preguntas Frecuentes",
+    "relatedPages": "También Te Puede Interesar",
+    "minutes": "{count} min de lectura"
+  },
+  "nav": {
+    "tickets": "Entradas",
+    "tours": "Tours",
+    "visiting": "Visita",
+    "artworks": "Obras de Arte",
+    "artists": "Artistas",
+    "vasariCorridor": "Corredor Vasariano",
+    "blog": "Blog",
+    "openingHours": "Horarios",
+    "visitorInfo": "Info para Visitantes",
+    "directions": "Cómo Llegar",
+    "history": "Historia",
+    "skipTheLine": "Sin Colas",
+    "ticketPrices": "Precios de Entradas",
+    "guidedTour": "Tour Guiado",
+    "privateTour": "Tour Privado",
+    "comboTour": "Uffizi + Accademia"
+  },
+  "footer": {
+    "quickLinks": "Enlaces Rápidos",
+    "visitInfo": "Info de Visita",
+    "about": "Sobre Nosotros",
+    "legal": "Legal",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Uso",
+    "cookies": "Política de Cookies",
+    "copyright": "© {year} Visit Uffizi. Todos los derechos reservados.",
+    "affiliate": "Este sitio contiene enlaces de afiliados. Podemos ganar una comisión sin coste adicional para ti."
+  },
+  "booking": {
+    "from": "Desde",
+    "perPerson": "por persona",
+    "bestSeller": "Más Vendido",
+    "instantConfirmation": "Confirmación Inmediata",
+    "freeCancellation": "Cancelación Gratuita",
+    "mobileTicket": "Entrada Móvil",
+    "skipTheLine": "Sin Colas",
+    "duration": "Duración",
+    "languages": "Idiomas",
+    "includes": "Incluye",
+    "meetingPoint": "Punto de Encuentro"
+  },
+  "home": {
+    "hero": "Galería Uffizi Florencia",
+    "heroSubtitle": "Tu guía del museo más grande de Florencia",
+    "tagline": "Entradas • Tours • Info Visitantes • Arte y Artistas"
+  }
+}
