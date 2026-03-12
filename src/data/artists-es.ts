@@ -410,4 +410,50 @@ export const artistsEs: Record<string, ArtistI18n> = {
       },
     ],
   },
+  caravaggio: {
+    name: "Caravaggio",
+    title: "Caravaggio en los Uffizi | Medusa, Baco y Sacrificio de Isaac",
+    description:
+      "Admira Medusa, Baco y Sacrificio de Isaac de Caravaggio en los Uffizi, Sala 90. Obras maestras barrocas de luz y sombra dramaticas.",
+    h1: "Caravaggio en la Galeria Uffizi",
+    born: "29 de septiembre de 1571, Milan",
+    died: "18 de julio de 1610, Porto Ercole, Toscana",
+    movement: "Barroco",
+    ufficiRoom: "Sala 90 (Primera Planta)",
+    masterpieces: [
+      "Medusa (c. 1597)",
+      "Baco (c. 1598)",
+      "Sacrificio de Isaac (c. 1603)",
+    ],
+    intro:
+      "Entre en la Sala 90 y Caravaggio le golpea en la cara. Despues de la belleza eterea de Botticelli y la serena perfeccion de Rafael, la Medusa de Caravaggio — su boca congelada en un grito, sangre brotando de su cuello cortado — es un shock. Este es arte que no pide su admiracion. Exige su atencion.",
+    atTheUffizi:
+      "La coleccion de Caravaggio de los Uffizi ocupa la Sala 90 en la primera planta, un contraste dramatico con las obras maestras del Renacimiento en el piso superior. Estas tres pinturas representan a Caravaggio en la cima de sus poderes, antes de que su temperamento violento lo obligara a huir de Roma.\n\nMedusa (c. 1597) esta pintada sobre un escudo circular de madera — no sobre lienzo. Fue encargada por el cardenal Francesco Maria del Monte como regalo para el Gran Duque de Toscana. La Gorgona se muestra en el momento de su decapitacion por Perseo, boca abierta en un grito silencioso, serpientes retorciendose en su cabello. La sangre brota de su cuello. Lo que la hace aun mas perturbadora: es un autorretrato. Caravaggio pinto su propio rostro en el momento de la muerte.\n\nBaco (c. 1598) muestra al dios del vino como un pillo callejero — con los hombros desnudos, ligeramente ebrio, ofreciendole una copa de vino con una sonrisa complice. La fruta sobre la mesa esta pudriendose. Esta no es grandeza mitologica — es realidad aplicada a un tema clasico. Mire atentamente la garrafa de vino: puede ver el diminuto autorretrato de Caravaggio reflejado en el vidrio.\n\nSacrificio de Isaac (c. 1603) captura el instante aterrador antes de que el cuchillo de Abraham se clave en el cuello de su hijo. El rostro del nino esta congelado en horror, su boca abierta en un grito que refleja a Medusa. La mano del angel detiene la hoja en el ultimo momento posible. El cordero — el sacrificio sustituto — espera pacientemente en la esquina. Es insoportablemente tenso.\n\nLa tecnica revolucionaria de Caravaggio — el dramatico claroscuro (luz emergiendo de la oscuridad) — esta en plena exhibicion aqui. Los cuerpos emergen de fondos negros como actores iluminados en un escenario. Cada detalle se representa con brutal honestidad: unas sucias, piel arrugada, el peso de la carne.",
+    biography:
+      "Michelangelo Merisi da Caravaggio nacio en Milan en 1571 durante un brote de peste. Su padre murio cuando era joven. Se formo en Milan, luego se mudo a Roma alrededor de 1592, donde vivio en la pobreza, pintando escenas de genero y naturalezas muertas.\n\nSu gran avance llego cuando el cardenal Francesco Maria del Monte se convirtio en su mecenas alrededor de 1595. El cardenal encargo obras religiosas y temas mitologicos que mostraban el estilo revolucionario de Caravaggio. Pintaba directamente de modelos vivos — a menudo prostitutas, gente de la calle y criminales — sin dibujos preliminares. Lo que ves es lo que estaba frente a el.\n\nPero Caravaggio era tan violento como sus pinturas. Peleaba constantemente, fue arrestado varias veces, y en 1606 mato a un hombre durante una pelea por un partido de tenis. Huyo de Roma y paso sus ultimos cuatro anos fugitivo — Malta, Sicilia, Napoles — pintando obras cada vez mas oscuras y desesperadas. Murio en 1610 a los 38 anos, posiblemente de malaria, posiblemente de una infeccion de herida, posiblemente asesinado. Su cuerpo nunca fue encontrado.\n\nA pesar de su vida corta y caotica, Caravaggio revoluciono la pintura europea. Su uso dramatico de la luz y la sombra, su realismo inflexible y su intensidad psicologica influyeron en generaciones de artistas. Los 'Caravaggistas' — sus seguidores — difundieron su estilo por toda Europa.",
+    legacy:
+      "Caravaggio murio en la oscuridad y fue practicamente olvidado durante 200 anos. Su obra se consideraba demasiado impactante, demasiado realista, demasiado oscura. El siglo XX lo redescubrio, y hoy es reconocido como uno de los pintores mas influyentes del arte occidental. Su tecnica del claroscuro influyo en Rembrandt, Velazquez y casi todos los pintores barrocos. Su intensidad psicologica allano el camino para el realismo moderno.",
+    faq: [
+      {
+        q: "¿Donde estan las pinturas de Caravaggio en los Uffizi?",
+        a: "Las obras de Caravaggio estan en la Sala 90 en la primera planta (planta baja en numeracion europea). Esta sala presenta arte barroco y esta separada de las principales galerias renacentistas del piso superior.",
+      },
+      {
+        q: "¿Por que Medusa esta en un escudo?",
+        a: "En la mitologia griega, Perseo uso su escudo pulido como espejo para evitar mirar directamente a Medusa (cuya mirada convertia a las personas en piedra). Despues de decapitarla, monto su cabeza en su escudo. Caravaggio pinto sobre un escudo ceremonial real para autenticidad.",
+      },
+      {
+        q: "¿Medusa es un autorretrato?",
+        a: "Si. Caravaggio uso su propio rostro para los rasgos de Medusa. Esto no era inusual para el — a menudo se insertaba en sus pinturas, a veces de maneras impactantes.",
+      },
+      {
+        q: "¿Por que Caravaggio es tan famoso?",
+        a: "Caravaggio revoluciono la pintura con su uso dramatico de la luz y la sombra (claroscuro), realismo inflexible e intensidad psicologica. Pintaba directamente del natural sin bocetos preliminares, creando obras de inmediatez impactante. Su influencia en el arte barroco fue inmensa.",
+      },
+      {
+        q: "¿Caravaggio era un criminal?",
+        a: "Si. Caravaggio fue arrestado frecuentemente por peleas, vandalismo y agresiones. En 1606 mato a un hombre durante una pelea y paso sus ultimos cuatro anos huyendo de la justicia. Murio fugitivo en 1610.",
+      },
+    ],
+  },
 };

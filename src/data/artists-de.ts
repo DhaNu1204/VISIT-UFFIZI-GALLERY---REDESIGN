@@ -410,4 +410,50 @@ export const artistsDe: Record<string, ArtistI18n> = {
       },
     ],
   },
+  caravaggio: {
+    name: "Caravaggio",
+    title: "Caravaggio in den Uffizien | Medusa, Bacchus & Opfer Isaaks",
+    description:
+      "Sehen Sie Caravaggios Medusa, Bacchus & Opfer Isaaks in den Uffizien Saal 90. Dramatische barocke Meisterwerke von Licht und Schatten.",
+    h1: "Caravaggio in der Uffizien-Galerie",
+    born: "29. September 1571, Mailand",
+    died: "18. Juli 1610, Porto Ercole, Toskana",
+    movement: "Barock",
+    ufficiRoom: "Saal 90 (Erstes Stockwerk)",
+    masterpieces: [
+      "Medusa (um 1597)",
+      "Bacchus (um 1598)",
+      "Opfer Isaaks (um 1603)",
+    ],
+    intro:
+      "Betreten Sie Saal 90 und Caravaggio schlägt Ihnen ins Gesicht. Nach der ätherischen Schönheit Botticellis und der gelassenen Perfektion Raffaels ist Caravaggios Medusa — ihr Mund in einem Schrei erstarrt, Blut strömt aus ihrem abgetrennten Hals — ein Schock. Dies ist Kunst, die nicht um Ihre Bewunderung bittet. Sie fordert Ihre Aufmerksamkeit.",
+    atTheUffizi:
+      "Die Caravaggio-Sammlung der Uffizien befindet sich in Saal 90 im ersten Stock, ein dramatischer Kontrast zu den Renaissance-Meisterwerken im Obergeschoss. Diese drei Gemälde repräsentieren Caravaggio auf dem Höhepunkt seiner Kräfte, bevor sein gewalttätiges Temperament ihn zur Flucht aus Rom zwang.\n\nMedusa (um 1597) ist auf einem runden Holzschild gemalt — nicht auf Leinwand. Sie wurde von Kardinal Francesco Maria del Monte als Geschenk für den Grossherzog der Toskana in Auftrag gegeben. Die Gorgone wird im Moment ihrer Enthauptung durch Perseus gezeigt, Mund offen in einem stummen Schrei, Schlangen winden sich in ihrem Haar. Blut spritzt aus ihrem Hals. Was es noch verstörender macht: Es ist ein Selbstporträt. Caravaggio malte sein eigenes Gesicht im Moment des Todes.\n\nBacchus (um 1598) zeigt den Gott des Weins als Strassengauner — mit nackten Schultern, leicht betrunken, der Ihnen ein Glas Wein mit einem wissenden Grinsen anbietet. Das Obst auf dem Tisch fault. Dies ist keine mythologische Grösse — es ist Realität auf ein klassisches Thema geschlagen. Schauen Sie genau auf die Weinkaraffe: Sie können Caravaggios winziges Selbstporträt im Glas reflektiert sehen.\n\nOpfer Isaaks (um 1603) fängt den schrecklichen Augenblick ein, bevor Abrahams Messer in den Hals seines Sohnes stösst. Das Gesicht des Jungen ist vor Entsetzen erstarrt, sein Mund offen in einem Schrei, der die Medusa widerspiegelt. Die Hand des Engels stoppt die Klinge im letzten möglichen Moment. Das Lamm — das Ersatzopfer — wartet geduldig in der Ecke. Es ist unerträglich spannungsgeladen.\n\nCaravaggios revolutionäre Technik — dramatisches Chiaroscuro (Licht, das aus der Dunkelheit hervortritt) — ist hier voll zur Schau gestellt. Körper tauchen aus schwarzen Hintergründen auf wie Schauspieler im Scheinwerferlicht auf einer Bühne. Jedes Detail wird mit brutaler Ehrlichkeit wiedergegeben: schmutzige Fingernägel, faltige Haut, das Gewicht des Fleisches.",
+    biography:
+      "Michelangelo Merisi da Caravaggio wurde 1571 während eines Pestausbruchs in Mailand geboren. Sein Vater starb, als er jung war. Er lernte in Mailand, zog dann um 1592 nach Rom, wo er in Armut lebte und Genreszenen und Stillleben malte.\n\nSein Durchbruch kam, als Kardinal Francesco Maria del Monte um 1595 sein Mäzen wurde. Der Kardinal gab religiöse Werke und mythologische Themen in Auftrag, die Caravaggios revolutionären Stil zeigten. Er malte direkt von lebenden Modellen — oft Prostituierte, Strassenmenschen und Kriminelle — ohne vorherige Zeichnungen. Was Sie sehen, ist das, was vor ihm war.\n\nAber Caravaggio war so gewalttätig wie seine Gemälde. Er prügelte sich ständig, wurde mehrfach verhaftet und tötete 1606 einen Mann bei einer Auseinandersetzung über ein Tennisspiel. Er floh aus Rom und verbrachte seine letzten vier Jahre auf der Flucht — Malta, Sizilien, Neapel — und malte zunehmend dunkle und verzweifelte Werke. Er starb 1610 im Alter von 38 Jahren, möglicherweise an Malaria, möglicherweise an einer Wundinfektion, möglicherweise ermordet. Sein Körper wurde nie gefunden.\n\nTrotz seines kurzen, chaotischen Lebens revolutionierte Caravaggio die europäische Malerei. Sein dramatischer Einsatz von Licht und Schatten, sein kompromissloser Realismus und seine psychologische Intensität beeinflussten Generationen von Künstlern. Die 'Caravaggisti' — seine Anhänger — verbreiteten seinen Stil in ganz Europa.",
+    legacy:
+      "Caravaggio starb in Dunkelheit und war 200 Jahre lang weitgehend vergessen. Seine Arbeit wurde als zu schockierend, zu realistisch, zu dunkel angesehen. Das 20. Jahrhundert entdeckte ihn wieder, und heute gilt er als einer der einflussreichsten Maler der westlichen Kunst. Seine Chiaroscuro-Technik beeinflusste Rembrandt, Velázquez und nahezu jeden Barockmaler. Seine psychologische Intensität ebnete den Weg für den modernen Realismus.",
+    faq: [
+      {
+        q: "Wo sind Caravaggios Gemälde in den Uffizien?",
+        a: "Caravaggios Werke befinden sich in Saal 90 im ersten Stock (Erdgeschoss in europäischer Zählung). Dieser Saal zeigt barocke Kunst und ist von den Hauptgalerien der Renaissance im Obergeschoss getrennt.",
+      },
+      {
+        q: "Warum ist die Medusa auf einem Schild?",
+        a: "In der griechischen Mythologie benutzte Perseus seinen polierten Schild als Spiegel, um nicht direkt auf Medusa zu schauen (deren Blick Menschen zu Stein verwandelte). Nach ihrer Enthauptung befestigte er ihren Kopf an seinem Schild. Caravaggio malte auf einem echten zeremoniellen Schild für Authentizität.",
+      },
+      {
+        q: "Ist die Medusa ein Selbstporträt?",
+        a: "Ja. Caravaggio verwendete sein eigenes Gesicht für Medusas Züge. Das war für ihn nicht ungewöhnlich — er fügte sich oft in seine Gemälde ein, manchmal auf schockierende Weise.",
+      },
+      {
+        q: "Warum ist Caravaggio so berühmt?",
+        a: "Caravaggio revolutionierte die Malerei mit seinem dramatischen Einsatz von Licht und Schatten (Chiaroscuro), kompromisslosem Realismus und psychologischer Intensität. Er malte direkt aus dem Leben ohne vorherige Skizzen und schuf Werke von schockierender Unmittelbarkeit. Sein Einfluss auf die Barockkunst war immens.",
+      },
+      {
+        q: "War Caravaggio ein Krimineller?",
+        a: "Ja. Caravaggio wurde häufig wegen Schlägereien, Vandalismus und Körperverletzung verhaftet. 1606 tötete er einen Mann bei einer Auseinandersetzung und verbrachte seine letzten vier Jahre auf der Flucht vor der Justiz. Er starb auf der Flucht im Jahr 1610.",
+      },
+    ],
+  },
 };

@@ -410,4 +410,50 @@ export const artistsIt: Record<string, ArtistI18n> = {
       },
     ],
   },
+  caravaggio: {
+    name: "Caravaggio",
+    title: "Caravaggio agli Uffizi | Medusa, Bacco e Sacrificio di Isacco",
+    description:
+      "Ammira Medusa, Bacco e Sacrificio di Isacco di Caravaggio agli Uffizi, Sala 90. Capolavori barocchi di luce e ombra drammatiche.",
+    h1: "Caravaggio alla Galleria degli Uffizi",
+    born: "29 settembre 1571, Milano",
+    died: "18 luglio 1610, Porto Ercole, Toscana",
+    movement: "Barocco",
+    ufficiRoom: "Sala 90 (Primo Piano)",
+    masterpieces: [
+      "Medusa (c. 1597)",
+      "Bacco (c. 1598)",
+      "Sacrificio di Isacco (c. 1603)",
+    ],
+    intro:
+      "Entrate nella Sala 90 e Caravaggio vi colpisce in faccia. Dopo l'eterea bellezza di Botticelli e la serena perfezione di Raffaello, la Medusa di Caravaggio — la bocca congelata in un urlo, il sangue che sgorga dal collo reciso — è uno shock. Questa è arte che non chiede la vostra ammirazione. Esige la vostra attenzione.",
+    atTheUffizi:
+      "La collezione di Caravaggio agli Uffizi occupa la Sala 90 al primo piano, un contrasto drammatico con i capolavori rinascimentali al piano superiore. Questi tre dipinti rappresentano Caravaggio all'apice dei suoi poteri, prima che il suo temperamento violento lo costringesse a fuggire da Roma.\n\nLa Medusa (c. 1597) è dipinta su uno scudo di legno circolare — non su una tela. Fu commissionata dal cardinale Francesco Maria del Monte come regalo per il Granduca di Toscana. La Gorgone è mostrata nel momento della decapitazione da parte di Perseo, bocca aperta in un urlo silenzioso, serpenti che si contorcono nei capelli. Il sangue sgorga dal collo. Ciò che lo rende ancora più inquietante: è un autoritratto. Caravaggio dipinse il proprio volto nel momento della morte.\n\nBacco (c. 1598) mostra il dio del vino come un imbroglione di strada — a spalle nude, leggermente ubriaco, che offre un bicchiere di vino con un sorriso consapevole. La frutta sul tavolo sta marcendo. Questa non è grandezza mitologica — è la realtà applicata a un soggetto classico. Guardate attentamente la caraffa di vino: potete vedere il minuscolo autoritratto di Caravaggio riflesso nel vetro.\n\nSacrificio di Isacco (c. 1603) cattura l'istante terrificante prima che il coltello di Abramo si abbatta sul collo del figlio. Il volto del ragazzo è congelato nell'orrore, la bocca aperta in un urlo che rispecchia la Medusa. La mano dell'angelo ferma la lama all'ultimo secondo possibile. L'agnello — il sacrificio sostitutivo — aspetta pazientemente nell'angolo. È insopportabilmente teso.\n\nLa tecnica rivoluzionaria di Caravaggio — il drammatico chiaroscuro (luce che emerge dall'oscurità) — è qui in piena mostra. I corpi emergono da sfondi neri come attori illuminati su un palcoscenico. Ogni dettaglio è reso con brutale onestà: unghie sporche, pelle rugosa, il peso della carne.",
+    biography:
+      "Michelangelo Merisi da Caravaggio nacque a Milano nel 1571 durante un'epidemia di peste. Suo padre morì quando era giovane. Si formò a Milano, poi si trasferì a Roma intorno al 1592, dove visse in povertà, dipingendo scene di genere e nature morte.\n\nLa sua svolta arrivò quando il cardinale Francesco Maria del Monte divenne il suo mecenate intorno al 1595. Il cardinale commissionò opere religiose e soggetti mitologici che mostravano lo stile rivoluzionario di Caravaggio. Dipingeva direttamente da modelli vivi — spesso prostitute, vagabondi e criminali — senza disegni preliminari. Quello che vedi è quello che aveva davanti.\n\nMa Caravaggio era violento quanto i suoi dipinti. Rissava costantemente, fu arrestato più volte e nel 1606 uccise un uomo durante una rissa per una partita a tennis. Fuggì da Roma e trascorse i suoi ultimi quattro anni in fuga — Malta, Sicilia, Napoli — dipingendo opere sempre più oscure e disperate. Morì nel 1610 all'età di 38 anni, forse di malaria, forse per un'infezione da ferita, forse assassinato. Il suo corpo non fu mai trovato.\n\nNonostante la sua vita breve e caotica, Caravaggio rivoluzionò la pittura europea. Il suo uso drammatico di luce e ombra, il suo realismo senza compromessi e la sua intensità psicologica influenzarono generazioni di artisti. I 'Caravaggisti' — i suoi seguaci — diffusero il suo stile in tutta Europa.",
+    legacy:
+      "Caravaggio morì nell'oscurità e fu in gran parte dimenticato per 200 anni. Il suo lavoro era considerato troppo scioccante, troppo realistico, troppo oscuro. Il XX secolo lo riscoprì, e oggi è riconosciuto come uno dei pittori più influenti dell'arte occidentale. La sua tecnica del chiaroscuro influenzò Rembrandt, Velázquez e quasi ogni pittore barocco. La sua intensità psicologica aprì la strada al realismo moderno.",
+    faq: [
+      {
+        q: "Dove sono i dipinti di Caravaggio agli Uffizi?",
+        a: "Le opere di Caravaggio sono nella Sala 90 al primo piano (piano terra nella numerazione europea). Questa sala presenta arte barocca ed è separata dalle principali gallerie rinascimentali al piano superiore.",
+      },
+      {
+        q: "Perché la Medusa è su uno scudo?",
+        a: "Nella mitologia greca, Perseo usò il suo scudo lucido come specchio per evitare di guardare direttamente Medusa (il cui sguardo trasformava le persone in pietra). Dopo averla decapitata, montò la sua testa sullo scudo. Caravaggio dipinse su un vero scudo cerimoniale per autenticità.",
+      },
+      {
+        q: "La Medusa è un autoritratto?",
+        a: "Sì. Caravaggio usò il proprio volto per i lineamenti della Medusa. Questo non era insolito per lui — spesso si inseriva nei suoi dipinti, a volte in modi scioccanti.",
+      },
+      {
+        q: "Perché Caravaggio è così famoso?",
+        a: "Caravaggio rivoluzionò la pittura con il suo uso drammatico di luce e ombra (chiaroscuro), il realismo senza compromessi e l'intensità psicologica. Dipingeva direttamente dalla vita senza schizzi preliminari, creando opere di scioccante immediatezza. La sua influenza sull'arte barocca fu immensa.",
+      },
+      {
+        q: "Caravaggio era un criminale?",
+        a: "Sì. Caravaggio fu arrestato frequentemente per risse, vandalismo e aggressioni. Nel 1606 uccise un uomo durante una rissa e trascorse i suoi ultimi quattro anni fuggendo dalla giustizia. Morì in fuga nel 1610.",
+      },
+    ],
+  },
 };

@@ -410,4 +410,50 @@ export const artistsFr: Record<string, ArtistI18n> = {
       },
     ],
   },
+  caravaggio: {
+    name: "Caravaggio",
+    title: "Caravaggio aux Offices | Meduse, Bacchus & Sacrifice d'Isaac",
+    description:
+      "Admirez la Meduse, Bacchus & Sacrifice d'Isaac de Caravaggio aux Offices, salle 90. Chefs-d'oeuvre baroques de lumiere et d'ombre dramatiques.",
+    h1: "Caravaggio a la Galerie des Offices",
+    born: "29 septembre 1571, Milan",
+    died: "18 juillet 1610, Porto Ercole, Toscane",
+    movement: "Baroque",
+    ufficiRoom: "Salle 90 (Premier Etage)",
+    masterpieces: [
+      "Meduse (vers 1597)",
+      "Bacchus (vers 1598)",
+      "Sacrifice d'Isaac (vers 1603)",
+    ],
+    intro:
+      "Entrez dans la salle 90 et Caravaggio vous frappe au visage. Apres la beaute etheree de Botticelli et la perfection sereine de Raphael, la Meduse de Caravaggio — sa bouche figee dans un cri, le sang coulant de son cou tranche — est un choc. C'est un art qui ne demande pas votre admiration. Il exige votre attention.",
+    atTheUffizi:
+      "La collection Caravaggio des Offices occupe la salle 90 au premier etage, un contraste dramatique avec les chefs-d'oeuvre de la Renaissance a l'etage superieur. Ces trois tableaux representent Caravaggio au sommet de ses pouvoirs, avant que son temperament violent ne le force a fuir Rome.\n\nLa Meduse (vers 1597) est peinte sur un bouclier circulaire en bois — pas sur une toile. Elle fut commandee par le cardinal Francesco Maria del Monte comme cadeau pour le Grand-Duc de Toscane. La Gorgone est montree au moment de sa decapitation par Persee, bouche ouverte dans un cri silencieux, serpents se tordant dans ses cheveux. Le sang jaillit de son cou. Ce qui la rend encore plus troublante : c'est un autoportrait. Caravaggio peignit son propre visage au moment de la mort.\n\nBacchus (vers 1598) montre le dieu du vin comme un voyou des rues — epaules nues, legerement ivre, vous offrant un verre de vin avec un sourire complice. Les fruits sur la table pourrissent. Ce n'est pas de la grandeur mythologique — c'est la realite appliquee a un sujet classique. Regardez attentivement la carafe de vin : vous pouvez voir le minuscule autoportrait de Caravaggio reflete dans le verre.\n\nSacrifice d'Isaac (vers 1603) capture l'instant terrifiant avant que le couteau d'Abraham ne plonge dans le cou de son fils. Le visage du garcon est fige dans l'horreur, sa bouche ouverte dans un cri qui fait echo a Meduse. La main de l'ange arrete la lame au dernier moment possible. L'agneau — le sacrifice de substitution — attend patiemment dans le coin. C'est insupportablement tendu.\n\nLa technique revolutionnaire de Caravaggio — le clair-obscur dramatique (lumiere emergent des tenebres) — est pleinement exposee ici. Les corps emergent de fonds noirs comme des acteurs eclaires sur une scene. Chaque detail est rendu avec une honnetete brutale : ongles sales, peau ridee, le poids de la chair.",
+    biography:
+      "Michelangelo Merisi da Caravaggio naquit a Milan en 1571 pendant une epidemie de peste. Son pere mourut quand il etait jeune. Il se forma a Milan, puis demenagea a Rome vers 1592, ou il vecut dans la pauvrete, peignant des scenes de genre et des natures mortes.\n\nSa percee survint lorsque le cardinal Francesco Maria del Monte devint son mecene vers 1595. Le cardinal commanda des oeuvres religieuses et des sujets mythologiques qui mettaient en valeur le style revolutionnaire de Caravaggio. Il peignait directement d'apres des modeles vivants — souvent des prostituees, des gens de la rue et des criminels — sans dessins preparatoires. Ce que vous voyez est ce qui etait devant lui.\n\nMais Caravaggio etait aussi violent que ses peintures. Il se battait constamment, fut arrete plusieurs fois, et en 1606 tua un homme lors d'une bagarre pour un match de tennis. Il s'enfuit de Rome et passa ses quatre dernieres annees en cavale — Malte, Sicile, Naples — peignant des oeuvres de plus en plus sombres et desesperees. Il mourut en 1610 a l'age de 38 ans, peut-etre de la malaria, peut-etre d'une infection de blessure, peut-etre assassine. Son corps ne fut jamais retrouve.\n\nMalgre sa vie courte et chaotique, Caravaggio revolutionna la peinture europeenne. Son usage dramatique de la lumiere et de l'ombre, son realisme sans compromis et son intensite psychologique influencerent des generations d'artistes. Les 'Caravaggistes' — ses disciples — repandirent son style a travers l'Europe.",
+    legacy:
+      "Caravaggio mourut dans l'obscurite et fut largement oublie pendant 200 ans. Son travail etait considere comme trop choquant, trop realiste, trop sombre. Le XXe siecle le redecouvrit, et aujourd'hui il est reconnu comme l'un des peintres les plus influents de l'art occidental. Sa technique du clair-obscur influenca Rembrandt, Velazquez et presque tous les peintres baroques. Son intensite psychologique ouvrit la voie au realisme moderne.",
+    faq: [
+      {
+        q: "Ou sont les peintures de Caravaggio aux Offices ?",
+        a: "Les oeuvres de Caravaggio sont dans la salle 90 au premier etage (rez-de-chaussee dans la numerotation europeenne). Cette salle presente l'art baroque et est separee des principales galeries de la Renaissance a l'etage superieur.",
+      },
+      {
+        q: "Pourquoi Meduse est-elle sur un bouclier ?",
+        a: "Dans la mythologie grecque, Persee utilisa son bouclier poli comme miroir pour eviter de regarder directement Meduse (dont le regard transformait les gens en pierre). Apres l'avoir decapitee, il monta sa tete sur son bouclier. Caravaggio peignit sur un veritable bouclier ceremoniel pour l'authenticite.",
+      },
+      {
+        q: "Meduse est-elle un autoportrait ?",
+        a: "Oui. Caravaggio utilisa son propre visage pour les traits de Meduse. Ce n'etait pas inhabituel pour lui — il s'inserait souvent dans ses peintures, parfois de maniere choquante.",
+      },
+      {
+        q: "Pourquoi Caravaggio est-il si celebre ?",
+        a: "Caravaggio revolutionna la peinture avec son usage dramatique de la lumiere et de l'ombre (clair-obscur), son realisme sans compromis et son intensite psychologique. Il peignait directement d'apres nature sans esquisses preliminaires, creant des oeuvres d'une immediatet­e choquante. Son influence sur l'art baroque fut immense.",
+      },
+      {
+        q: "Caravaggio etait-il un criminel ?",
+        a: "Oui. Caravaggio fut frequemment arrete pour bagarres, vandalisme et agressions. En 1606, il tua un homme lors d'une bagarre et passa ses quatre dernieres annees a fuir la justice. Il mourut en cavale en 1610.",
+      },
+    ],
+  },
 };
