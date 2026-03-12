@@ -48,6 +48,7 @@ export default function Header() {
           href: `/${locale}/artists/leonardo-da-vinci`,
         },
         { label: "Michelangelo", href: `/${locale}/artists/michelangelo` },
+        { label: "Caravaggio", href: `/${locale}/artists/caravaggio` },
         { label: "Raphael", href: `/${locale}/artists/raphael` },
         { label: "Giotto", href: `/${locale}/artists/giotto` },
         { label: "Giorgio Vasari", href: `/${locale}/artists/giorgio-vasari` },
