@@ -21,14 +21,28 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: c.meta.title,
     description: c.meta.description,
     alternates: {
-      canonical: `https://visituffizi.com/${locale}`,
-      languages: {
-        en: "https://visituffizi.com/en",
-        it: "https://visituffizi.com/it",
-        de: "https://visituffizi.com/de",
-        es: "https://visituffizi.com/es",
-        fr: "https://visituffizi.com/fr",
-      },
+      canonical: `https://visituffizi.com/${locale}/`,
+    },
+    openGraph: {
+      title: c.meta.title,
+      description: c.meta.description,
+      url: `https://visituffizi.com/${locale}/`,
+      siteName: "Visit Uffizi",
+      type: "website",
+      locale,
+      images: [
+        {
+          url: "https://visituffizi.com/images/og/default.jpg",
+          width: 1200,
+          height: 630,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: c.meta.title,
+      description: c.meta.description,
+      images: ["https://visituffizi.com/images/og/default.jpg"],
     },
   };
 }
@@ -47,17 +61,16 @@ export default async function HomePage({ params }: Props) {
   const c = getHomeContent(locale);
 
   const visitLinks = [
-    `/${locale}/uffizi-gallery-opening-hours`,
-    `/${locale}/directions`,
-    `/${locale}/the-uffizi-gallery-door-3-importent-information`,
-    `/${locale}/uffizi-gallery-in-2-hours-what-to-see-and-where-to-look`,
+    `/${locale}/uffizi-gallery-opening-hours/`,
+    `/${locale}/directions/`,
+    `/${locale}/the-uffizi-gallery-door-3-importent-information/`,
+    `/${locale}/uffizi-gallery-in-2-hours-what-to-see-and-where-to-look/`,
   ];
 
   return (
     <>
       <Hreflang />
       <JsonLd type="Museum" />
-      <JsonLd type="FAQPage" faq={c.faq} />
 
       {/* Hero Section */}
       <section className="relative bg-navy py-20 md:py-28">
@@ -80,13 +93,13 @@ export default async function HomePage({ params }: Props) {
           </p>
           <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
             <Link
-              href={`/${locale}/tickets`}
+              href={`/${locale}/tickets/`}
               className="inline-block rounded-lg bg-burgundy px-8 py-4 text-lg font-bold text-white shadow-lg transition-all hover:bg-burgundy/90 hover:shadow-xl"
             >
               {c.hero.ctaTickets}
             </Link>
             <Link
-              href={`/${locale}/tours`}
+              href={`/${locale}/tours/`}
               className="inline-block rounded-lg border-2 border-gold px-8 py-4 text-lg font-bold text-gold transition-all hover:bg-gold hover:text-navy"
             >
               {c.hero.ctaTours}
@@ -147,7 +160,7 @@ export default async function HomePage({ params }: Props) {
 
         <div className="my-6 text-center">
           <Link
-            href={`/${locale}/tickets`}
+            href={`/${locale}/tickets/`}
             className="text-sm font-semibold text-burgundy underline decoration-burgundy/30 hover:text-burgundy/80"
           >
             {c.ticketsSection.link}
@@ -225,7 +238,7 @@ export default async function HomePage({ params }: Props) {
             room="Rooms 10-14"
             year="c. 1485"
             image="/images/birth-of-venus.jpg"
-            href={`/${locale}/artists/sandro-botticelli`}
+            href={`/${locale}/artists/sandro-botticelli/`}
           />
           <ArtworkCard
             title="Primavera"
@@ -233,7 +246,7 @@ export default async function HomePage({ params }: Props) {
             room="Rooms 10-14"
             year="c. 1482"
             image="/images/primavera.jpg"
-            href={`/${locale}/artists/sandro-botticelli`}
+            href={`/${locale}/artists/sandro-botticelli/`}
           />
           <ArtworkCard
             title="Doni Tondo"
@@ -241,7 +254,7 @@ export default async function HomePage({ params }: Props) {
             room="Room 35"
             year="c. 1507"
             image="/images/doni-tondo.jpg"
-            href={`/${locale}/artists/michelangelo`}
+            href={`/${locale}/artists/michelangelo/`}
           />
           <ArtworkCard
             title="Medusa"
@@ -249,7 +262,7 @@ export default async function HomePage({ params }: Props) {
             room="Room 90"
             year="c. 1597"
             image="/images/medusa.jpg"
-            href={`/${locale}/artists/caravaggio`}
+            href={`/${locale}/artists/caravaggio/`}
           />
         </div>
       </section>
@@ -265,7 +278,7 @@ export default async function HomePage({ params }: Props) {
           </h2>
           <p className="mb-6 leading-relaxed text-white/80">{c.vasari.p}</p>
           <Link
-            href={`/${locale}/vasari-corridor`}
+            href={`/${locale}/vasari-corridor/`}
             className="inline-block rounded-lg border-2 border-gold px-8 py-3 font-bold text-gold transition-all hover:bg-gold hover:text-navy"
           >
             {c.vasari.cta}
@@ -306,7 +319,7 @@ export default async function HomePage({ params }: Props) {
         <ul className="mb-6 ml-6 list-disc space-y-2">
           <li className="text-charcoal/85">
             <Link
-              href={`/${locale}/artists/sandro-botticelli`}
+              href={`/${locale}/artists/sandro-botticelli/`}
               className="font-medium text-burgundy hover:text-burgundy/80"
             >
               Sandro Botticelli
@@ -315,7 +328,7 @@ export default async function HomePage({ params }: Props) {
           </li>
           <li className="text-charcoal/85">
             <Link
-              href={`/${locale}/artists/leonardo-da-vinci`}
+              href={`/${locale}/artists/leonardo-da-vinci/`}
               className="font-medium text-burgundy hover:text-burgundy/80"
             >
               Leonardo da Vinci
@@ -324,7 +337,7 @@ export default async function HomePage({ params }: Props) {
           </li>
           <li className="text-charcoal/85">
             <Link
-              href={`/${locale}/artists/michelangelo`}
+              href={`/${locale}/artists/michelangelo/`}
               className="font-medium text-burgundy hover:text-burgundy/80"
             >
               Michelangelo
@@ -333,7 +346,7 @@ export default async function HomePage({ params }: Props) {
           </li>
           <li className="text-charcoal/85">
             <Link
-              href={`/${locale}/artists/raphael`}
+              href={`/${locale}/artists/raphael/`}
               className="font-medium text-burgundy hover:text-burgundy/80"
             >
               Raphael
@@ -342,7 +355,7 @@ export default async function HomePage({ params }: Props) {
           </li>
           <li className="text-charcoal/85">
             <Link
-              href={`/${locale}/artists/titian`}
+              href={`/${locale}/artists/titian/`}
               className="font-medium text-burgundy hover:text-burgundy/80"
             >
               Titian
@@ -352,7 +365,7 @@ export default async function HomePage({ params }: Props) {
         </ul>
         <div className="text-center">
           <Link
-            href={`/${locale}/artists`}
+            href={`/${locale}/artists/`}
             className="text-sm font-semibold text-burgundy underline decoration-burgundy/30 hover:text-burgundy/80"
           >
             {c.artistsSection.link}

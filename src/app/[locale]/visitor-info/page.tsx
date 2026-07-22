@@ -16,7 +16,28 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: c.meta.title,
     description: c.meta.description,
     alternates: {
-      canonical: `https://visituffizi.com/${locale}/visitor-info`,
+      canonical: `https://visituffizi.com/${locale}/visitor-info/`,
+    },
+    openGraph: {
+      title: c.meta.title,
+      description: c.meta.description,
+      url: `https://visituffizi.com/${locale}/visitor-info/`,
+      siteName: "Visit Uffizi",
+      type: "website",
+      locale,
+      images: [
+        {
+          url: "https://visituffizi.com/images/og/default.jpg",
+          width: 1200,
+          height: 630,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: c.meta.title,
+      description: c.meta.description,
+      images: ["https://visituffizi.com/images/og/default.jpg"],
     },
   };
 }
@@ -88,7 +109,7 @@ export default async function VisitorInfoPage({ params }: Props) {
         <p className="mb-4 leading-relaxed text-charcoal/85">
           {c.accessibility.p}{" "}
           <Link
-            href={`/${locale}/the-uffizi-gallery-door-3-importent-information`}
+            href={`/${locale}/the-uffizi-gallery-door-3-importent-information/`}
             className="font-medium text-burgundy hover:text-burgundy/80"
           >
             {c.accessibility.doorLinkText}
@@ -108,12 +129,12 @@ export default async function VisitorInfoPage({ params }: Props) {
         </h2>
         <div className="mb-8 grid gap-3 sm:grid-cols-2">
           {[
-            { title: c.usefulLinks.titles[0], href: `/${locale}/uffizi-gallery-opening-hours` },
-            { title: c.usefulLinks.titles[1], href: `/${locale}/tickets` },
-            { title: c.usefulLinks.titles[2], href: `/${locale}/directions` },
-            { title: c.usefulLinks.titles[3], href: `/${locale}/the-uffizi-gallery-door-3-importent-information` },
-            { title: c.usefulLinks.titles[4], href: `/${locale}/uffizi-gallery-in-2-hours-what-to-see-and-where-to-look` },
-            { title: c.usefulLinks.titles[5], href: `/${locale}/tours` },
+            { title: c.usefulLinks.titles[0], href: `/${locale}/uffizi-gallery-opening-hours/` },
+            { title: c.usefulLinks.titles[1], href: `/${locale}/tickets/` },
+            { title: c.usefulLinks.titles[2], href: `/${locale}/directions/` },
+            { title: c.usefulLinks.titles[3], href: `/${locale}/the-uffizi-gallery-door-3-importent-information/` },
+            { title: c.usefulLinks.titles[4], href: `/${locale}/uffizi-gallery-in-2-hours-what-to-see-and-where-to-look/` },
+            { title: c.usefulLinks.titles[5], href: `/${locale}/tours/` },
           ].map((link) => (
             <Link
               key={link.href}

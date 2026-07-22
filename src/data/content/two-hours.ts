@@ -18,9 +18,25 @@ export type TwoHoursContent = {
     h3: string;
     p: string;
   };
+  practicalInfo: {
+    h2: string;
+    paragraphs: string[];
+  };
+  beforeYourVisit: {
+    h2: string;
+    paragraphs: string[];
+  };
+  alternativeRoutes: {
+    h2: string;
+    paragraphs: string[];
+  };
   timingTips: {
     h2: string;
     items: string[];
+  };
+  relatedGuides: {
+    h2: string;
+    links: { text: string; href: string }[];
   };
   closingP: string;
   closingLinkText: string;
@@ -100,6 +116,38 @@ const en: TwoHoursContent = {
     h3: "The Panoramic Terrace",
     p: "If you have time, step onto the second-floor terrace above the Loggia dei Lanzi. The views across Piazza della Signoria to the Palazzo Vecchio tower are spectacular. There's a small caf\u00e9 here — an espresso with this view is a perfect way to end your visit.",
   },
+  practicalInfo: {
+    h2: "Tickets, Entrance & Opening Hours",
+    paragraphs: [
+      "**Ticket prices (2026):** €25 if you buy on the day of your visit, €29 if you book in advance (the extra €4 is the reservation fee). EU citizens aged 18-25 pay just €2. Under 18 is free regardless of nationality, but the ticket is nominative and must still be issued in the child's name. The first Sunday of each month is free for everyone, at the gallery and the Vasari Corridor — you still need a free nominative ticket, and the Uffizi's is issued only at the ticket-office counter on the day. Expect extreme crowds.",
+      "**How to buy:** Book online at uffizi.it or through a licensed reseller. Choose the 8:15 AM time slot for this 2-hour route. You'll receive a QR code by email — show it on your phone (or a printout). There is nothing to collect and no paper voucher to exchange.",
+      "**Entrance:** Everyone now enters through Door 1, on the east side of the building near the Arno. Since CoopCulture took over in September 2025 there is no separate entrance and no 'skip the line' product — every ticket is for a fixed time slot, and everyone passes the same security check. What a booked ticket does save you is the ticket-office queue.",
+      "**Door 3 is closed** to the public. The old voucher-exchange desk there was discontinued in September 2025 — don't waste time looking for it.",
+      "**Opening hours:** Tuesday to Sunday, 8:15 AM to 6:30 PM. Last entry at 5:30 PM. Closed every Monday, plus January 1 and December 25.",
+      "**Buying on site:** Self-service machines in the ticket office area take cash and are faster than the counter; the staffed counters take cards. Either way you pay the same €25 on-the-day price, subject to time slots still being available.",
+    ],
+  },
+  beforeYourVisit: {
+    h2: "What to Know Before Your Visit",
+    paragraphs: [
+      "**Bag check:** Large bags and backpacks must be checked at the free cloakroom after security. Small handbags and camera bags are fine. Leave luggage at your hotel.",
+      "**Dress code:** No specific dress code for the Uffizi (unlike churches). Wear comfortable shoes — marble floors are hard after 2 hours of walking.",
+      "**Water:** You can bring a water bottle inside. The gallery can get warm, especially upper-floor rooms in summer.",
+      "**Photography:** Allowed throughout the gallery, no flash. Some paintings are behind glass — shoot at a slight angle to avoid reflections.",
+      "**Audio guides:** Available for rent at the entrance (€6). They cover major works with 3-5 minutes of commentary each. Worth considering if you want context without a full guided tour.",
+      "**Museum fatigue is real.** This 2-hour route is designed to prevent it — the panoramic terrace break at the midpoint gives you fresh air and a change of scenery before the final rooms.",
+      "**Accessibility:** The Uffizi has elevators and is wheelchair accessible. Inform staff at Door 1 and they'll direct you.",
+    ],
+  },
+  alternativeRoutes: {
+    h2: "What If You Have More Time?",
+    paragraphs: [
+      "**3-4 hours (thorough visit):** Follow this same route but add the rooms in between. Spend more time in each stop, read the room descriptions, and explore the Northern European galleries (Rooms 41-45 — Dürer, Cranach, Holbein) that this route skips. Visit the Contini Bonacossi collection on the first floor.",
+      "**4-6 hours (art lover's visit):** See everything. Study individual paintings, explore the recently opened ground-floor galleries, sit quietly with your favorite works, and take a proper lunch break at the terrace café. This is how I'd visit if I had a full day.",
+      "**Under 1 hour (express visit):** If you're truly short on time, hit only three stops: Botticelli Hall (Rooms 10-14), the Panoramic Terrace, and Caravaggio (Room 90). You'll miss Leonardo, Michelangelo, and Raphael, but you'll see the two most iconic rooms.",
+      "**Seasonal tip:** In summer (June-August), the gallery can get hot. Arrive at 8:15 AM to beat both crowds and heat. In winter (November-February), you might have rooms to yourself even at midday — the 2-hour route feels almost private.",
+    ],
+  },
   timingTips: {
     h2: "Timing Tips",
     items: [
@@ -108,6 +156,22 @@ const en: TwoHoursContent = {
       "Skip rooms not on this list — you can always come back",
       "Spend the most time in Botticelli Hall (Rooms 10-14) — it's the highlight",
       "If a room is crowded, move on and circle back later",
+      "Tuesday and Wednesday mornings are the quietest days of the week",
+      "Avoid the first Sunday of the month — free entry means extreme crowds",
+      "Late afternoon (after 4 PM) is the second-best time — day-trip groups have left",
+    ],
+  },
+  relatedGuides: {
+    h2: "Related Guides",
+    links: [
+      { text: "Uffizi Gallery Tickets — Prices, Timed Entry & How to Book", href: "/blog/uffizi-gallery-tickets/" },
+      { text: "Uffizi Gallery Opening Hours 2026", href: "/blog/uffizi-gallery-hours/" },
+      { text: "Uffizi Gallery Map & Floor Plan — Room-by-Room Guide", href: "/blog/uffizi-gallery-map-floor-plan/" },
+      { text: "10 Famous Paintings in the Uffizi You Must See", href: "/blog/famous-paintings-uffizi-gallery/" },
+      { text: "How to Avoid the Ticket-Office Queue at the Uffizi", href: "/blog/how-to-skip-the-line-uffizi/" },
+      { text: "Caravaggio at the Uffizi — Medusa, Bacchus & Sacrifice of Isaac", href: "/blog/caravaggio-uffizi-gallery/" },
+      { text: "Botticelli's Primavera — Meaning, Symbolism & Guide", href: "/blog/botticelli-primavera-uffizi/" },
+      { text: "Florence in One Day — The Perfect Itinerary", href: "/blog/one-day-in-florence-itinerary/" },
     ],
   },
   closingP:
@@ -130,6 +194,22 @@ const en: TwoHoursContent = {
     {
       q: "What if I want to see more than the highlights?",
       a: "Plan 3-4 hours and explore at your own pace. The 2-hour route covers the essential masterpieces, but the Uffizi has 101 rooms with thousands of works. Art enthusiasts can easily spend an entire day.",
+    },
+    {
+      q: "How much do Uffizi tickets cost?",
+      a: "\u20ac25 on the day of your visit, or \u20ac29 booked in advance (the \u20ac4 difference is the reservation fee). EU citizens 18-25 pay \u20ac2. Under 18 is free. The first Sunday of the month is free for everyone, at the gallery and the Vasari Corridor — a free nominative ticket is still required, and the Uffizi's is issued only at the ticket-office counter on the day.",
+    },
+    {
+      q: "Which entrance do I use at the Uffizi?",
+      a: "Everyone enters through Door 1, on the east side near the Arno. There is no separate skip-the-line entrance and no voucher to exchange \u2014 your emailed QR code plus the security check is all that stands between you and the gallery. Door 3 is closed to the public.",
+    },
+    {
+      q: "Is the Uffizi open on Mondays?",
+      a: "No. The Uffizi is closed every Monday year-round. Plan your visit for Tuesday through Sunday.",
+    },
+    {
+      q: "What room is the Birth of Venus in?",
+      a: "Rooms 10-14 (Botticelli Hall) on the second floor. The Birth of Venus and Primavera face each other across the room. This is stop 3 on the 2-hour route and where you should spend the most time.",
     },
   ],
 };
@@ -206,36 +286,100 @@ const it: TwoHoursContent = {
     h3: "La Terrazza Panoramica",
     p: "Se hai tempo, esci sulla terrazza del secondo piano sopra la Loggia dei Lanzi. La vista su Piazza della Signoria fino alla torre di Palazzo Vecchio \u00e8 spettacolare. C'\u00e8 un piccolo bar qui — un espresso con questa vista \u00e8 il modo perfetto per concludere la visita.",
   },
+  practicalInfo: {
+    h2: "Biglietti, Ingresso e Orari di Apertura",
+    paragraphs: [
+      "**Prezzi biglietti (2026):** €25 acquistando in giornata, €29 prenotando in anticipo (i €4 di differenza sono il diritto di prenotazione). Cittadini UE 18-25 anni: solo €2. Sotto i 18 anni: gratuito, ma il biglietto è nominativo e va comunque emesso. La prima domenica del mese è gratuita per tutti, galleria e Corridoio Vasariano: serve comunque un biglietto nominativo gratuito, e quello degli Uffizi si ritira solo allo sportello della biglietteria il giorno stesso — aspettatevi folla estrema.",
+      "**Come acquistare:** Prenotate online su uffizi.it o tramite un rivenditore autorizzato. Scegliete la fascia delle 8:15 per questo percorso di 2 ore. Riceverete un codice QR via email — mostratelo dal telefono (o stampato). Non c'è nulla da ritirare e nessun voucher cartaceo da cambiare.",
+      "**Ingresso:** Oggi entrano tutti dalla Porta 1, sul lato est dell'edificio vicino all'Arno. Da settembre 2025, con la nuova gestione CoopCulture, non esiste un ingresso separato né un prodotto 'salta la fila': ogni biglietto ha un orario prestabilito e tutti passano lo stesso controllo di sicurezza. Quello che il biglietto prenotato vi fa davvero risparmiare è la fila alla biglietteria.",
+      "**La Porta 3 è chiusa** al pubblico. Lo sportello per il cambio voucher è stato dismesso a settembre 2025 — non perdete tempo a cercarla.",
+      "**Orari:** Da martedì a domenica, dalle 8:15 alle 18:30. Ultimo ingresso alle 17:30. Chiuso ogni lunedì, più 1 gennaio e 25 dicembre.",
+      "**Acquisto in loco:** Le macchinette self-service nell'area biglietteria accettano contanti e sono più veloci del banco; agli sportelli con personale si paga con carta. In entrambi i casi il prezzo in giornata è €25, se restano fasce orarie disponibili.",
+    ],
+  },
+  beforeYourVisit: {
+    h2: "Cosa Sapere Prima della Visita",
+    paragraphs: [
+      "**Deposito bagagli:** Borse e zaini grandi vanno lasciati al guardaroba gratuito dopo la sicurezza. Borsette e borse per fotocamere vanno bene.",
+      "**Abbigliamento:** Nessun codice di abbigliamento specifico (a differenza delle chiese). Indossate scarpe comode — i pavimenti in marmo sono duri dopo 2 ore.",
+      "**Acqua:** Potete portare una bottiglia d'acqua. La galleria può diventare calda, specialmente nei piani alti in estate.",
+      "**Fotografie:** Consentite ovunque, senza flash. Alcuni dipinti sono dietro vetro — scattate con una leggera angolazione per evitare riflessi.",
+      "**Audioguide:** Disponibili a noleggio all'ingresso (€6). Coprono le opere principali con 3-5 minuti di commento ciascuna.",
+      "**L'affaticamento da museo è reale.** Questo percorso di 2 ore è progettato per prevenirlo — la pausa alla terrazza panoramica a metà percorso vi dà aria fresca e un cambio di scenario.",
+      "**Accessibilità:** Gli Uffizi hanno ascensori e sono accessibili in sedia a rotelle. Informate il personale alla Porta 1.",
+    ],
+  },
+  alternativeRoutes: {
+    h2: "E Se Hai Più Tempo?",
+    paragraphs: [
+      "**3-4 ore (visita approfondita):** Segui lo stesso percorso ma aggiungi le sale intermedie. Dedica più tempo a ogni tappa, leggi le descrizioni delle sale ed esplora le gallerie dell'Europa del Nord (Sale 41-45 — Dürer, Cranach, Holbein).",
+      "**4-6 ore (visita per appassionati):** Vedi tutto. Studia i singoli dipinti, esplora le gallerie al piano terra recentemente aperte, siediti tranquillamente davanti alle opere preferite e fai una vera pausa pranzo al bar della terrazza.",
+      "**Meno di 1 ora (visita express):** Se hai davvero poco tempo, visita solo tre tappe: Sala di Botticelli (Sale 10-14), la Terrazza Panoramica e Caravaggio (Sala 90).",
+      "**Consiglio stagionale:** In estate (giugno-agosto), la galleria può diventare calda. Arriva alle 8:15 per battere folla e caldo. In inverno (novembre-febbraio), potresti avere le sale per te anche a mezzogiorno.",
+    ],
+  },
   timingTips: {
     h2: "Consigli sugli Orari",
     items: [
       "Prenota la fascia delle 8:15 per l'esperienza migliore — avrai le sale quasi tutte per te",
       "Vai direttamente alla Sala 2 e segui il percorso nell'ordine indicato",
       "Salta le sale non presenti in questa lista — potrai sempre tornare",
-      "Dedica pi\u00f9 tempo alla Sala di Botticelli (Sale 10-14) — \u00e8 il momento clou",
-      "Se una sala \u00e8 affollata, prosegui e torna dopo",
+      "Dedica più tempo alla Sala di Botticelli (Sale 10-14) — è il momento clou",
+      "Se una sala è affollata, prosegui e torna dopo",
+      "Martedì e mercoledì mattina sono i giorni più tranquilli della settimana",
+      "Evita la prima domenica del mese — ingresso gratuito significa folla estrema",
+      "Il tardo pomeriggio (dopo le 16) è il secondo miglior orario — i gruppi giornalieri sono partiti",
+    ],
+  },
+  relatedGuides: {
+    h2: "Guide Correlate",
+    links: [
+      { text: "Biglietti Uffizi — Prezzi, Ingresso a Orario e Come Prenotare", href: "/blog/uffizi-gallery-tickets/" },
+      { text: "Orari di Apertura degli Uffizi 2026", href: "/blog/uffizi-gallery-hours/" },
+      { text: "Mappa e Pianta degli Uffizi — Guida Sala per Sala", href: "/blog/uffizi-gallery-map-floor-plan/" },
+      { text: "10 Dipinti Famosi degli Uffizi da Non Perdere", href: "/blog/famous-paintings-uffizi-gallery/" },
+      { text: "Come Evitare la Fila alla Biglietteria degli Uffizi", href: "/blog/how-to-skip-the-line-uffizi/" },
+      { text: "Caravaggio agli Uffizi — Medusa, Bacco e Sacrificio di Isacco", href: "/blog/caravaggio-uffizi-gallery/" },
+      { text: "La Primavera di Botticelli — Significato e Simbolismo", href: "/blog/botticelli-primavera-uffizi/" },
+      { text: "Firenze in Un Giorno — L'Itinerario Perfetto", href: "/blog/one-day-in-florence-itinerary/" },
     ],
   },
   closingP:
-    "Vuoi approfondire? Una visita guidata copre lo stesso percorso con commenti esperti che danno vita a ogni dipinto. Se preferisci esplorare in autonomia, questo itinerario ti d\u00e0 la struttura per sfruttare al meglio le tue 2 ore.",
+    "Vuoi approfondire? Una visita guidata copre lo stesso percorso con commenti esperti che danno vita a ogni dipinto. Se preferisci esplorare in autonomia, questo itinerario ti dà la struttura per sfruttare al meglio le tue 2 ore.",
   closingLinkText: "visita guidata",
   ctaBottomTitle: "Prenota i Tuoi Biglietti per gli Uffizi",
   faq: [
     {
       q: "Si possono davvero vedere gli Uffizi in 2 ore?",
-      a: "S\u00ec — se segui un percorso pianificato e ti concentri sui capolavori principali. Non vedrai tutte le sale, ma vedrai ogni opera che ha reso gli Uffizi famosi nel mondo. Questo itinerario copre Giotto, Botticelli, Leonardo, Michelangelo, Raffaello, Tiziano e Caravaggio.",
+      a: "Sì — se segui un percorso pianificato e ti concentri sui capolavori principali. Non vedrai tutte le sale, ma vedrai ogni opera che ha reso gli Uffizi famosi nel mondo. Questo itinerario copre Giotto, Botticelli, Leonardo, Michelangelo, Raffaello, Tiziano e Caravaggio.",
     },
     {
       q: "A che ora conviene arrivare per una visita di 2 ore?",
-      a: "La prima fascia delle 8:15 \u00e8 l'ideale. La galleria \u00e8 quasi vuota nella prima ora, con una vista libera su ogni dipinto. Il tardo pomeriggio (dalle 16:00 in poi) \u00e8 la seconda migliore opzione.",
+      a: "La prima fascia delle 8:15 è l'ideale. La galleria è quasi vuota nella prima ora, con una vista libera su ogni dipinto. Il tardo pomeriggio (dalle 16:00 in poi) è la seconda migliore opzione.",
     },
     {
       q: "Meglio una visita guidata o andare da soli?",
-      a: "Entrambe le opzioni funzionano bene. Una visita guidata (circa 2 ore, da \u20ac49) aggiunge il contesto di un esperto che trasforma l'esperienza. Andare da soli con questo itinerario offre flessibilit\u00e0 e risparmio. Chi visita per la prima volta trae il massimo beneficio da una guida.",
+      a: "Entrambe le opzioni funzionano bene. Una visita guidata (circa 2 ore, da €49) aggiunge il contesto di un esperto che trasforma l'esperienza. Andare da soli con questo itinerario offre flessibilità e risparmio. Chi visita per la prima volta trae il massimo beneficio da una guida.",
     },
     {
-      q: "E se voglio vedere pi\u00f9 dei soli capolavori principali?",
+      q: "E se voglio vedere più dei soli capolavori principali?",
       a: "Prevedi 3-4 ore ed esplora al tuo ritmo. Il percorso in 2 ore copre le opere essenziali, ma gli Uffizi hanno 101 sale con migliaia di opere. Gli appassionati d'arte possono facilmente trascorrere un'intera giornata.",
+    },
+    {
+      q: "Quanto costano i biglietti degli Uffizi?",
+      a: "€25 acquistando in giornata, €29 prenotando in anticipo (i €4 di differenza sono il diritto di prenotazione). Cittadini UE 18-25: €2. Sotto i 18: gratuito. Prima domenica del mese: gratuita per tutti, galleria e Corridoio Vasariano — serve comunque un biglietto nominativo gratuito, e quello degli Uffizi si ritira solo allo sportello della biglietteria il giorno stesso.",
+    },
+    {
+      q: "Quale ingresso si usa agli Uffizi?",
+      a: "Entrano tutti dalla Porta 1, sul lato est vicino all'Arno. Non esiste un ingresso separato salta la fila né alcun voucher da cambiare: basta il codice QR ricevuto via email, più il controllo di sicurezza. La Porta 3 è chiusa al pubblico.",
+    },
+    {
+      q: "Gli Uffizi sono aperti di lunedì?",
+      a: "No. Gli Uffizi sono chiusi ogni lunedì durante tutto l'anno. Pianifica la tua visita da martedì a domenica.",
+    },
+    {
+      q: "In quale sala si trova la Nascita di Venere?",
+      a: "Sale 10-14 (Sala di Botticelli) al secondo piano. La Nascita di Venere e la Primavera si fronteggiano nella sala. È la tappa 3 del percorso in 2 ore e dove dovresti dedicare più tempo.",
     },
   ],
 };
@@ -312,14 +456,62 @@ const de: TwoHoursContent = {
     h3: "Die Panoramaterrasse",
     p: "Falls Sie noch Zeit haben, gehen Sie auf die Terrasse im zweiten Stock ueber der Loggia dei Lanzi. Der Blick ueber die Piazza della Signoria zum Turm des Palazzo Vecchio ist atemberaubend. Es gibt ein kleines Cafe hier — ein Espresso mit diesem Ausblick ist der perfekte Abschluss Ihres Besuchs.",
   },
+  practicalInfo: {
+    h2: "Tickets, Eingang & Oeffnungszeiten",
+    paragraphs: [
+      "**Ticketpreise (2026):** €25 bei Kauf am Besuchstag, €29 im Vorverkauf (die €4 Differenz sind die Reservierungsgebuehr). EU-Buerger 18-25: nur €2. Unter 18: kostenlos, das Ticket wird aber auf den Namen ausgestellt. Erster Sonntag im Monat: kostenlos fuer alle, Galerie und Vasarikorridor — ein kostenloses personalisiertes Ticket ist trotzdem noetig, und das der Uffizien gibt es nur am Schalter der Ticketkasse am Tag selbst. Aber extreme Menschenmengen.",
+      "**Kaufen:** Online auf uffizi.it oder ueber lizenzierte Wiederverkaeufer. Waehlen Sie das 8:15-Uhr-Zeitfenster fuer diesen 2-Stunden-Rundgang. Sie erhalten einen QR-Code per E-Mail — nichts abzuholen, kein Papiervoucher zum Umtauschen.",
+      "**Eingang:** Alle Besucher betreten die Galerie heute durch Eingang 1 auf der Ostseite nahe dem Arno. Seit der Uebernahme durch CoopCulture im September 2025 gibt es keinen separaten Eingang und kein Skip-the-Line-Produkt mehr: Jedes Ticket gilt fuer ein festes Zeitfenster, und alle durchlaufen dieselbe Sicherheitskontrolle. Was ein gebuchtes Ticket Ihnen erspart, ist die Warteschlange an der Kasse.",
+      "**Tuer 3 ist geschlossen.** Der frueher dortige Voucher-Umtausch wurde im September 2025 eingestellt — verschwenden Sie keine Zeit damit.",
+      "**Oeffnungszeiten:** Dienstag bis Sonntag, 8:15-18:30 Uhr. Letzter Einlass 17:30 Uhr. Montags geschlossen, plus 1. Januar und 25. Dezember.",
+      "**Kauf vor Ort:** Selbstbedienungsautomaten im Kassenbereich nehmen Bargeld und sind schneller als der Schalter; an den besetzten Schaltern zahlen Sie mit Karte. In beiden Faellen gilt der Tagespreis von €25, solange noch Zeitfenster frei sind.",
+    ],
+  },
+  beforeYourVisit: {
+    h2: "Vor Ihrem Besuch Wissen",
+    paragraphs: [
+      "**Gepaeckaufbewahrung:** Grosse Taschen und Rucksaecke muessen an der kostenlosen Garderobe nach der Sicherheitskontrolle abgegeben werden.",
+      "**Kleidung:** Kein spezieller Dresscode (anders als in Kirchen). Bequeme Schuhe tragen — Marmorboeden sind nach 2 Stunden hart.",
+      "**Wasser:** Sie koennen eine Wasserflasche mitbringen. Die Galerie kann warm werden, besonders in den oberen Stockwerken im Sommer.",
+      "**Fotografieren:** Ueberall erlaubt, ohne Blitz.",
+      "**Audioguides:** Am Eingang zu mieten (€6). Decken Hauptwerke mit 3-5 Minuten Kommentar ab.",
+      "**Museummuedigkeit ist real.** Dieser 2-Stunden-Rundgang ist dagegen konzipiert — die Terrassenpause gibt Ihnen frische Luft.",
+      "**Barrierefreiheit:** Aufzuege vorhanden. Personal an Tuer 1 informieren.",
+    ],
+  },
+  alternativeRoutes: {
+    h2: "Was Wenn Sie Mehr Zeit Haben?",
+    paragraphs: [
+      "**3-4 Stunden (gruendlicher Besuch):** Gleiche Route plus Zwischenraeume. Mehr Zeit pro Station, Raumbeschreibungen lesen, nordeuropaeische Galerien (Raeume 41-45) erkunden.",
+      "**4-6 Stunden (Kunstliebhaber):** Alles sehen. Einzelne Gemaelde studieren, Erdgeschoss-Galerien erkunden, richtige Mittagspause im Terrassencafe.",
+      "**Unter 1 Stunde (Express):** Nur drei Stationen: Botticelli-Saal (Raeume 10-14), Panoramaterrasse und Caravaggio (Raum 90).",
+      "**Saisontipp:** Im Sommer um 8:15 kommen gegen Hitze und Menschenmengen. Im Winter koennen Sie Raeume auch mittags fuer sich haben.",
+    ],
+  },
   timingTips: {
     h2: "Tipps zum Timing",
     items: [
-      "Buchen Sie das 8:15-Uhr-Zeitfenster fuer das beste Erlebnis — Sie haben die Raeume fast fuer sich allein",
-      "Gehen Sie direkt zu Raum 2 und folgen Sie dem Rundgang in der angegebenen Reihenfolge",
-      "Ueberspringen Sie Raeume, die nicht auf dieser Liste stehen — Sie koennen jederzeit wiederkommen",
-      "Verbringen Sie die meiste Zeit im Botticelli-Saal (Raeume 10-14) — er ist das Highlight",
-      "Wenn ein Raum ueberfuellt ist, gehen Sie weiter und kommen Sie spaeter zurueck",
+      "Buchen Sie das 8:15-Uhr-Zeitfenster — Sie haben die Raeume fast fuer sich allein",
+      "Gehen Sie direkt zu Raum 2 und folgen Sie dem Rundgang",
+      "Ueberspringen Sie Raeume, die nicht auf dieser Liste stehen",
+      "Verbringen Sie die meiste Zeit im Botticelli-Saal (Raeume 10-14)",
+      "Wenn ein Raum ueberfuellt ist, gehen Sie weiter und kommen spaeter zurueck",
+      "Dienstag und Mittwoch morgens sind die ruhigsten Tage",
+      "Vermeiden Sie den ersten Sonntag im Monat — kostenloser Eintritt bedeutet extreme Menschenmengen",
+      "Spaeter Nachmittag (nach 16 Uhr) ist die zweitbeste Zeit",
+    ],
+  },
+  relatedGuides: {
+    h2: "Verwandte Guides",
+    links: [
+      { text: "Uffizien Tickets — Preise & Buchung", href: "/blog/uffizi-gallery-tickets/" },
+      { text: "Uffizien Oeffnungszeiten 2026", href: "/blog/uffizi-gallery-hours/" },
+      { text: "Uffizien Raumplan & Grundriss", href: "/blog/uffizi-gallery-map-floor-plan/" },
+      { text: "10 Beruehmte Gemaelde der Uffizien", href: "/blog/famous-paintings-uffizi-gallery/" },
+      { text: "Kassen-Warteschlange in den Uffizien Umgehen", href: "/blog/how-to-skip-the-line-uffizi/" },
+      { text: "Caravaggio in den Uffizien", href: "/blog/caravaggio-uffizi-gallery/" },
+      { text: "Botticellis Primavera — Bedeutung & Symbolik", href: "/blog/botticelli-primavera-uffizi/" },
+      { text: "Florenz an Einem Tag — Das Perfekte Programm", href: "/blog/one-day-in-florence-itinerary/" },
     ],
   },
   closingP:
@@ -329,19 +521,35 @@ const de: TwoHoursContent = {
   faq: [
     {
       q: "Kann man die Uffizien wirklich in 2 Stunden sehen?",
-      a: "Ja — wenn Sie einem geplanten Rundgang folgen und sich auf die Hoehepunkte konzentrieren. Sie werden nicht jeden Raum sehen, aber jedes Meisterwerk, das die Uffizien weltberuehmt macht. Dieser Rundgang umfasst Giotto, Botticelli, Leonardo, Michelangelo, Raffael, Tizian und Caravaggio.",
+      a: "Ja — wenn Sie einem geplanten Rundgang folgen und sich auf die Hoehepunkte konzentrieren. Dieser Rundgang umfasst Giotto, Botticelli, Leonardo, Michelangelo, Raffael, Tizian und Caravaggio.",
     },
     {
-      q: "Um wie viel Uhr sollte man fuer einen 2-Stunden-Besuch kommen?",
-      a: "Das erste Zeitfenster um 8:15 Uhr ist ideal. Die Galerie ist in der ersten Stunde fast leer, mit freiem Blick auf jedes Gemaelde. Der spaete Nachmittag (ab 16 Uhr) ist die zweitbeste Option.",
+      q: "Um wie viel Uhr sollte man kommen?",
+      a: "Das 8:15-Uhr-Zeitfenster ist ideal. Die Galerie ist in der ersten Stunde fast leer. Spaeter Nachmittag (ab 16 Uhr) ist die zweitbeste Option.",
     },
     {
-      q: "Fuehrung buchen oder allein gehen?",
-      a: "Beides funktioniert gut. Eine gefuehrte Tour (ca. 2 Stunden, ab 49 Euro) bietet Expertenkontext, der das Erlebnis verwandelt. Allein mit diesem Plan unterwegs zu sein, bietet Flexibilitaet und spart Geld. Erstbesucher profitieren am meisten von einer Fuehrung.",
+      q: "Fuehrung oder allein?",
+      a: "Beides funktioniert. Eine Fuehrung (ca. 2 Stunden, ab €49) bietet Expertenkontext. Allein mit diesem Plan bietet Flexibilitaet und spart Geld.",
     },
     {
-      q: "Was, wenn ich mehr als nur die Highlights sehen moechte?",
-      a: "Planen Sie 3-4 Stunden und erkunden Sie in Ihrem eigenen Tempo. Der 2-Stunden-Rundgang deckt die wichtigsten Meisterwerke ab, aber die Uffizien haben 101 Raeume mit Tausenden von Werken. Kunstbegeisterte koennen leicht einen ganzen Tag verbringen.",
+      q: "Was wenn ich mehr sehen moechte?",
+      a: "Planen Sie 3-4 Stunden. Die Uffizien haben 101 Raeume mit Tausenden von Werken.",
+    },
+    {
+      q: "Wie viel kosten Uffizien-Tickets?",
+      a: "€25 am Besuchstag oder €29 im Vorverkauf (die €4 Differenz ist die Reservierungsgebuehr). EU-Buerger 18-25: €2. Unter 18: kostenlos.",
+    },
+    {
+      q: "Welchen Eingang benutze ich?",
+      a: "Alle Besucher gehen durch Eingang 1 auf der Ostseite. Es gibt keinen separaten Skip-the-Line-Eingang und keinen Voucher zum Umtauschen — Ihr QR-Code aus der E-Mail und die Sicherheitskontrolle genuegen. Tuer 3 ist geschlossen.",
+    },
+    {
+      q: "Sind die Uffizien montags geoeffnet?",
+      a: "Nein. Jeden Montag ganzjaehrig geschlossen.",
+    },
+    {
+      q: "In welchem Raum ist die Geburt der Venus?",
+      a: "Raeume 10-14 (Botticelli-Saal), 2. OG. Gegenueber der Primavera. Station 3 im 2-Stunden-Rundgang.",
     },
   ],
 };
@@ -418,14 +626,62 @@ const fr: TwoHoursContent = {
     h3: "La Terrasse Panoramique",
     p: "Si vous avez le temps, montez sur la terrasse du deuxieme etage au-dessus de la Loggia dei Lanzi. La vue sur la Piazza della Signoria jusqu'a la tour du Palazzo Vecchio est spectaculaire. Il y a un petit cafe ici — un espresso avec cette vue est la facon parfaite de conclure votre visite.",
   },
+  practicalInfo: {
+    h2: "Billets, Entree et Horaires d'Ouverture",
+    paragraphs: [
+      "**Prix des billets (2026) :** €25 le jour meme de la visite, €29 en reservant a l'avance (les €4 d'ecart correspondent aux frais de reservation). Citoyens UE 18-25 : €2. Moins de 18 : gratuit, mais le billet est nominatif et doit tout de meme etre emis. Premier dimanche du mois : gratuit pour tous, galerie et Corridor de Vasari — un billet nominatif gratuit reste obligatoire, et celui des Offices se retire uniquement au guichet de la billetterie le jour meme. Mais foules extremes.",
+      "**Achat :** Reservez en ligne sur uffizi.it. Choisissez le creneau de 8h15 pour ce parcours de 2 heures. Vous recevez un QR code par e-mail — rien a retirer, aucun bon papier a echanger.",
+      "**Entree :** Tout le monde entre desormais par la Porte 1, cote est pres de l'Arno. Depuis la reprise par CoopCulture en septembre 2025, il n'y a plus d'entree separee ni de produit 'coupe-file' : chaque billet correspond a un horaire precis et tout le monde passe le meme controle de securite. Ce qu'un billet reserve vous evite vraiment, c'est la file d'attente a la billetterie.",
+      "**La Porte 3 est fermee** au public. Le guichet d'echange de bons qui s'y trouvait a ete supprime en septembre 2025.",
+      "**Horaires :** Mardi au dimanche, 8h15 a 18h30. Derniere entree 17h30. Ferme le lundi, plus 1er janvier et 25 decembre.",
+      "**Achat sur place :** Les bornes automatiques du hall de billetterie acceptent les especes et sont plus rapides que le comptoir ; aux guichets tenus par du personnel, on paie par carte. Dans les deux cas, le tarif du jour est de €25, dans la limite des creneaux disponibles.",
+    ],
+  },
+  beforeYourVisit: {
+    h2: "A Savoir Avant Votre Visite",
+    paragraphs: [
+      "**Consigne :** Les grands sacs doivent etre deposes au vestiaire gratuit apres la securite.",
+      "**Vetements :** Pas de code vestimentaire specifique (contrairement aux eglises). Chaussures confortables indispensables — les sols en marbre sont durs apres 2 heures.",
+      "**Eau :** Vous pouvez apporter une bouteille d'eau. La galerie peut devenir chaude en ete.",
+      "**Photos :** Autorisees partout, sans flash.",
+      "**Audioguides :** A louer a l'entree (€6). 3-5 minutes de commentaire par oeuvre majeure.",
+      "**La fatigue museale est reelle.** Ce parcours de 2 heures est concu pour la prevenir — la pause terrasse a mi-parcours vous offre de l'air frais.",
+      "**Accessibilite :** Ascenseurs disponibles. Informez le personnel a la Porte 1.",
+    ],
+  },
+  alternativeRoutes: {
+    h2: "Et Si Vous Avez Plus de Temps ?",
+    paragraphs: [
+      "**3-4 heures (visite approfondie) :** Meme parcours plus les salles intermediaires. Plus de temps a chaque arret, galeries nord-europeennes (Salles 41-45).",
+      "**4-6 heures (passionnes d'art) :** Tout voir. Etudier les tableaux individuels, explorer le rez-de-chaussee, vraie pause dejeuner au cafe-terrasse.",
+      "**Moins d'1 heure (express) :** Trois arrets seulement : Salle Botticelli (Salles 10-14), Terrasse Panoramique et Caravage (Salle 90).",
+      "**Conseil saisonnier :** En ete, arrivez a 8h15 contre chaleur et foules. En hiver, vous pouvez avoir les salles pour vous meme a midi.",
+    ],
+  },
   timingTips: {
     h2: "Conseils de Timing",
     items: [
-      "Reservez le creneau de 8h15 pour la meilleure experience — vous aurez les salles presque pour vous seul",
+      "Reservez le creneau de 8h15 — les salles presque pour vous seul",
       "Allez directement a la Salle 2 et suivez le parcours dans l'ordre",
-      "Sautez les salles qui ne figurent pas sur cette liste — vous pourrez toujours revenir",
-      "Passez le plus de temps dans la Salle Botticelli (Salles 10-14) — c'est le temps fort",
-      "Si une salle est bondee, passez a la suivante et revenez plus tard",
+      "Sautez les salles qui ne figurent pas sur cette liste",
+      "Passez le plus de temps dans la Salle Botticelli (Salles 10-14)",
+      "Si une salle est bondee, passez et revenez plus tard",
+      "Mardi et mercredi matin sont les jours les plus calmes",
+      "Evitez le premier dimanche du mois — gratuit mais foules extremes",
+      "Fin d'apres-midi (apres 16h) est le deuxieme meilleur moment",
+    ],
+  },
+  relatedGuides: {
+    h2: "Guides Associes",
+    links: [
+      { text: "Billets des Offices — Prix et Comment Reserver", href: "/blog/uffizi-gallery-tickets/" },
+      { text: "Horaires des Offices 2026", href: "/blog/uffizi-gallery-hours/" },
+      { text: "Plan de la Galerie des Offices", href: "/blog/uffizi-gallery-map-floor-plan/" },
+      { text: "10 Tableaux Celebres des Offices", href: "/blog/famous-paintings-uffizi-gallery/" },
+      { text: "Comment Eviter la File a la Billetterie des Offices", href: "/blog/how-to-skip-the-line-uffizi/" },
+      { text: "Caravage aux Offices", href: "/blog/caravaggio-uffizi-gallery/" },
+      { text: "Le Printemps de Botticelli", href: "/blog/botticelli-primavera-uffizi/" },
+      { text: "Florence en Un Jour", href: "/blog/one-day-in-florence-itinerary/" },
     ],
   },
   closingP:
@@ -433,22 +689,14 @@ const fr: TwoHoursContent = {
   closingLinkText: "visite guidee",
   ctaBottomTitle: "Reservez Vos Billets pour les Offices",
   faq: [
-    {
-      q: "Peut-on vraiment voir les Offices en 2 heures ?",
-      a: "Oui — si vous suivez un parcours planifie et vous concentrez sur les chefs-d'oeuvre. Vous ne verrez pas toutes les salles, mais chaque oeuvre qui a rendu les Offices mondialement celebres. Ce parcours couvre Giotto, Botticelli, Leonard de Vinci, Michel-Ange, Raphael, Titien et Le Caravage.",
-    },
-    {
-      q: "A quelle heure arriver pour une visite de 2 heures ?",
-      a: "Le premier creneau de 8h15 est ideal. La galerie est presque vide la premiere heure, offrant une vue degagee sur chaque tableau. La fin d'apres-midi (a partir de 16h) est la deuxieme meilleure option.",
-    },
-    {
-      q: "Visite guidee ou visite libre ?",
-      a: "Les deux fonctionnent bien. Une visite guidee (environ 2 heures, a partir de 49 euros) ajoute un contexte d'expert qui transforme l'experience. Y aller seul avec cet itineraire offre flexibilite et economies. Les visiteurs qui viennent pour la premiere fois beneficient le plus d'un guide.",
-    },
-    {
-      q: "Et si je veux voir plus que les incontournables ?",
-      a: "Prevoyez 3 a 4 heures et explorez a votre rythme. Le parcours en 2 heures couvre les chefs-d'oeuvre essentiels, mais les Offices comptent 101 salles avec des milliers d'oeuvres. Les passionnes d'art peuvent facilement y passer une journee entiere.",
-    },
+    { q: "Peut-on voir les Offices en 2 heures ?", a: "Oui — avec un parcours planifie. Ce parcours couvre Giotto, Botticelli, Leonard, Michel-Ange, Raphael, Titien et Le Caravage." },
+    { q: "A quelle heure arriver ?", a: "Le creneau de 8h15 est ideal. Galerie presque vide la premiere heure. Fin d'apres-midi (16h+) en deuxieme choix." },
+    { q: "Visite guidee ou libre ?", a: "Les deux fonctionnent. Guidee (~2h, des €49) pour le contexte expert. Libre avec cet itineraire pour la flexibilite." },
+    { q: "Et si je veux voir plus ?", a: "Prevoyez 3-4 heures. Les Offices ont 101 salles avec des milliers d'oeuvres." },
+    { q: "Combien coutent les billets ?", a: "€25 le jour meme ou €29 en reservant a l'avance (les €4 d'ecart sont les frais de reservation). UE 18-25 : €2. Moins de 18 : gratuit." },
+    { q: "Quelle entree utiliser ?", a: "Tout le monde entre par la Porte 1, cote est. Pas d'entree coupe-file separee ni de bon a echanger : votre QR code recu par e-mail et le controle de securite suffisent. La Porte 3 est fermee." },
+    { q: "Les Offices sont-ils ouverts le lundi ?", a: "Non. Fermes chaque lundi de l'annee." },
+    { q: "Ou est la Naissance de Venus ?", a: "Salles 10-14 (Salle Botticelli), 2e etage. Arret 3 du parcours." },
   ],
 };
 
@@ -524,14 +772,62 @@ const es: TwoHoursContent = {
     h3: "La Terraza Panoramica",
     p: "Si tienes tiempo, sube a la terraza del segundo piso sobre la Loggia dei Lanzi. Las vistas de la Piazza della Signoria hasta la torre del Palazzo Vecchio son espectaculares. Hay una pequena cafeteria aqui — un espresso con estas vistas es la forma perfecta de terminar tu visita.",
   },
+  practicalInfo: {
+    h2: "Entradas, Acceso y Horarios",
+    paragraphs: [
+      "**Precios (2026):** €25 comprando el mismo dia de la visita, €29 reservando por anticipado (los €4 de diferencia son los gastos de reserva). Ciudadanos UE 18-25: €2. Menores de 18: gratis, aunque la entrada es nominativa y hay que emitirla igualmente. Primer domingo del mes: gratis para todos, galeria y Corredor Vasariano — sigue haciendo falta una entrada nominativa gratuita, y la de los Uffizi solo se recoge en el mostrador de taquilla el mismo dia. Pero multitudes extremas.",
+      "**Como comprar:** Reserva en uffizi.it. Elige la franja de las 8:15 para este recorrido de 2 horas. Recibiras un codigo QR por correo — no hay nada que recoger ni ningun bono en papel que canjear.",
+      "**Entrada:** Ahora entra todo el mundo por la Puerta 1, lado este cerca del Arno. Desde que CoopCulture asumio la gestion en septiembre de 2025 no hay entrada separada ni producto 'sin colas': cada entrada tiene una hora asignada y todos pasan el mismo control de seguridad. Lo que si te ahorra una entrada reservada es la cola de la taquilla.",
+      "**La Puerta 3 esta cerrada** al publico. El mostrador de canje de bonos que habia alli se suprimio en septiembre de 2025.",
+      "**Horarios:** Martes a domingo, 8:15 a 18:30. Ultima entrada 17:30. Cerrado los lunes, mas 1 enero y 25 diciembre.",
+      "**Compra in situ:** Las maquinas automaticas de la zona de taquilla admiten efectivo y son mas rapidas que el mostrador; en las taquillas atendidas se paga con tarjeta. En ambos casos el precio del dia es €25, siempre que queden franjas horarias libres.",
+    ],
+  },
+  beforeYourVisit: {
+    h2: "Que Saber Antes de Tu Visita",
+    paragraphs: [
+      "**Equipaje:** Las bolsas grandes deben dejarse en el guardarropa gratuito tras la seguridad.",
+      "**Ropa:** Sin codigo de vestimenta especifico (a diferencia de las iglesias). Zapatos comodos imprescindibles.",
+      "**Agua:** Puedes llevar una botella. La galeria puede ponerse caliente en verano.",
+      "**Fotos:** Permitidas en todas partes, sin flash.",
+      "**Audioguias:** En alquiler en la entrada (€6). 3-5 minutos de comentario por obra principal.",
+      "**La fatiga de museo es real.** Este recorrido de 2 horas esta disenado para prevenirla — la pausa en la terraza te da aire fresco.",
+      "**Accesibilidad:** Ascensores disponibles. Informa al personal en la Puerta 1.",
+    ],
+  },
+  alternativeRoutes: {
+    h2: "Y Si Tienes Mas Tiempo?",
+    paragraphs: [
+      "**3-4 horas (visita completa):** Misma ruta mas las salas intermedias. Mas tiempo en cada parada, galerias del norte de Europa (Salas 41-45).",
+      "**4-6 horas (amantes del arte):** Ver todo. Estudiar pinturas individuales, explorar la planta baja, pausa de almuerzo en el cafe-terraza.",
+      "**Menos de 1 hora (express):** Solo tres paradas: Sala Botticelli (Salas 10-14), Terraza Panoramica y Caravaggio (Sala 90).",
+      "**Consejo estacional:** En verano, llega a las 8:15 para evitar calor y multitudes. En invierno, puedes tener las salas para ti incluso a mediodia.",
+    ],
+  },
   timingTips: {
     h2: "Consejos de Horario",
     items: [
-      "Reserva la franja de las 8:15 para la mejor experiencia — tendras las salas casi para ti solo",
+      "Reserva la franja de las 8:15 — tendras las salas casi para ti solo",
       "Ve directamente a la Sala 2 y sigue el recorrido en orden",
-      "Salta las salas que no estan en esta lista — siempre puedes volver",
-      "Dedica mas tiempo a la Sala de Botticelli (Salas 10-14) — es el momento cumbre",
+      "Salta las salas que no estan en esta lista",
+      "Dedica mas tiempo a la Sala de Botticelli (Salas 10-14)",
       "Si una sala esta llena, sigue adelante y vuelve despues",
+      "Martes y miercoles por la manana son los dias mas tranquilos",
+      "Evita el primer domingo del mes — gratis pero multitudes extremas",
+      "Tarde (despues de las 16) es el segundo mejor horario",
+    ],
+  },
+  relatedGuides: {
+    h2: "Guias Relacionadas",
+    links: [
+      { text: "Entradas Uffizi — Precios y Como Reservar", href: "/blog/uffizi-gallery-tickets/" },
+      { text: "Horarios de los Uffizi 2026", href: "/blog/uffizi-gallery-hours/" },
+      { text: "Mapa y Plano de los Uffizi", href: "/blog/uffizi-gallery-map-floor-plan/" },
+      { text: "10 Pinturas Famosas de los Uffizi", href: "/blog/famous-paintings-uffizi-gallery/" },
+      { text: "Como Evitar la Cola de la Taquilla en los Uffizi", href: "/blog/how-to-skip-the-line-uffizi/" },
+      { text: "Caravaggio en los Uffizi", href: "/blog/caravaggio-uffizi-gallery/" },
+      { text: "La Primavera de Botticelli", href: "/blog/botticelli-primavera-uffizi/" },
+      { text: "Florencia en Un Dia", href: "/blog/one-day-in-florence-itinerary/" },
     ],
   },
   closingP:
@@ -539,22 +835,14 @@ const es: TwoHoursContent = {
   closingLinkText: "visita guiada",
   ctaBottomTitle: "Reserva Tus Entradas para los Uffizi",
   faq: [
-    {
-      q: "Se pueden ver los Uffizi en 2 horas de verdad?",
-      a: "Si — si sigues un recorrido planificado y te concentras en las obras maestras. No veras todas las salas, pero si cada obra que ha hecho a los Uffizi famosos en el mundo. Este recorrido cubre a Giotto, Botticelli, Leonardo, Miguel Angel, Rafael, Tiziano y Caravaggio.",
-    },
-    {
-      q: "A que hora conviene llegar para una visita de 2 horas?",
-      a: "La primera franja de las 8:15 es ideal. La galeria esta casi vacia la primera hora, con vistas despejadas de cada pintura. La tarde (a partir de las 16:00) es la segunda mejor opcion.",
-    },
-    {
-      q: "Visita guiada o ir por libre?",
-      a: "Ambas opciones funcionan bien. Una visita guiada (unas 2 horas, desde 49 euros) anade el contexto de un experto que transforma la experiencia. Ir solo con este itinerario ofrece flexibilidad y ahorro. Los visitantes primerizos son quienes mas se benefician de un guia.",
-    },
-    {
-      q: "Y si quiero ver mas que solo las obras principales?",
-      a: "Planifica 3-4 horas y explora a tu ritmo. El recorrido de 2 horas cubre las obras maestras esenciales, pero los Uffizi tienen 101 salas con miles de obras. Los amantes del arte pueden pasar facilmente un dia entero.",
-    },
+    { q: "Se pueden ver los Uffizi en 2 horas?", a: "Si — con un recorrido planificado. Cubre Giotto, Botticelli, Leonardo, Miguel Angel, Rafael, Tiziano y Caravaggio." },
+    { q: "A que hora llegar?", a: "La franja de las 8:15 es ideal. Galeria casi vacia la primera hora. Tarde (16:00+) en segundo lugar." },
+    { q: "Visita guiada o por libre?", a: "Ambas funcionan. Guiada (~2h, desde €49) para contexto experto. Por libre con este itinerario para flexibilidad." },
+    { q: "Y si quiero ver mas?", a: "Planifica 3-4 horas. Los Uffizi tienen 101 salas con miles de obras." },
+    { q: "Cuanto cuestan las entradas?", a: "€25 el mismo dia o €29 reservando por anticipado (los €4 de diferencia son los gastos de reserva). UE 18-25: €2. Menores de 18: gratis." },
+    { q: "Que entrada uso?", a: "Todo el mundo entra por la Puerta 1, lado este. No hay entrada sin colas separada ni bono que canjear: basta con el codigo QR del correo y el control de seguridad. La Puerta 3 esta cerrada." },
+    { q: "Los Uffizi abren los lunes?", a: "No. Cerrados cada lunes del ano." },
+    { q: "Donde esta El Nacimiento de Venus?", a: "Salas 10-14 (Sala Botticelli), segundo piso. Parada 3 del recorrido." },
   ],
 };
 

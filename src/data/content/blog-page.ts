@@ -11,6 +11,8 @@ export type BlogPageContent = {
   // Detail page UI strings
   inThisGuide: string;
   ctaDetailTitle: string;
+  /* Used on free-entry guides, where pushing a paid entry ticket makes no sense */
+  ctaTourTitle: string;
   moreGuidesH2: string;
 };
 
@@ -29,6 +31,7 @@ const en: BlogPageContent = {
   ctaHubTitle: "Skip the Research — Book Your Uffizi Tickets Now",
   inThisGuide: "In This Guide",
   ctaDetailTitle: "Ready to Visit? Book Your Uffizi Tickets",
+  ctaTourTitle: "Entry Is Free — Add a Guide Who Knows the Rooms",
   moreGuidesH2: "More Guides",
 };
 
@@ -47,6 +50,7 @@ const it: BlogPageContent = {
   ctaHubTitle: "Salta la Ricerca — Prenota Subito i Tuoi Biglietti",
   inThisGuide: "In Questa Guida",
   ctaDetailTitle: "Pronto a Visitare? Prenota i Tuoi Biglietti",
+  ctaTourTitle: "L'Ingresso è Gratuito — Aggiungi una Guida Esperta",
   moreGuidesH2: "Altre Guide",
 };
 
@@ -65,6 +69,7 @@ const de: BlogPageContent = {
   ctaHubTitle: "Recherche ueberspringen — Jetzt Tickets buchen",
   inThisGuide: "In Diesem Ratgeber",
   ctaDetailTitle: "Bereit fuer den Besuch? Uffizien-Tickets Buchen",
+  ctaTourTitle: "Eintritt Frei — Buchen Sie eine Fuehrung Dazu",
   moreGuidesH2: "Weitere Ratgeber",
 };
 
@@ -83,6 +88,7 @@ const fr: BlogPageContent = {
   ctaHubTitle: "Arretez de Chercher — Reservez Vos Billets Maintenant",
   inThisGuide: "Dans Ce Guide",
   ctaDetailTitle: "Pret a Visiter ? Reservez Vos Billets",
+  ctaTourTitle: "L'Entree Est Gratuite — Ajoutez un Guide Expert",
   moreGuidesH2: "Autres Guides",
 };
 
@@ -101,6 +107,7 @@ const es: BlogPageContent = {
   ctaHubTitle: "Deja de Buscar — Reserva Tus Entradas Ahora",
   inThisGuide: "En Esta Guia",
   ctaDetailTitle: "Listo para Visitar? Reserva Tus Entradas",
+  ctaTourTitle: "La Entrada Es Gratis — Anade un Guia Experto",
   moreGuidesH2: "Mas Guias",
 };
 

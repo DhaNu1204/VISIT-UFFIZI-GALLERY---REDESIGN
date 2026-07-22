@@ -41,7 +41,7 @@ export default function BookingCard({
       )}
       <div className="p-6">
         <div className="mb-1 text-xs font-semibold uppercase tracking-wider text-gold">
-          {type === "tickets" ? "Skip the Line" : "Guided Experience"}
+          {type === "tickets" ? "Timed-Entry Ticket" : "Guided Experience"}
         </div>
         <h3 className="mb-3 text-xl font-bold text-navy">{title}</h3>
 

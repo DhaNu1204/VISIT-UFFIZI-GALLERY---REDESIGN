@@ -10,12 +10,12 @@ export const blogPostsFr: Record<string, BlogPostI18n> = {
       {
         heading: "La reponse courte",
         content:
-          "Le meilleur moment pour visiter la Galerie des Offices est de novembre a fevrier, un mardi ou mercredi matin. Vous beneficierez des tarifs les plus bas (12 € au lieu de 25 €), du moins de monde et de la meilleure experience. Si vous ne pouvez pas venir en hiver, visez le matin tot (8h15) ou la fin d'apres-midi (apres 16h) en semaine.\n\nMais il y a plus a considerer que la simple affluence. La saison affecte les tarifs, les horaires d'ouverture, la meteo et les autres activites possibles a Florence. Voici le guide complet mois par mois.",
+          "Le meilleur moment pour visiter la Galerie des Offices est de novembre a fevrier, un mardi ou mercredi matin. Vous beneficierez du moins de monde et de la meilleure experience. Si vous ne pouvez pas venir en hiver, visez le matin tot (8h15) ou la fin d'apres-midi (apres 16h) en semaine.\n\nMais il y a plus a considerer que la simple affluence. La saison affecte les tarifs, les horaires d'ouverture, la meteo et les autres activites possibles a Florence. Voici le guide complet mois par mois.",
       },
       {
         heading: "Guide mois par mois",
         content:
-          "**Janvier-fevrier (meilleur rapport qualite-prix) :** Les mois les plus calmes aux Offices. Les billets sont a 12 € (basse saison). Vous partagerez la Salle Botticelli avec une poignee de visiteurs au lieu de centaines. Florence est fraiche (5-10°C) mais magnifique — moins de touristes partout, les restaurants sont faciles a reserver et les hotels sont au plus bas. L'inconvenient : des journees plus courtes et des averses occasionnelles.\n\n**Mars (affluence croissante) :** La saison touristique commence. Les tarifs passent a 25 € le 1er mars. La semaine de Paques (si elle tombe en mars) est particulierement chargee. Reservez vos billets au moins 2 semaines a l'avance. La meteo s'ameliore — temperatures diurnes autour de 12-16°C.\n\n**Avril-mai (debut de haute saison) :** Beau temps (15-22°C), mais les Offices sont bondes, surtout autour de Paques, du 25 avril (Fete de la Liberation) et du 1er mai (Fete du Travail — galerie fermee). Reservez un mois a l'avance pour les week-ends. Les creneaux matinaux partent vite.\n\n**Juin (haute saison) :** Temps chaud (25-30°C), longues journees et forte affluence. Ouvertures nocturnes possibles le mardi. Reservez le creneau de 8h15 ou attendez apres 16h. Assurez-vous que votre logement dispose de la climatisation.\n\n**Juillet-aout (pic d'affluence et chaleur) :** Les mois les plus charges et les plus chauds (30-35°C). Les files a la porte 2 peuvent depasser 3 heures. Les billets coupe-file sont indispensables. L'avantage : des horaires prolonges possibles. Beaucoup de Florentins quittent la ville en aout, les restaurants sont donc plus tranquilles.\n\n**Septembre (encore frequente, en amelioration) :** L'affluence diminue apres la mi-septembre. Le temps reste chaud (22-28°C). L'un des meilleurs mois pour combiner visites de musees et Florence en plein air. Reservez 1 a 2 semaines a l'avance.\n\n**Octobre (le moment ideal) :** Mon mois prefere personnellement. Assez chaud pour diner en terrasse (16-22°C), le nombre de touristes baisse significativement et les horaires de haute saison s'appliquent encore. Excellente combinaison de beau temps et d'affluence geree.\n\n**Novembre-decembre (meilleure experience) :** Les tarifs basse saison reviennent le 1er novembre. L'affluence chute considerablement. Decembre apporte les marches de Noel et une ambiance festive, mais la galerie ferme le 25 decembre. Temps frais (5-12°C) avec quelques jours de pluie.",
+          "**Janvier-fevrier (meilleur rapport qualite-prix) :** Les mois les plus calmes aux Offices. Le billet standard coute 29 € reserve a l'avance ou 25 € achete sur place le jour meme. Vous partagerez la Salle Botticelli avec une poignee de visiteurs au lieu de centaines. Florence est fraiche (5-10°C) mais magnifique — moins de touristes partout, les restaurants sont faciles a reserver et les hotels sont au plus bas. L'inconvenient : des journees plus courtes et des averses occasionnelles.\n\n**Mars (affluence croissante) :** La saison touristique commence. Reservez vos billets au moins 2 semaines a l'avance. La semaine de Paques (si elle tombe en mars) est particulierement chargee. Reservez vos billets au moins 2 semaines a l'avance. La meteo s'ameliore — temperatures diurnes autour de 12-16°C.\n\n**Avril-mai (debut de haute saison) :** Beau temps (15-22°C), mais les Offices sont bondes, surtout autour de Paques, du 25 avril (Fete de la Liberation) et du 1er mai (Fete du Travail). Reservez un mois a l'avance pour les week-ends. Les creneaux matinaux partent vite.\n\n**Juin (haute saison) :** Temps chaud (25-30°C), longues journees et forte affluence. Ouvertures nocturnes possibles le mardi. Reservez le creneau de 8h15 ou attendez apres 16h. Assurez-vous que votre logement dispose de la climatisation.\n\n**Juillet-aout (pic d'affluence et chaleur) :** Les mois les plus charges et les plus chauds (30-35°C). Les files a la porte 1 peuvent depasser 3 heures. Reserver en ligne un billet a horaire reserve est indispensable pour reduire l'attente. L'avantage : des horaires prolonges possibles. Beaucoup de Florentins quittent la ville en aout, les restaurants sont donc plus tranquilles.\n\n**Septembre (encore frequente, en amelioration) :** L'affluence diminue apres la mi-septembre. Le temps reste chaud (22-28°C). L'un des meilleurs mois pour combiner visites de musees et Florence en plein air. Reservez 1 a 2 semaines a l'avance.\n\n**Octobre (le moment ideal) :** Mon mois prefere personnellement. Assez chaud pour diner en terrasse (16-22°C), le nombre de touristes baisse significativement et les horaires de haute saison s'appliquent encore. Excellente combinaison de beau temps et d'affluence geree.\n\n**Novembre-decembre (meilleure experience) :** L'affluence chute considerablement. Decembre apporte les marches de Noel et une ambiance festive, mais la galerie ferme le 25 decembre. Temps frais (5-12°C) avec quelques jours de pluie.",
       },
       {
         heading: "Meilleurs jours de la semaine",
@@ -30,13 +30,13 @@ export const blogPostsFr: Record<string, BlogPostI18n> = {
       {
         heading: "Conseils pour economiser selon la saison",
         content:
-          "**Basse saison (nov.-fev.) :** Les billets passent de 25 € a 12 €. Cela seul fait economiser plus de 50 € a une famille de quatre personnes. Les hotels et vols vers Florence sont egalement nettement moins chers.\n\n**Dimanches gratuits :** Les Offices offrent l'entree gratuite le premier dimanche de chaque mois. Mais honnetement, je ne le recommande pas — la foule est extreme (3-4 heures d'attente) et l'experience a l'interieur est diminuee. Payer 12 € un mardi tranquille en hiver est infiniment preferable.\n\n**Citoyens de l'UE 18-25 ans :** Seulement 2 € toute l'annee. Ayez toujours votre piece d'identite.\n\n**Moins de 18 ans :** Entree gratuite quelle que soit la nationalite. Munissez-vous d'une preuve d'age.\n\n**Reserver via des revendeurs :** Souvent moins cher que le site officiel et avec annulation gratuite — utile quand les plans changent.",
+          "**Reservez a l'avance :** Un billet a horaire reserve avec audioguide numerique demarre a 26 € en ligne — il vous garantit votre creneau et vous evite la file d'attente a la billetterie. Les hotels et vols vers Florence sont egalement nettement moins chers en basse saison.\n\n**Dimanches gratuits :** Les Offices offrent l'entree gratuite le premier dimanche de chaque mois. Mais honnetement, je ne le recommande pas — la foule est extreme (3-4 heures d'attente) et l'experience a l'interieur est diminuee. Payer 25 € au guichet un mardi tranquille en hiver est infiniment preferable.\n\n**Citoyens de l'UE 18-25 ans :** Seulement 2 € toute l'annee. Ayez toujours votre piece d'identite.\n\n**Moins de 18 ans :** Entree gratuite quelle que soit la nationalite. Munissez-vous d'une preuve d'age.\n\n**Reserver via des revendeurs :** Souvent moins cher que le site officiel et avec annulation gratuite — utile quand les plans changent.",
       },
     ],
     faq: [
       {
         q: "Quel est le meilleur mois pour visiter les Offices ?",
-        a: "Octobre et novembre sont les periodes ideales — affluence gerable, meteo agreable et (a partir de novembre) tarifs basse saison de 12 € au lieu de 25 €.",
+        a: "Octobre et novembre sont les periodes ideales — affluence gerable et meteo agreable. Reservez un billet a horaire reserve a partir de 26 € en ligne.",
       },
       {
         q: "Quel est le jour le moins frequente aux Offices ?",
@@ -44,11 +44,11 @@ export const blogPostsFr: Record<string, BlogPostI18n> = {
       },
       {
         q: "Faut-il visiter les Offices en hiver ?",
-        a: "Absolument. L'hiver (novembre-fevrier) offre la plus faible affluence, les prix les plus bas (12 €) et l'experience la plus paisible. Florence est plus calme dans l'ensemble, et vous aurez les salles pratiquement pour vous.",
+        a: "Absolument. L'hiver (novembre-fevrier) offre la plus faible affluence et l'experience la plus paisible. Le billet standard coute 29 € a l'avance ou 25 € au guichet le jour meme. Florence est plus calme dans l'ensemble, et vous aurez les salles pratiquement pour vous.",
       },
       {
         q: "Les Offices valent-ils la visite en ete ?",
-        a: "Oui, mais planifiez soigneusement. Reservez le premier creneau (8h15), utilisez des billets coupe-file et preparez-vous a la chaleur et a la foule. La fin d'apres-midi (apres 16h) est aussi un bon choix. Verifiez s'il y a des ouvertures nocturnes.",
+        a: "Oui, mais planifiez soigneusement. Reservez le premier creneau (8h15), bloquez votre horaire d'entree bien a l'avance et preparez-vous a la chaleur et a la foule. La fin d'apres-midi (apres 16h) est aussi un bon choix. Verifiez s'il y a des ouvertures nocturnes.",
       },
     ],
   },
@@ -61,7 +61,7 @@ export const blogPostsFr: Record<string, BlogPostI18n> = {
       {
         heading: "Comment fonctionnent les dimanches gratuits",
         content:
-          "Le premier dimanche de chaque mois, tous les musees d'Etat italiens — y compris la Galerie des Offices — offrent l'entree entierement gratuite. Pas besoin de billet. Pas de reservation requise. Vous vous presentez simplement a la porte 2 et rejoignez la file d'attente.\n\nCa semble fantastique. En pratique, c'est plus complique. Les dimanches gratuits attirent des foules enormes. La file a la porte 2 peut s'etendre sur 3-4 heures pendant les mois de pointe. Une fois a l'interieur, les salles populaires comme la Salle Botticelli sont bondees epaule contre epaule. Si vous visitez Florence avec un petit budget, le dimanche gratuit peut vous faire economiser 25 €. Mais si votre objectif est de vraiment profiter de l'art, payer un billet normal un jour de semaine calme vous offrira une experience incomparablement meilleure.",
+          "Le premier dimanche de chaque mois, l'entree est gratuite a la Galerie des Offices — et au Corridor de Vasari egalement. Les deux sont compris.\n\nGratuit ne veut pas dire sans billet. Le billet reste obligatoire et il est nominatif : le nom du visiteur y figure et doit correspondre a sa piece d'identite.\n\n**Le billet gratuit des Offices est delivre uniquement au guichet de la billetterie, le jour meme.** Il ne peut pas etre reserve en ligne : le systeme de vente en ligne ne le propose tout simplement pas. Vous vous presentez, vous faites la queue a la billetterie et vous y retirez votre billet nominatif gratuit. Prevoyez cette file, car c'est la partie a laquelle presque personne ne s'attend.\n\n**Le Corridor de Vasari fonctionne a l'inverse.** Son billet gratuit doit etre reserve en ligne a l'avance, ou retire a la billetterie le jour meme s'il reste une place. Les places sont limitees : reserver a l'avance est la voie fiable.\n\nEn pratique, c'est donc plus complique qu'une simple \"entree gratuite\". Les dimanches gratuits attirent des foules enormes. Une fois a l'interieur, les salles populaires comme la Salle Botticelli sont bondees epaule contre epaule. Si vous visitez Florence avec un petit budget, le dimanche gratuit peut vous faire economiser 25 €. Mais si votre objectif est de vraiment profiter de l'art, payer un billet normal un jour de semaine calme vous offrira une experience incomparablement meilleure.",
       },
       {
         heading: "Dates des dimanches gratuits 2026",
@@ -71,17 +71,17 @@ export const blogPostsFr: Record<string, BlogPostI18n> = {
       {
         heading: "A quoi s'attendre : un bilan honnete",
         content:
-          "**Temps d'attente :** 2-4 heures au printemps et en ete. Meme en hiver, comptez 1-2 heures. Il n'y a pas d'option coupe-file les dimanches gratuits — tout le monde entre par la porte 2.\n\n**A l'interieur de la galerie :** Bonde. Les salles populaires sont pleines a craquer. Vous passerez plus de temps a naviguer dans la foule qu'a regarder les tableaux. La Salle Botticelli, la salle 35 (Leonard/Michel-Ange) et la salle 83 (Titien) sont les plus congestionnees.\n\n**L'avantage :** C'est veritablement gratuit. Pour les voyageurs a petit budget, les etudiants et les familles, economiser 25 € par personne est significatif. Et les salles moins connues (en particulier les salles 15-30 et 70-80) restent relativement tranquilles meme les dimanches gratuits.",
+          "**Temps d'attente :** 2-4 heures au printemps et en ete. Meme en hiver, comptez 1-2 heures. Les dimanches gratuits, les Offices n'ont pas d'horaires reserves et aucun achat anticipe n'est possible, donc aucun moyen de raccourcir l'attente — tout le monde fait la queue a la billetterie pour le billet nominatif gratuit, puis entre par la porte 1, la meme entree que tous les jours.\n\n**A l'interieur de la galerie :** Bonde. Les salles populaires sont pleines a craquer. Vous passerez plus de temps a naviguer dans la foule qu'a regarder les tableaux. La Salle Botticelli, la salle 35 (Leonard/Michel-Ange) et la salle 83 (Titien) sont les plus congestionnees.\n\n**L'avantage :** C'est veritablement gratuit. Pour les voyageurs a petit budget, les etudiants et les familles, economiser 25 € par personne est significatif. Et les salles moins connues (en particulier les salles 15-30 et 70-80) restent relativement tranquilles meme les dimanches gratuits.",
       },
       {
         heading: "Conseils si vous y allez un dimanche gratuit",
         content:
-          "**Arrivez a 7h30 :** Soyez a la porte 2 au moins 45 minutes avant l'ouverture a 8h15. Les premiers arrives entrent rapidement.\n\n**Allez directement aux salles superieures :** Evitez la Salle Botticelli lors de votre premier passage — elle sera prise d'assaut. Commencez par les salles 35-90, puis revenez aux salles 2-14 apres que la ruee initiale se soit calmee (generalement vers 13h).\n\n**Visitez en hiver :** Les dimanches gratuits de novembre, decembre, janvier et fevrier sont beaucoup plus gerables. Vous n'attendrez peut-etre que 30-60 minutes.\n\n**Utilisez les toilettes avant d'entrer :** Les files aux sanitaires a l'interieur sont longues les dimanches gratuits.\n\n**Apportez des en-cas et de l'eau :** Vous serez dans la file un bon moment. Le cafe a l'interieur sera aussi bonde.",
+          "**Arrivez a 7h30 :** Soyez a la billetterie au moins 45 minutes avant l'ouverture a 8h15 — vous devez retirer votre billet nominatif gratuit au guichet avant de pouvoir entrer, prevoyez donc cette file en plus. Apportez une piece d'identite avec photo pour chaque personne du groupe : le nom sur chaque billet doit correspondre.\n\n**Reglez le Corridor de Vasari a l'avance :** Si vous voulez aussi voir le corridor, reservez son billet gratuit en ligne a l'avance. Compter sur la billetterie le jour meme ne marche que s'il reste une place.\n\n**Allez directement aux salles superieures :** Evitez la Salle Botticelli lors de votre premier passage — elle sera prise d'assaut. Commencez par les salles 35-90, puis revenez aux salles 2-14 apres que la ruee initiale se soit calmee (generalement vers 13h).\n\n**Visitez en hiver :** Les dimanches gratuits de novembre, decembre, janvier et fevrier sont beaucoup plus gerables. Vous n'attendrez peut-etre que 30-60 minutes.\n\n**Utilisez les toilettes avant d'entrer :** Les files aux sanitaires a l'interieur sont longues les dimanches gratuits.\n\n**Apportez des en-cas et de l'eau :** Vous serez dans la file un bon moment. Le cafe a l'interieur sera aussi bonde.",
       },
       {
         heading: "Ma recommandation honnete",
         content:
-          "A moins que le budget ne soit votre priorite absolue, evitez le dimanche gratuit. Un billet basse saison coute seulement 12 € (novembre-fevrier), et l'experience est incomparablement meilleure. Meme en haute saison, un billet coupe-file a 20 € vous offre une visite calme et sans precipitation ou vous pouvez vraiment voir les peintures.\n\nLes dimanches gratuits conviennent aux habitants qui visitent regulierement et ne craignent pas la foule. Pour une visite unique dans une vie, investissez dans le billet.",
+          "A moins que le budget ne soit votre priorite absolue, evitez le dimanche gratuit. Un billet standard coute 29 € reserve a l'avance ou 25 € au guichet un jour de semaine calme, et l'experience est incomparablement meilleure.\n\nSi vous y allez malgre tout, envisagez une visite guidee ce jour-la. L'entree ne vous coute rien : ce que vous payez, c'est uniquement le guide — et un bon historien de l'art est precisement ce qui transforme une galerie bondee et ecrasante en une visite qui a du sens. Le jour le plus frequente du mois, cela vaut davantage que d'habitude, pas moins.\n\nLes dimanches gratuits conviennent aux habitants qui visitent regulierement et ne craignent pas la foule. Pour une visite unique dans une vie, choisissez un jour plus calme.",
       },
     ],
     faq: [
@@ -90,8 +90,8 @@ export const blogPostsFr: Record<string, BlogPostI18n> = {
         a: "Le premier dimanche de chaque mois : 4 janvier, 1er fevrier, 1er mars, 5 avril, 3 mai, 7 juin, 5 juillet, 2 aout, 6 septembre, 4 octobre, 1er novembre, 6 decembre.",
       },
       {
-        q: "Faut-il une reservation pour le dimanche gratuit ?",
-        a: "Aucune reservation n'est necessaire. Vous faites la queue a la porte 2 pour l'admission generale. Il n'y a pas d'option coupe-file les dimanches gratuits.",
+        q: "Faut-il un billet pour le dimanche gratuit ?",
+        a: "Oui. L'entree est gratuite mais le billet reste obligatoire, et il est nominatif : le nom du visiteur y figure et doit correspondre a sa piece d'identite. Pour les Offices, vous le retirez au guichet de la billetterie le jour meme ; il n'est pas reservable en ligne. Le Corridor de Vasari, gratuit lui aussi ce jour-la, fonctionne a l'inverse : reservation en ligne a l'avance, ou retrait a la billetterie le jour meme s'il reste une place.",
       },
       {
         q: "Combien de temps dure l'attente les dimanches gratuits ?",
@@ -99,7 +99,7 @@ export const blogPostsFr: Record<string, BlogPostI18n> = {
       },
       {
         q: "Le dimanche gratuit aux Offices en vaut-il la peine ?",
-        a: "Pour les voyageurs a petit budget, oui — vous economisez 25 €. Pour la meilleure experience, non. La foule diminue considerablement le plaisir. Un billet basse saison a 12 € un mardi calme offre une bien meilleure visite.",
+        a: "Pour les voyageurs a petit budget, oui — vous economisez 25 €. Pour la meilleure experience, non. La foule diminue considerablement le plaisir. Un billet standard un mardi calme offre une bien meilleure visite.",
       },
     ],
   },
@@ -127,12 +127,12 @@ export const blogPostsFr: Record<string, BlogPostI18n> = {
       {
         heading: "Billets et tarifs",
         content:
-          "**Billets Offices :**\n• En ligne : 29 €\n• Guichet : 25 €\n• Apres-midi (apres 16h) : 20 € en ligne\n• Coupe-file a partir de 26 € en ligne\n\n**Billets Accademia :**\n• Standard : 16 € toute l'annee\n• Coupe-file a partir de 15-20 € en ligne\n\n**Visite combinee (les deux musees) :** A partir de 89 € avec guide et coupe-file pour les deux. C'est le meilleur rapport qualite-prix si vous souhaitez des visites guidees — les acheter separement couterait 88 € et plus.",
+          "**Billets Offices :**\n• Reserve a l'avance : 29 €\n• Achete au guichet le jour meme : 25 €\n• Entree apres-midi (des 16h) : 20 € a l'avance / 16 € le jour meme\n• Billet a horaire reserve avec audioguide numerique : a partir de 26 € en ligne\n• Citoyens de l'UE 18-25 ans : 2 € | Moins de 18 ans : gratuit\n\n**Billets Accademia :**\n• Standard : 16 € toute l'annee\n• Entree reservee a partir de 15-20 € en ligne\n\n**Visite combinee (les deux musees) :** A partir de 89 € avec guide et horaires d'entree deja reserves dans les deux musees. C'est le meilleur rapport qualite-prix si vous souhaitez des visites guidees.",
       },
       {
         heading: "Affluence et attente",
         content:
-          "Les deux musees attirent des files d'attente massives, mais les rythmes sont differents :\n\n**Offices :** Le plus frequente de 10h a 14h. La file a la porte 2 peut atteindre 2-3 heures. Les billets coupe-file sont essentiels en haute saison. A l'interieur, la Salle Botticelli (salles 10-14) est la plus congestionnee.\n\n**Accademia :** La file peut etre encore plus longue qu'aux Offices car le musee est plus petit et les visiteurs circulent plus lentement. Attente de pointe : 2-3 heures. Les billets coupe-file sont sans doute encore plus importants ici. A l'interieur, la salle du David est frequentee mais gerable car la statue est immense.\n\n**Conseil de pro :** Visitez les Offices a 8h15 (meilleur moment) et l'Accademia en debut d'apres-midi quand la ruee matinale est passee.",
+          "Les deux musees attirent des files d'attente massives, mais les rythmes sont differents :\n\n**Offices :** Le plus frequente de 10h a 14h. La file a la porte 1 peut atteindre 2-3 heures. En haute saison, reserver un horaire en ligne reduit nettement l'attente. A l'interieur, la Salle Botticelli (salles 10-14) est la plus congestionnee.\n\n**Accademia :** La file peut etre encore plus longue qu'aux Offices car le musee est plus petit et les visiteurs circulent plus lentement. Attente de pointe : 2-3 heures. Reserver un horaire d'entree est sans doute encore plus important ici. A l'interieur, la salle du David est frequentee mais gerable car la statue est immense.\n\n**Conseil de pro :** Visitez les Offices a 8h15 (meilleur moment) et l'Accademia en debut d'apres-midi quand la ruee matinale est passee.",
       },
       {
         heading: "Lequel est mieux pour les familles ?",
@@ -142,7 +142,7 @@ export const blogPostsFr: Record<string, BlogPostI18n> = {
       {
         heading: "Ma recommandation",
         content:
-          "**Visitez les deux.** Les deux plus grands musees de Florence se completent parfaitement — la peinture aux Offices, la sculpture a l'Accademia. Si vous etes vraiment limite a un seul :\n\n• **Choisissez les Offices** si vous aimez la peinture, voulez l'experience artistique la plus large, ou vous interessez a l'histoire de l'art du medieval au baroque.\n\n• **Choisissez l'Accademia** si voir le David de Michel-Ange est votre priorite absolue, si vous avez peu de temps (moins de 2 heures), ou si vous visitez avec de jeunes enfants.\n\n• **Choisissez la visite combinee** si vous voulez les deux musees, un commentaire expert et la commodite d'un coupe-file gere pour vous.",
+          "**Visitez les deux.** Les deux plus grands musees de Florence se completent parfaitement — la peinture aux Offices, la sculpture a l'Accademia. Si vous etes vraiment limite a un seul :\n\n• **Choisissez les Offices** si vous aimez la peinture, voulez l'experience artistique la plus large, ou vous interessez a l'histoire de l'art du medieval au baroque.\n\n• **Choisissez l'Accademia** si voir le David de Michel-Ange est votre priorite absolue, si vous avez peu de temps (moins de 2 heures), ou si vous visitez avec de jeunes enfants.\n\n• **Choisissez la visite combinee** si vous voulez les deux musees, un commentaire expert et la commodite d'horaires d'entree deja reserves pour vous.",
       },
     ],
     faq: [
@@ -156,7 +156,7 @@ export const blogPostsFr: Record<string, BlogPostI18n> = {
       },
       {
         q: "Lequel a les files les plus longues ?",
-        a: "L'Accademia a souvent des attentes relativement plus longues car c'est un musee plus petit. Les deux peuvent atteindre 2-3 heures en haute saison. Les billets coupe-file sont essentiels pour les deux.",
+        a: "L'Accademia a souvent des attentes relativement plus longues car c'est un musee plus petit. Les deux peuvent atteindre 2-3 heures en haute saison. Un billet a horaire reserve est essentiel pour les deux.",
       },
       {
         q: "A quelle distance sont les Offices et l'Accademia ?",
@@ -178,7 +178,7 @@ export const blogPostsFr: Record<string, BlogPostI18n> = {
       {
         heading: "1. Galerie des Offices",
         content:
-          "**Pourquoi :** La plus grande collection de peintures de la Renaissance italienne au monde. Botticelli, Leonard, Michel-Ange, Raphael, Titien, Le Caravage — tous sous un meme toit.\n**Duree necessaire :** 2-4 heures\n**Billets :** 25 € (haute saison) / 12 € (basse saison)\n**A ne pas manquer :** La Salle Botticelli (salles 10-14), la terrasse panoramique et les galeries du rez-de-chaussee recemment ouvertes.\n**Conseil de pro :** Reservez le creneau de 8h15 pour la meilleure experience.",
+          "**Pourquoi :** La plus grande collection de peintures de la Renaissance italienne au monde. Botticelli, Leonard, Michel-Ange, Raphael, Titien, Le Caravage — tous sous un meme toit.\n**Duree necessaire :** 2-4 heures\n**Billets :** 29 € (a l'avance) / 25 € (au guichet le jour meme)\n**A ne pas manquer :** La Salle Botticelli (salles 10-14), la terrasse panoramique et les galeries du rez-de-chaussee recemment ouvertes.\n**Conseil de pro :** Reservez le creneau de 8h15 pour la meilleure experience.",
       },
       {
         heading: "2. Galerie de l'Accademia",
@@ -223,7 +223,7 @@ export const blogPostsFr: Record<string, BlogPostI18n> = {
       {
         heading: "Pass economiques",
         content:
-          "**Firenze Card (85 €/72 heures) :** Acces a plus de 72 musees et monuments dont les Offices, l'Accademia, le Palais Pitti et les Jardins de Boboli. Inclut l'acces coupe-file. Rentable si vous visitez 5+ musees en 3 jours.\n\n**Premiers dimanches :** Tous les musees d'Etat (Offices, Accademia, Bargello, Chapelles des Medicis, San Marco, Palais Pitti) sont gratuits le premier dimanche de chaque mois. Attendez-vous a une foule importante.\n\n**Moins de 18 ans :** Entree gratuite dans tous les musees d'Etat quelle que soit la nationalite.\n\n**Citoyens de l'UE 18-25 ans :** 2 € dans les musees d'Etat. Munissez-vous d'une piece d'identite.",
+          "**Firenze Card (85 €/72 heures) :** Acces a plus de 72 musees et monuments dont les Offices, l'Accademia, le Palais Pitti et les Jardins de Boboli. L'entree prioritaire vous evite la file d'attente a la billetterie. Rentable si vous visitez 5+ musees en 3 jours.\n\n**Premiers dimanches :** Tous les musees d'Etat (Offices, Accademia, Bargello, Chapelles des Medicis, San Marco, Palais Pitti) sont gratuits le premier dimanche de chaque mois. Attendez-vous a une foule importante.\n\n**Moins de 18 ans :** Entree gratuite dans tous les musees d'Etat quelle que soit la nationalite.\n\n**Citoyens de l'UE 18-25 ans :** 2 € dans les musees d'Etat. Munissez-vous d'une piece d'identite.",
       },
     ],
     faq: [
@@ -233,7 +233,7 @@ export const blogPostsFr: Record<string, BlogPostI18n> = {
       },
       {
         q: "La Firenze Card vaut-elle le coup ?",
-        a: "A 85 € pour 72 heures, la Firenze Card est rentable si vous visitez 5+ musees. Offices (25 €) + Accademia (16 €) + Palais Pitti (16 €) + Boboli (10 €) = 67 €, donc un 5e musee la rend avantageuse.",
+        a: "A 85 € pour 72 heures, la Firenze Card est rentable si vous visitez 5+ musees. Offices (29 €) + Accademia (16 €) + Palais Pitti (16 €) + Boboli (10 €) = 71 €, donc un 5e musee la rend avantageuse.",
       },
       {
         q: "Quel musee de Florence est le mieux pour les enfants ?",
@@ -248,33 +248,33 @@ export const blogPostsFr: Record<string, BlogPostI18n> = {
   "florence-city-pass-2026": {
     title: "Florence City Pass 2026 | Firenze Card — Ca Vaut le Coup ?",
     description:
-      "Avis complet sur la Firenze Card / Florence City Pass 2026. Tarif, musees inclus, coupe-file, calcul detaille et recommandation honnete.",
+      "Avis complet sur la Firenze Card / Florence City Pass 2026. Tarif, musees inclus, entree prioritaire, calcul detaille et recommandation honnete.",
     h1: "Florence City Pass 2026 — La Firenze Card en vaut-elle la peine ?",
     sections: [
       {
         heading: "Qu'est-ce que la Firenze Card ?",
         content:
-          "La Firenze Card est le pass musees officiel de Florence. Pour 85 €, vous obtenez 72 heures d'acces a plus de 72 musees et monuments, incluant toutes les attractions majeures : la Galerie des Offices, la Galerie de l'Accademia, le Palais Pitti, les Jardins de Boboli, le Bargello, les Chapelles des Medicis et bien d'autres. La carte inclut aussi l'acces coupe-file dans les musees participants — pouvant vous faire gagner des heures d'attente.\n\nMais est-ce que cela vaut vraiment 85 € ? La reponse depend entierement du nombre de musees que vous prevoyez de visiter et de la periode.",
+          "La Firenze Card est le pass musees officiel de Florence. Pour 85 €, vous obtenez 72 heures d'acces a plus de 72 musees et monuments, incluant toutes les attractions majeures : la Galerie des Offices, la Galerie de l'Accademia, le Palais Pitti, les Jardins de Boboli, le Bargello, les Chapelles des Medicis et bien d'autres. La carte vous permet aussi d'eviter la file d'attente a la billetterie des musees participants — pouvant vous faire gagner des heures d'attente.\n\nMais est-ce que cela vaut vraiment 85 € ? La reponse depend entierement du nombre de musees que vous prevoyez de visiter et de la periode.",
       },
       {
         heading: "Ce qui est inclus",
         content:
-          "La Firenze Card couvre l'entree a plus de 72 musees et attractions. Les principaux sont :\n\n• Galerie des Offices (normalement 25 € en haute saison)\n• Galerie de l'Accademia (16 €)\n• Palais Pitti — tous les musees (16 €)\n• Jardins de Boboli (10 €)\n• Musee National du Bargello (9 €)\n• Chapelles des Medicis (9 €)\n• Musee de San Marco (8 €)\n• Palazzo Vecchio (14 €)\n• Complexe du Museo dell'Opera del Duomo (30 €)\n• Musee Galilee (12 €)\n• Plus 60+ musees, eglises et galeries plus petits\n\nChaque musee ne peut etre visite qu'une fois avec la carte. Le compteur de 72 heures demarre a partir de votre premiere visite de musee.",
+          "La Firenze Card couvre l'entree a plus de 72 musees et attractions. Les principaux sont :\n\n• Galerie des Offices (normalement 29 € reservee a l'avance)\n• Galerie de l'Accademia (16 €)\n• Palais Pitti — tous les musees (16 €)\n• Jardins de Boboli (10 €)\n• Musee National du Bargello (9 €)\n• Chapelles des Medicis (9 €)\n• Musee de San Marco (8 €)\n• Palazzo Vecchio (14 €)\n• Complexe du Museo dell'Opera del Duomo (30 €)\n• Musee Galilee (12 €)\n• Plus 60+ musees, eglises et galeries plus petits\n\nChaque musee ne peut etre visite qu'une fois avec la carte. Le compteur de 72 heures demarre a partir de votre premiere visite de musee.",
       },
       {
         heading: "Le calcul — Quand c'est rentable",
         content:
-          "Faisons les comptes pour des itineraires types :\n\n**Itineraire leger (2-3 musees) :**\nOffices (25 €) + Accademia (16 €) = 41 €. La carte coute 85 €. **Pas rentable.**\n\n**Itineraire standard (4-5 musees) :**\nOffices (25 €) + Accademia (16 €) + Palais Pitti (16 €) + Boboli (10 €) = 67 €. Encore 18 € en dessous. Ajoutez le Bargello (9 €) = 76 €. **Ca s'approche mais pas encore suffisant.**\n\n**Itineraire intensif (5+ musees) :**\nOffices (25 €) + Accademia (16 €) + Palais Pitti (16 €) + Boboli (10 €) + Bargello (9 €) + San Marco (8 €) = 84 €. **Ca se rentabilise.**\n\nAjoutez le complexe du Duomo (30 €) ou le Palazzo Vecchio (14 €) et la carte devient veritablement avantageuse.\n\n**En basse saison (nov.-fev.) :** Les Offices passent a 12 €, ce qui rend la carte plus difficile a justifier.",
+          "Faisons les comptes pour des itineraires types :\n\n**Itineraire leger (2-3 musees) :**\nOffices (29 €) + Accademia (16 €) = 45 €. La carte coute 85 €. **Pas rentable.**\n\n**Itineraire standard (4-5 musees) :**\nOffices (29 €) + Accademia (16 €) + Palais Pitti (16 €) + Boboli (10 €) = 71 €. Encore 14 € en dessous. Ajoutez le Bargello (9 €) = 80 €. **Ca s'approche mais pas encore suffisant.**\n\n**Itineraire intensif (5+ musees) :**\nOffices (29 €) + Accademia (16 €) + Palais Pitti (16 €) + Boboli (10 €) + Bargello (9 €) + San Marco (8 €) = 88 €. **Ca se rentabilise.**\n\nAjoutez le complexe du Duomo (30 €) ou le Palazzo Vecchio (14 €) et la carte devient veritablement avantageuse.\n\n**Billets a horaire reserve :** Un billet reserve avec audioguide numerique demarre a 26 € en ligne, ce qui peut changer le calcul.",
       },
       {
-        heading: "L'avantage coupe-file",
+        heading: "L'avantage face aux files d'attente",
         content:
-          "C'est la valeur cachee de la Firenze Card. En haute saison (mars-octobre), l'acces coupe-file aux Offices et a l'Accademia peut vous faire economiser 2-3 heures par musee. Si votre temps a Florence est limite, ces heures gagnees ont une vraie valeur — vous pouvez les utiliser pour visiter un musee supplementaire ou simplement profiter de la ville.\n\nCependant, notez que meme avec la Firenze Card, vous devriez reserver un creneau horaire aux Offices et a l'Accademia via le systeme de reservation de la carte. La carte vous donne l'entree prioritaire, mais une reservation garantit l'horaire de votre choix.",
+          "C'est la valeur cachee de la Firenze Card. En haute saison (mars-octobre), eviter la file d'attente a la billetterie des Offices et de l'Accademia peut vous faire economiser 2-3 heures par musee. Si votre temps a Florence est limite, ces heures gagnees ont une vraie valeur — vous pouvez les utiliser pour visiter un musee supplementaire ou simplement profiter de la ville.\n\nCependant, notez que meme avec la Firenze Card, vous devriez reserver un creneau horaire aux Offices et a l'Accademia via le systeme de reservation de la carte. La carte vous evite la billetterie, mais une reservation garantit l'horaire de votre choix. Et soyez realiste : aux Offices, tout le monde entre par la porte 1 a son horaire reserve et passe un bref controle de securite.",
       },
       {
         heading: "Ma recommandation honnete",
         content:
-          "**Achetez la Firenze Card si :**\n• Vous visitez 5+ musees en 3 jours\n• Vous visitez en haute saison et valorisez l'acces coupe-file\n• Vous etes un voyageur spontane qui veut entrer dans les musees sans acheter de billets a chaque fois\n\n**Passez-vous de la Firenze Card si :**\n• Vous ne visitez que 2-3 musees (achetez des billets individuels)\n• Vous visitez en basse saison (les Offices ne coutent que 12 €)\n• Vous avez un budget serre (la carte demande 85 € d'avance)\n• Vous visitez avec des enfants de moins de 18 ans (ils entrent gratuitement de toute facon)\n\nPour la plupart des visiteurs faisant 3-4 jours a Florence, des billets coupe-file individuels pour les Offices et l'Accademia, plus un billet combine pour le Palais Pitti/Boboli, est generalement plus avantageux que la carte.",
+          "**Achetez la Firenze Card si :**\n• Vous visitez 5+ musees en 3 jours\n• Vous visitez en haute saison et voulez eviter les files d'attente aux billetteries\n• Vous etes un voyageur spontane qui veut entrer dans les musees sans acheter de billets a chaque fois\n\n**Passez-vous de la Firenze Card si :**\n• Vous ne visitez que 2-3 musees (achetez des billets individuels)\n• Vous visitez en basse saison (les files sont deja courtes)\n• Vous avez un budget serre (la carte demande 85 € d'avance)\n• Vous visitez avec des enfants de moins de 18 ans (ils entrent gratuitement de toute facon)\n\nPour la plupart des visiteurs faisant 3-4 jours a Florence, des billets individuels a horaire reserve pour les Offices et l'Accademia, plus un billet combine pour le Palais Pitti/Boboli, est generalement plus avantageux que la carte.",
       },
     ],
     faq: [
@@ -283,8 +283,8 @@ export const blogPostsFr: Record<string, BlogPostI18n> = {
         a: "85 € pour 72 heures d'acces a plus de 72 musees et monuments. Le compteur demarre a partir de votre premiere visite de musee.",
       },
       {
-        q: "La Firenze Card inclut-elle le coupe-file ?",
-        a: "Oui, elle inclut l'acces prioritaire dans les musees participants. Pour les Offices et l'Accademia, vous devriez tout de meme reserver un creneau via le systeme de la carte.",
+        q: "La Firenze Card permet-elle d'eviter la file d'attente ?",
+        a: "Elle inclut l'acces prioritaire dans les musees participants, vous evitez donc la file d'attente a la billetterie. Pour les Offices et l'Accademia, vous devriez tout de meme reserver un creneau via le systeme de la carte — et aux Offices, vous entrez toujours par la porte 1 apres un bref controle de securite.",
       },
       {
         q: "Les enfants peuvent-ils utiliser la Firenze Card ?",
@@ -305,7 +305,7 @@ export const blogPostsFr: Record<string, BlogPostI18n> = {
       {
         heading: "Art et musees",
         content:
-          "**1. Voir la Naissance de Venus de Botticelli aux Offices** — La plus grande collection de peintures de la Renaissance au monde. Reservez le creneau de 8h15 et allez directement a la Salle Botticelli. (25 €, 2-4 heures)\n\n**2. Se tenir devant le David de Michel-Ange a l'Accademia** — Du haut de ses 5 metres, taille dans un seul bloc de marbre, le David est veritablement a couper le souffle en vrai. (16 €, 1h30)\n\n**3. Explorer le Palais Pitti** — La grande residence de la famille Medicis avec quatre musees. La Galerie Palatine possede des Raphael et des Titien avec une fraction de l'affluence des Offices. (16 €, 2-3 heures)\n\n**4. Decouvrir le Bargello** — Le musee de sculpture meconnu de Florence. Le David en bronze de Donatello et le Bacchus de Michel-Ange dans une forteresse medievale. (9 €, 1-2 heures)\n\n**5. Voir les fresques de Fra Angelico a San Marco** — Chaque cellule de moine possede sa propre fresque intime. L'Annonciation en haut de l'escalier est inoubliable. (8 €, 1 heure)",
+          "**1. Voir la Naissance de Venus de Botticelli aux Offices** — La plus grande collection de peintures de la Renaissance au monde. Reservez le creneau de 8h15 et allez directement a la Salle Botticelli. (29 € a l'avance / 25 € au guichet, 2-4 heures)\n\n**2. Se tenir devant le David de Michel-Ange a l'Accademia** — Du haut de ses 5 metres, taille dans un seul bloc de marbre, le David est veritablement a couper le souffle en vrai. (16 €, 1h30)\n\n**3. Explorer le Palais Pitti** — La grande residence de la famille Medicis avec quatre musees. La Galerie Palatine possede des Raphael et des Titien avec une fraction de l'affluence des Offices. (16 €, 2-3 heures)\n\n**4. Decouvrir le Bargello** — Le musee de sculpture meconnu de Florence. Le David en bronze de Donatello et le Bacchus de Michel-Ange dans une forteresse medievale. (9 €, 1-2 heures)\n\n**5. Voir les fresques de Fra Angelico a San Marco** — Chaque cellule de moine possede sa propre fresque intime. L'Annonciation en haut de l'escalier est inoubliable. (8 €, 1 heure)",
       },
       {
         heading: "Architecture et panoramas",
@@ -399,3 +399,7 @@ export const blogPostsFr: Record<string, BlogPostI18n> = {
     ],
   },
 };
+
+// Merge new blog post translations (posts 1-20)
+import { blogPostsNewFr } from "./blog-posts-new-fr";
+Object.assign(blogPostsFr, blogPostsNewFr);

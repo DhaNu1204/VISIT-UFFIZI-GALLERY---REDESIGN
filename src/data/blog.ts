@@ -1,3 +1,18 @@
+export type BlogImage = {
+  src: string;
+  alt: string;
+  caption?: string;
+  width?: number;
+  height?: number;
+};
+
+export type BlogSection = {
+  heading: string;
+  content: string;
+  image?: BlogImage;
+  images?: BlogImage[];
+};
+
 export type BlogPost = {
   slug: string;
   title: string;
@@ -7,7 +22,8 @@ export type BlogPost = {
   updatedDate: string;
   readTime: number;
   keywords: string[];
-  sections: { heading: string; content: string }[];
+  heroImage?: BlogImage;
+  sections: BlogSection[];
   faq: { q: string; a: string }[];
 };
 
@@ -31,7 +47,7 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "Month-by-Month Guide",
         content:
-          "**January–February (Best Value):** The quietest months at the Uffizi. Standard tickets are €29 online or €25 at the ticket office. You'll share Botticelli Hall with a handful of visitors instead of hundreds. Florence is cool (5-10°C) but beautiful — fewer tourists everywhere, restaurants are easy to book, and hotel prices are at their lowest. The downside: shorter daylight hours and occasional rain.\n\n**March (Crowds Building):** Tourist season begins. Book tickets at least 2 weeks ahead. Easter week (if it falls in March) is particularly busy. Book tickets at least 2 weeks ahead. Weather improves — daytime temperatures around 12-16°C.\n\n**April–May (Peak Season Begins):** Beautiful weather (15-22°C), but the Uffizi gets crowded, especially around Easter, April 25 (Liberation Day), and May 1 (Labour Day — gallery closed). Book tickets a month ahead for weekends. Morning slots sell out fast.\n\n**June (High Season):** Hot weather (25-30°C), long days, and heavy crowds. Possible evening openings on Tuesdays. Book the 8:15 AM slot or wait until after 4 PM. Make sure your accommodation has air conditioning.\n\n**July–August (Peak Crowds & Heat):** The busiest and hottest months (30-35°C). Lines at Door 2 can exceed 3 hours. Skip-the-line tickets are essential. The upside: possible extended hours. Many Florentines leave the city in August, so restaurants are quieter.\n\n**September (Still Busy, Getting Better):** Crowds thin after mid-September. Weather remains warm (22-28°C). One of the best months to combine museum visits with outdoor Florence. Book tickets 1-2 weeks ahead.\n\n**October (Sweet Spot):** My personal favorite month. Warm enough for outdoor dining (16-22°C), tourist numbers drop significantly, and high-season hours still apply. Excellent combination of good weather and manageable crowds.\n\n**November–December (Best Experience):** Low-season pricing returns November 1. Crowds shrink dramatically. December brings Christmas markets and a festive atmosphere, but the gallery closes December 25. Weather is cool (5-12°C) with some rainy days.",
+          "**January–February (Best Value):** The quietest months at the Uffizi. Standard tickets are €29 online or €25 at the ticket office. You'll share Botticelli Hall with a handful of visitors instead of hundreds. Florence is cool (5-10°C) but beautiful — fewer tourists everywhere, restaurants are easy to book, and hotel prices are at their lowest. The downside: shorter daylight hours and occasional rain.\n\n**March (Crowds Building):** Tourist season begins. Book tickets at least 2 weeks ahead. Easter week (if it falls in March) is particularly busy. Book tickets at least 2 weeks ahead. Weather improves — daytime temperatures around 12-16°C.\n\n**April–May (Peak Season Begins):** Beautiful weather (15-22°C), but the Uffizi gets crowded, especially around Easter, April 25 (Liberation Day), and May 1 (Labour Day). Book tickets a month ahead for weekends. Morning slots sell out fast.\n\n**June (High Season):** Hot weather (25-30°C), long days, and heavy crowds. Possible evening openings on Tuesdays. Book the 8:15 AM slot or wait until after 4 PM. Make sure your accommodation has air conditioning.\n\n**July–August (Peak Crowds & Heat):** The busiest and hottest months (30-35°C). Lines at Door 1 can exceed 3 hours. Pre-booking tickets online is essential to reduce your wait. The upside: possible extended hours. Many Florentines leave the city in August, so restaurants are quieter.\n\n**September (Still Busy, Getting Better):** Crowds thin after mid-September. Weather remains warm (22-28°C). One of the best months to combine museum visits with outdoor Florence. Book tickets 1-2 weeks ahead.\n\n**October (Sweet Spot):** My personal favorite month. Warm enough for outdoor dining (16-22°C), tourist numbers drop significantly, and high-season hours still apply. Excellent combination of good weather and manageable crowds.\n\n**November–December (Best Experience):** Crowds shrink dramatically. December brings Christmas markets and a festive atmosphere, but the gallery closes December 25. Weather is cool (5-12°C) with some rainy days.",
       },
       {
         heading: "Best Days of the Week",
@@ -46,13 +62,13 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "Money-Saving Tips by Season",
         content:
-          "**Book in advance:** Skip-the-line tickets are available from €26 online, saving you valuable time. Hotels and flights to Florence are also significantly cheaper.\n\n**Free first Sundays:** The Uffizi offers free admission on the first Sunday of every month. But I honestly don't recommend it — the crowds are extreme (3-4 hour waits) and the experience inside is diminished. Paying €25 at the ticket office on a quiet weekday is infinitely better.\n\n**EU citizens 18-25:** Just €2 year-round. Always carry your ID.\n\n**Under 18:** Free entry regardless of nationality. Bring proof of age.\n\n**Book through resellers:** Often cheaper than the official site and includes free cancellation — useful when plans change.",
+          "**Book in advance:** A reserved timed-entry ticket with digital audio guide is available from €26 online — it guarantees your slot and lets you skip the ticket-office queue. Hotels and flights to Florence are also significantly cheaper.\n\n**Free first Sundays:** The Uffizi offers free admission on the first Sunday of every month, as does the Vasari Corridor. You still need a nominative ticket, and for the Uffizi you can only collect it at the ticket-office counter on the day — it cannot be booked online. But I honestly don't recommend it: the crowds are extreme (3-4 hour waits) and the experience inside is diminished. Paying €25 at the ticket office on a quiet weekday is infinitely better.\n\n**EU citizens 18-25:** Just €2 year-round. Always carry your ID.\n\n**Under 18:** Free entry regardless of nationality. Bring proof of age.\n\n**Book through resellers:** Often cheaper than the official site and includes free cancellation — useful when plans change.",
       },
     ],
     faq: [
       {
         q: "What is the best month to visit the Uffizi?",
-        a: "October and November are the sweet spots — manageable crowds and comfortable weather. Book skip-the-line tickets from €26 online.",
+        a: "October and November are the sweet spots — manageable crowds and comfortable weather. Book a reserved timed-entry ticket from €26 online.",
       },
       {
         q: "What is the least crowded day at the Uffizi?",
@@ -64,7 +80,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         q: "Is the Uffizi worth visiting in summer?",
-        a: "Yes, but plan carefully. Book the earliest morning slot (8:15 AM), use skip-the-line tickets, and prepare for heat and crowds. Late afternoon (after 4 PM) is also good. Check for possible evening openings.",
+        a: "Yes, but plan carefully. Book the earliest morning slot (8:15 AM), reserve your timed entry well in advance, and prepare for heat and crowds. Late afternoon (after 4 PM) is also good. Check for possible evening openings.",
       },
     ],
   },
@@ -82,7 +98,7 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "How Free Sundays Work",
         content:
-          "On the first Sunday of every month, all Italian state museums — including the Uffizi Gallery — offer completely free admission. No ticket needed. No reservation required. You simply walk up to Door 2 and join the queue.\n\nSounds fantastic. In practice, it's more complicated. Free Sundays attract enormous crowds. The queue at Door 2 can stretch for 3-4 hours during peak months. Once inside, popular rooms like Botticelli Hall are packed shoulder-to-shoulder. If you're visiting Florence on a budget, free Sunday can save you €29. But if your goal is to actually enjoy the art, paying for a regular ticket on a quiet weekday will give you a dramatically better experience.",
+          "On the first Sunday of every month, admission is free at the Uffizi Gallery — and at the Vasari Corridor too. Both are covered.\n\nFree does not mean ticketless. You still need a ticket, and it is nominative: the visitor's name is on it, and it has to match your ID.\n\n**The Uffizi free-Sunday ticket is issued only at the ticket-office counter, on the day itself.** It cannot be booked online — the online system simply doesn't sell it. You turn up, queue at the ticket office, and collect your free nominative ticket there. Plan for that queue, because it is the part most people don't expect.\n\n**The Vasari Corridor works the opposite way.** Its free-Sunday ticket must be booked online in advance, or picked up at the ticket office on the day if a spot is still available. Places are limited, so booking ahead is the dependable route.\n\nIn practice, then, it's more complicated than 'free entry'. Free Sundays attract enormous crowds. Once inside, popular rooms like Botticelli Hall are packed shoulder-to-shoulder. If you're visiting Florence on a budget, free Sunday can save you real money. But if your goal is to actually enjoy the art, a regular ticket on a quiet weekday will give you a dramatically better experience.",
       },
       {
         heading: "2026 Free Sunday Dates",
@@ -92,17 +108,17 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "What to Expect: An Honest Assessment",
         content:
-          "**Wait times:** 2-4 hours during spring and summer. Even in winter, expect 1-2 hours. There is no skip-the-line option on free Sundays — everyone enters through Door 2.\n\n**Inside the gallery:** Crowded. Popular rooms are standing-room-only. You'll spend more time navigating crowds than looking at paintings. Botticelli Hall, Room 35 (Leonardo/Michelangelo), and Room 83 (Titian) are the most congested.\n\n**The upside:** It's genuinely free. For budget travelers, students, and families, saving €29 per person is significant. And the less famous rooms (particularly rooms 15-30 and rooms 70-80) remain relatively uncrowded even on free Sundays.",
+          "**Wait times:** 2-4 hours during spring and summer. Even in winter, expect 1-2 hours. There are no reserved time slots for the Uffizi on free Sundays and no way to buy ahead, so there is no way to shorten the wait — everyone queues at the ticket office for a free nominative ticket, then enters through Door 1, the same entrance used every day.\n\n**Inside the gallery:** Crowded. Popular rooms are standing-room-only. You'll spend more time navigating crowds than looking at paintings. Botticelli Hall, Room 35 (Leonardo/Michelangelo), and Room 83 (Titian) are the most congested.\n\n**The upside:** It's genuinely free. For budget travelers, students, and families, saving €29 per person is significant. And the less famous rooms (particularly rooms 15-30 and rooms 70-80) remain relatively uncrowded even on free Sundays.",
       },
       {
         heading: "Tips If You Go on Free Sunday",
         content:
-          "**Arrive by 7:30 AM:** Be at Door 2 at least 45 minutes before the 8:15 AM opening. The early birds get in quickly.\n\n**Go straight to the upper rooms:** Skip Botticelli Hall on your first pass — it'll be mobbed. Start with rooms 35-90, then circle back to rooms 2-14 after the initial rush calms (usually around 1 PM).\n\n**Visit in winter:** Free Sundays in November, December, January, and February are much more manageable. You might wait only 30-60 minutes.\n\n**Use the bathroom before entering:** Restroom queues inside are long on free Sundays.\n\n**Bring snacks and water:** You'll be in line for a while. The café inside will also be crowded.",
+          "**Arrive by 7:30 AM:** Be at the ticket office at least 45 minutes before the 8:15 AM opening — you have to collect your free nominative ticket at the counter before you can enter, so budget for that queue on top of everything else. Bring photo ID for every person in your group; the name on each ticket has to match.\n\n**Sort the Vasari Corridor out first:** If you want the corridor as well, book its free ticket online in advance. Leaving it to the ticket office on the day only works if a spot is still free.\n\n**Go straight to the upper rooms:** Skip Botticelli Hall on your first pass — it'll be mobbed. Start with rooms 35-90, then circle back to rooms 2-14 after the initial rush calms (usually around 1 PM).\n\n**Visit in winter:** Free Sundays in November, December, January, and February are much more manageable. You might wait only 30-60 minutes.\n\n**Use the bathroom before entering:** Restroom queues inside are long on free Sundays.\n\n**Bring snacks and water:** You'll be in line for a while. The café inside will also be crowded.",
       },
       {
         heading: "My Honest Recommendation",
         content:
-          "Unless budget is your absolute top priority, skip free Sunday. A standard ticket costs €29 online or €25 at the ticket office, and the experience is incomparably better. Skip-the-line tickets are available from €26 online, offering good value for a calm, unhurried visit.\n\nFree Sundays are great for locals who visit regularly and don't mind the crowds. For a once-in-a-lifetime visit, invest in the ticket.",
+          "Unless budget is your absolute top priority, skip free Sunday. A standard ticket costs €29 in advance or €25 at the ticket office on a quiet weekday, and the experience is incomparably better.\n\nIf you are going anyway, consider a guided tour that day. Entry costs you nothing, so what you are paying for is purely the guide — and a good art historian is what turns a packed, overwhelming gallery into a visit that makes sense. On the busiest day of the month, that is worth more than usual, not less.\n\nFree Sundays are great for locals who visit regularly and don't mind the crowds. For a once-in-a-lifetime visit, pick a quieter day.",
       },
     ],
     faq: [
@@ -111,8 +127,8 @@ export const blogPosts: BlogPost[] = [
         a: "The first Sunday of every month: January 4, February 1, March 1, April 5, May 3, June 7, July 5, August 2, September 6, October 4, November 1, December 6.",
       },
       {
-        q: "Do I need a reservation for free Sunday?",
-        a: "No reservation is needed. You queue at Door 2 for general admission. There is no skip-the-line option on free Sundays.",
+        q: "Do I need a ticket for free Sunday?",
+        a: "Yes. Entry is free but a ticket is still required, and it is nominative — the visitor's name is on it and must match your ID. For the Uffizi you collect it at the ticket-office counter on the day; it cannot be booked online. The Vasari Corridor, also free that day, works the other way round: book online in advance, or try the ticket office on the day if a spot remains.",
       },
       {
         q: "How long is the wait on free Sundays?",
@@ -153,12 +169,12 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "Tickets & Prices",
         content:
-          "**Uffizi tickets:**\n• Online: €29\n• Ticket office: €25\n• Skip-the-line: from €26 online\n\n**Accademia tickets:**\n• Standard: €16 year-round\n• Skip-the-line from €15-20 online\n\n**Combo tour (both museums):** From €89 with a guide and skip-the-line to both. This is the best value if you want guided tours.",
+          "**Uffizi tickets:**\n• Bought in advance online: €29\n• Bought on the day at the ticket office: €25\n• Reserved timed entry with digital audio guide: from €26 online\n• Afternoon entry (from 4 PM): €20 in advance / €16 on the day\n• EU citizens 18-25: €2 | Under 18: free\n\n**Accademia tickets:**\n• Standard: €16 year-round\n• Reserved entry from €15-20 online\n\n**Combo tour (both museums):** From €89 with a guide and reserved entry times at both. This is the best value if you want guided tours.",
       },
       {
         heading: "Crowds & Waiting",
         content:
-          "Both museums attract massive queues, but the patterns are different:\n\n**Uffizi:** Busiest from 10 AM to 2 PM. The queue at Door 2 can reach 2-3 hours. Skip-the-line tickets are essential during peak season. Inside, Botticelli Hall (rooms 10-14) gets the most congested.\n\n**Accademia:** The queue can be even longer than the Uffizi because the museum is smaller and visitors pass through more slowly. Peak waits: 2-3 hours. Skip-the-line tickets are arguably even more important here. Inside, the hall with the David gets crowded but it's manageable since the statue is so large.\n\n**Pro tip:** Visit the Uffizi at 8:15 AM (best time) and the Accademia in the early afternoon when the morning rush has passed.",
+          "Both museums attract massive queues, but the patterns are different:\n\n**Uffizi:** Busiest from 10 AM to 2 PM. The queue at Door 1 can reach 2-3 hours during peak season. Pre-booking tickets online significantly reduces your wait. Inside, Botticelli Hall (rooms 10-14) gets the most congested.\n\n**Accademia:** The queue can be even longer than the Uffizi because the museum is smaller and visitors pass through more slowly. Peak waits: 2-3 hours. Booking a reserved time slot is arguably even more important here. Inside, the hall with the David gets crowded but it's manageable since the statue is so large.\n\n**Pro tip:** Visit the Uffizi at 8:15 AM (best time) and the Accademia in the early afternoon when the morning rush has passed.",
       },
       {
         heading: "Which Is Better for Families?",
@@ -168,7 +184,7 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "My Recommendation",
         content:
-          "**Visit both.** Florence's two greatest museums complement each other perfectly — paintings at the Uffizi, sculpture at the Accademia. If you're genuinely limited to one:\n\n• **Choose the Uffizi** if you love painting, want the broadest art experience, or are interested in art history from medieval through Baroque.\n\n• **Choose the Accademia** if seeing Michelangelo's David is your top priority, you have limited time (under 2 hours), or you're visiting with young children.\n\n• **Choose the combo tour** if you want both museums, expert commentary, and the convenience of skip-the-line entry handled for you.",
+          "**Visit both.** Florence's two greatest museums complement each other perfectly — paintings at the Uffizi, sculpture at the Accademia. If you're genuinely limited to one:\n\n• **Choose the Uffizi** if you love painting, want the broadest art experience, or are interested in art history from medieval through Baroque.\n\n• **Choose the Accademia** if seeing Michelangelo's David is your top priority, you have limited time (under 2 hours), or you're visiting with young children.\n\n• **Choose the combo tour** if you want both museums, expert commentary, and the convenience of having your reserved entry times handled for you.",
       },
     ],
     faq: [
@@ -182,7 +198,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         q: "Which has longer queues?",
-        a: "The Accademia often has longer relative waits because it's a smaller museum. Both can reach 2-3 hours during peak season. Skip-the-line tickets are essential for both.",
+        a: "The Accademia often has longer relative waits because it's a smaller museum. Both can reach 2-3 hours during peak season. A reserved timed-entry ticket is essential for both.",
       },
       {
         q: "How far apart are the Uffizi and Accademia?",
@@ -254,7 +270,7 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "Money-Saving Passes",
         content:
-          "**Firenze Card (€85/72 hours):** Access to 72+ museums including the Uffizi, Accademia, Palazzo Pitti, and Boboli Gardens. Includes skip-the-line entry. Worth it if you'll visit 5+ museums in 3 days.\n\n**First Sundays:** All state museums (Uffizi, Accademia, Bargello, Medici Chapels, San Marco, Palazzo Pitti) are free on the first Sunday of every month. Expect large crowds.\n\n**Under 18:** Free entry to all state museums regardless of nationality.\n\n**EU citizens 18-25:** €2 at state museums. Bring ID.",
+          "**Firenze Card (€85/72 hours):** Access to 72+ museums including the Uffizi, Accademia, Palazzo Pitti, and Boboli Gardens. Priority entry lets you skip the ticket-office queue. Worth it if you'll visit 5+ museums in 3 days.\n\n**First Sundays:** All state museums (Uffizi, Accademia, Bargello, Medici Chapels, San Marco, Palazzo Pitti) are free on the first Sunday of every month, and so is the Vasari Corridor. A nominative ticket is still required — for the Uffizi, only from the ticket-office counter on the day. Expect large crowds.\n\n**Under 18:** Free entry to all state museums regardless of nationality.\n\n**EU citizens 18-25:** €2 at state museums. Bring ID.",
       },
     ],
     faq: [
@@ -280,7 +296,7 @@ export const blogPosts: BlogPost[] = [
     slug: "florence-city-pass-2026",
     title: "Florence City Pass 2026 | Firenze Card — Is It Worth It?",
     description:
-      "Complete Firenze Card / Florence City Pass review for 2026. Cost, included museums, skip-the-line access, math breakdown & honest recommendation.",
+      "Complete Firenze Card / Florence City Pass review for 2026. Cost, included museums, priority entry, math breakdown & honest recommendation.",
     h1: "Florence City Pass 2026 — Is the Firenze Card Worth It?",
     publishedDate: "2026-02-10",
     updatedDate: "2026-03-01",
@@ -290,7 +306,7 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "What Is the Firenze Card?",
         content:
-          "The Firenze Card is Florence's official museum pass. For €85, you get 72 hours of access to 72+ museums and monuments, including all the major attractions: the Uffizi Gallery, Galleria dell'Accademia, Palazzo Pitti, Boboli Gardens, Bargello, Medici Chapels, and many more. The card also includes skip-the-line access at participating museums — potentially saving you hours of waiting.\n\nBut is it actually worth €85? The answer depends entirely on how many museums you plan to visit and when.",
+          "The Firenze Card is Florence's official museum pass. For €85, you get 72 hours of access to 72+ museums and monuments, including all the major attractions: the Uffizi Gallery, Galleria dell'Accademia, Palazzo Pitti, Boboli Gardens, Bargello, Medici Chapels, and many more. The card also lets you skip the ticket-office queue at participating museums — potentially saving you hours of waiting.\n\nBut is it actually worth €85? The answer depends entirely on how many museums you plan to visit and when.",
       },
       {
         heading: "What's Included",
@@ -300,17 +316,17 @@ export const blogPosts: BlogPost[] = [
       {
         heading: "The Math — When It Pays Off",
         content:
-          "Let's crunch the numbers for typical itineraries:\n\n**Light itinerary (2-3 museums):**\nUffizi (€29) + Accademia (€16) = €45. Card costs €85. **Not worth it.**\n\n**Standard itinerary (4-5 museums):**\nUffizi (€29) + Accademia (€16) + Palazzo Pitti (€16) + Boboli (€10) = €71. Still €14 short. Add Bargello (€9) = €80. **Getting close but still not quite.**\n\n**Museum-heavy itinerary (5+ museums):**\nUffizi (€29) + Accademia (€16) + Palazzo Pitti (€16) + Boboli (€10) + Bargello (€9) + San Marco (€8) = €88. **Pays for itself.**\n\nAdd the Duomo complex (€30) or Palazzo Vecchio (€14) and the card becomes genuinely good value.\n\n**Skip-the-line tickets:** Skip-the-line tickets start from €26 online, which can affect the calculation.",
+          "Let's crunch the numbers for typical itineraries:\n\n**Light itinerary (2-3 museums):**\nUffizi (€29) + Accademia (€16) = €45. Card costs €85. **Not worth it.**\n\n**Standard itinerary (4-5 museums):**\nUffizi (€29) + Accademia (€16) + Palazzo Pitti (€16) + Boboli (€10) = €71. Still €14 short. Add Bargello (€9) = €80. **Getting close but still not quite.**\n\n**Museum-heavy itinerary (5+ museums):**\nUffizi (€29) + Accademia (€16) + Palazzo Pitti (€16) + Boboli (€10) + Bargello (€9) + San Marco (€8) = €88. **Pays for itself.**\n\nAdd the Duomo complex (€30) or Palazzo Vecchio (€14) and the card becomes genuinely good value.\n\n**Reserved timed-entry tickets:** A reserved timed-entry ticket with digital audio guide starts from €26 online, which can affect the calculation.",
       },
       {
-        heading: "Skip-the-Line Benefit",
+        heading: "The Queue-Skipping Benefit",
         content:
-          "This is the hidden value of the Firenze Card. During peak season (March–October), skip-the-line access at the Uffizi and Accademia can save you 2-3 hours per museum. If your time in Florence is limited, those saved hours have real value — you can use them to visit an additional museum or simply enjoy the city.\n\nHowever, note that even with the Firenze Card, you should still reserve a time slot at the Uffizi and Accademia through the card's online reservation system. The card gives you priority entry, but a reservation ensures your preferred time.",
+          "This is the hidden value of the Firenze Card. During peak season (March–October), skipping the ticket-office queue at the Uffizi and Accademia can save you 2-3 hours per museum. If your time in Florence is limited, those saved hours have real value — you can use them to visit an additional museum or simply enjoy the city.\n\nHowever, note that even with the Firenze Card, you should still reserve a time slot at the Uffizi and Accademia through the card's online reservation system. The card gets you past the ticket office, but a reservation ensures your preferred time. And be realistic: at the Uffizi everyone enters through Door 1 at their reserved time, and everyone passes a short security screening on the way in.",
       },
       {
         heading: "My Honest Recommendation",
         content:
-          "**Buy the Firenze Card if:**\n• You're visiting 5+ museums in 3 days\n• You're visiting during high season and value skip-the-line access\n• You're a spontaneous traveler who wants to pop into museums without buying tickets each time\n\n**Skip the Firenze Card if:**\n• You're only visiting 2-3 museums (buy individual tickets)\n• You only plan to visit 2-3 museums\n• You're on a tight budget (the card requires €85 upfront)\n• You're visiting with children under 18 (they enter free anyway)\n\nFor most visitors doing 3-4 days in Florence, individual skip-the-line tickets for the Uffizi and Accademia, plus a combo ticket for Palazzo Pitti/Boboli, is usually more cost-effective than the card.",
+          "**Buy the Firenze Card if:**\n• You're visiting 5+ museums in 3 days\n• You're visiting during high season and want to avoid the ticket-office queues\n• You're a spontaneous traveler who wants to pop into museums without buying tickets each time\n\n**Skip the Firenze Card if:**\n• You're only visiting 2-3 museums (buy individual tickets)\n• You only plan to visit 2-3 museums\n• You're on a tight budget (the card requires €85 upfront)\n• You're visiting with children under 18 (they enter free anyway)\n\nFor most visitors doing 3-4 days in Florence, individual timed-entry tickets for the Uffizi and Accademia, plus a combo ticket for Palazzo Pitti/Boboli, is usually more cost-effective than the card.",
       },
     ],
     faq: [
@@ -319,8 +335,8 @@ export const blogPosts: BlogPost[] = [
         a: "€85 for 72 hours of access to 72+ museums and monuments. The timer starts from your first museum visit.",
       },
       {
-        q: "Does the Firenze Card include skip-the-line?",
-        a: "Yes, it includes priority access at participating museums. For the Uffizi and Accademia, you should still reserve a time slot through the card's system.",
+        q: "Does the Firenze Card let me skip the queue?",
+        a: "It includes priority access at participating museums, so you skip the ticket-office queue. For the Uffizi and Accademia, you should still reserve a time slot through the card's system — and at the Uffizi everyone still enters through Door 1 and passes a short security check.",
       },
       {
         q: "Can children use the Firenze Card?",
@@ -454,13 +470,22 @@ export function getAllBlogSlugs(): string[] {
   return blogPosts.map((p) => p.slug);
 }
 
+// Import new blog posts
+import { blogPosts1to5 } from "./blog-posts-1-5";
+import { blogPosts6to10 } from "./blog-posts-6-10";
+import { blogPosts11to15 } from "./blog-posts-11-15";
+import { blogPosts16to20 } from "./blog-posts-16-20";
+
+// Merge all blog posts
+blogPosts.push(...blogPosts1to5, ...blogPosts6to10, ...blogPosts11to15, ...blogPosts16to20);
+
 // Locale-aware getters
 import { blogPostsIt } from "./blog-it";
 import { blogPostsDe } from "./blog-de";
 import { blogPostsFr } from "./blog-fr";
 import { blogPostsEs } from "./blog-es";
 
-type BlogTranslation = Omit<BlogPost, "slug" | "publishedDate" | "updatedDate" | "readTime" | "keywords">;
+export type BlogTranslation = Omit<BlogPost, "slug" | "publishedDate" | "updatedDate" | "readTime" | "keywords">;
 const blogTransMap: Record<string, Record<string, BlogTranslation>> = {
   it: blogPostsIt,
   de: blogPostsDe,

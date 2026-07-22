@@ -17,7 +17,28 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: c.meta.title,
     description: c.meta.description,
     alternates: {
-      canonical: `https://visituffizi.com/${locale}/vasari-corridor`,
+      canonical: `https://visituffizi.com/${locale}/vasari-corridor/`,
+    },
+    openGraph: {
+      title: c.meta.title,
+      description: c.meta.description,
+      url: `https://visituffizi.com/${locale}/vasari-corridor/`,
+      siteName: "Visit Uffizi",
+      type: "website",
+      locale,
+      images: [
+        {
+          url: "https://visituffizi.com/images/og/default.jpg",
+          width: 1200,
+          height: 630,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: c.meta.title,
+      description: c.meta.description,
+      images: ["https://visituffizi.com/images/og/default.jpg"],
     },
   };
 }
@@ -60,7 +81,7 @@ export default async function VasariCorridorPage({ params }: Props) {
         <p className="mb-4 leading-relaxed text-charcoal/85">
           {c.history.p2.before}
           <Link
-            href={`/${locale}/artists/giorgio-vasari`}
+            href={`/${locale}/artists/giorgio-vasari/`}
             className="font-medium text-burgundy hover:text-burgundy/80"
           >
             {c.history.p2.vasariLinkText}
@@ -119,7 +140,7 @@ export default async function VasariCorridorPage({ params }: Props) {
           <li className="text-charcoal/85">
             {c.tips.combineWithTour.before}
             <Link
-              href={`/${locale}/tours/guided-tour`}
+              href={`/${locale}/tours/guided-tour/`}
               className="font-medium text-burgundy hover:text-burgundy/80"
             >
               {c.tips.combineWithTour.linkText}

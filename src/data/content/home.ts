@@ -62,21 +62,21 @@ export type HomeContent = {
 
 const en: HomeContent = {
   meta: {
-    title: "Uffizi Gallery Tickets & Tours 2026 | Skip the Line | Visit Uffizi",
+    title: "Uffizi Gallery Tickets & Tours 2026 | Timed Entry | Visit Uffizi",
     description:
-      "Plan your Uffizi Gallery visit. Book skip-the-line tickets from €26, guided tours & see masterpieces by Botticelli, Michelangelo & Leonardo. Opening hours & tips.",
+      "Plan your Uffizi Gallery visit. Book timed-entry tickets from \u20AC26, guided tours & masterpieces by Botticelli, Michelangelo & Leonardo. Hours & tips.",
   },
   hero: {
     tagline: "Florence, Italy",
     h1: "Uffizi Gallery Florence",
     subtitle:
       "Home to Botticelli's Birth of Venus, Leonardo's Annunciation, and over 2,000 masterpieces spanning centuries of Italian art. Plan your visit to the world's most important Renaissance art collection.",
-    ctaTickets: "Book Skip-the-Line Tickets",
+    ctaTickets: "Book Timed-Entry Tickets",
     ctaTours: "Explore Guided Tours",
   },
   quickInfo: {
     hours: { label: "Hours", value: "Tue–Sun: 8:15–18:30", note: "Closed Mondays" },
-    tickets: { label: "Tickets", value: "From €26 online", note: "Skip the line included" },
+    tickets: { label: "Tickets", value: "From €26 online", note: "Skip the ticket-office queue" },
     location: { label: "Location", value: "Piazzale degli Uffizi, 6", note: "Central Florence" },
     collection: { label: "Collection", value: "2,000+ artworks", note: "Renaissance masterpieces" },
   },
@@ -86,7 +86,7 @@ const en: HomeContent = {
   ],
   ticketsSection: {
     h2: "Uffizi Gallery Tickets 2026",
-    p1: "Skip the line — seriously. The queue at the Uffizi can stretch over two hours during peak season (March through October). With a pre-booked ticket, you walk straight to Door 1 with your timed entry and you're inside in minutes. Standard tickets cost €29 online or €25 at the ticket office. EU citizens aged 18-25 pay just €2, and under-18s from any country enter free.",
+    p1: "Skip the ticket-office queue — seriously. The line at the Uffizi ticket office can stretch over two hours during peak season (March through October). With a pre-booked timed-entry ticket, you walk straight to Door 1 at your reserved time — everyone passes a short security check — and you're inside in minutes. Standard tickets cost €25 on the day at the ticket office or €29 booked in advance online. EU citizens aged 18-25 pay just €2, and under-18s from any country enter free (nominative ticket — the name must match your ID).",
     ctaTitle: "Uffizi Gallery Reserved Ticket & Digital Audio Guide",
     p2: "I always recommend booking the earliest morning slot — 8:15 AM. You'll have Botticelli Hall practically to yourself for the first 20 minutes. By 10:00 AM, the tour groups arrive and the experience changes completely. If mornings don't work, try after 4:00 PM when the day-trippers have left.",
     link: "See all ticket options & prices →",
@@ -98,7 +98,7 @@ const en: HomeContent = {
       {
         title: "Guided Uffizi Gallery Tour",
         description:
-          "Skip the line and explore the Uffizi with a licensed art historian. See Botticelli, Leonardo, Michelangelo & more in a 2-hour expert-led tour.",
+          "Reserved entry and a licensed art historian to explore the Uffizi with. See Botticelli, Leonardo, Michelangelo & more in a 2-hour expert-led tour.",
       },
       {
         title: "Private Uffizi Tour",
@@ -108,7 +108,7 @@ const en: HomeContent = {
       {
         title: "Uffizi + Accademia Combo Tour",
         description:
-          "See both Florence's greatest museums in one day. Uffizi masterpieces in the morning, Michelangelo's David in the afternoon. Includes skip-the-line entry.",
+          "See both Florence's greatest museums in one day. Uffizi masterpieces in the morning, Michelangelo's David in the afternoon. Reserved timed entry included.",
       },
     ],
     link: "View all tours & experiences →",
@@ -118,7 +118,7 @@ const en: HomeContent = {
     items: [
       { title: "Opening Hours", desc: "Daily schedules, closures & best times" },
       { title: "Getting There", desc: "Directions from anywhere in Florence" },
-      { title: "Door 3 Entry", desc: "Essential entry info for pre-booked tickets" },
+      { title: "Door 1 Entry", desc: "Essential entry info for pre-booked tickets" },
       { title: "2-Hour Guide", desc: "Room-by-room route for a perfect visit" },
     ],
   },
@@ -143,7 +143,7 @@ const en: HomeContent = {
   beforeYouGo: {
     h2: "What to Know Before You Go",
     paragraphs: [
-      "The Uffizi is open Tuesday through Sunday, 8:15 AM to 6:30 PM (last entry at 5:40 PM). It's closed every Monday, Christmas Day (December 25), New Year's Day (January 1), and May 1. During summer months and around Easter, the museum sometimes extends hours — check the opening hours page for current schedules.",
+      "The Uffizi is open Tuesday through Sunday, 8:15 AM to 6:30 PM (last entry at 5:30 PM). It's closed every Monday, Christmas Day (December 25), and New Year's Day (January 1). Check the opening hours page for current schedules.",
       "Plan at least 2 hours for a meaningful visit. Art enthusiasts will want 3-4 hours to explore the collection in depth. If you're short on time, our 2-hour itinerary covers the essential highlights without rushing.",
       "Large bags and backpacks must be checked at the free cloakroom near the entrance. Photography is allowed (no flash), but selfie sticks and tripods are prohibited. There's a café on the second floor terrace with views over the Piazza della Signoria — it's a perfect spot to rest halfway through your visit.",
     ],
@@ -157,15 +157,15 @@ const en: HomeContent = {
   faq: [
     {
       q: "How much are Uffizi Gallery tickets in 2026?",
-      a: "Standard tickets cost €29 online or €25 at the ticket office. Skip-the-line tickets are available from €26 online. EU citizens aged 18-25 pay a reduced price of €2. Children under 18 from any country enter free.",
+      a: "Standard tickets cost €25 on the day at the ticket office or €29 booked in advance online. Afternoon entry (from 4:00 PM) is €16 on the day or €20 in advance. Our reserved timed-entry ticket with digital audio guide starts at €26. EU citizens aged 18-25 pay a reduced price of €2. Children under 18 from any country enter free (nominative ticket).",
     },
     {
       q: "Do I need to book Uffizi tickets in advance?",
-      a: "Strongly recommended. During peak season, walk-up queues can exceed 2 hours. Pre-booked timed-entry tickets let you skip the line and enter through Door 1. During winter months (November–February), same-day tickets are sometimes available, but booking ahead guarantees your preferred time slot.",
+      a: "Strongly recommended. During peak season, the queue to buy at the ticket office can exceed 2 hours. A pre-booked timed-entry ticket lets you skip the ticket-office queue and walk to Door 1 at your reserved time (everyone passes a short security check). During winter months (November–February), same-day tickets are sometimes available, but booking ahead guarantees your preferred time slot.",
     },
     {
       q: "What are the Uffizi Gallery opening hours?",
-      a: "The Uffizi is open Tuesday through Sunday, 8:15 AM to 6:30 PM (last entry at 5:40 PM). The gallery is closed every Monday, plus December 25, January 1, and May 1. Hours may be extended during peak tourist season.",
+      a: "The Uffizi is open Tuesday through Sunday, 8:15 AM to 6:30 PM (last entry at 5:30 PM). The gallery is closed every Monday, plus December 25 and January 1.",
     },
     {
       q: "How long do I need to visit the Uffizi?",
@@ -177,28 +177,28 @@ const en: HomeContent = {
     },
     {
       q: "Is a guided tour of the Uffizi worth it?",
-      a: "Absolutely. A guided tour with a licensed art historian transforms the experience. You'll understand the context behind each masterpiece — the political intrigue, the artistic innovations, the personal stories of the artists. Guided tours also include skip-the-line entry and last about 2 hours.",
+      a: "Absolutely. A guided tour with a licensed art historian transforms the experience. You'll understand the context behind each masterpiece — the political intrigue, the artistic innovations, the personal stories of the artists. Guided tours also include reserved timed entry and last about 2 hours.",
     },
   ],
 };
 
 const it: HomeContent = {
   meta: {
-    title: "Biglietti Uffizi 2026 | Salta la Fila | Prezzi e Orari",
+    title: "Biglietti Uffizi 2026 | Ingresso a Orario | Prezzi e Orari",
     description:
-      "Acquista biglietti per la Galleria degli Uffizi da €26. Salta la fila, visite guidate e capolavori di Botticelli, Michelangelo e Leonardo. Orari e consigli.",
+      "Biglietti per la Galleria degli Uffizi da €26 con ingresso a orario prestabilito e audioguida. Visite guidate, capolavori, orari e consigli pratici.",
   },
   hero: {
     tagline: "Firenze, Italia",
     h1: "Galleria degli Uffizi Firenze",
     subtitle:
       "La Nascita di Venere di Botticelli, l'Annunciazione di Leonardo e oltre 2.000 capolavori che hanno definito l'arte del Rinascimento. Tutto quello che devi sapere per organizzare la tua visita.",
-    ctaTickets: "Acquista Biglietti Salta la Fila",
+    ctaTickets: "Prenota Biglietti con Orario",
     ctaTours: "Scopri le Visite Guidate",
   },
   quickInfo: {
     hours: { label: "Orari", value: "Mar–Dom: 8:15–18:30", note: "Chiuso il lunedì" },
-    tickets: { label: "Biglietti", value: "Da €26 online", note: "Salta la fila incluso" },
+    tickets: { label: "Biglietti", value: "Da €26 online", note: "Salta la fila alla biglietteria" },
     location: { label: "Dove", value: "Piazzale degli Uffizi, 6", note: "Centro di Firenze" },
     collection: { label: "Collezione", value: "2.000+ opere", note: "Capolavori rinascimentali" },
   },
@@ -208,7 +208,7 @@ const it: HomeContent = {
   ],
   ticketsSection: {
     h2: "Biglietti Uffizi 2026",
-    p1: "Salta la fila — sul serio. La coda agli Uffizi può superare le due ore in alta stagione (da marzo a ottobre). Con un biglietto prenotato online, entri direttamente dalla Porta 1 con il tuo ingresso a orario e sei dentro in pochi minuti. Il biglietto standard costa €29 online o €25 alla biglietteria. I cittadini UE tra i 18 e i 25 anni pagano solo €2, e i minori di 18 anni di qualsiasi nazionalità entrano gratis.",
+    p1: "Salta la fila alla biglietteria — sul serio. La coda per comprare il biglietto agli Uffizi può superare le due ore in alta stagione (da marzo a ottobre). Con un biglietto a orario prestabilito prenotato online, vai direttamente alla Porta 1 al tuo orario — tutti passano un breve controllo di sicurezza — e sei dentro in pochi minuti. Il biglietto standard costa €25 alla biglietteria in giornata o €29 prenotato online in anticipo. I cittadini UE tra i 18 e i 25 anni pagano solo €2, e i minori di 18 anni di qualsiasi nazionalità entrano gratis (biglietto nominativo: il nome deve corrispondere al documento).",
     ctaTitle: "Biglietto Riservato Galleria degli Uffizi e Audioguida Digitale",
     p2: "Il mio consiglio è sempre lo stesso: prenota la prima fascia oraria — le 8:15. Avrai la sala di Botticelli praticamente tutta per te nei primi 20 minuti. Dalle 10:00 arrivano i gruppi e l'atmosfera cambia completamente. Se la mattina non è possibile, prova dopo le 16:00 quando i turisti giornalieri sono ripartiti.",
     link: "Vedi tutti i biglietti e i prezzi →",
@@ -220,7 +220,7 @@ const it: HomeContent = {
       {
         title: "Visita Guidata Galleria degli Uffizi",
         description:
-          "Salta la fila ed esplora gli Uffizi con uno storico dell'arte abilitato. Botticelli, Leonardo, Michelangelo e molto altro in un tour di 2 ore.",
+          "Ingresso riservato ed esplorazione degli Uffizi con uno storico dell'arte abilitato. Botticelli, Leonardo, Michelangelo e molto altro in un tour di 2 ore.",
       },
       {
         title: "Tour Privato degli Uffizi",
@@ -230,7 +230,7 @@ const it: HomeContent = {
       {
         title: "Tour Combo Uffizi + Accademia",
         description:
-          "I due musei più importanti di Firenze in un giorno. Capolavori degli Uffizi la mattina, il David di Michelangelo il pomeriggio. Ingresso salta la fila incluso.",
+          "I due musei più importanti di Firenze in un giorno. Capolavori degli Uffizi la mattina, il David di Michelangelo il pomeriggio. Ingresso a orario riservato incluso.",
       },
     ],
     link: "Vedi tutti i tour e le esperienze →",
@@ -240,7 +240,7 @@ const it: HomeContent = {
     items: [
       { title: "Orari di Apertura", desc: "Orari, chiusure e momenti migliori" },
       { title: "Come Arrivare", desc: "Indicazioni da qualsiasi punto di Firenze" },
-      { title: "Ingresso Porta 3", desc: "Info essenziali per chi ha il biglietto prenotato" },
+      { title: "Ingresso Porta 1", desc: "Info essenziali per chi ha il biglietto prenotato" },
       { title: "Guida 2 Ore", desc: "Percorso sala per sala per una visita perfetta" },
     ],
   },
@@ -265,7 +265,7 @@ const it: HomeContent = {
   beforeYouGo: {
     h2: "Cosa Sapere Prima della Visita",
     paragraphs: [
-      "Gli Uffizi sono aperti da martedì a domenica, dalle 8:15 alle 18:30 (ultimo ingresso alle 17:40). Chiusi ogni lunedì, il giorno di Natale (25 dicembre), Capodanno (1 gennaio) e il 1° maggio. In estate e nel periodo pasquale, il museo a volte estende gli orari — controlla la pagina degli orari per gli aggiornamenti.",
+      "Gli Uffizi sono aperti da martedì a domenica, dalle 8:15 alle 18:30 (ultimo ingresso alle 17:30). Chiusi ogni lunedì, il giorno di Natale (25 dicembre) e Capodanno (1 gennaio). Controlla la pagina degli orari per gli aggiornamenti.",
       "Prevedi almeno 2 ore per una visita soddisfacente. Gli appassionati d'arte vorranno 3-4 ore per esplorare la collezione in profondità. Se hai poco tempo, il nostro itinerario di 2 ore copre i capolavori essenziali senza fretta.",
       "Borse grandi e zaini vanno lasciati al guardaroba gratuito vicino all'ingresso. È permesso fotografare (senza flash), ma selfie stick e treppiedi sono vietati. C'è un caffè sulla terrazza del secondo piano con vista su Piazza della Signoria — il posto perfetto per una pausa a metà visita.",
     ],
@@ -279,15 +279,15 @@ const it: HomeContent = {
   faq: [
     {
       q: "Quanto costano i biglietti per gli Uffizi nel 2026?",
-      a: "Il biglietto standard costa €29 online o €25 alla biglietteria. I biglietti salta la fila sono disponibili da €26 online. I cittadini UE tra 18 e 25 anni pagano €2. I minori di 18 anni di qualsiasi nazionalità entrano gratis.",
+      a: "Il biglietto standard costa €25 alla biglietteria in giornata o €29 prenotato online in anticipo. L'ingresso pomeridiano (dalle 16:00) costa €16 in giornata o €20 in anticipo. Il nostro biglietto con ingresso a orario prestabilito e audioguida digitale parte da €26. I cittadini UE tra 18 e 25 anni pagano €2. I minori di 18 anni di qualsiasi nazionalità entrano gratis (biglietto nominativo).",
     },
     {
       q: "Devo prenotare i biglietti per gli Uffizi in anticipo?",
-      a: "Fortemente consigliato. In alta stagione, la coda senza prenotazione può superare le 2 ore. I biglietti con ingresso a orario permettono di saltare la fila ed entrare dalla Porta 1. In bassa stagione (novembre–febbraio) i biglietti giornalieri a volte sono disponibili, ma prenotare garantisce la fascia oraria preferita.",
+      a: "Fortemente consigliato. In alta stagione, la coda alla biglietteria può superare le 2 ore. Con un biglietto a orario prestabilito salti la fila alla biglietteria e ti presenti alla Porta 1 al tuo orario (tutti passano un breve controllo di sicurezza). In bassa stagione (novembre–febbraio) i biglietti giornalieri a volte sono disponibili, ma prenotare garantisce la fascia oraria preferita.",
     },
     {
       q: "Quali sono gli orari di apertura degli Uffizi?",
-      a: "Gli Uffizi sono aperti da martedì a domenica, dalle 8:15 alle 18:30 (ultimo ingresso alle 17:40). La galleria è chiusa ogni lunedì, il 25 dicembre, il 1° gennaio e il 1° maggio. Gli orari possono essere estesi in alta stagione turistica.",
+      a: "Gli Uffizi sono aperti da martedì a domenica, dalle 8:15 alle 18:30 (ultimo ingresso alle 17:30). La galleria è chiusa ogni lunedì, il 25 dicembre e il 1° gennaio.",
     },
     {
       q: "Quanto tempo serve per visitare gli Uffizi?",
@@ -299,28 +299,28 @@ const it: HomeContent = {
     },
     {
       q: "Vale la pena fare una visita guidata agli Uffizi?",
-      a: "Assolutamente sì. Una visita guidata con uno storico dell'arte abilitato trasforma l'esperienza. Capirai il contesto dietro ogni capolavoro — gli intrighi politici, le innovazioni artistiche, le storie personali degli artisti. Le visite guidate includono anche l'ingresso salta la fila e durano circa 2 ore.",
+      a: "Assolutamente sì. Una visita guidata con uno storico dell'arte abilitato trasforma l'esperienza. Capirai il contesto dietro ogni capolavoro — gli intrighi politici, le innovazioni artistiche, le storie personali degli artisti. Le visite guidate includono anche l'ingresso a orario riservato e durano circa 2 ore.",
     },
   ],
 };
 
 const de: HomeContent = {
   meta: {
-    title: "Uffizi Galerie Tickets 2026 | Ohne Anstehen | Visit Uffizi",
+    title: "Uffizien Tickets 2026 | Mit Zeitfenster | Visit Uffizi",
     description:
-      "Uffizi Galerie Florenz besuchen: Tickets ohne Anstehen ab €26, Führungen & Meisterwerke von Botticelli, Michelangelo & Leonardo. Öffnungszeiten Uffizi & Tipps.",
+      "Uffizien Florenz: Tickets mit Zeitfenster ab \u20AC26 inkl. Audioguide, Führungen & Meisterwerke von Botticelli, Michelangelo & Leonardo. Öffnungszeiten & Tipps.",
   },
   hero: {
     tagline: "Florenz, Italien",
     h1: "Uffizi Galerie Florenz",
     subtitle:
       "Botticellis Geburt der Venus, Leonardos Verkündigung und über 2.000 Meisterwerke aus Jahrhunderten italienischer Kunst. Planen Sie Ihren Besuch der weltweit bedeutendsten Sammlung der Renaissance-Kunst.",
-    ctaTickets: "Tickets ohne Anstehen buchen",
+    ctaTickets: "Tickets mit Zeitfenster buchen",
     ctaTours: "Führungen entdecken",
   },
   quickInfo: {
     hours: { label: "Öffnungszeiten", value: "Di–So: 8:15–18:30", note: "Montags geschlossen" },
-    tickets: { label: "Tickets", value: "Ab €26 online", note: "Ohne Anstehen inklusive" },
+    tickets: { label: "Tickets", value: "Ab €26 online", note: "Warteschlange an der Kasse umgehen" },
     location: { label: "Standort", value: "Piazzale degli Uffizi, 6", note: "Florenz Zentrum" },
     collection: { label: "Sammlung", value: "Über 2.000 Werke", note: "Meisterwerke der Renaissance" },
   },
@@ -330,7 +330,7 @@ const de: HomeContent = {
   ],
   ticketsSection: {
     h2: "Uffizi Galerie Tickets 2026",
-    p1: "Ohne Anstehen — das ist kein leeres Versprechen. Die Warteschlange an den Uffizien kann in der Hauptsaison (März bis Oktober) über zwei Stunden betragen. Mit einem vorab gebuchten Ticket gehen Sie direkt zu Tür 1 mit Ihrem Zeitfenster-Eintritt und sind in wenigen Minuten drin. Standardtickets kosten €29 online oder €25 an der Tageskasse. EU-Bürger zwischen 18 und 25 Jahren zahlen nur €2, und Besucher unter 18 Jahren aus jedem Land haben freien Eintritt.",
+    p1: "Umgehen Sie die Warteschlange an der Kasse — im Ernst. Die Schlange am Ticketschalter der Uffizien kann in der Hauptsaison (März bis Oktober) über zwei Stunden betragen. Mit einem vorab gebuchten Ticket mit Zeitfenster gehen Sie zu Ihrer reservierten Uhrzeit direkt zu Eingang 1 — alle durchlaufen eine kurze Sicherheitskontrolle — und sind in wenigen Minuten drin. Standardtickets kosten €25 am selben Tag an der Kasse oder €29 im Voraus online gebucht. EU-Bürger zwischen 18 und 25 Jahren zahlen nur €2, und Besucher unter 18 Jahren aus jedem Land haben freien Eintritt (personalisiertes Ticket — der Name muss mit dem Ausweis übereinstimmen).",
     ctaTitle: "Uffizi Galerie Reserviertes Ticket & Digitaler Audioguide",
     p2: "Mein Tipp: Buchen Sie immer das früheste Zeitfenster — 8:15 Uhr. Sie haben den Botticelli-Saal in den ersten 20 Minuten praktisch für sich allein. Ab 10:00 Uhr kommen die Reisegruppen und die Atmosphäre verändert sich grundlegend. Falls der Morgen nicht passt, versuchen Sie es nach 16:00 Uhr, wenn die Tagesausflügler abgereist sind.",
     link: "Alle Tickets und Preise ansehen →",
@@ -342,7 +342,7 @@ const de: HomeContent = {
       {
         title: "Geführte Uffizi-Tour",
         description:
-          "Ohne Anstehen die Uffizi Galerie mit einem lizenzierten Kunsthistoriker erkunden. Botticelli, Leonardo, Michelangelo und mehr in einer 2-stündigen Expertenführung.",
+          "Mit reserviertem Einlass und einem lizenzierten Kunsthistoriker die Uffizien erkunden. Botticelli, Leonardo, Michelangelo und mehr in einer 2-stündigen Expertenführung.",
       },
       {
         title: "Private Uffizi-Tour",
@@ -352,7 +352,7 @@ const de: HomeContent = {
       {
         title: "Kombi-Tour Uffizi + Accademia",
         description:
-          "Die beiden bedeutendsten Museen von Florenz an einem Tag. Uffizi-Meisterwerke am Vormittag, Michelangelos David am Nachmittag. Eintritt ohne Anstehen inklusive.",
+          "Die beiden bedeutendsten Museen von Florenz an einem Tag. Uffizi-Meisterwerke am Vormittag, Michelangelos David am Nachmittag. Eintritt mit reserviertem Zeitfenster inklusive.",
       },
     ],
     link: "Alle Touren und Erlebnisse ansehen →",
@@ -362,7 +362,7 @@ const de: HomeContent = {
     items: [
       { title: "Öffnungszeiten Uffizi", desc: "Tagesaktuelle Zeiten, Schließtage & beste Besuchszeiten" },
       { title: "Anfahrt", desc: "Wegbeschreibung von überall in Florenz" },
-      { title: "Eingang Tür 3", desc: "Wichtige Einlass-Infos für vorab gebuchte Tickets" },
+      { title: "Eingang 1", desc: "Wichtige Einlass-Infos für vorab gebuchte Tickets" },
       { title: "2-Stunden-Rundgang", desc: "Raum-für-Raum-Route für den perfekten Besuch" },
     ],
   },
@@ -387,7 +387,7 @@ const de: HomeContent = {
   beforeYouGo: {
     h2: "Was Sie vor Ihrem Besuch wissen sollten",
     paragraphs: [
-      "Die Uffizien sind Dienstag bis Sonntag von 8:15 bis 18:30 Uhr geöffnet (letzter Einlass 17:40 Uhr). Montags ist geschlossen, ebenso an Weihnachten (25. Dezember), Neujahr (1. Januar) und am 1. Mai. In den Sommermonaten und rund um Ostern werden die Öffnungszeiten manchmal verlängert — aktuelle Zeiten finden Sie auf unserer Seite zu den Öffnungszeiten.",
+      "Die Uffizien sind Dienstag bis Sonntag von 8:15 bis 18:30 Uhr geöffnet (letzter Einlass 17:30 Uhr). Montags ist geschlossen, ebenso an Weihnachten (25. Dezember) und Neujahr (1. Januar). Aktuelle Zeiten finden Sie auf unserer Seite zu den Öffnungszeiten.",
       "Planen Sie mindestens 2 Stunden für einen sinnvollen Besuch ein. Kunstbegeisterte werden 3–4 Stunden benötigen, um die Sammlung ausführlich zu erkunden. Falls Sie wenig Zeit haben, deckt unser 2-Stunden-Rundgang die wichtigsten Highlights ab — ohne Hektik.",
       "Große Taschen und Rucksäcke müssen an der kostenlosen Garderobe am Eingang abgegeben werden. Fotografieren ist erlaubt (ohne Blitz), Selfie-Sticks und Stative sind jedoch verboten. Auf der Terrasse im zweiten Stock gibt es ein Café mit Blick auf die Piazza della Signoria — der perfekte Ort für eine Pause auf halbem Weg durch Ihren Besuch.",
     ],
@@ -401,15 +401,15 @@ const de: HomeContent = {
   faq: [
     {
       q: "Was kosten Uffizi Galerie Tickets 2026?",
-      a: "Standardtickets kosten €29 online oder €25 an der Tageskasse. Skip-the-Line-Tickets sind online ab €26 erhältlich. EU-Bürger zwischen 18 und 25 Jahren zahlen den ermäßigten Preis von €2. Kinder unter 18 Jahren haben unabhängig von der Nationalität freien Eintritt.",
+      a: "Standardtickets kosten €25 am selben Tag an der Kasse oder €29 im Voraus online gebucht. Der Nachmittagseintritt (ab 16:00 Uhr) kostet €16 am selben Tag oder €20 im Voraus. Unser Ticket mit Zeitfenster und digitalem Audioguide gibt es ab €26. EU-Bürger zwischen 18 und 25 Jahren zahlen den ermäßigten Preis von €2. Kinder unter 18 Jahren haben unabhängig von der Nationalität freien Eintritt (personalisiertes Ticket).",
     },
     {
       q: "Muss ich Uffizi-Tickets im Voraus buchen?",
-      a: "Das wird dringend empfohlen. In der Hauptsaison kann die Wartezeit ohne Voranmeldung über 2 Stunden betragen. Vorab gebuchte Zeitfenster-Tickets ermöglichen den Eintritt ohne Anstehen über Tür 1. In der Nebensaison (November–Februar) sind Tageskarten manchmal noch verfügbar, doch eine Vorausbuchung garantiert Ihr Wunsch-Zeitfenster.",
+      a: "Das wird dringend empfohlen. In der Hauptsaison kann die Warteschlange an der Kasse über 2 Stunden betragen. Mit einem vorab gebuchten Ticket mit Zeitfenster umgehen Sie die Warteschlange an der Kasse und gehen zu Ihrer reservierten Uhrzeit zu Eingang 1 (alle durchlaufen eine kurze Sicherheitskontrolle). In der Nebensaison (November–Februar) sind Tageskarten manchmal noch verfügbar, doch eine Vorausbuchung garantiert Ihr Wunsch-Zeitfenster.",
     },
     {
       q: "Wie sind die Öffnungszeiten der Uffizi Galerie?",
-      a: "Die Uffizien sind Dienstag bis Sonntag von 8:15 bis 18:30 Uhr geöffnet (letzter Einlass 17:40 Uhr). Montags ist geschlossen, ebenso am 25. Dezember, 1. Januar und 1. Mai. In der touristischen Hochsaison können die Öffnungszeiten verlängert werden.",
+      a: "Die Uffizien sind Dienstag bis Sonntag von 8:15 bis 18:30 Uhr geöffnet (letzter Einlass 17:30 Uhr). Montags ist geschlossen, ebenso am 25. Dezember und 1. Januar.",
     },
     {
       q: "Wie viel Zeit brauche ich für die Uffizi Galerie?",
@@ -421,28 +421,28 @@ const de: HomeContent = {
     },
     {
       q: "Lohnt sich eine Führung durch die Uffizi Galerie?",
-      a: "Auf jeden Fall. Eine Führung mit einem lizenzierten Kunsthistoriker verwandelt den Besuch in ein unvergessliches Erlebnis. Sie erfahren die Hintergründe jedes Meisterwerks — politische Intrigen, künstlerische Innovationen, persönliche Geschichten der Künstler. Führungen beinhalten zudem den Eintritt ohne Anstehen und dauern etwa 2 Stunden.",
+      a: "Auf jeden Fall. Eine Führung mit einem lizenzierten Kunsthistoriker verwandelt den Besuch in ein unvergessliches Erlebnis. Sie erfahren die Hintergründe jedes Meisterwerks — politische Intrigen, künstlerische Innovationen, persönliche Geschichten der Künstler. Führungen beinhalten zudem den Eintritt mit reserviertem Zeitfenster und dauern etwa 2 Stunden.",
     },
   ],
 };
 
 const fr: HomeContent = {
   meta: {
-    title: "Billets Galerie des Offices 2026 | Coupe-File | Visit Uffizi",
+    title: "Billets Galerie des Offices 2026 | Horaire Réservé | Visit Uffizi",
     description:
-      "Planifiez votre visite de la Galerie des Offices. Billets coupe-file des 20EUR, visites guidees et chefs-d'oeuvre de Botticelli, Michel-Ange et Leonard. Horaires et conseils.",
+      "Préparez votre visite de la Galerie des Offices. Billets à horaire réservé dès €26 avec audioguide, visites guidées, chefs-d'oeuvre, horaires et conseils.",
   },
   hero: {
     tagline: "Florence, Italie",
     h1: "Galerie des Offices Florence",
     subtitle:
       "La Naissance de Venus de Botticelli, l'Annonciation de Leonard de Vinci et plus de 2 000 chefs-d'oeuvre couvrant des siecles d'art italien. Preparez votre visite de la plus importante collection d'art de la Renaissance au monde.",
-    ctaTickets: "Billets Coupe-File Offices",
+    ctaTickets: "Billets à Horaire Réservé",
     ctaTours: "Decouvrir les Visites Guidees",
   },
   quickInfo: {
     hours: { label: "Horaires", value: "Mar-Dim : 8h15-18h30", note: "Ferme le lundi" },
-    tickets: { label: "Billets", value: "Des 20EUR en ligne", note: "Coupe-file inclus" },
+    tickets: { label: "Billets", value: "Dès €26 en ligne", note: "Évitez la file à la billetterie" },
     location: { label: "Adresse", value: "Piazzale degli Uffizi, 6", note: "Centre de Florence" },
     collection: { label: "Collection", value: "2 000+ oeuvres", note: "Chefs-d'oeuvre de la Renaissance" },
   },
@@ -452,7 +452,7 @@ const fr: HomeContent = {
   ],
   ticketsSection: {
     h2: "Billets Offices 2026",
-    p1: "Evitez la file d'attente, serieusement. La queue aux Offices peut depasser deux heures en haute saison (de mars a octobre). Avec un billet reserve en ligne, vous vous rendez directement a la Porte 1 avec votre creneau horaire et vous etes a l'interieur en quelques minutes. Le billet standard coute 25EUR en haute saison ou 12EUR de novembre a fevrier. Les citoyens de l'UE ages de 18 a 25 ans ne paient que 2EUR, et les moins de 18 ans de toute nationalite entrent gratuitement.",
+    p1: "Évitez la file d'attente à la billetterie, sérieusement. La queue pour acheter un billet aux Offices peut dépasser deux heures en haute saison (de mars à octobre). Avec un billet à horaire réservé acheté en ligne, vous vous rendez directement à la Porte 1 à votre créneau — tout le monde passe un bref contrôle de sécurité — et vous êtes à l'intérieur en quelques minutes. Le billet standard coûte €25 sur place le jour même ou €29 réservé en ligne à l'avance. Les citoyens de l'UE âgés de 18 à 25 ans ne paient que €2, et les moins de 18 ans de toute nationalité entrent gratuitement (billet nominatif : le nom doit correspondre à la pièce d'identité).",
     ctaTitle: "Billet Réservé Galerie des Offices et Audioguide Numérique",
     p2: "Je recommande toujours de reserver le premier creneau du matin : 8h15. Vous aurez la salle Botticelli pratiquement pour vous pendant les 20 premieres minutes. A partir de 10h, les groupes arrivent et l'experience change du tout au tout. Si le matin n'est pas possible, essayez apres 16h, lorsque les excursionnistes sont repartis.",
     link: "Voir tous les billets et tarifs \u2192",
@@ -464,7 +464,7 @@ const fr: HomeContent = {
       {
         title: "Visite Guidee de la Galerie des Offices",
         description:
-          "Coupe-file et decouverte des Offices avec un historien de l'art diplome. Botticelli, Leonard, Michel-Ange et bien plus dans une visite de 2 heures.",
+          "Entrée réservée et découverte des Offices avec un historien de l'art diplômé. Botticelli, Léonard, Michel-Ange et bien plus dans une visite de 2 heures.",
       },
       {
         title: "Visite Privee des Offices",
@@ -474,7 +474,7 @@ const fr: HomeContent = {
       {
         title: "Visite Combo Offices + Accademia",
         description:
-          "Les deux plus grands musees de Florence en une journee. Chefs-d'oeuvre des Offices le matin, David de Michel-Ange l'apres-midi. Entree coupe-file incluse.",
+          "Les deux plus grands musees de Florence en une journee. Chefs-d'oeuvre des Offices le matin, David de Michel-Ange l'apres-midi. Entrée à horaire réservé incluse.",
       },
     ],
     link: "Voir toutes les visites et experiences \u2192",
@@ -484,7 +484,7 @@ const fr: HomeContent = {
     items: [
       { title: "Horaires d'Ouverture", desc: "Horaires Offices, fermetures et meilleurs moments" },
       { title: "Comment s'y Rendre", desc: "Itineraires depuis n'importe quel point de Florence" },
-      { title: "Entree Porte 3", desc: "Informations essentielles pour les billets reserves" },
+      { title: "Entrée Porte 1", desc: "Informations essentielles pour les billets reserves" },
       { title: "Guide 2 Heures", desc: "Parcours salle par salle pour une visite parfaite" },
     ],
   },
@@ -509,7 +509,7 @@ const fr: HomeContent = {
   beforeYouGo: {
     h2: "Ce qu'il Faut Savoir Avant Votre Visite",
     paragraphs: [
-      "Les Offices sont ouverts du mardi au dimanche, de 8h15 a 18h30 (derniere entree a 17h40). Ils sont fermes tous les lundis, le jour de Noel (25 decembre), le Jour de l'An (1er janvier) et le 1er mai. En ete et pendant la periode de Paques, le musee prolonge parfois ses horaires : consultez la page des horaires pour le calendrier actuel.",
+      "Les Offices sont ouverts du mardi au dimanche, de 8h15 a 18h30 (derniere entree a 17h30). Ils sont fermes tous les lundis, le jour de Noel (25 decembre) et le Jour de l'An (1er janvier). Consultez la page des horaires pour le calendrier actuel.",
       "Prevoyez au moins 2 heures pour une visite satisfaisante. Les passionnes d'art voudront 3 a 4 heures pour explorer la collection en profondeur. Si vous manquez de temps, notre itineraire de 2 heures couvre les oeuvres essentielles sans precipitation.",
       "Les grands sacs et sacs a dos doivent etre deposes au vestiaire gratuit pres de l'entree. Les photos sont autorisees (sans flash), mais les perches a selfie et les trepieds sont interdits. Il y a un cafe sur la terrasse du deuxieme etage avec vue sur la Piazza della Signoria, l'endroit ideal pour une pause a mi-parcours.",
     ],
@@ -523,15 +523,15 @@ const fr: HomeContent = {
   faq: [
     {
       q: "Combien coutent les billets pour les Offices en 2026 ?",
-      a: "Le billet standard coute 25EUR en haute saison (mars-octobre) et 12EUR en basse saison (novembre-fevrier). Les citoyens de l'UE ages de 18 a 25 ans paient un tarif reduit de 2EUR. Les moins de 18 ans de toute nationalite entrent gratuitement. Les billets coupe-file sont disponibles en ligne des 20EUR.",
+      a: "Le billet standard coûte €25 sur place le jour même ou €29 réservé en ligne à l'avance. L'entrée de l'après-midi (à partir de 16h00) coûte €16 le jour même ou €20 à l'avance. Notre billet à horaire réservé avec audioguide numérique est disponible dès €26. Les citoyens de l'UE âgés de 18 à 25 ans paient un tarif réduit de €2. Les moins de 18 ans de toute nationalité entrent gratuitement (billet nominatif).",
     },
     {
       q: "Faut-il reserver les billets des Offices a l'avance ?",
-      a: "Fortement recommande. En haute saison, la file d'attente sans reservation peut depasser 2 heures. Les billets a creneau horaire permettent d'eviter la queue et d'entrer par la Porte 1. En basse saison (novembre-fevrier), des billets sont parfois disponibles le jour meme, mais reserver a l'avance garantit le creneau de votre choix.",
+      a: "Fortement recommandé. En haute saison, la file d'attente à la billetterie peut dépasser 2 heures. Un billet à horaire réservé vous évite la file d'attente à la billetterie : vous vous présentez à la Porte 1 à votre créneau (tout le monde passe un bref contrôle de sécurité). En basse saison (novembre-février), des billets sont parfois disponibles le jour même, mais réserver à l'avance garantit le créneau de votre choix.",
     },
     {
       q: "Quels sont les horaires d'ouverture des Offices ?",
-      a: "Les Offices sont ouverts du mardi au dimanche, de 8h15 a 18h30 (derniere entree a 17h40). Le musee est ferme tous les lundis, ainsi que le 25 decembre, le 1er janvier et le 1er mai. Les horaires peuvent etre prolonges en haute saison touristique.",
+      a: "Les Offices sont ouverts du mardi au dimanche, de 8h15 a 18h30 (derniere entree a 17h30). Le musee est ferme tous les lundis, ainsi que le 25 decembre et le 1er janvier.",
     },
     {
       q: "Combien de temps faut-il pour visiter les Offices ?",
@@ -543,28 +543,28 @@ const fr: HomeContent = {
     },
     {
       q: "Une visite guidee des Offices vaut-elle le coup ?",
-      a: "Absolument. Une visite guidee avec un historien de l'art diplome transforme l'experience. Vous comprendrez le contexte de chaque chef-d'oeuvre : intrigues politiques, innovations artistiques, histoires personnelles des artistes. Les visites guidees incluent egalement l'entree coupe-file et durent environ 2 heures.",
+      a: "Absolument. Une visite guidee avec un historien de l'art diplome transforme l'experience. Vous comprendrez le contexte de chaque chef-d'oeuvre : intrigues politiques, innovations artistiques, histoires personnelles des artistes. Les visites guidees incluent egalement l'entrée à horaire réservé et durent environ 2 heures.",
     },
   ],
 };
 
 const es: HomeContent = {
   meta: {
-    title: "Entradas Uffizi 2026 | Sin Colas | Horario y Precios | Visit Uffizi",
+    title: "Entradas Uffizi 2026 | Hora Reservada | Horario y Precios",
     description:
-      "Planifica tu visita a la Galeria Uffizi. Entradas sin colas desde 20EUR, visitas guiadas y obras maestras de Botticelli, Miguel Angel y Leonardo. Horario Uffizi y consejos.",
+      "Planifica tu visita a la Galería Uffizi. Entradas con hora reservada desde €26 con audioguía, visitas guiadas, obras maestras, horario y consejos.",
   },
   hero: {
     tagline: "Florencia, Italia",
     h1: "Galeria Uffizi Florencia",
     subtitle:
       "El Nacimiento de Venus de Botticelli, la Anunciacion de Leonardo y mas de 2.000 obras maestras que abarcan siglos de arte italiano. Planifica tu visita a la coleccion de arte renacentista mas importante del mundo.",
-    ctaTickets: "Entradas Sin Colas Uffizi",
+    ctaTickets: "Entradas con Hora Reservada",
     ctaTours: "Descubrir Visitas Guiadas",
   },
   quickInfo: {
     hours: { label: "Horario", value: "Mar-Dom: 8:15-18:30", note: "Cerrado los lunes" },
-    tickets: { label: "Entradas", value: "Desde 20EUR online", note: "Sin colas incluido" },
+    tickets: { label: "Entradas", value: "Desde €26 online", note: "Evita la cola de la taquilla" },
     location: { label: "Ubicacion", value: "Piazzale degli Uffizi, 6", note: "Centro de Florencia" },
     collection: { label: "Coleccion", value: "2.000+ obras", note: "Obras maestras del Renacimiento" },
   },
@@ -574,7 +574,7 @@ const es: HomeContent = {
   ],
   ticketsSection: {
     h2: "Entradas Uffizi 2026",
-    p1: "Evita las colas, en serio. La fila en los Uffizi puede superar las dos horas en temporada alta (de marzo a octubre). Con una entrada reservada online, te diriges directamente a la Puerta 1 con tu horario asignado y entras en minutos. La entrada estandar cuesta 25EUR en temporada alta o 12EUR de noviembre a febrero. Los ciudadanos de la UE de 18 a 25 anos pagan solo 2EUR, y los menores de 18 anos de cualquier nacionalidad entran gratis.",
+    p1: "Evita la cola de la taquilla, en serio. La fila para comprar entradas en los Uffizi puede superar las dos horas en temporada alta (de marzo a octubre). Con una entrada con hora reservada comprada online, te diriges directamente a la Puerta 1 a tu hora — todos pasan un breve control de seguridad — y entras en minutos. La entrada estándar cuesta €25 en taquilla el mismo día o €29 reservada online con antelación. Los ciudadanos de la UE de 18 a 25 años pagan solo €2, y los menores de 18 años de cualquier nacionalidad entran gratis (entrada nominativa: el nombre debe coincidir con el documento).",
     ctaTitle: "Entrada Reservada Galería Uffizi y Audioguía Digital",
     p2: "Siempre recomiendo reservar la primera franja horaria: las 8:15. Tendras la sala de Botticelli practicamente para ti solo durante los primeros 20 minutos. A partir de las 10:00 llegan los grupos y la experiencia cambia por completo. Si la manana no te va bien, prueba despues de las 16:00, cuando los excursionistas del dia ya se han marchado.",
     link: "Ver todas las entradas y precios \u2192",
@@ -586,7 +586,7 @@ const es: HomeContent = {
       {
         title: "Visita Guiada a la Galeria Uffizi",
         description:
-          "Entrada sin colas y recorrido por los Uffizi con un historiador del arte. Botticelli, Leonardo, Miguel Angel y mucho mas en una visita de 2 horas.",
+          "Entrada reservada y recorrido por los Uffizi con un historiador del arte. Botticelli, Leonardo, Miguel Angel y mucho mas en una visita de 2 horas.",
       },
       {
         title: "Visita Privada a los Uffizi",
@@ -596,7 +596,7 @@ const es: HomeContent = {
       {
         title: "Tour Combinado Uffizi + Accademia",
         description:
-          "Los dos museos mas importantes de Florencia en un dia. Obras maestras de los Uffizi por la manana, el David de Miguel Angel por la tarde. Entrada sin colas incluida.",
+          "Los dos museos mas importantes de Florencia en un dia. Obras maestras de los Uffizi por la manana, el David de Miguel Angel por la tarde. Entrada con hora reservada incluida.",
       },
     ],
     link: "Ver todas las visitas y experiencias \u2192",
@@ -606,7 +606,7 @@ const es: HomeContent = {
     items: [
       { title: "Horario de Apertura", desc: "Horario Uffizi, cierres y mejores momentos" },
       { title: "Como Llegar", desc: "Indicaciones desde cualquier punto de Florencia" },
-      { title: "Entrada Puerta 3", desc: "Informacion esencial para entradas reservadas" },
+      { title: "Entrada Puerta 1", desc: "Informacion esencial para entradas reservadas" },
       { title: "Guia de 2 Horas", desc: "Recorrido sala por sala para una visita perfecta" },
     ],
   },
@@ -631,7 +631,7 @@ const es: HomeContent = {
   beforeYouGo: {
     h2: "Que Saber Antes de Ir",
     paragraphs: [
-      "Los Uffizi estan abiertos de martes a domingo, de 8:15 a 18:30 (ultima entrada a las 17:40). Cierra todos los lunes, el dia de Navidad (25 de diciembre), Ano Nuevo (1 de enero) y el 1 de mayo. Durante los meses de verano y en torno a Semana Santa, el museo a veces amplia su horario; consulta la pagina de horarios para el calendario actual.",
+      "Los Uffizi estan abiertos de martes a domingo, de 8:15 a 18:30 (ultima entrada a las 17:30). Cierra todos los lunes, el dia de Navidad (25 de diciembre) y Ano Nuevo (1 de enero). Consulta la pagina de horarios para el calendario actual.",
       "Reserva al menos 2 horas para una visita satisfactoria. Los apasionados del arte querran 3-4 horas para explorar la coleccion en profundidad. Si andas corto de tiempo, nuestro itinerario de 2 horas cubre las obras esenciales sin prisas.",
       "Los bolsos grandes y mochilas deben dejarse en el guardarropa gratuito junto a la entrada. Se permite fotografiar (sin flash), pero los palos de selfie y tripodes estan prohibidos. Hay una cafeteria en la terraza del segundo piso con vistas a la Piazza della Signoria, el lugar perfecto para descansar a mitad de la visita.",
     ],
@@ -645,15 +645,15 @@ const es: HomeContent = {
   faq: [
     {
       q: "Cuanto cuestan las entradas a los Uffizi en 2026?",
-      a: "La entrada estandar cuesta 25EUR en temporada alta (marzo-octubre) y 12EUR en temporada baja (noviembre-febrero). Los ciudadanos de la UE de 18 a 25 anos pagan un precio reducido de 2EUR. Los menores de 18 anos de cualquier nacionalidad entran gratis. Las entradas sin colas estan disponibles online desde 20EUR.",
+      a: "La entrada estándar cuesta €25 en taquilla el mismo día o €29 reservada online con antelación. La entrada de tarde (desde las 16:00) cuesta €16 el mismo día o €20 con antelación. Nuestra entrada con hora reservada y audioguía digital está disponible desde €26. Los ciudadanos de la UE de 18 a 25 años pagan un precio reducido de €2. Los menores de 18 años de cualquier nacionalidad entran gratis (entrada nominativa).",
     },
     {
       q: "Es necesario reservar las entradas de los Uffizi con antelacion?",
-      a: "Muy recomendable. En temporada alta, la fila sin reserva puede superar las 2 horas. Las entradas con horario asignado permiten evitar la cola y entrar por la Puerta 1. En temporada baja (noviembre-febrero), a veces hay entradas disponibles el mismo dia, pero reservar con antelacion garantiza tu franja horaria preferida.",
+      a: "Muy recomendable. En temporada alta, la cola de la taquilla puede superar las 2 horas. Con una entrada con hora reservada evitas la cola de la taquilla y te presentas en la Puerta 1 a tu hora (todos pasan un breve control de seguridad). En temporada baja (noviembre-febrero), a veces hay entradas disponibles el mismo dia, pero reservar con antelacion garantiza tu franja horaria preferida.",
     },
     {
       q: "Cual es el horario de apertura de los Uffizi?",
-      a: "Los Uffizi estan abiertos de martes a domingo, de 8:15 a 18:30 (ultima entrada a las 17:40). El museo cierra todos los lunes, el 25 de diciembre, el 1 de enero y el 1 de mayo. El horario puede ampliarse durante la temporada turistica alta.",
+      a: "Los Uffizi estan abiertos de martes a domingo, de 8:15 a 18:30 (ultima entrada a las 17:30). El museo cierra todos los lunes, el 25 de diciembre y el 1 de enero.",
     },
     {
       q: "Cuanto tiempo se necesita para visitar los Uffizi?",
@@ -665,7 +665,7 @@ const es: HomeContent = {
     },
     {
       q: "Merece la pena una visita guiada a los Uffizi?",
-      a: "Sin duda. Una visita guiada con un historiador del arte transforma la experiencia. Comprenderas el contexto de cada obra maestra: intrigas politicas, innovaciones artisticas e historias personales de los artistas. Las visitas guiadas tambien incluyen entrada sin colas y duran aproximadamente 2 horas.",
+      a: "Sin duda. Una visita guiada con un historiador del arte transforma la experiencia. Comprenderas el contexto de cada obra maestra: intrigas politicas, innovaciones artisticas e historias personales de los artistas. Las visitas guiadas tambien incluyen entrada con hora reservada y duran aproximadamente 2 horas.",
     },
   ],
 };

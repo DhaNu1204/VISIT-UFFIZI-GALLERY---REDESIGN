@@ -12,7 +12,7 @@ type Props = {
 };
 
 export default function Breadcrumbs({ items, locale }: Props) {
-  const allItems = [{ label: "Home", href: `/${locale}` }, ...items];
+  const allItems = [{ label: "Home", href: `/${locale}/` }, ...items];
 
   const jsonLd = {
     "@context": "https://schema.org",

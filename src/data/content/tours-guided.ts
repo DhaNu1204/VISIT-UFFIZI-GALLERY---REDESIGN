@@ -35,9 +35,9 @@ export type ToursGuidedContent = {
 
 const en: ToursGuidedContent = {
   meta: {
-    title: "Uffizi Gallery Guided Tour 2026 | Expert-Led, Skip the Line",
+    title: "Uffizi Gallery Guided Tour 2026 | Expert-Led, Timed Entry",
     description:
-      "Join a small-group Uffizi guided tour with a licensed Florentine art historian. Skip the line, see Botticelli, Leonardo & Michelangelo. From \u20AC49.",
+      "Join a small-group Uffizi guided tour with a licensed Florentine art historian. Reserved timed entry, see Botticelli, Leonardo & Michelangelo. From \u20AC49.",
   },
   breadcrumbs: {
     tours: "Tours",
@@ -91,7 +91,7 @@ const en: ToursGuidedContent = {
     },
     includes: {
       label: "Includes",
-      value: "Skip-the-line ticket, licensed guide, audio headsets",
+      value: "Reserved timed-entry ticket, licensed guide, audio headsets",
     },
     cancellation: {
       label: "Cancellation",
@@ -136,9 +136,9 @@ const en: ToursGuidedContent = {
 
 const it: ToursGuidedContent = {
   meta: {
-    title: "Visita Guidata Uffizi 2026 | Tour con Guida Esperta, Salta la Fila",
+    title: "Visita Guidata Uffizi 2026 | Guida Esperta, Orario Riservato",
     description:
-      "Partecipa a una visita guidata agli Uffizi in piccolo gruppo con storico dell'arte fiorentino. Salta la fila, ammira Botticelli, Leonardo e Michelangelo. Da \u20AC49.",
+      "Visita guidata agli Uffizi in piccolo gruppo con storico dell'arte fiorentino. Ingresso a orario prestabilito: Botticelli, Leonardo e Michelangelo. Da \u20AC49.",
   },
   breadcrumbs: {
     tours: "Tour",
@@ -192,7 +192,7 @@ const it: ToursGuidedContent = {
     },
     includes: {
       label: "Include",
-      value: "Biglietto salta la fila, guida abilitata, auricolari",
+      value: "Biglietto a orario prestabilito, guida abilitata, auricolari",
     },
     cancellation: {
       label: "Cancellazione",
@@ -237,9 +237,9 @@ const it: ToursGuidedContent = {
 
 const de: ToursGuidedContent = {
   meta: {
-    title: "Geführte Uffizi Tour 2026 | Führung mit Kunstexperte, ohne Anstehen",
+    title: "Geführte Uffizi Tour 2026 | Führung mit Zeitfenster-Ticket",
     description:
-      "Geführte Uffizi Galerie Tour in Kleingruppe mit lizenziertem Florentiner Kunsthistoriker. Ohne Anstehen, Botticelli, Leonardo & Michelangelo. Ab 49 €.",
+      "Geführte Uffizi Galerie Tour in Kleingruppe mit lizenziertem Florentiner Kunsthistoriker. Mit Zeitfenster-Ticket: Botticelli, Leonardo & Michelangelo. Ab 49 €.",
   },
   breadcrumbs: {
     tours: "Touren",
@@ -293,7 +293,7 @@ const de: ToursGuidedContent = {
     },
     includes: {
       label: "Inklusive",
-      value: "Eintrittskarte ohne Anstehen, lizenzierter Guide, Audio-Headsets",
+      value: "Ticket mit Zeitfenster, lizenzierter Guide, Audio-Headsets",
     },
     cancellation: {
       label: "Stornierung",
@@ -338,9 +338,9 @@ const de: ToursGuidedContent = {
 
 const fr: ToursGuidedContent = {
   meta: {
-    title: "Visite Guidee Offices 2026 | Avec Expert, Coupe-file",
+    title: "Visite Guidee Offices 2026 | Avec Expert, Horaire Reserve",
     description:
-      "Visite guidee de la Galerie des Offices en petit groupe avec historien de l'art florentin agree. Coupe-file, Botticelli, Leonard de Vinci et Michel-Ange. Des 49 EUR.",
+      "Visite guidee des Offices en petit groupe avec historien de l'art florentin agree. Billet a horaire reserve : Botticelli, Leonard de Vinci, Michel-Ange. Des 49 EUR.",
   },
   breadcrumbs: {
     tours: "Visites",
@@ -394,7 +394,7 @@ const fr: ToursGuidedContent = {
     },
     includes: {
       label: "Inclus",
-      value: "Billet coupe-file, guide agree, casques audio",
+      value: "Billet a horaire reserve, guide agree, casques audio",
     },
     cancellation: {
       label: "Annulation",
@@ -439,9 +439,9 @@ const fr: ToursGuidedContent = {
 
 const es: ToursGuidedContent = {
   meta: {
-    title: "Visita Guiada Uffizi 2026 | Con Experto, Sin Colas",
+    title: "Visita Guiada Uffizi 2026 | Con Experto, Hora Reservada",
     description:
-      "Visita guiada a la Galeria Uffizi en grupo reducido con historiador del arte florentino autorizado. Sin colas, Botticelli, Leonardo y Miguel Angel. Desde 49 EUR.",
+      "Visita guiada a la Galeria Uffizi en grupo reducido con historiador del arte. Entrada con hora reservada: Botticelli, Leonardo y Miguel Angel. Desde 49\u20AC.",
   },
   breadcrumbs: {
     tours: "Tours",
@@ -495,7 +495,7 @@ const es: ToursGuidedContent = {
     },
     includes: {
       label: "Incluye",
-      value: "Entrada sin colas, guia autorizado, auriculares de audio",
+      value: "Entrada con hora reservada, guia autorizado, auriculares de audio",
     },
     cancellation: {
       label: "Cancelacion",

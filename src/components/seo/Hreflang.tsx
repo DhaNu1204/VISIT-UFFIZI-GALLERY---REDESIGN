@@ -7,7 +7,7 @@ type Props = {
 };
 
 export default function Hreflang({ path = "" }: Props) {
-  const pathSegment = path ? `/${path}` : "";
+  const pathSegment = path ? `/${path}/` : "/";
 
   return (
     <>

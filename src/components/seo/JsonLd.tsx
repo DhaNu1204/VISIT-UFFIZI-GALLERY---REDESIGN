@@ -21,6 +21,7 @@ function buildMuseumSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "Museum",
+    "@id": "https://www.uffizi.it/#museum",
     name: "Uffizi Gallery",
     alternateName: "Galleria degli Uffizi",
     url: "https://www.uffizi.it",
@@ -56,7 +57,7 @@ function buildMuseumSchema() {
       },
     ],
     telephone: "+39 055 294883",
-    priceRange: "€12-€25",
+    priceRange: "€16-€29",
     isAccessibleForFree: false,
   };
 }
@@ -95,17 +96,18 @@ function buildProductSchema(data: Record<string, unknown>) {
 }
 
 function buildPersonSchema(data: Record<string, unknown>) {
-  return {
+  const schema: Record<string, unknown> = {
     "@context": "https://schema.org",
     "@type": "Person",
     name: data.name || "",
-    birthDate: data.born || "",
-    deathDate: data.died || "",
-    birthPlace: data.birthPlace || "",
-    description: data.description || "",
-    image: data.image || "",
-    sameAs: data.sameAs || [],
   };
+  if (data.born) schema.birthDate = data.born;
+  if (data.died) schema.deathDate = data.died;
+  if (data.birthPlace) schema.birthPlace = data.birthPlace;
+  if (data.description) schema.description = data.description;
+  if (data.image) schema.image = data.image;
+  if (data.sameAs && (data.sameAs as unknown[]).length > 0) schema.sameAs = data.sameAs;
+  return schema;
 }
 
 function buildArticleSchema(
@@ -131,7 +133,7 @@ function buildArticleSchema(
     },
     datePublished: data.datePublished || "",
     dateModified: data.dateModified || data.datePublished || "",
-    mainEntityOfPage: `${SITE_URL}/${locale || "en"}${path ? `/${path}` : ""}`,
+    mainEntityOfPage: `${SITE_URL}/${locale || "en"}${path ? `/${path}/` : "/"}`,
     inLanguage: locale || "en",
   };
 }

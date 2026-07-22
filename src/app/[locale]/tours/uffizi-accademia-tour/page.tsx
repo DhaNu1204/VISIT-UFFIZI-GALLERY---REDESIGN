@@ -15,7 +15,28 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: c.meta.title,
     description: c.meta.description,
     alternates: {
-      canonical: `https://visituffizi.com/${locale}/tours/uffizi-accademia-tour`,
+      canonical: `https://visituffizi.com/${locale}/tours/uffizi-accademia-tour/`,
+    },
+    openGraph: {
+      title: c.meta.title,
+      description: c.meta.description,
+      url: `https://visituffizi.com/${locale}/tours/uffizi-accademia-tour/`,
+      siteName: "Visit Uffizi",
+      type: "website",
+      locale,
+      images: [
+        {
+          url: "https://visituffizi.com/images/og/default.jpg",
+          width: 1200,
+          height: 630,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: c.meta.title,
+      description: c.meta.description,
+      images: ["https://visituffizi.com/images/og/default.jpg"],
     },
   };
 }
@@ -31,7 +52,7 @@ export default async function ComboTourPage({ params }: Props) {
       <Breadcrumbs
         locale={locale}
         items={[
-          { label: c.breadcrumbs.tours, href: `/${locale}/tours` },
+          { label: c.breadcrumbs.tours, href: `/${locale}/tours/` },
           { label: c.breadcrumbs.comboTour },
         ]}
       />
@@ -50,7 +71,7 @@ export default async function ComboTourPage({ params }: Props) {
           title={c.bookingCtaTop}
           price="89"
           duration="5 hours"
-          includes="Skip-the-line entry to both museums, licensed guide, headsets"
+          includes="Reserved timed entry to both museums, licensed guide, headsets"
           link="https://www.getyourguide.com/florence-l32/florence-uffizi-gallery-guided-tour-with-vasari-corridor-t1142368/?partner_id=Z35Q282&utm_medium=online_publisher&cmp=visit_uffizi_tour_page"
           urgent
         />

@@ -4,516 +4,673 @@ export type Door3Content = {
   meta: { title: string; description: string };
   breadcrumb: string;
   h1: string;
-  intro: string;
-  threeDoorsH2: string;
-  door1: {
-    h3: string;
-    location: string;
-    p: string;
-  };
-  door2: {
-    h3: string;
-    location: string;
-    p: string;
-  };
-  door3: {
-    h3: string;
-    location: string;
-    p: string;
-  };
-  whichDoor: {
+  quickAnswer: { label: string; text: string };
+  ctaTicketTitle: string;
+  changed: { h2: string; paragraphs: string[] };
+  whereEnter: { h2: string; lead: string; paragraphs: string[] };
+  bookedOnline: {
     h2: string;
-    items: { label: string; value: string }[];
+    paragraphs: string[];
+    stepsIntro: string;
+    steps: string[];
+    closing: string;
   };
-  security: {
-    h2: string;
+  mainCta: {
+    title: string;
     intro: string;
-    items: { label: string; text: string }[];
+    bullets: string[];
+    button: string;
   };
-  proTips: {
+  onTheDay: {
     h2: string;
-    items: string[];
+    paragraphs: string[];
+    paymentIntro: string;
+    payment: string[];
+    closing: string;
   };
-  ctaTitle: string;
+  guidedTours: {
+    h2: string;
+    paragraphs: string[];
+    ctaTitle: string;
+    ctaLabel: string;
+  };
+  quickFacts: { h2: string; items: { label: string; value: string }[] };
+  finalCta: { text: string; ticketLabel: string; toursLabel: string };
   faq: { q: string; a: string }[];
 };
 
 const en: Door3Content = {
   meta: {
-    title: "Uffizi Gallery Door 3 — Entry Information & What to Know",
+    title: "Uffizi Gallery Door 3 (2026 Update): Where to Enter Now",
     description:
-      "Essential Door 3 Uffizi Gallery entry guide. Which door to use with pre-booked tickets, group tours & walk-up. Security, bag rules & entry tips.",
+      "Confused about Uffizi Door 3? Here's what changed in 2025 and exactly where to enter in 2026 — plus how to book a timed-entry ticket with audio guide.",
   },
-  breadcrumb: "Door 3 Entry Info",
-  h1: "Uffizi Gallery Door 3 — Entry Information",
-  intro:
-    "One of the most common questions I get from visitors is: \"Which door do I go to at the Uffizi?\" The gallery has three separate entrances, and going to the wrong one can cost you 30 minutes or more. Here's everything you need to know about getting inside efficiently.",
-  threeDoorsH2: "The Three Doors Explained",
-  door1: {
-    h3: "Door 1 — Pre-Booked Tickets & Skip the Line",
-    location: "East side of the Uffizi, closest to the Arno River.",
-    p: "This is where you go if you have a pre-booked timed-entry ticket or a skip-the-line ticket purchased online. Show your voucher and photo ID, pass through security, and you're inside in 5-10 minutes. This is the entrance I recommend for most visitors.",
+  breadcrumb: "Door 3 & Entrance Info",
+  h1: "Uffizi Gallery Door 3: What It Was, and Where You Actually Enter in 2026",
+  quickAnswer: {
+    label: "Quick answer",
+    text: "Door 3 used to be where online visitors exchanged their voucher for a ticket. That system ended in September 2025. Today, every visitor enters the Uffizi through Door 1. If you booked online, there's nothing to collect — just show the QR code on your phone at Door 1 and go through security.",
   },
-  door2: {
-    h3: "Door 2 — Walk-Up Ticket Purchases",
-    location: "West side of the Uffizi, closest to the Piazza della Signoria.",
-    p: "This is the general admission entrance where you can buy tickets on the day. Expect long queues — typically 1-3 hours during peak season. The ticket office closes at 5:30 PM. I only recommend this entrance during low season (November-February) on a weekday.",
-  },
-  door3: {
-    h3: "Door 3 — Groups, Schools & Special Access",
-    location: "Between Door 1 and Door 2, marked with signage.",
-    p: "Door 3 is designated for organized groups (tour groups, school visits), visitors with disabilities, and certain special ticket categories. If you're joining a guided tour, your guide will direct you to the appropriate entrance — sometimes Door 1, sometimes Door 3 depending on group size and arrangements.",
-  },
-  whichDoor: {
-    h2: "Which Door Should You Use?",
-    items: [
-      { label: "Pre-booked ticket (online):", value: "Door 1" },
-      { label: "No ticket (walk-up):", value: "Door 2" },
-      {
-        label: "Organized tour group:",
-        value: "Door 3 (your guide will confirm)",
-      },
-      { label: "Disability access:", value: "Door 3" },
-      {
-        label: "Free entry (under 18, students):",
-        value: "Door 2 (unless pre-booked, then Door 1)",
-      },
+  ctaTicketTitle: "Book Your Uffizi Ticket + Audio Guide",
+  changed: {
+    h2: "The Uffizi Changed Its Entrance System in 2025",
+    paragraphs: [
+      "If you've been reading older guides, you've seen instructions about \"Door 3\" — which queue to join, how to exchange your voucher. Here's the thing: most of that is now out of date.",
+      "In September 2025, ticketing at the Gallerie degli Uffizi passed to CoopCulture, and the entrance system was reorganized. The separate voucher-exchange point at Door 3 no longer operates. Having worked at the Uffizi for years, I can tell you the new setup is genuinely simpler — once you know how it works.",
     ],
   },
-  security: {
-    h2: "Security & What to Expect",
+  whereEnter: {
+    h2: "Where Do You Enter the Uffizi Now?",
+    lead: "Everyone enters through Door 1.",
+    paragraphs: [
+      "There's no longer a separate door for collecting tickets or picking up pre-booked reservations. Whether you booked months ago or you're buying on the spot, Door 1 is your entrance — where you'll pass through the security check before heading up to the galleries. It's under the arcade on the Piazzale degli Uffizi, the courtyard between the two wings that opens toward the Arno.",
+    ],
+  },
+  bookedOnline: {
+    h2: "If You've Already Booked Online",
+    paragraphs: [
+      "Good news — your visit just got easier. When you book online, there's no physical ticket and nothing to collect. Your ticket is the QR code in your email; show it on your phone (or print it if you prefer).",
+    ],
+    stepsIntro: "Exactly what to do:",
+    steps: [
+      "Arrive at Door 1 a few minutes before your reserved time slot",
+      "Have the QR code ready on your phone",
+      "Show it at the entrance and pass through the security check",
+      "You're in — head up to the galleries",
+    ],
+    closing:
+      "Because your entry time is reserved, you skip the ticket-office queue entirely — no standing in the long line of people buying tickets on the day. (One honest note: everyone, ticket-holders included, passes through a short security screening at Door 1, so allow a few minutes.)",
+  },
+  mainCta: {
+    title: "Haven't Booked Yet?",
     intro:
-      "Regardless of which door you use, all visitors pass through airport-style security screening. Here's what to know:",
+      "Reserve your timed-entry slot before you travel. Our most popular option includes your Uffizi admission plus a digital audio guide, so you'll understand what you're seeing — from Botticelli's Birth of Venus to Caravaggio's Medusa.",
+    bullets: [
+      "Reserved timed entry (choose your date & time)",
+      "Digital audio guide included",
+      "Skip the ticket-office queue — enter at Door 1",
+      "Instant confirmation to your phone",
+    ],
+    button: "Book Uffizi Ticket + Audio Guide — from €26",
+  },
+  onTheDay: {
+    h2: "What If You Buy Your Ticket on the Day?",
+    paragraphs: [
+      "You can still buy on arrival, but I'll be honest as someone who works here: in high season it's a gamble. Timed slots sell out, and the queue to buy can eat an hour or more of your day.",
+    ],
+    paymentIntro: "If you do buy on-site, there's a ticket office with two options:",
+    payment: [
+      "Paying by cash? Use the self-service ticket machines.",
+      "Paying by card? Buy at the staffed counters.",
+    ],
+    closing:
+      "Same-day tickets are €25 for standard entry (before 4:00 PM) or €16 for afternoon entry (from 4:00 PM). But you're buying whatever slot is still available — in summer that might be hours later, or nothing at all. Booking ahead costs just €4 more and guarantees your time. For most visitors, that's the easiest decision of the trip.",
+  },
+  guidedTours: {
+    h2: "Want to Skip the Guesswork Entirely?",
+    paragraphs: [
+      "If it's your first time at the Uffizi — over 100 rooms, one of the most overwhelming museums in the world — consider a guided tour. You'll meet your guide outside, walk in together at Door 1, and spend two hours with a licensed Florentine art historian who shows you exactly what matters and why. No maps, no missing the masterpieces, no wondering which room is next.",
+    ],
+    ctaTitle: "Explore Guided Uffizi Tours",
+    ctaLabel: "Small-group & private options, entry included.",
+  },
+  quickFacts: {
+    h2: "Uffizi Gallery Entrance: Quick Facts (2026)",
     items: [
+      { label: "Everyone enters at:", value: "Door 1" },
       {
-        label: "Bags:",
-        text: "Large bags, backpacks, and luggage must be checked at the free cloakroom after security. Small handbags and camera bags are fine.",
+        label: "Door 3 voucher exchange:",
+        value: "Discontinued (September 2025)",
       },
       {
-        label: "Prohibited items:",
-        text: "Selfie sticks, tripods, umbrellas (must be checked), food and drinks (water bottles OK).",
+        label: "Online tickets:",
+        value: "QR code on your phone — no collection needed",
       },
       {
-        label: "Metal detector:",
-        text: "Similar to airport security. Remove keys and large metal items.",
+        label: "Opening hours:",
+        value: "Tue–Sun, 8:15 AM–6:30 PM (last entry 5:30 PM)",
       },
+      { label: "Closed:", value: "Mondays, 1 January, 25 December" },
       {
-        label: "ID requirement:",
-        text: "Bring a valid photo ID or passport, especially for reduced or free entry tickets.",
+        label: "On-site payment:",
+        value: "Cash at machines, card at counters",
       },
     ],
   },
-  proTips: {
-    h2: "Pro Tips for a Smooth Entry",
-    items: [
-      "Arrive 10-15 minutes before your time slot",
-      "Have your ticket (mobile or printed) and ID ready before reaching the door",
-      "Leave large bags at your hotel — the cloakroom works but adds time",
-      "Use the bathroom before entering — restrooms inside can have queues",
-      "Wear comfortable shoes — the gallery has marble floors and you'll walk 2-3 km",
-    ],
+  finalCta: {
+    text: "Ready to plan your visit?",
+    ticketLabel: "Book Ticket + Audio Guide (from €26)",
+    toursLabel: "See Guided Tour Options",
   },
-  ctaTitle: "Get Skip-the-Line Entry via Door 1",
   faq: [
     {
-      q: "Which door do I use with a pre-booked Uffizi ticket?",
-      a: "Go to Door 1, on the east side of the Uffizi building (closest to the Arno River). This is the priority entrance for all pre-booked and skip-the-line tickets.",
+      q: "Is there still a Door 3 at the Uffizi Gallery?",
+      a: "The physical door exists, but it no longer works as a ticket-collection or voucher-exchange point. Since September 2025, all visitors enter through Door 1. If a guide or website tells you to collect your ticket at Door 3, that information is out of date.",
     },
     {
-      q: "What is Door 3 at the Uffizi?",
-      a: "Door 3 is the entrance for organized tour groups, school visits, visitors with disabilities, and certain special access categories. If you're on a guided tour, your guide will direct you to the correct entrance.",
+      q: "Where do I enter if I booked online?",
+      a: "Go to Door 1 at your reserved time and show the QR code on your phone. There's nothing to collect and no separate line — through security and straight into the museum.",
     },
     {
-      q: "Can I bring a backpack into the Uffizi?",
-      a: "Small bags are fine. Large backpacks and luggage must be checked at the free cloakroom after passing through security. It's faster to leave large bags at your hotel.",
+      q: "Do I need to print my Uffizi ticket?",
+      a: "No. Your ticket is a QR code in your email. Show it on your phone at Door 1, or print it if you'd rather — both work.",
     },
     {
-      q: "Do I need to print my ticket?",
-      a: "No. Mobile tickets (on your phone screen) are accepted at all Uffizi entrances. Make sure your phone is charged and the ticket/voucher is easily accessible.",
+      q: "Can I still buy tickets at the Uffizi in person?",
+      a: "Yes — pay by cash at the self-service machines or by card at the counters. But in busy months slots often sell out, so booking online in advance is strongly recommended.",
+    },
+    {
+      q: "What time should I arrive?",
+      a: "About 10–15 minutes before your slot. The 8:15 AM slot is quietest; from mid-morning the museum fills with tour groups.",
     },
   ],
 };
 
 const it: Door3Content = {
   meta: {
-    title: "Porta 3 degli Uffizi — Ingressi, Porte e Accesso al Museo",
+    title: "Porta 3 Galleria degli Uffizi (2026): Dove Si Entra Ora",
     description:
-      "Guida completa agli ingressi della Galleria degli Uffizi: Porta 1, 2 e 3. Quale porta usare con biglietto prenotato, gruppi, accesso disabili e sicurezza.",
+      "Dubbi sulla Porta 3 degli Uffizi? Ecco cosa è cambiato nel 2025 e dove si entra davvero nel 2026 — e come prenotare un biglietto con orario e audioguida.",
   },
-  breadcrumb: "Ingresso Porta 3",
-  h1: "Galleria degli Uffizi Porta 3 — Guida agli Ingressi",
-  intro:
-    "Una delle domande più frequenti che ricevo è: \"Da quale porta si entra agli Uffizi?\" La galleria ha tre ingressi separati e sbagliare porta può farti perdere 30 minuti o più. Ecco tutto quello che devi sapere per entrare nel modo più rapido possibile.",
-  threeDoorsH2: "Le Tre Porte Spiegate",
-  door1: {
-    h3: "Porta 1 — Biglietti Prenotati e Salta la Fila",
-    location: "Lato est degli Uffizi, il più vicino al Lungarno.",
-    p: "Questa è la porta per chi ha un biglietto con ingresso a orario prenotato online o un biglietto salta la fila. Mostra il voucher e un documento d'identità con foto, passa il controllo di sicurezza e sei dentro in 5-10 minuti. È l'ingresso che consiglio alla maggior parte dei visitatori.",
+  breadcrumb: "Porta 3 e Ingressi",
+  h1: "Porta 3 della Galleria degli Uffizi: Cos'era e Dove Si Entra Davvero nel 2026",
+  quickAnswer: {
+    label: "Risposta rapida",
+    text: "La Porta 3 era il punto in cui chi aveva prenotato online scambiava il voucher con il biglietto. Quel sistema è finito a settembre 2025. Oggi tutti i visitatori entrano agli Uffizi dalla Porta 1. Se hai prenotato online non devi ritirare nulla: mostra il QR code sul telefono alla Porta 1 e passa il controllo di sicurezza.",
   },
-  door2: {
-    h3: "Porta 2 — Acquisto Biglietti in Giornata",
-    location: "Lato ovest degli Uffizi, il più vicino a Piazza della Signoria.",
-    p: "Questo è l'ingresso generale dove puoi acquistare i biglietti il giorno stesso. Preparati a code lunghe — in genere 1-3 ore in alta stagione. La biglietteria chiude alle 17:30. Consiglio questo ingresso solo in bassa stagione (novembre-febbraio), nei giorni feriali.",
-  },
-  door3: {
-    h3: "Porta 3 — Gruppi, Scuole e Accesso Speciale",
-    location: "Tra la Porta 1 e la Porta 2, indicata dalla segnaletica.",
-    p: "La Porta 3 è riservata ai gruppi organizzati (tour guidati, visite scolastiche), ai visitatori con disabilità e ad alcune categorie speciali di biglietto. Se partecipi a un tour guidato, la tua guida ti indicherà l'ingresso corretto — a volte Porta 1, a volte Porta 3, in base alla dimensione del gruppo e agli accordi.",
-  },
-  whichDoor: {
-    h2: "Quale Porta Devi Usare?",
-    items: [
-      { label: "Biglietto prenotato online:", value: "Porta 1" },
-      { label: "Senza biglietto (in giornata):", value: "Porta 2" },
-      {
-        label: "Gruppo organizzato con guida:",
-        value: "Porta 3 (la guida confermerà)",
-      },
-      { label: "Accesso disabili:", value: "Porta 3" },
-      {
-        label: "Ingresso gratuito (under 18, studenti):",
-        value: "Porta 2 (se prenotato, allora Porta 1)",
-      },
+  ctaTicketTitle: "Prenota il Tuo Biglietto Uffizi + Audioguida",
+  changed: {
+    h2: "Nel 2025 gli Uffizi Hanno Cambiato Sistema d'Ingresso",
+    paragraphs: [
+      "Se hai letto guide più vecchie, avrai trovato istruzioni sulla \"Porta 3\": in quale fila mettersi, come scambiare il voucher. Il punto è questo: gran parte di quelle informazioni oggi non è più valida.",
+      "A settembre 2025 la biglietteria delle Gallerie degli Uffizi è passata a CoopCulture e il sistema d'ingresso è stato riorganizzato. Il punto di scambio voucher alla Porta 3 non è più operativo. Avendo lavorato agli Uffizi per anni, posso dirti che il nuovo sistema è davvero più semplice — una volta che sai come funziona.",
     ],
   },
-  security: {
-    h2: "Sicurezza e Cosa Aspettarsi",
+  whereEnter: {
+    h2: "Dove Si Entra Adesso agli Uffizi?",
+    lead: "Tutti entrano dalla Porta 1.",
+    paragraphs: [
+      "Non esiste più una porta separata per ritirare i biglietti o le prenotazioni fatte in anticipo. Che tu abbia prenotato mesi fa o stia comprando sul momento, il tuo ingresso è la Porta 1 — dove passerai il controllo di sicurezza prima di salire alle sale. Si trova sotto il loggiato del Piazzale degli Uffizi, il cortile tra le due ali che si apre verso l'Arno.",
+    ],
+  },
+  bookedOnline: {
+    h2: "Se Hai Già Prenotato Online",
+    paragraphs: [
+      "Buone notizie: la tua visita è appena diventata più semplice. Quando prenoti online non c'è nessun biglietto cartaceo e non devi ritirare nulla. Il tuo biglietto è il QR code che ricevi via email: mostralo sul telefono (o stampalo, se preferisci).",
+    ],
+    stepsIntro: "Cosa fare, esattamente:",
+    steps: [
+      "Arriva alla Porta 1 qualche minuto prima della tua fascia oraria",
+      "Tieni pronto il QR code sul telefono",
+      "Mostralo all'ingresso e passa il controllo di sicurezza",
+      "Sei dentro — sali alle sale",
+    ],
+    closing:
+      "Poiché il tuo orario d'ingresso è già riservato, salti completamente la fila alla biglietteria — niente attesa nella lunga coda di chi compra il biglietto in giornata. (Una nota onesta: tutti, anche chi ha già il biglietto, passano un breve controllo di sicurezza alla Porta 1, quindi metti in conto qualche minuto.)",
+  },
+  mainCta: {
+    title: "Non Hai Ancora Prenotato?",
     intro:
-      "Indipendentemente dalla porta che utilizzi, tutti i visitatori passano attraverso un controllo di sicurezza simile a quello aeroportuale. Ecco cosa sapere:",
+      "Riserva la tua fascia oraria prima di partire. La nostra opzione più richiesta comprende l'ingresso agli Uffizi e un'audioguida digitale, così capirai davvero quello che stai guardando — dalla Nascita di Venere di Botticelli alla Medusa di Caravaggio.",
+    bullets: [
+      "Ingresso a orario prestabilito (scegli data e ora)",
+      "Audioguida digitale inclusa",
+      "Salta la fila alla biglietteria — si entra dalla Porta 1",
+      "Conferma immediata sul telefono",
+    ],
+    button: "Prenota Biglietto Uffizi + Audioguida — da €26",
+  },
+  onTheDay: {
+    h2: "E Se Compri il Biglietto in Giornata?",
+    paragraphs: [
+      "Puoi ancora acquistarlo all'arrivo, ma sarò onesto, da chi lavora qui: in alta stagione è un azzardo. Le fasce orarie si esauriscono e la coda per comprare può portarti via un'ora o più della giornata.",
+    ],
+    paymentIntro: "Se acquisti sul posto, la biglietteria offre due possibilità:",
+    payment: [
+      "Paghi in contanti? Usa le macchinette self-service.",
+      "Paghi con carta? Acquista agli sportelli con operatore.",
+    ],
+    closing:
+      "Il biglietto acquistato in giornata costa €25 per l'ingresso standard (prima delle 16:00) o €16 per l'ingresso pomeridiano (dalle 16:00). Ma prendi la fascia oraria rimasta libera — d'estate può essere diverse ore dopo, o non essercene affatto. Prenotare in anticipo costa solo €4 in più e ti garantisce l'orario. Per la maggior parte dei visitatori è la decisione più facile del viaggio.",
+  },
+  guidedTours: {
+    h2: "Vuoi Evitare Ogni Dubbio?",
+    paragraphs: [
+      "Se è la tua prima volta agli Uffizi — oltre 100 sale, uno dei musei più travolgenti al mondo — valuta una visita guidata. Incontri la guida all'esterno, entrate insieme dalla Porta 1 e passi due ore con uno storico dell'arte fiorentino abilitato che ti mostra esattamente cosa conta e perché. Niente mappe, nessun capolavoro perso, nessun dubbio su quale sia la sala successiva.",
+    ],
+    ctaTitle: "Scopri le Visite Guidate agli Uffizi",
+    ctaLabel: "Opzioni in piccolo gruppo e private, ingresso incluso.",
+  },
+  quickFacts: {
+    h2: "Ingresso Galleria degli Uffizi: Fatti in Breve (2026)",
     items: [
+      { label: "Tutti entrano da:", value: "Porta 1" },
       {
-        label: "Borse:",
-        text: "Zaini grandi, borsoni e bagagli devono essere lasciati al guardaroba gratuito dopo la sicurezza. Borsette e custodie per fotocamera sono ammesse.",
+        label: "Scambio voucher Porta 3:",
+        value: "Non più attivo (settembre 2025)",
       },
       {
-        label: "Oggetti vietati:",
-        text: "Bastoni per selfie, treppiedi, ombrelli (vanno lasciati al guardaroba), cibi e bevande (bottiglie d'acqua ammesse).",
+        label: "Biglietti online:",
+        value: "QR code sul telefono — niente da ritirare",
       },
       {
-        label: "Metal detector:",
-        text: "Simile al controllo aeroportuale. Togli chiavi e oggetti metallici voluminosi.",
+        label: "Orari di apertura:",
+        value: "Mar–Dom, 8:15–18:30 (ultimo ingresso 17:30)",
       },
+      { label: "Chiuso:", value: "Lunedì, 1 gennaio, 25 dicembre" },
       {
-        label: "Documento d'identità:",
-        text: "Porta un documento valido con foto o il passaporto, soprattutto per biglietti ridotti o gratuiti.",
+        label: "Pagamento sul posto:",
+        value: "Contanti alle macchinette, carta agli sportelli",
       },
     ],
   },
-  proTips: {
-    h2: "Consigli per Entrare Senza Problemi",
-    items: [
-      "Arriva 10-15 minuti prima della tua fascia oraria",
-      "Tieni pronto il biglietto (digitale o stampato) e il documento prima di arrivare alla porta",
-      "Lascia le borse grandi in hotel — il guardaroba funziona, ma richiede tempo",
-      "Usa il bagno prima di entrare — i servizi igienici interni possono avere coda",
-      "Indossa scarpe comode — il pavimento è in marmo e camminerai 2-3 km",
-    ],
+  finalCta: {
+    text: "Pronto a organizzare la visita?",
+    ticketLabel: "Prenota Biglietto + Audioguida (da €26)",
+    toursLabel: "Vedi le Visite Guidate",
   },
-  ctaTitle: "Biglietto Salta la Fila — Ingresso da Porta 1",
   faq: [
     {
-      q: "Da quale porta si entra con il biglietto prenotato?",
-      a: "Vai alla Porta 1, sul lato est dell'edificio degli Uffizi (il più vicino al Lungarno). È l'ingresso prioritario per tutti i biglietti prenotati online e i salta la fila.",
+      q: "La Porta 3 degli Uffizi esiste ancora?",
+      a: "La porta fisica c'è, ma non funziona più come punto di ritiro biglietti o scambio voucher. Da settembre 2025 tutti i visitatori entrano dalla Porta 1. Se una guida o un sito ti dice di ritirare il biglietto alla Porta 3, quell'informazione non è aggiornata.",
     },
     {
-      q: "Cos'è la Porta 3 degli Uffizi?",
-      a: "La Porta 3 è l'ingresso riservato ai gruppi organizzati, alle visite scolastiche, ai visitatori con disabilità e ad alcune categorie di accesso speciale. Se partecipi a un tour guidato, la tua guida ti indicherà la porta corretta.",
+      q: "Da dove entro se ho prenotato online?",
+      a: "Vai alla Porta 1 all'orario che hai riservato e mostra il QR code sul telefono. Non c'è nulla da ritirare e non esiste una fila separata: passi il controllo di sicurezza ed entri direttamente nel museo.",
     },
     {
-      q: "Posso portare uno zaino dentro gli Uffizi?",
-      a: "Le borse piccole sono ammesse. Zaini grandi e bagagli vanno lasciati al guardaroba gratuito dopo il controllo di sicurezza. È più rapido lasciare le borse grandi in hotel.",
+      q: "Devo stampare il biglietto degli Uffizi?",
+      a: "No. Il tuo biglietto è un QR code che ricevi via email. Mostralo sul telefono alla Porta 1 oppure stampalo se preferisci: funzionano entrambi.",
     },
     {
-      q: "Devo stampare il biglietto?",
-      a: "No. I biglietti digitali (sullo schermo del telefono) sono accettati a tutti gli ingressi degli Uffizi. Assicurati che il telefono sia carico e che il biglietto/voucher sia facilmente accessibile.",
+      q: "Posso ancora comprare i biglietti di persona agli Uffizi?",
+      a: "Sì: paghi in contanti alle macchinette self-service o con carta agli sportelli. Ma nei mesi di punta le fasce orarie si esauriscono spesso, quindi prenotare online in anticipo è vivamente consigliato.",
+    },
+    {
+      q: "A che ora conviene arrivare?",
+      a: "Circa 10–15 minuti prima della tua fascia oraria. Lo slot delle 8:15 è il più tranquillo; da metà mattina il museo si riempie di gruppi.",
     },
   ],
 };
 
 const de: Door3Content = {
   meta: {
-    title: "Uffizien Tuer 3 — Eingang, Zugang & Infos",
+    title: "Uffizien Tür 3 (Update 2026): Wo Sie jetzt hineingehen",
     description:
-      "Alles zu den drei Eingaengen der Uffizien: Tuer 1, 2 und 3. Welchen Eingang bei Online-Ticket, Gruppentour, barrierefreiem Zugang & Sicherheitskontrolle.",
+      "Unklar, was mit Tür 3 der Uffizien ist? Das hat sich 2025 geändert, und hier gehen Sie 2026 hinein — plus Ticket mit Zeitfenster und Audioguide buchen.",
   },
-  breadcrumb: "Eingang Tuer 3",
-  h1: "Uffizien Tuer 3 — Eingangs-Informationen",
-  intro:
-    'Eine der haeufigsten Fragen, die mir Besucher stellen: "Zu welcher Tuer muss ich an den Uffizien?" Die Galerie hat drei separate Eingaenge, und wenn Sie den falschen waehlen, verlieren Sie schnell 30 Minuten oder mehr. Hier erfahren Sie alles, was Sie fuer einen reibungslosen Einlass wissen muessen.',
-  threeDoorsH2: "Die Drei Tueren Erklaert",
-  door1: {
-    h3: "Tuer 1 — Online-Tickets & Ohne-Anstehen-Einlass",
-    location: "Ostseite der Uffizien, am naechsten zum Arno.",
-    p: "Hierher kommen Sie mit einem online gebuchten Zeitfenster-Ticket oder einem Ohne-Anstehen-Ticket. Zeigen Sie Ihren Voucher und einen Lichtbildausweis, passieren Sie die Sicherheitskontrolle und Sie sind in 5-10 Minuten drinnen. Diesen Eingang empfehle ich den meisten Besuchern.",
+  breadcrumb: "Tür 3 & Eingang",
+  h1: "Tür 3 der Uffizien: Was sie war und wo Sie 2026 wirklich hineingehen",
+  quickAnswer: {
+    label: "Kurze Antwort",
+    text: "An Tür 3 tauschten Online-Besucher früher ihren Voucher gegen ein Ticket. Dieses System endete im September 2025. Heute betreten alle Besucher die Uffizien durch Eingang 1. Wenn Sie online gebucht haben, gibt es nichts abzuholen — zeigen Sie einfach den QR-Code auf Ihrem Handy an Eingang 1 und gehen Sie durch die Sicherheitskontrolle.",
   },
-  door2: {
-    h3: "Tuer 2 — Tageskasse (ohne Reservierung)",
-    location: "Westseite der Uffizien, am naechsten zur Piazza della Signoria.",
-    p: "Das ist der Eingang fuer Besucher ohne Reservierung, die ihr Ticket vor Ort kaufen moechten. Rechnen Sie mit langen Warteschlangen — in der Hochsaison typischerweise 1-3 Stunden. Die Kasse schliesst um 17:30 Uhr. Ich empfehle diesen Eingang nur in der Nebensaison (November-Februar) an einem Wochentag.",
-  },
-  door3: {
-    h3: "Tuer 3 — Gruppen, Schulen & Sonderzugang",
-    location: "Zwischen Tuer 1 und Tuer 2, mit Beschilderung gekennzeichnet.",
-    p: "Tuer 3 ist fuer organisierte Gruppen (Reisegruppen, Schulbesuche), Besucher mit Behinderungen und bestimmte Sonderkategorien reserviert. Wenn Sie an einer Fuehrung teilnehmen, weist Ihr Guide Sie zum richtigen Eingang — manchmal Tuer 1, manchmal Tuer 3, je nach Gruppengroesse und Vereinbarung.",
-  },
-  whichDoor: {
-    h2: "Welche Tuer Ist Die Richtige?",
-    items: [
-      { label: "Online gebuchtes Ticket:", value: "Tuer 1" },
-      { label: "Kein Ticket (Tageskasse):", value: "Tuer 2" },
-      {
-        label: "Organisierte Fuehrung:",
-        value: "Tuer 3 (Ihr Guide bestaetigt)",
-      },
-      { label: "Barrierefreier Zugang:", value: "Tuer 3" },
-      {
-        label: "Freier Eintritt (unter 18, Studierende):",
-        value: "Tuer 2 (bei Reservierung Tuer 1)",
-      },
+  ctaTicketTitle: "Buchen Sie Ihr Uffizien-Ticket + Audioguide",
+  changed: {
+    h2: "Die Uffizien haben 2025 ihr Eingangssystem geändert",
+    paragraphs: [
+      "Wenn Sie ältere Reiseführer gelesen haben, kennen Sie die Hinweise zu \"Tür 3\" — in welche Schlange man sich stellt, wie man den Voucher eintauscht. Die Sache ist: Das meiste davon ist inzwischen überholt.",
+      "Im September 2025 ging der Ticketverkauf der Gallerie degli Uffizi an CoopCulture über, und das Eingangssystem wurde neu organisiert. Die separate Voucher-Ausgabe an Tür 3 ist nicht mehr in Betrieb. Da ich jahrelang in den Uffizien gearbeitet habe, kann ich Ihnen sagen: Das neue System ist wirklich einfacher — sobald man weiß, wie es funktioniert.",
     ],
   },
-  security: {
-    h2: "Sicherheitskontrolle & Was Sie Erwartet",
+  whereEnter: {
+    h2: "Wo betritt man die Uffizien jetzt?",
+    lead: "Alle gehen durch Eingang 1 hinein.",
+    paragraphs: [
+      "Es gibt keine separate Tür mehr, um Tickets oder vorab gebuchte Reservierungen abzuholen. Ob Sie vor Monaten gebucht haben oder spontan kaufen — Eingang 1 ist Ihr Eingang, dort durchlaufen Sie die Sicherheitskontrolle, bevor es hinauf in die Säle geht. Er liegt unter den Arkaden am Piazzale degli Uffizi, dem Innenhof zwischen den beiden Flügeln, der sich zum Arno hin öffnet.",
+    ],
+  },
+  bookedOnline: {
+    h2: "Wenn Sie bereits online gebucht haben",
+    paragraphs: [
+      "Gute Nachricht — Ihr Besuch ist gerade einfacher geworden. Bei einer Online-Buchung gibt es kein physisches Ticket und nichts abzuholen. Ihr Ticket ist der QR-Code in Ihrer E-Mail; zeigen Sie ihn auf dem Handy (oder drucken Sie ihn aus, wenn Ihnen das lieber ist).",
+    ],
+    stepsIntro: "Genau das tun Sie:",
+    steps: [
+      "Kommen Sie ein paar Minuten vor Ihrem reservierten Zeitfenster an Eingang 1 an",
+      "Halten Sie den QR-Code auf dem Handy bereit",
+      "Zeigen Sie ihn am Eingang und gehen Sie durch die Sicherheitskontrolle",
+      "Sie sind drin — hinauf in die Säle",
+    ],
+    closing:
+      "Da Ihre Eintrittszeit reserviert ist, umgehen Sie die Warteschlange an der Kasse komplett — kein Anstehen in der langen Reihe derer, die ihr Ticket am selben Tag kaufen. (Eine ehrliche Anmerkung: Alle, auch Ticketinhaber, durchlaufen an Eingang 1 eine kurze Sicherheitskontrolle — planen Sie also ein paar Minuten ein.)",
+  },
+  mainCta: {
+    title: "Noch nicht gebucht?",
     intro:
-      "Unabhaengig davon, welche Tuer Sie nutzen — alle Besucher durchlaufen eine Sicherheitskontrolle wie am Flughafen. Folgendes sollten Sie wissen:",
+      "Reservieren Sie Ihr Zeitfenster vor der Reise. Unsere beliebteste Option enthält den Eintritt in die Uffizien plus einen digitalen Audioguide, damit Sie verstehen, was Sie sehen — von Botticellis Geburt der Venus bis zu Caravaggios Medusa.",
+    bullets: [
+      "Reserviertes Zeitfenster (Datum & Uhrzeit frei wählbar)",
+      "Digitaler Audioguide inklusive",
+      "Warteschlange an der Kasse umgehen — Einlass an Eingang 1",
+      "Sofortige Bestätigung aufs Handy",
+    ],
+    button: "Uffizien-Ticket + Audioguide buchen — ab €26",
+  },
+  onTheDay: {
+    h2: "Was, wenn Sie Ihr Ticket vor Ort kaufen?",
+    paragraphs: [
+      "Sie können weiterhin bei der Ankunft kaufen, aber ehrlich gesagt, als jemand der hier arbeitet: In der Hochsaison ist das ein Glücksspiel. Zeitfenster sind ausverkauft, und die Warteschlange am Ticketschalter kann eine Stunde oder mehr Ihres Tages kosten.",
+    ],
+    paymentIntro:
+      "Wenn Sie vor Ort kaufen, bietet die Ticketkasse zwei Möglichkeiten:",
+    payment: [
+      "Sie zahlen bar? Nutzen Sie die Self-Service-Ticketautomaten.",
+      "Sie zahlen mit Karte? Kaufen Sie an den besetzten Schaltern.",
+    ],
+    closing:
+      "Tickets am selben Tag kosten €25 für den Standardeintritt (vor 16:00 Uhr) oder €16 für den Nachmittagseintritt (ab 16:00 Uhr). Aber Sie bekommen nur das Zeitfenster, das noch frei ist — im Sommer kann das Stunden später sein oder gar nicht mehr verfügbar. Vorab buchen kostet nur €4 mehr und sichert Ihnen Ihre Uhrzeit. Für die meisten Besucher ist das die einfachste Entscheidung der ganzen Reise.",
+  },
+  guidedTours: {
+    h2: "Sie wollen sich das Rätselraten ganz sparen?",
+    paragraphs: [
+      "Wenn Sie zum ersten Mal in den Uffizien sind — über 100 Säle, eines der überwältigendsten Museen der Welt — denken Sie über eine Führung nach. Sie treffen Ihren Guide draußen, gehen gemeinsam durch Eingang 1 hinein und verbringen zwei Stunden mit einem lizenzierten Florentiner Kunsthistoriker, der Ihnen genau zeigt, worauf es ankommt und warum. Keine Karten, keine verpassten Meisterwerke, kein Rätseln, welcher Saal als Nächstes kommt.",
+    ],
+    ctaTitle: "Uffizien-Führungen entdecken",
+    ctaLabel: "Kleingruppen & private Touren, Eintritt inklusive.",
+  },
+  quickFacts: {
+    h2: "Eingang der Uffizien: Fakten auf einen Blick (2026)",
     items: [
+      { label: "Alle betreten das Museum durch:", value: "Eingang 1" },
       {
-        label: "Taschen:",
-        text: "Grosse Taschen, Rucksaecke und Koffer muessen an der kostenlosen Garderobe nach der Kontrolle abgegeben werden. Kleine Handtaschen und Kamerataschen sind erlaubt.",
+        label: "Voucher-Tausch an Tür 3:",
+        value: "Eingestellt (September 2025)",
       },
       {
-        label: "Verbotene Gegenstaende:",
-        text: "Selfie-Sticks, Stative, Regenschirme (muessen abgegeben werden), Essen und Getraenke (Wasserflaschen sind erlaubt).",
+        label: "Online-Tickets:",
+        value: "QR-Code auf dem Handy — nichts abzuholen",
       },
       {
-        label: "Metalldetektor:",
-        text: "Aehnlich wie am Flughafen. Nehmen Sie Schluessel und groessere Metallgegenstaende heraus.",
+        label: "Öffnungszeiten:",
+        value: "Di–So, 8:15–18:30 Uhr (letzter Einlass 17:30 Uhr)",
       },
+      { label: "Geschlossen:", value: "Montags, 1. Januar, 25. Dezember" },
       {
-        label: "Ausweispflicht:",
-        text: "Bringen Sie einen gueltigen Lichtbildausweis oder Reisepass mit — besonders bei ermaessigten oder kostenlosen Tickets.",
+        label: "Zahlung vor Ort:",
+        value: "Bar an Automaten, Karte an den Schaltern",
       },
     ],
   },
-  proTips: {
-    h2: "Profi-Tipps fuer Einen Reibungslosen Einlass",
-    items: [
-      "Kommen Sie 10-15 Minuten vor Ihrem Zeitfenster",
-      "Halten Sie Ihr Ticket (digital oder ausgedruckt) und Ihren Ausweis bereit, bevor Sie die Tuer erreichen",
-      "Lassen Sie grosse Taschen im Hotel — die Garderobe funktioniert, kostet aber Zeit",
-      "Benutzen Sie die Toilette vor dem Einlass — die Toiletten im Museum koennen Warteschlangen haben",
-      "Tragen Sie bequeme Schuhe — die Galerie hat Marmorboeden und Sie laufen 2-3 km",
-    ],
+  finalCta: {
+    text: "Bereit, Ihren Besuch zu planen?",
+    ticketLabel: "Ticket + Audioguide buchen (ab €26)",
+    toursLabel: "Führungen ansehen",
   },
-  ctaTitle: "Ohne-Anstehen-Ticket Ueber Tuer 1 Sichern",
   faq: [
     {
-      q: "Welche Tuer nutze ich mit einem online gebuchten Uffizien-Ticket?",
-      a: "Gehen Sie zu Tuer 1 auf der Ostseite der Uffizien (am naechsten zum Arno). Das ist der bevorzugte Eingang fuer alle online gebuchten und Ohne-Anstehen-Tickets.",
+      q: "Gibt es die Tür 3 an den Uffizien noch?",
+      a: "Die Tür existiert physisch, funktioniert aber nicht mehr als Ticketausgabe oder Voucher-Tauschstelle. Seit September 2025 betreten alle Besucher das Museum durch Eingang 1. Wenn ein Reiseführer oder eine Website Ihnen sagt, Sie sollen Ihr Ticket an Tür 3 abholen, ist diese Information veraltet.",
     },
     {
-      q: "Was ist Tuer 3 an den Uffizien?",
-      a: "Tuer 3 ist der Eingang fuer organisierte Reisegruppen, Schulbesuche, Besucher mit Behinderungen und bestimmte Sonderkategorien. Bei einer Fuehrung zeigt Ihnen Ihr Guide den richtigen Eingang.",
+      q: "Wo gehe ich hinein, wenn ich online gebucht habe?",
+      a: "Gehen Sie zu Ihrer reservierten Zeit zu Eingang 1 und zeigen Sie den QR-Code auf Ihrem Handy. Es gibt nichts abzuholen und keine separate Schlange: durch die Sicherheitskontrolle und direkt ins Museum.",
     },
     {
-      q: "Darf ich einen Rucksack in die Uffizien mitnehmen?",
-      a: "Kleine Taschen sind erlaubt. Grosse Rucksaecke und Koffer muessen an der kostenlosen Garderobe nach der Sicherheitskontrolle abgegeben werden. Am schnellsten ist es, grosse Taschen im Hotel zu lassen.",
+      q: "Muss ich mein Uffizien-Ticket ausdrucken?",
+      a: "Nein. Ihr Ticket ist ein QR-Code in Ihrer E-Mail. Zeigen Sie ihn auf dem Handy an Eingang 1 oder drucken Sie ihn aus, wenn Sie möchten — beides funktioniert.",
     },
     {
-      q: "Muss ich mein Ticket ausdrucken?",
-      a: "Nein. Digitale Tickets (auf dem Handybildschirm) werden an allen Uffizien-Eingaengen akzeptiert. Stellen Sie sicher, dass Ihr Handy geladen ist und das Ticket leicht zugaenglich ist.",
-    },
-  ],
-};
-
-const fr: Door3Content = {
-  meta: {
-    title: "Porte 3 des Offices — Entrees, Acces & Guide Pratique",
-    description:
-      "Guide complet des entrees de la Galerie des Offices : Porte 1, 2 et 3. Quelle porte utiliser avec billet reserve, groupe, acces handicape et securite.",
-  },
-  breadcrumb: "Entree Porte 3",
-  h1: "Galerie des Offices Porte 3 — Guide des Entrees",
-  intro:
-    'L\'une des questions que les visiteurs me posent le plus souvent : "Par quelle porte doit-on entrer aux Offices ?" La galerie possede trois entrees distinctes, et se tromper de porte peut vous faire perdre 30 minutes ou plus. Voici tout ce que vous devez savoir pour entrer efficacement.',
-  threeDoorsH2: "Les Trois Portes Expliquees",
-  door1: {
-    h3: "Porte 1 — Billets Reserves & Coupe-File",
-    location: "Cote est des Offices, le plus proche de l'Arno.",
-    p: "C'est l'entree pour les detenteurs d'un billet a creneau horaire reserve en ligne ou d'un billet coupe-file. Presentez votre voucher et une piece d'identite avec photo, passez le controle de securite, et vous etes a l'interieur en 5 a 10 minutes. C'est l'entree que je recommande a la plupart des visiteurs.",
-  },
-  door2: {
-    h3: "Porte 2 — Achat de Billets Sur Place",
-    location: "Cote ouest des Offices, le plus proche de la Piazza della Signoria.",
-    p: "C'est l'entree generale ou vous pouvez acheter des billets le jour meme. Attendez-vous a de longues files — generalement 1 a 3 heures en haute saison. La billetterie ferme a 17h30. Je ne recommande cette entree qu'en basse saison (novembre-fevrier) en semaine.",
-  },
-  door3: {
-    h3: "Porte 3 — Groupes, Ecoles & Acces Special",
-    location: "Entre la Porte 1 et la Porte 2, signalee par des panneaux.",
-    p: "La Porte 3 est reservee aux groupes organises (visites guidees, sorties scolaires), aux visiteurs en situation de handicap et a certaines categories speciales de billets. Si vous participez a une visite guidee, votre guide vous indiquera l'entree appropriee — parfois la Porte 1, parfois la Porte 3 selon la taille du groupe et les arrangements.",
-  },
-  whichDoor: {
-    h2: "Quelle Porte Devez-Vous Utiliser ?",
-    items: [
-      { label: "Billet reserve en ligne :", value: "Porte 1" },
-      { label: "Sans billet (sur place) :", value: "Porte 2" },
-      {
-        label: "Groupe organise :",
-        value: "Porte 3 (votre guide confirmera)",
-      },
-      { label: "Acces handicape :", value: "Porte 3" },
-      {
-        label: "Entree gratuite (moins de 18 ans, etudiants) :",
-        value: "Porte 2 (si reserve, alors Porte 1)",
-      },
-    ],
-  },
-  security: {
-    h2: "Securite & A Quoi S'Attendre",
-    intro:
-      "Quelle que soit la porte utilisee, tous les visiteurs passent par un controle de securite similaire a celui des aeroports. Voici ce qu'il faut savoir :",
-    items: [
-      {
-        label: "Sacs :",
-        text: "Les grands sacs, sacs a dos et valises doivent etre deposes au vestiaire gratuit apres le controle. Les petits sacs a main et sacs photo sont autorises.",
-      },
-      {
-        label: "Objets interdits :",
-        text: "Perches a selfie, trepieds, parapluies (doivent etre deposes), nourriture et boissons (bouteilles d'eau autorisees).",
-      },
-      {
-        label: "Portique de securite :",
-        text: "Similaire a l'aeroport. Retirez cles et objets metalliques volumineux.",
-      },
-      {
-        label: "Piece d'identite :",
-        text: "Munissez-vous d'une piece d'identite avec photo ou d'un passeport, surtout pour les billets a tarif reduit ou gratuit.",
-      },
-    ],
-  },
-  proTips: {
-    h2: "Conseils de Pro pour une Entree Sans Stress",
-    items: [
-      "Arrivez 10 a 15 minutes avant votre creneau horaire",
-      "Ayez votre billet (numerique ou imprime) et votre piece d'identite prets avant d'atteindre la porte",
-      "Laissez les grands sacs a l'hotel — le vestiaire fonctionne mais fait perdre du temps",
-      "Passez aux toilettes avant d'entrer — les sanitaires a l'interieur peuvent avoir des files",
-      "Portez des chaussures confortables — la galerie a des sols en marbre et vous marcherez 2 a 3 km",
-    ],
-  },
-  ctaTitle: "Billet Coupe-File — Entree par la Porte 1",
-  faq: [
-    {
-      q: "Quelle porte utiliser avec un billet reserve pour les Offices ?",
-      a: "Rendez-vous a la Porte 1, cote est du batiment des Offices (le plus proche de l'Arno). C'est l'entree prioritaire pour tous les billets reserves en ligne et coupe-file.",
+      q: "Kann ich Tickets weiterhin vor Ort an den Uffizien kaufen?",
+      a: "Ja — bar an den Self-Service-Automaten oder mit Karte an den Schaltern. In den stark besuchten Monaten sind die Zeitfenster aber oft ausverkauft, deshalb wird die Online-Buchung im Voraus dringend empfohlen.",
     },
     {
-      q: "Qu'est-ce que la Porte 3 des Offices ?",
-      a: "La Porte 3 est l'entree reservee aux groupes organises, aux sorties scolaires, aux visiteurs en situation de handicap et a certaines categories d'acces special. Si vous participez a une visite guidee, votre guide vous indiquera la bonne porte.",
-    },
-    {
-      q: "Peut-on entrer aux Offices avec un sac a dos ?",
-      a: "Les petits sacs sont autorises. Les grands sacs a dos et valises doivent etre deposes au vestiaire gratuit apres le controle de securite. Le plus rapide est de laisser les grands sacs a l'hotel.",
-    },
-    {
-      q: "Faut-il imprimer son billet ?",
-      a: "Non. Les billets numeriques (sur l'ecran de votre telephone) sont acceptes a toutes les entrees des Offices. Assurez-vous que votre telephone est charge et que le billet/voucher est facilement accessible.",
+      q: "Wann sollte ich ankommen?",
+      a: "Etwa 10–15 Minuten vor Ihrem Zeitfenster. Der Slot um 8:15 Uhr ist am ruhigsten; ab dem späten Vormittag füllt sich das Museum mit Reisegruppen.",
     },
   ],
 };
 
 const es: Door3Content = {
   meta: {
-    title: "Puerta 3 de los Uffizi — Entradas, Accesos e Info",
+    title: "Puerta 3 Galería Uffizi (2026): Dónde Se Entra Ahora",
     description:
-      "Guia completa de las entradas de la Galeria Uffizi: Puerta 1, 2 y 3. Cual usar con entrada reservada, grupos, acceso para discapacitados y seguridad.",
+      "¿Dudas sobre la Puerta 3 de los Uffizi? Esto es lo que cambió en 2025 y por dónde se entra en 2026 — y cómo reservar una entrada con hora y audioguía.",
   },
-  breadcrumb: "Entrada Puerta 3",
-  h1: "Galeria Uffizi Puerta 3 — Informacion de Entradas",
-  intro:
-    'Una de las preguntas mas frecuentes que recibo de los visitantes es: "A cual puerta debo ir en los Uffizi?" La galeria tiene tres entradas separadas, y elegir la equivocada puede costarte 30 minutos o mas. Aqui tienes todo lo que necesitas saber para entrar de forma eficiente.',
-  threeDoorsH2: "Las Tres Puertas Explicadas",
-  door1: {
-    h3: "Puerta 1 — Entradas Reservadas y Sin Colas",
-    location: "Lado este de los Uffizi, el mas cercano al rio Arno.",
-    p: "Aqui es donde debes ir si tienes una entrada con hora reservada online o un billete sin colas. Muestra tu voucher y un documento de identidad con foto, pasa el control de seguridad y estaras dentro en 5-10 minutos. Es la entrada que recomiendo a la mayoria de los visitantes.",
+  breadcrumb: "Puerta 3 y Entrada",
+  h1: "Puerta 3 de la Galería Uffizi: Qué Era y Por Dónde Se Entra Realmente en 2026",
+  quickAnswer: {
+    label: "Respuesta rápida",
+    text: "La Puerta 3 era donde los visitantes con reserva online cambiaban su voucher por la entrada. Ese sistema terminó en septiembre de 2025. Hoy todos los visitantes entran a los Uffizi por la Puerta 1. Si reservaste online no tienes que recoger nada: solo muestra el código QR en el móvil en la Puerta 1 y pasa el control de seguridad.",
   },
-  door2: {
-    h3: "Puerta 2 — Compra de Entradas en Taquilla",
-    location: "Lado oeste de los Uffizi, el mas cercano a la Piazza della Signoria.",
-    p: "Esta es la entrada general donde puedes comprar entradas el mismo dia. Prepara para largas colas — normalmente de 1 a 3 horas en temporada alta. La taquilla cierra a las 17:30. Solo recomiendo esta entrada en temporada baja (noviembre-febrero) entre semana.",
-  },
-  door3: {
-    h3: "Puerta 3 — Grupos, Escuelas y Acceso Especial",
-    location: "Entre la Puerta 1 y la Puerta 2, senalizada con carteles.",
-    p: "La Puerta 3 esta reservada para grupos organizados (tours guiados, visitas escolares), visitantes con discapacidad y ciertas categorias especiales de entrada. Si participas en un tour guiado, tu guia te indicara la entrada correcta — a veces la Puerta 1, a veces la Puerta 3, segun el tamano del grupo y los acuerdos.",
-  },
-  whichDoor: {
-    h2: "Cual Puerta Debes Usar?",
-    items: [
-      { label: "Entrada reservada online:", value: "Puerta 1" },
-      { label: "Sin entrada (taquilla):", value: "Puerta 2" },
-      {
-        label: "Grupo organizado con guia:",
-        value: "Puerta 3 (tu guia lo confirmara)",
-      },
-      { label: "Acceso para discapacitados:", value: "Puerta 3" },
-      {
-        label: "Entrada gratuita (menores de 18, estudiantes):",
-        value: "Puerta 2 (si reservaste, Puerta 1)",
-      },
+  ctaTicketTitle: "Reserva Tu Entrada Uffizi + Audioguía",
+  changed: {
+    h2: "Los Uffizi Cambiaron Su Sistema de Entrada en 2025",
+    paragraphs: [
+      "Si has leído guías más antiguas, habrás visto instrucciones sobre la \"Puerta 3\": en qué fila ponerte, cómo canjear el voucher. La cuestión es que la mayor parte de eso ya no es válido.",
+      "En septiembre de 2025 la venta de entradas de las Gallerie degli Uffizi pasó a CoopCulture y se reorganizó el sistema de acceso. El punto de canje de vouchers de la Puerta 3 ya no funciona. Habiendo trabajado en los Uffizi durante años, puedo decirte que el nuevo sistema es realmente más sencillo, una vez que sabes cómo funciona.",
     ],
   },
-  security: {
-    h2: "Seguridad y Que Esperar",
+  whereEnter: {
+    h2: "¿Por Dónde Se Entra Ahora a los Uffizi?",
+    lead: "Todos entran por la Puerta 1.",
+    paragraphs: [
+      "Ya no hay una puerta aparte para recoger entradas ni reservas hechas con antelación. Tanto si reservaste hace meses como si compras en el momento, tu entrada es la Puerta 1, donde pasarás el control de seguridad antes de subir a las salas. Está bajo los soportales del Piazzale degli Uffizi, el patio entre las dos alas que se abre hacia el Arno.",
+    ],
+  },
+  bookedOnline: {
+    h2: "Si Ya Has Reservado Online",
+    paragraphs: [
+      "Buenas noticias: tu visita acaba de volverse más fácil. Cuando reservas online no hay entrada física ni nada que recoger. Tu entrada es el código QR de tu correo; muéstralo en el móvil (o imprímelo si lo prefieres).",
+    ],
+    stepsIntro: "Qué hacer exactamente:",
+    steps: [
+      "Llega a la Puerta 1 unos minutos antes de tu hora reservada",
+      "Ten el código QR listo en el móvil",
+      "Muéstralo en la entrada y pasa el control de seguridad",
+      "Ya estás dentro: sube a las salas",
+    ],
+    closing:
+      "Como tu hora de entrada está reservada, evitas por completo la cola de la taquilla: nada de esperar en la larga fila de quienes compran la entrada el mismo día. (Una nota honesta: todos, incluidos los que ya tienen entrada, pasan un breve control de seguridad en la Puerta 1, así que cuenta con unos minutos.)",
+  },
+  mainCta: {
+    title: "¿Aún No Has Reservado?",
     intro:
-      "Independientemente de la puerta que uses, todos los visitantes pasan por un control de seguridad tipo aeropuerto. Esto es lo que debes saber:",
+      "Reserva tu franja horaria antes de viajar. Nuestra opción más popular incluye la entrada a los Uffizi más una audioguía digital, para que entiendas lo que estás viendo: del Nacimiento de Venus de Botticelli a la Medusa de Caravaggio.",
+    bullets: [
+      "Entrada con hora reservada (eliges fecha y hora)",
+      "Audioguía digital incluida",
+      "Evita la cola de la taquilla: se entra por la Puerta 1",
+      "Confirmación inmediata en el móvil",
+    ],
+    button: "Reservar Entrada Uffizi + Audioguía — desde €26",
+  },
+  onTheDay: {
+    h2: "¿Y Si Compras la Entrada el Mismo Día?",
+    paragraphs: [
+      "Todavía puedes comprarla al llegar, pero seré honesto, como alguien que trabaja aquí: en temporada alta es una apuesta. Las franjas horarias se agotan y la cola para comprar puede llevarse una hora o más de tu día.",
+    ],
+    paymentIntro: "Si compras en el lugar, la taquilla ofrece dos opciones:",
+    payment: [
+      "¿Pagas en efectivo? Usa las máquinas de autoservicio.",
+      "¿Pagas con tarjeta? Compra en los mostradores atendidos.",
+    ],
+    closing:
+      "Las entradas del mismo día cuestan €25 para la entrada estándar (antes de las 16:00) o €16 para la entrada de tarde (desde las 16:00). Pero compras la franja que quede libre, y en verano eso puede ser horas más tarde, o nada en absoluto. Reservar con antelación cuesta solo €4 más y te garantiza la hora. Para la mayoría de los visitantes, es la decisión más fácil del viaje.",
+  },
+  guidedTours: {
+    h2: "¿Prefieres No Complicarte?",
+    paragraphs: [
+      "Si es tu primera vez en los Uffizi —más de 100 salas, uno de los museos más abrumadores del mundo— plantéate una visita guiada. Te reúnes con tu guía fuera, entráis juntos por la Puerta 1 y pasas dos horas con un historiador del arte florentino titulado que te muestra exactamente qué importa y por qué. Sin mapas, sin perderte las obras maestras, sin dudar qué sala viene después.",
+    ],
+    ctaTitle: "Descubre las Visitas Guiadas a los Uffizi",
+    ctaLabel: "Opciones en grupo reducido y privadas, entrada incluida.",
+  },
+  quickFacts: {
+    h2: "Entrada a la Galería Uffizi: Datos Rápidos (2026)",
     items: [
+      { label: "Todos entran por:", value: "Puerta 1" },
       {
-        label: "Bolsos:",
-        text: "Bolsos grandes, mochilas y maletas deben dejarse en el guardarropa gratuito despues del control. Bolsos pequenos y fundas de camara estan permitidos.",
+        label: "Canje de vouchers en la Puerta 3:",
+        value: "Suprimido (septiembre de 2025)",
       },
       {
-        label: "Objetos prohibidos:",
-        text: "Palos selfie, tripodes, paraguas (deben dejarse en el guardarropa), comida y bebidas (botellas de agua permitidas).",
+        label: "Entradas online:",
+        value: "Código QR en el móvil — no hay que recoger nada",
       },
       {
-        label: "Detector de metales:",
-        text: "Similar al del aeropuerto. Retira llaves y objetos metalicos grandes.",
+        label: "Horario:",
+        value: "Mar–Dom, 8:15–18:30 (última entrada 17:30)",
       },
+      { label: "Cerrado:", value: "Lunes, 1 de enero, 25 de diciembre" },
       {
-        label: "Documento de identidad:",
-        text: "Lleva un documento de identidad con foto o pasaporte valido, especialmente para entradas con descuento o gratuitas.",
+        label: "Pago en el lugar:",
+        value: "Efectivo en máquinas, tarjeta en mostradores",
       },
     ],
   },
-  proTips: {
-    h2: "Consejos Pro para una Entrada Sin Problemas",
-    items: [
-      "Llega 10-15 minutos antes de tu franja horaria",
-      "Ten tu entrada (digital o impresa) y documento de identidad listos antes de llegar a la puerta",
-      "Deja los bolsos grandes en el hotel — el guardarropa funciona pero lleva tiempo",
-      "Usa el bano antes de entrar — los aseos del interior pueden tener colas",
-      "Lleva zapatos comodos — la galeria tiene suelos de marmol y caminaras 2-3 km",
-    ],
+  finalCta: {
+    text: "¿Listo para planificar tu visita?",
+    ticketLabel: "Reservar Entrada + Audioguía (desde €26)",
+    toursLabel: "Ver Visitas Guiadas",
   },
-  ctaTitle: "Entrada Sin Colas por la Puerta 1",
   faq: [
     {
-      q: "Cual puerta uso con una entrada reservada para los Uffizi?",
-      a: "Ve a la Puerta 1, en el lado este del edificio de los Uffizi (el mas cercano al rio Arno). Es la entrada prioritaria para todas las entradas reservadas online y sin colas.",
+      q: "¿Sigue existiendo la Puerta 3 en la Galería Uffizi?",
+      a: "La puerta física existe, pero ya no funciona como punto de recogida de entradas ni de canje de vouchers. Desde septiembre de 2025 todos los visitantes entran por la Puerta 1. Si una guía o una web te dice que recojas tu entrada en la Puerta 3, esa información está desactualizada.",
     },
     {
-      q: "Que es la Puerta 3 de los Uffizi?",
-      a: "La Puerta 3 es la entrada para grupos organizados, visitas escolares, visitantes con discapacidad y ciertas categorias de acceso especial. Si estas en un tour guiado, tu guia te indicara la puerta correcta.",
+      q: "¿Por dónde entro si reservé online?",
+      a: "Ve a la Puerta 1 a tu hora reservada y muestra el código QR en el móvil. No hay nada que recoger ni una fila aparte: pasas el control de seguridad y entras directamente al museo.",
     },
     {
-      q: "Puedo llevar una mochila a los Uffizi?",
-      a: "Los bolsos pequenos estan permitidos. Las mochilas grandes y maletas deben dejarse en el guardarropa gratuito despues del control de seguridad. Lo mas rapido es dejar los bolsos grandes en el hotel.",
+      q: "¿Necesito imprimir mi entrada de los Uffizi?",
+      a: "No. Tu entrada es un código QR en tu correo. Muéstralo en el móvil en la Puerta 1, o imprímelo si lo prefieres: ambas opciones funcionan.",
     },
     {
-      q: "Tengo que imprimir mi entrada?",
-      a: "No. Las entradas digitales (en la pantalla del movil) se aceptan en todas las entradas de los Uffizi. Asegurate de que tu movil este cargado y la entrada/voucher sea facilmente accesible.",
+      q: "¿Puedo comprar entradas en persona en los Uffizi?",
+      a: "Sí: en efectivo en las máquinas de autoservicio o con tarjeta en los mostradores. Pero en los meses de más afluencia las franjas horarias suelen agotarse, así que se recomienda encarecidamente reservar online con antelación.",
+    },
+    {
+      q: "¿A qué hora debería llegar?",
+      a: "Unos 10–15 minutos antes de tu franja horaria. La franja de las 8:15 es la más tranquila; a partir de media mañana el museo se llena de grupos.",
+    },
+  ],
+};
+
+const fr: Door3Content = {
+  meta: {
+    title: "Porte 3 Galerie des Offices (2026) : Où Entrer Maintenant",
+    description:
+      "Perdu avec la Porte 3 des Offices ? Voici ce qui a changé en 2025 et où entrer en 2026 — et comment réserver un billet à horaire réservé avec audioguide.",
+  },
+  breadcrumb: "Porte 3 & Entrée",
+  h1: "Porte 3 de la Galerie des Offices : Ce Qu'elle Était et Où Vous Entrez Vraiment en 2026",
+  quickAnswer: {
+    label: "Réponse rapide",
+    text: "La Porte 3 était l'endroit où les visiteurs ayant réservé en ligne échangeaient leur voucher contre un billet. Ce système a pris fin en septembre 2025. Aujourd'hui, tous les visiteurs entrent aux Offices par la Porte 1. Si vous avez réservé en ligne, il n'y a rien à retirer : montrez simplement le QR code sur votre téléphone à la Porte 1 et passez le contrôle de sécurité.",
+  },
+  ctaTicketTitle: "Réservez Votre Billet Offices + Audioguide",
+  changed: {
+    h2: "Les Offices Ont Changé Leur Système d'Entrée en 2025",
+    paragraphs: [
+      "Si vous avez lu des guides plus anciens, vous y avez vu des consignes sur la « Porte 3 » : dans quelle file se placer, comment échanger son voucher. Le problème, c'est que la plupart de ces informations ne sont plus d'actualité.",
+      "En septembre 2025, la billetterie des Gallerie degli Uffizi est passée à CoopCulture et le système d'entrée a été réorganisé. Le point d'échange des vouchers à la Porte 3 n'est plus en service. Ayant travaillé aux Offices pendant des années, je peux vous dire que le nouveau fonctionnement est vraiment plus simple — une fois qu'on sait comment il marche.",
+    ],
+  },
+  whereEnter: {
+    h2: "Par Où Entre-t-on aux Offices Aujourd'hui ?",
+    lead: "Tout le monde entre par la Porte 1.",
+    paragraphs: [
+      "Il n'y a plus de porte séparée pour retirer les billets ou les réservations faites à l'avance. Que vous ayez réservé il y a des mois ou que vous achetiez sur place, votre entrée est la Porte 1 — c'est là que vous passerez le contrôle de sécurité avant de monter dans les salles. Elle se trouve sous les arcades du Piazzale degli Uffizi, la cour entre les deux ailes qui s'ouvre vers l'Arno.",
+    ],
+  },
+  bookedOnline: {
+    h2: "Si Vous Avez Déjà Réservé en Ligne",
+    paragraphs: [
+      "Bonne nouvelle : votre visite vient de devenir plus simple. Quand vous réservez en ligne, il n'y a pas de billet physique et rien à retirer. Votre billet, c'est le QR code reçu par e-mail ; montrez-le sur votre téléphone (ou imprimez-le si vous préférez).",
+    ],
+    stepsIntro: "Ce qu'il faut faire, exactement :",
+    steps: [
+      "Présentez-vous à la Porte 1 quelques minutes avant votre créneau réservé",
+      "Ayez le QR code prêt sur votre téléphone",
+      "Montrez-le à l'entrée et passez le contrôle de sécurité",
+      "Vous êtes entré — montez dans les salles",
+    ],
+    closing:
+      "Comme votre heure d'entrée est réservée, vous évitez entièrement la file d'attente à la billetterie — pas besoin de patienter dans la longue queue de ceux qui achètent leur billet le jour même. (Une note honnête : tout le monde, y compris les détenteurs de billets, passe un bref contrôle de sécurité à la Porte 1, prévoyez donc quelques minutes.)",
+  },
+  mainCta: {
+    title: "Pas Encore Réservé ?",
+    intro:
+      "Réservez votre créneau horaire avant de partir. Notre option la plus demandée comprend l'entrée aux Offices ainsi qu'un audioguide numérique, pour comprendre ce que vous regardez — de la Naissance de Vénus de Botticelli à la Méduse du Caravage.",
+    bullets: [
+      "Entrée à horaire réservé (vous choisissez la date et l'heure)",
+      "Audioguide numérique inclus",
+      "Évitez la file d'attente à la billetterie — entrée par la Porte 1",
+      "Confirmation immédiate sur votre téléphone",
+    ],
+    button: "Réserver Billet Offices + Audioguide — dès €26",
+  },
+  onTheDay: {
+    h2: "Et Si Vous Achetez Votre Billet sur Place ?",
+    paragraphs: [
+      "Vous pouvez toujours acheter à l'arrivée, mais je serai honnête, en tant que personne qui travaille ici : en haute saison, c'est un pari. Les créneaux se remplissent, et la queue pour acheter peut vous coûter une heure ou plus de votre journée.",
+    ],
+    paymentIntro: "Si vous achetez sur place, la billetterie propose deux options :",
+    payment: [
+      "Vous payez en espèces ? Utilisez les bornes automatiques.",
+      "Vous payez par carte ? Achetez aux guichets avec personnel.",
+    ],
+    closing:
+      "Les billets du jour coûtent €25 pour l'entrée standard (avant 16h00) ou €16 pour l'entrée de l'après-midi (à partir de 16h00). Mais vous prenez le créneau encore disponible — en été, cela peut être plusieurs heures plus tard, voire rien du tout. Réserver à l'avance ne coûte que €4 de plus et vous garantit votre horaire. Pour la plupart des visiteurs, c'est la décision la plus facile du voyage.",
+  },
+  guidedTours: {
+    h2: "Envie de Ne Rien Laisser au Hasard ?",
+    paragraphs: [
+      "Si c'est votre première visite aux Offices — plus de 100 salles, l'un des musées les plus déroutants au monde — envisagez une visite guidée. Vous retrouvez votre guide à l'extérieur, vous entrez ensemble par la Porte 1, et vous passez deux heures avec un historien de l'art florentin diplômé qui vous montre exactement ce qui compte et pourquoi. Pas de plan à déchiffrer, aucun chef-d'œuvre manqué, aucune hésitation sur la salle suivante.",
+    ],
+    ctaTitle: "Découvrir les Visites Guidées des Offices",
+    ctaLabel: "Petits groupes et visites privées, entrée incluse.",
+  },
+  quickFacts: {
+    h2: "Entrée de la Galerie des Offices : L'Essentiel (2026)",
+    items: [
+      { label: "Tout le monde entre par :", value: "Porte 1" },
+      {
+        label: "Échange de vouchers Porte 3 :",
+        value: "Supprimé (septembre 2025)",
+      },
+      {
+        label: "Billets en ligne :",
+        value: "QR code sur votre téléphone — rien à retirer",
+      },
+      {
+        label: "Horaires :",
+        value: "Mar–Dim, 8h15–18h30 (dernière entrée 17h30)",
+      },
+      { label: "Fermé :", value: "Lundis, 1er janvier, 25 décembre" },
+      {
+        label: "Paiement sur place :",
+        value: "Espèces aux bornes, carte aux guichets",
+      },
+    ],
+  },
+  finalCta: {
+    text: "Prêt à préparer votre visite ?",
+    ticketLabel: "Réserver Billet + Audioguide (dès €26)",
+    toursLabel: "Voir les Visites Guidées",
+  },
+  faq: [
+    {
+      q: "Y a-t-il encore une Porte 3 à la Galerie des Offices ?",
+      a: "La porte existe physiquement, mais elle ne sert plus de point de retrait des billets ni d'échange de vouchers. Depuis septembre 2025, tous les visiteurs entrent par la Porte 1. Si un guide ou un site vous dit de retirer votre billet à la Porte 3, cette information n'est plus à jour.",
+    },
+    {
+      q: "Par où entrer si j'ai réservé en ligne ?",
+      a: "Rendez-vous à la Porte 1 à l'heure que vous avez réservée et montrez le QR code sur votre téléphone. Il n'y a rien à retirer et pas de file séparée : contrôle de sécurité, puis directement dans le musée.",
+    },
+    {
+      q: "Dois-je imprimer mon billet pour les Offices ?",
+      a: "Non. Votre billet est un QR code reçu par e-mail. Montrez-le sur votre téléphone à la Porte 1, ou imprimez-le si vous préférez — les deux fonctionnent.",
+    },
+    {
+      q: "Puis-je encore acheter des billets sur place aux Offices ?",
+      a: "Oui — en espèces aux bornes automatiques ou par carte aux guichets. Mais pendant les mois d'affluence, les créneaux sont souvent complets : réserver en ligne à l'avance est vivement recommandé.",
+    },
+    {
+      q: "À quelle heure faut-il arriver ?",
+      a: "Environ 10 à 15 minutes avant votre créneau. Le créneau de 8h15 est le plus calme ; à partir du milieu de la matinée, le musée se remplit de groupes.",
     },
   ],
 };

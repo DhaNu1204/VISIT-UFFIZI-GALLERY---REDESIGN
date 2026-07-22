@@ -10,12 +10,12 @@ export const blogPostsIt: Record<string, BlogPostI18n> = {
       {
         heading: "La Risposta Breve",
         content:
-          "Il periodo migliore per visitare la Galleria degli Uffizi è da novembre a febbraio, il martedì o mercoledì mattina. Troverete i prezzi più bassi dei biglietti (€12 anziché €25), meno folla e l'esperienza più piacevole. Se non potete venire in inverno, puntate alla prima mattina (ore 8:15) o al tardo pomeriggio (dopo le 16) in qualsiasi giorno feriale.\n\nMa c'è di più da considerare oltre alla folla. Il periodo dell'anno influisce sui prezzi dei biglietti, sugli orari di apertura, sul meteo e su cos'altro potete fare a Firenze. Ecco la guida completa mese per mese.",
+          "Il periodo migliore per visitare la Galleria degli Uffizi è da novembre a febbraio, il martedì o mercoledì mattina. Troverete meno folla e l'esperienza più piacevole in assoluto. Se non potete venire in inverno, puntate alla prima mattina (ore 8:15) o al tardo pomeriggio (dopo le 16) in qualsiasi giorno feriale.\n\nMa c'è di più da considerare oltre alla folla. Il periodo dell'anno influisce sui prezzi dei biglietti, sugli orari di apertura, sul meteo e su cos'altro potete fare a Firenze. Ecco la guida completa mese per mese.",
       },
       {
         heading: "Guida Mese per Mese",
         content:
-          "**Gennaio–Febbraio (Miglior Rapporto Qualità-Prezzo):** I mesi più tranquilli agli Uffizi. I biglietti costano €12 (bassa stagione). Condividerete la Sala di Botticelli con una manciata di visitatori invece di centinaia. Firenze è fresca (5-10°C) ma bellissima — meno turisti ovunque, i ristoranti si prenotano facilmente e i prezzi degli hotel sono ai minimi. Lo svantaggio: giornate più corte e pioggia occasionale.\n\n**Marzo (La Folla Aumenta):** Inizia la stagione turistica. I biglietti salgono a €25 dal 1° marzo. La settimana di Pasqua (se cade a marzo) è particolarmente affollata. Prenotate i biglietti almeno 2 settimane prima. Il meteo migliora — temperature diurne intorno ai 12-16°C.\n\n**Aprile–Maggio (Inizia l'Alta Stagione):** Bel tempo (15-22°C), ma gli Uffizi si affollano, soprattutto intorno a Pasqua, il 25 aprile (Festa della Liberazione) e il 1° maggio (Festa del Lavoro — galleria chiusa). Prenotate i biglietti un mese prima per i weekend. Gli slot mattutini si esauriscono rapidamente.\n\n**Giugno (Alta Stagione):** Caldo (25-30°C), giornate lunghe e folla pesante. Possibili aperture serali il martedì. Prenotate lo slot delle 8:15 o aspettate dopo le 16. Assicuratevi che il vostro alloggio abbia l'aria condizionata.\n\n**Luglio–Agosto (Picco di Folla e Caldo):** I mesi più affollati e caldi (30-35°C). Le code alla Porta 2 possono superare le 3 ore. I biglietti salta-fila sono indispensabili. Il lato positivo: possibili orari prolungati. Molti fiorentini lasciano la città ad agosto, quindi i ristoranti sono più tranquilli.\n\n**Settembre (Ancora Affollato, Ma in Miglioramento):** La folla diminuisce dopo metà settembre. Il meteo resta caldo (22-28°C). Uno dei mesi migliori per combinare visite ai musei con la Firenze all'aperto. Prenotate i biglietti 1-2 settimane prima.\n\n**Ottobre (Il Periodo Ideale):** Il mio mese preferito personalmente. Abbastanza caldo per mangiare all'aperto (16-22°C), il numero di turisti cala notevolmente e gli orari dell'alta stagione sono ancora validi. Eccellente combinazione di bel tempo e folla gestibile.\n\n**Novembre–Dicembre (Esperienza Migliore):** I prezzi di bassa stagione tornano dal 1° novembre. La folla si riduce drasticamente. Dicembre porta i mercatini di Natale e un'atmosfera festiva, ma la galleria chiude il 25 dicembre. Meteo fresco (5-12°C) con qualche giorno di pioggia.",
+          "**Gennaio–Febbraio (Miglior Rapporto Qualità-Prezzo):** I mesi più tranquilli agli Uffizi. Il biglietto standard costa €29 prenotato in anticipo o €25 acquistato in giornata in biglietteria. Condividerete la Sala di Botticelli con una manciata di visitatori invece di centinaia. Firenze è fresca (5-10°C) ma bellissima — meno turisti ovunque, i ristoranti si prenotano facilmente e i prezzi degli hotel sono ai minimi. Lo svantaggio: giornate più corte e pioggia occasionale.\n\n**Marzo (La Folla Aumenta):** Inizia la stagione turistica. Prenotate i biglietti con almeno 2 settimane di anticipo. La settimana di Pasqua (se cade a marzo) è particolarmente affollata. Prenotate i biglietti almeno 2 settimane prima. Il meteo migliora — temperature diurne intorno ai 12-16°C.\n\n**Aprile–Maggio (Inizia l'Alta Stagione):** Bel tempo (15-22°C), ma gli Uffizi si affollano, soprattutto intorno a Pasqua, il 25 aprile (Festa della Liberazione) e il 1° maggio (Festa del Lavoro). Prenotate i biglietti un mese prima per i weekend. Gli slot mattutini si esauriscono rapidamente.\n\n**Giugno (Alta Stagione):** Caldo (25-30°C), giornate lunghe e folla pesante. Possibili aperture serali il martedì. Prenotate lo slot delle 8:15 o aspettate dopo le 16. Assicuratevi che il vostro alloggio abbia l'aria condizionata.\n\n**Luglio–Agosto (Picco di Folla e Caldo):** I mesi più affollati e caldi (30-35°C). Le code alla Porta 1 possono superare le 3 ore. Prenotare online un biglietto con ingresso a orario prestabilito è indispensabile per ridurre l'attesa. Il lato positivo: possibili orari prolungati. Molti fiorentini lasciano la città ad agosto, quindi i ristoranti sono più tranquilli.\n\n**Settembre (Ancora Affollato, Ma in Miglioramento):** La folla diminuisce dopo metà settembre. Il meteo resta caldo (22-28°C). Uno dei mesi migliori per combinare visite ai musei con la Firenze all'aperto. Prenotate i biglietti 1-2 settimane prima.\n\n**Ottobre (Il Periodo Ideale):** Il mio mese preferito personalmente. Abbastanza caldo per mangiare all'aperto (16-22°C), il numero di turisti cala notevolmente e gli orari dell'alta stagione sono ancora validi. Eccellente combinazione di bel tempo e folla gestibile.\n\n**Novembre–Dicembre (Esperienza Migliore):** La folla si riduce drasticamente. Dicembre porta i mercatini di Natale e un'atmosfera festiva, ma la galleria chiude il 25 dicembre. Meteo fresco (5-12°C) con qualche giorno di pioggia.",
       },
       {
         heading: "I Migliori Giorni della Settimana",
@@ -30,13 +30,13 @@ export const blogPostsIt: Record<string, BlogPostI18n> = {
       {
         heading: "Consigli per Risparmiare in Base alla Stagione",
         content:
-          "**Bassa stagione (Nov–Feb):** I biglietti scendono a €12 da €25. Solo questo fa risparmiare a una famiglia di quattro persone oltre €50. Anche hotel e voli per Firenze sono significativamente più economici.\n\n**Prime domeniche gratuite:** Gli Uffizi offrono ingresso gratuito la prima domenica di ogni mese. Ma onestamente non lo consiglio — la folla è estrema (3-4 ore di attesa) e l'esperienza all'interno ne risente. Pagare €12 in un tranquillo martedì invernale è infinitamente meglio.\n\n**Cittadini UE 18-25:** Solo €2 tutto l'anno. Portate sempre un documento d'identità.\n\n**Sotto i 18 anni:** Ingresso gratuito indipendentemente dalla nazionalità. Portate un documento che attesti l'età.\n\n**Prenotare tramite rivenditori:** Spesso più economico del sito ufficiale e include la cancellazione gratuita — utile quando i piani cambiano.",
+          "**Prenotate in anticipo:** Un biglietto con ingresso a orario prestabilito e audioguida digitale parte da €26 online — vi garantisce lo slot e vi fa saltare la fila alla biglietteria. Anche hotel e voli per Firenze sono significativamente più economici in bassa stagione.\n\n**Prime domeniche gratuite:** Gli Uffizi offrono ingresso gratuito la prima domenica di ogni mese. Ma onestamente non lo consiglio — la folla è estrema (3-4 ore di attesa) e l'esperienza all'interno ne risente. Pagare €25 in biglietteria in un tranquillo martedì invernale è infinitamente meglio.\n\n**Cittadini UE 18-25:** Solo €2 tutto l'anno. Portate sempre un documento d'identità.\n\n**Sotto i 18 anni:** Ingresso gratuito indipendentemente dalla nazionalità. Portate un documento che attesti l'età.\n\n**Prenotare tramite rivenditori:** Spesso più economico del sito ufficiale e include la cancellazione gratuita — utile quando i piani cambiano.",
       },
     ],
     faq: [
       {
         q: "Qual è il mese migliore per visitare gli Uffizi?",
-        a: "Ottobre e novembre sono il periodo ideale — folla gestibile, meteo confortevole e (da novembre) prezzi di bassa stagione di €12 invece di €25.",
+        a: "Ottobre e novembre sono il periodo ideale — folla gestibile e meteo confortevole. Prenotate un biglietto con ingresso a orario prestabilito da €26 online.",
       },
       {
         q: "Qual è il giorno meno affollato agli Uffizi?",
@@ -44,11 +44,11 @@ export const blogPostsIt: Record<string, BlogPostI18n> = {
       },
       {
         q: "Vale la pena visitare gli Uffizi in inverno?",
-        a: "Assolutamente. L'inverno (novembre–febbraio) offre meno folla, i prezzi più bassi (€12) e l'esperienza più serena. Firenze è più tranquilla in generale e avrete le sale praticamente per voi.",
+        a: "Assolutamente. L'inverno (novembre–febbraio) offre meno folla e l'esperienza più serena. Il biglietto standard costa €29 in anticipo o €25 in giornata in biglietteria. Firenze è più tranquilla in generale e avrete le sale praticamente per voi.",
       },
       {
         q: "Vale la pena visitare gli Uffizi in estate?",
-        a: "Sì, ma pianificate con attenzione. Prenotate il primo slot mattutino (8:15), usate biglietti salta-fila e preparatevi al caldo e alla folla. Il tardo pomeriggio (dopo le 16) è altrettanto buono. Verificate le possibili aperture serali.",
+        a: "Sì, ma pianificate con attenzione. Prenotate il primo slot mattutino (8:15), riservate per tempo il vostro ingresso a orario prestabilito e preparatevi al caldo e alla folla. Il tardo pomeriggio (dopo le 16) è altrettanto buono. Verificate le possibili aperture serali.",
       },
     ],
   },
@@ -61,7 +61,7 @@ export const blogPostsIt: Record<string, BlogPostI18n> = {
       {
         heading: "Come Funzionano le Domeniche Gratuite",
         content:
-          "La prima domenica di ogni mese, tutti i musei statali italiani — inclusa la Galleria degli Uffizi — offrono ingresso completamente gratuito. Nessun biglietto necessario. Nessuna prenotazione richiesta. Basta presentarsi alla Porta 2 e mettersi in coda.\n\nSembra fantastico. In pratica è più complicato. Le Domeniche Gratuite attirano folle enormi. La coda alla Porta 2 può raggiungere le 3-4 ore nei mesi di punta. Una volta dentro, le sale popolari come la Sala di Botticelli sono piene da non potersi muovere. Se visitate Firenze con un budget limitato, la Domenica Gratuita può farvi risparmiare €25. Ma se il vostro obiettivo è godervi davvero l'arte, pagare un biglietto regolare in un tranquillo giorno feriale vi darà un'esperienza incomparabilmente migliore.",
+          "La prima domenica di ogni mese l'ingresso è gratuito alla Galleria degli Uffizi — e anche al Corridoio Vasariano. Sono compresi entrambi.\n\nGratuito non vuol dire senza biglietto. Il biglietto serve comunque ed è nominativo: riporta il nome del visitatore e deve corrispondere al documento d'identità.\n\n**Il biglietto gratuito degli Uffizi si ritira solo allo sportello della biglietteria, il giorno stesso.** Non è prenotabile online: il sistema di vendita online semplicemente non lo emette. Ci si presenta, si fa la fila in biglietteria e si ritira lì il proprio biglietto nominativo gratuito. Mettete in conto quella coda, perché è la parte che quasi nessuno si aspetta.\n\n**Il Corridoio Vasariano funziona al contrario.** Il suo biglietto gratuito va prenotato online in anticipo, oppure ritirato in biglietteria il giorno stesso se resta ancora posto. I posti sono limitati, quindi prenotare in anticipo è la strada affidabile.\n\nIn pratica, quindi, è più complicato del semplice \"ingresso gratuito\". Le Domeniche Gratuite attirano folle enormi. Una volta dentro, le sale popolari come la Sala di Botticelli sono piene da non potersi muovere. Se visitate Firenze con un budget limitato, la Domenica Gratuita può farvi risparmiare €25. Ma se il vostro obiettivo è godervi davvero l'arte, pagare un biglietto regolare in un tranquillo giorno feriale vi darà un'esperienza incomparabilmente migliore.",
       },
       {
         heading: "Date delle Domeniche Gratuite 2026",
@@ -71,17 +71,17 @@ export const blogPostsIt: Record<string, BlogPostI18n> = {
       {
         heading: "Cosa Aspettarsi: Una Valutazione Onesta",
         content:
-          "**Tempi di attesa:** 2-4 ore in primavera e estate. Anche in inverno, aspettatevi 1-2 ore. Non esiste l'opzione salta-fila nelle Domeniche Gratuite — tutti entrano dalla Porta 2.\n\n**All'interno della galleria:** Affollata. Le sale popolari sono stracolme. Passerete più tempo a farvi strada tra la folla che a guardare i dipinti. La Sala di Botticelli, la Sala 35 (Leonardo/Michelangelo) e la Sala 83 (Tiziano) sono le più congestionate.\n\n**Il lato positivo:** È davvero gratuito. Per viaggiatori con budget limitato, studenti e famiglie, risparmiare €25 a persona è significativo. E le sale meno famose (in particolare le sale 15-30 e le sale 70-80) restano relativamente tranquille anche nelle Domeniche Gratuite.",
+          "**Tempi di attesa:** 2-4 ore in primavera e estate. Anche in inverno, aspettatevi 1-2 ore. Nelle Domeniche Gratuite gli Uffizi non hanno ingressi a orario prestabilito e non si può acquistare in anticipo, quindi non c'è modo di accorciare l'attesa — tutti fanno la fila in biglietteria per il biglietto nominativo gratuito e poi entrano dalla Porta 1, la stessa di ogni giorno.\n\n**All'interno della galleria:** Affollata. Le sale popolari sono stracolme. Passerete più tempo a farvi strada tra la folla che a guardare i dipinti. La Sala di Botticelli, la Sala 35 (Leonardo/Michelangelo) e la Sala 83 (Tiziano) sono le più congestionate.\n\n**Il lato positivo:** È davvero gratuito. Per viaggiatori con budget limitato, studenti e famiglie, risparmiare €25 a persona è significativo. E le sale meno famose (in particolare le sale 15-30 e le sale 70-80) restano relativamente tranquille anche nelle Domeniche Gratuite.",
       },
       {
         heading: "Consigli Se Andate la Domenica Gratuita",
         content:
-          "**Arrivate entro le 7:30:** Siate alla Porta 2 almeno 45 minuti prima dell'apertura delle 8:15. Chi arriva presto entra rapidamente.\n\n**Andate direttamente alle sale superiori:** Saltate la Sala di Botticelli al primo giro — sarà presa d'assalto. Iniziate dalle sale 35-90, poi tornate alle sale 2-14 quando la calca iniziale si attenua (di solito intorno alle 13).\n\n**Visitate in inverno:** Le Domeniche Gratuite di novembre, dicembre, gennaio e febbraio sono molto più gestibili. Potreste aspettare solo 30-60 minuti.\n\n**Usate il bagno prima di entrare:** Le code ai servizi igienici all'interno sono lunghe nelle Domeniche Gratuite.\n\n**Portate snack e acqua:** Starete in fila per un bel po'. Anche il bar all'interno sarà affollato.",
+          "**Arrivate entro le 7:30:** Siate in biglietteria almeno 45 minuti prima dell'apertura delle 8:15 — prima di entrare dovete ritirare allo sportello il biglietto nominativo gratuito, quindi calcolate anche quella coda. Portate un documento con foto per ogni persona del gruppo: il nome su ciascun biglietto deve corrispondere.\n\n**Sistemate prima il Corridoio Vasariano:** Se volete visitare anche il corridoio, prenotate online in anticipo il suo biglietto gratuito. Affidarsi alla biglietteria il giorno stesso funziona solo se resta ancora posto.\n\n**Andate direttamente alle sale superiori:** Saltate la Sala di Botticelli al primo giro — sarà presa d'assalto. Iniziate dalle sale 35-90, poi tornate alle sale 2-14 quando la calca iniziale si attenua (di solito intorno alle 13).\n\n**Visitate in inverno:** Le Domeniche Gratuite di novembre, dicembre, gennaio e febbraio sono molto più gestibili. Potreste aspettare solo 30-60 minuti.\n\n**Usate il bagno prima di entrare:** Le code ai servizi igienici all'interno sono lunghe nelle Domeniche Gratuite.\n\n**Portate snack e acqua:** Starete in fila per un bel po'. Anche il bar all'interno sarà affollato.",
       },
       {
         heading: "Il Mio Consiglio Sincero",
         content:
-          "A meno che il budget non sia la vostra priorità assoluta, evitate la Domenica Gratuita. Un biglietto di bassa stagione costa solo €12 (novembre–febbraio) e l'esperienza è incomparabilmente migliore. Anche in alta stagione, un biglietto salta-fila da €26 vi garantisce una visita tranquilla e senza fretta in cui potrete davvero ammirare i dipinti.\n\nLe Domeniche Gratuite sono ottime per i residenti che visitano regolarmente e non sono infastiditi dalla folla. Per una visita irripetibile, investite nel biglietto.",
+          "A meno che il budget non sia la vostra priorità assoluta, evitate la Domenica Gratuita. Un biglietto standard costa €29 prenotato in anticipo o €25 in biglietteria in un tranquillo giorno feriale, e l'esperienza è incomparabilmente migliore.\n\nSe comunque avete deciso di andare, valutate una visita guidata proprio quel giorno. L'ingresso non vi costa nulla, quindi quello che pagate è soltanto la guida — e un bravo storico dell'arte è ciò che trasforma una galleria stracolma e travolgente in una visita che ha un senso. Nel giorno più affollato del mese vale più del solito, non meno.\n\nLe Domeniche Gratuite sono ottime per i residenti che visitano regolarmente e non sono infastiditi dalla folla. Per una visita irripetibile, scegliete un giorno più tranquillo.",
       },
     ],
     faq: [
@@ -90,8 +90,8 @@ export const blogPostsIt: Record<string, BlogPostI18n> = {
         a: "La prima domenica di ogni mese: 4 gennaio, 1 febbraio, 1 marzo, 5 aprile, 3 maggio, 7 giugno, 5 luglio, 2 agosto, 6 settembre, 4 ottobre, 1 novembre, 6 dicembre.",
       },
       {
-        q: "Serve la prenotazione per la Domenica Gratuita?",
-        a: "No, non serve prenotazione. Ci si mette in coda alla Porta 2 per l'ingresso ordinario. Non esiste l'opzione salta-fila nelle Domeniche Gratuite.",
+        q: "Serve il biglietto per la Domenica Gratuita?",
+        a: "Sì. L'ingresso è gratuito ma il biglietto serve comunque, ed è nominativo: riporta il nome del visitatore e deve corrispondere al documento. Per gli Uffizi si ritira allo sportello della biglietteria il giorno stesso e non è prenotabile online. Il Corridoio Vasariano, gratuito anch'esso quel giorno, funziona al contrario: va prenotato online in anticipo, oppure ritirato in biglietteria il giorno stesso se resta posto.",
       },
       {
         q: "Quanto si aspetta nelle Domeniche Gratuite?",
@@ -99,7 +99,7 @@ export const blogPostsIt: Record<string, BlogPostI18n> = {
       },
       {
         q: "La Domenica Gratuita agli Uffizi ne vale la pena?",
-        a: "Per chi viaggia con budget limitato, sì — si risparmiano €25. Per la migliore esperienza, no. La folla riduce significativamente il piacere della visita. Un biglietto da €12 in bassa stagione in un tranquillo martedì offre una visita di gran lunga migliore.",
+        a: "Per chi viaggia con budget limitato, sì — si risparmiano €25. Per la migliore esperienza, no. La folla riduce significativamente il piacere della visita. Un biglietto standard in un tranquillo martedì offre una visita di gran lunga migliore.",
       },
     ],
   },
@@ -127,12 +127,12 @@ export const blogPostsIt: Record<string, BlogPostI18n> = {
       {
         heading: "Biglietti e Prezzi",
         content:
-          "**Biglietti Uffizi:**\n• Online: €29\n• Biglietteria: €25\n• Pomeridiano (dopo le 16:00): €20 online\n• Salta-fila da €26 online\n\n**Biglietti Accademia:**\n• Standard: €16 tutto l'anno\n• Salta-fila da €15-20 online\n\n**Tour combinato (entrambi i musei):** Da €89 con guida e salta-fila per entrambi. È il miglior rapporto qualità-prezzo se volete una visita guidata — acquistando separatamente spendereste €88+.",
+          "**Biglietti Uffizi:**\n• Prenotato in anticipo: €29\n• Acquistato in giornata in biglietteria: €25\n• Ingresso pomeridiano (dalle 16:00): €20 in anticipo / €16 in giornata\n• Biglietto con ingresso a orario prestabilito e audioguida digitale: da €26 online\n• Cittadini UE 18-25: €2 | Under 18: gratuito\n\n**Biglietti Accademia:**\n• Standard: €16 tutto l'anno\n• Ingresso riservato da €15-20 online\n\n**Tour combinato (entrambi i musei):** Da €89 con guida e ingressi già riservati in entrambi i musei. È il miglior rapporto qualità-prezzo se volete una visita guidata.",
       },
       {
         heading: "Folla e Attese",
         content:
-          "Entrambi i musei attirano code enormi, ma con schemi diversi:\n\n**Uffizi:** Più affollati dalle 10 alle 14. La coda alla Porta 2 può raggiungere le 2-3 ore. I biglietti salta-fila sono indispensabili in alta stagione. All'interno, la Sala di Botticelli (sale 10-14) è la più congestionata.\n\n**Accademia:** La coda può essere persino più lunga di quella degli Uffizi perché il museo è più piccolo e i visitatori procedono più lentamente. Attese di punta: 2-3 ore. I biglietti salta-fila sono forse ancora più importanti qui. All'interno, la sala con il David è affollata ma gestibile dato che la statua è così grande.\n\n**Consiglio:** Visitate gli Uffizi alle 8:15 (orario migliore) e l'Accademia nel primo pomeriggio quando il flusso mattutino è passato.",
+          "Entrambi i musei attirano code enormi, ma con schemi diversi:\n\n**Uffizi:** Più affollati dalle 10 alle 14. La coda alla Porta 1 può raggiungere le 2-3 ore. In alta stagione prenotare online un ingresso a orario prestabilito riduce sensibilmente l'attesa. All'interno, la Sala di Botticelli (sale 10-14) è la più congestionata.\n\n**Accademia:** La coda può essere persino più lunga di quella degli Uffizi perché il museo è più piccolo e i visitatori procedono più lentamente. Attese di punta: 2-3 ore. Riservare un orario di ingresso è forse ancora più importante qui. All'interno, la sala con il David è affollata ma gestibile dato che la statua è così grande.\n\n**Consiglio:** Visitate gli Uffizi alle 8:15 (orario migliore) e l'Accademia nel primo pomeriggio quando il flusso mattutino è passato.",
       },
       {
         heading: "Quale È Meglio per le Famiglie?",
@@ -142,7 +142,7 @@ export const blogPostsIt: Record<string, BlogPostI18n> = {
       {
         heading: "La Mia Raccomandazione",
         content:
-          "**Visitateli entrambi.** I due più grandi musei di Firenze si completano perfettamente — pittura agli Uffizi, scultura all'Accademia. Se siete davvero limitati a uno solo:\n\n• **Scegliete gli Uffizi** se amate la pittura, volete l'esperienza artistica più ampia o siete interessati alla storia dell'arte dal Medioevo al Barocco.\n\n• **Scegliete l'Accademia** se vedere il David di Michelangelo è la vostra priorità assoluta, avete tempo limitato (meno di 2 ore) o siete in visita con bambini piccoli.\n\n• **Scegliete il tour combinato** se volete entrambi i musei, commento esperto e la comodità dell'ingresso salta-fila già organizzato.",
+          "**Visitateli entrambi.** I due più grandi musei di Firenze si completano perfettamente — pittura agli Uffizi, scultura all'Accademia. Se siete davvero limitati a uno solo:\n\n• **Scegliete gli Uffizi** se amate la pittura, volete l'esperienza artistica più ampia o siete interessati alla storia dell'arte dal Medioevo al Barocco.\n\n• **Scegliete l'Accademia** se vedere il David di Michelangelo è la vostra priorità assoluta, avete tempo limitato (meno di 2 ore) o siete in visita con bambini piccoli.\n\n• **Scegliete il tour combinato** se volete entrambi i musei, commento esperto e la comodità degli orari di ingresso già riservati per voi.",
       },
     ],
     faq: [
@@ -156,7 +156,7 @@ export const blogPostsIt: Record<string, BlogPostI18n> = {
       },
       {
         q: "Quale ha le code più lunghe?",
-        a: "L'Accademia ha spesso attese relativamente più lunghe perché è un museo più piccolo. Entrambi possono raggiungere le 2-3 ore in alta stagione. I biglietti salta-fila sono indispensabili per entrambi.",
+        a: "L'Accademia ha spesso attese relativamente più lunghe perché è un museo più piccolo. Entrambi possono raggiungere le 2-3 ore in alta stagione. Un biglietto con ingresso a orario prestabilito è indispensabile per entrambi.",
       },
       {
         q: "Quanto distano gli Uffizi dall'Accademia?",
@@ -178,7 +178,7 @@ export const blogPostsIt: Record<string, BlogPostI18n> = {
       {
         heading: "1. Galleria degli Uffizi",
         content:
-          "**Perché:** La più grande collezione di dipinti del Rinascimento italiano al mondo. Botticelli, Leonardo, Michelangelo, Raffaello, Tiziano, Caravaggio — tutti sotto lo stesso tetto.\n**Tempo necessario:** 2-4 ore\n**Biglietti:** €25 (alta stagione) / €12 (bassa stagione)\n**Da non perdere:** Sala di Botticelli (sale 10-14), la terrazza panoramica e le gallerie al piano terra recentemente inaugurate.\n**Consiglio:** Prenotate lo slot delle 8:15 per la migliore esperienza.",
+          "**Perché:** La più grande collezione di dipinti del Rinascimento italiano al mondo. Botticelli, Leonardo, Michelangelo, Raffaello, Tiziano, Caravaggio — tutti sotto lo stesso tetto.\n**Tempo necessario:** 2-4 ore\n**Biglietti:** €29 (in anticipo) / €25 (in giornata in biglietteria)\n**Da non perdere:** Sala di Botticelli (sale 10-14), la terrazza panoramica e le gallerie al piano terra recentemente inaugurate.\n**Consiglio:** Prenotate lo slot delle 8:15 per la migliore esperienza.",
       },
       {
         heading: "2. Galleria dell'Accademia",
@@ -223,7 +223,7 @@ export const blogPostsIt: Record<string, BlogPostI18n> = {
       {
         heading: "Abbonamenti per Risparmiare",
         content:
-          "**Firenze Card (€85/72 ore):** Accesso a 72+ musei e monumenti inclusi Uffizi, Accademia, Palazzo Pitti e Giardino di Boboli. Include l'ingresso salta-fila. Conviene se visiterete 5+ musei in 3 giorni.\n\n**Prime Domeniche:** Tutti i musei statali (Uffizi, Accademia, Bargello, Cappelle Medicee, San Marco, Palazzo Pitti) sono gratuiti la prima domenica di ogni mese. Aspettatevi grande folla.\n\n**Sotto i 18 anni:** Ingresso gratuito a tutti i musei statali indipendentemente dalla nazionalità.\n\n**Cittadini UE 18-25:** €2 nei musei statali. Portate un documento d'identità.",
+          "**Firenze Card (€85/72 ore):** Accesso a 72+ musei e monumenti inclusi Uffizi, Accademia, Palazzo Pitti e Giardino di Boboli. L'ingresso prioritario vi fa saltare la fila alla biglietteria. Conviene se visiterete 5+ musei in 3 giorni.\n\n**Prime Domeniche:** Tutti i musei statali (Uffizi, Accademia, Bargello, Cappelle Medicee, San Marco, Palazzo Pitti) sono gratuiti la prima domenica di ogni mese. Aspettatevi grande folla.\n\n**Sotto i 18 anni:** Ingresso gratuito a tutti i musei statali indipendentemente dalla nazionalità.\n\n**Cittadini UE 18-25:** €2 nei musei statali. Portate un documento d'identità.",
       },
     ],
     faq: [
@@ -233,7 +233,7 @@ export const blogPostsIt: Record<string, BlogPostI18n> = {
       },
       {
         q: "La Firenze Card conviene?",
-        a: "A €85 per 72 ore, la Firenze Card conviene se visiterete 5+ musei. Uffizi (€25) + Accademia (€16) + Palazzo Pitti (€16) + Boboli (€10) = €67, quindi un quinto museo la rende conveniente.",
+        a: "A €85 per 72 ore, la Firenze Card conviene se visiterete 5+ musei. Uffizi (€29) + Accademia (€16) + Palazzo Pitti (€16) + Boboli (€10) = €71, quindi un quinto museo la rende conveniente.",
       },
       {
         q: "Qual è il museo di Firenze migliore per i bambini?",
@@ -248,33 +248,33 @@ export const blogPostsIt: Record<string, BlogPostI18n> = {
   "florence-city-pass-2026": {
     title: "Firenze Card 2026 | City Pass — Ne Vale la Pena?",
     description:
-      "Recensione completa della Firenze Card / Florence City Pass 2026. Costo, musei inclusi, salta-fila, calcolo dettagliato e consiglio sincero.",
+      "Recensione completa della Firenze Card / Florence City Pass 2026. Costo, musei inclusi, ingresso prioritario, calcolo dettagliato e consiglio sincero.",
     h1: "Firenze Card 2026 — Ne Vale la Pena?",
     sections: [
       {
         heading: "Cos'è la Firenze Card?",
         content:
-          "La Firenze Card è l'abbonamento museale ufficiale di Firenze. Per €85 ottenete 72 ore di accesso a 72+ musei e monumenti, incluse tutte le principali attrazioni: Galleria degli Uffizi, Galleria dell'Accademia, Palazzo Pitti, Giardino di Boboli, Bargello, Cappelle Medicee e molto altro. La card include anche l'accesso salta-fila nei musei aderenti — potenzialmente risparmiandovi ore di attesa.\n\nMa vale davvero €85? La risposta dipende interamente da quanti musei intendete visitare e quando.",
+          "La Firenze Card è l'abbonamento museale ufficiale di Firenze. Per €85 ottenete 72 ore di accesso a 72+ musei e monumenti, incluse tutte le principali attrazioni: Galleria degli Uffizi, Galleria dell'Accademia, Palazzo Pitti, Giardino di Boboli, Bargello, Cappelle Medicee e molto altro. La card vi fa anche saltare la fila alla biglietteria nei musei aderenti — potenzialmente risparmiandovi ore di attesa.\n\nMa vale davvero €85? La risposta dipende interamente da quanti musei intendete visitare e quando.",
       },
       {
         heading: "Cosa Include",
         content:
-          "La Firenze Card copre l'ingresso a 72+ musei e attrazioni. I principali includono:\n\n• Galleria degli Uffizi (normalmente €25 in alta stagione)\n• Galleria dell'Accademia (€16)\n• Palazzo Pitti — tutti i musei (€16)\n• Giardino di Boboli (€10)\n• Museo Nazionale del Bargello (€9)\n• Cappelle Medicee (€9)\n• Museo di San Marco (€8)\n• Palazzo Vecchio (€14)\n• Complesso del Museo dell'Opera del Duomo (€30)\n• Museo Galileo (€12)\n• Più 60+ musei, chiese e gallerie minori\n\nOgni museo può essere visitato una sola volta con la card. Il conto alla rovescia delle 72 ore parte dalla prima visita al museo.",
+          "La Firenze Card copre l'ingresso a 72+ musei e attrazioni. I principali includono:\n\n• Galleria degli Uffizi (normalmente €29 prenotata in anticipo)\n• Galleria dell'Accademia (€16)\n• Palazzo Pitti — tutti i musei (€16)\n• Giardino di Boboli (€10)\n• Museo Nazionale del Bargello (€9)\n• Cappelle Medicee (€9)\n• Museo di San Marco (€8)\n• Palazzo Vecchio (€14)\n• Complesso del Museo dell'Opera del Duomo (€30)\n• Museo Galileo (€12)\n• Più 60+ musei, chiese e gallerie minori\n\nOgni museo può essere visitato una sola volta con la card. Il conto alla rovescia delle 72 ore parte dalla prima visita al museo.",
       },
       {
         heading: "I Conti — Quando Conviene",
         content:
-          "Facciamo i calcoli per itinerari tipici:\n\n**Itinerario leggero (2-3 musei):**\nUffizi (€25) + Accademia (€16) = €41. La card costa €85. **Non conviene.**\n\n**Itinerario standard (4-5 musei):**\nUffizi (€25) + Accademia (€16) + Palazzo Pitti (€16) + Boboli (€10) = €67. Mancano ancora €18. Aggiungete il Bargello (€9) = €76. **Ci si avvicina ma non ancora.**\n\n**Itinerario intenso (5+ musei):**\nUffizi (€25) + Accademia (€16) + Palazzo Pitti (€16) + Boboli (€10) + Bargello (€9) + San Marco (€8) = €84. **Si ripaga da sola.**\n\nAggiungete il complesso del Duomo (€30) o Palazzo Vecchio (€14) e la card diventa un ottimo affare.\n\n**In bassa stagione (Nov–Feb):** Gli Uffizi scendono a €12, rendendo la card più difficile da giustificare.",
+          "Facciamo i calcoli per itinerari tipici:\n\n**Itinerario leggero (2-3 musei):**\nUffizi (€29) + Accademia (€16) = €45. La card costa €85. **Non conviene.**\n\n**Itinerario standard (4-5 musei):**\nUffizi (€29) + Accademia (€16) + Palazzo Pitti (€16) + Boboli (€10) = €71. Mancano ancora €14. Aggiungete il Bargello (€9) = €80. **Ci si avvicina ma non ancora.**\n\n**Itinerario intenso (5+ musei):**\nUffizi (€29) + Accademia (€16) + Palazzo Pitti (€16) + Boboli (€10) + Bargello (€9) + San Marco (€8) = €88. **Si ripaga da sola.**\n\nAggiungete il complesso del Duomo (€30) o Palazzo Vecchio (€14) e la card diventa un ottimo affare.\n\n**Biglietti con ingresso a orario prestabilito:** Un biglietto riservato con audioguida digitale parte da €26 online, e questo può cambiare i conti.",
       },
       {
-        heading: "Il Vantaggio del Salta-Fila",
+        heading: "Il Vantaggio sulle Code",
         content:
-          "Questo è il valore nascosto della Firenze Card. Durante l'alta stagione (marzo–ottobre), l'accesso salta-fila agli Uffizi e all'Accademia può farvi risparmiare 2-3 ore per museo. Se il vostro tempo a Firenze è limitato, quelle ore risparmiate hanno un valore reale — potete usarle per visitare un museo in più o semplicemente godervi la città.\n\nTuttavia, notate che anche con la Firenze Card dovreste comunque prenotare una fascia oraria agli Uffizi e all'Accademia tramite il sistema di prenotazione online della card. La card vi dà l'ingresso prioritario, ma una prenotazione vi garantisce l'orario preferito.",
+          "Questo è il valore nascosto della Firenze Card. Durante l'alta stagione (marzo–ottobre), saltare la fila alla biglietteria agli Uffizi e all'Accademia può farvi risparmiare 2-3 ore per museo. Se il vostro tempo a Firenze è limitato, quelle ore risparmiate hanno un valore reale — potete usarle per visitare un museo in più o semplicemente godervi la città.\n\nTuttavia, notate che anche con la Firenze Card dovreste comunque prenotare una fascia oraria agli Uffizi e all'Accademia tramite il sistema di prenotazione online della card. La card vi evita la biglietteria, ma una prenotazione vi garantisce l'orario preferito. E siate realisti: agli Uffizi si entra tutti dalla Porta 1 all'orario riservato, e tutti passano un breve controllo di sicurezza.",
       },
       {
         heading: "Il Mio Consiglio Sincero",
         content:
-          "**Comprate la Firenze Card se:**\n• Visitate 5+ musei in 3 giorni\n• Visitate in alta stagione e apprezzate l'accesso salta-fila\n• Siete viaggiatori spontanei che vogliono entrare nei musei senza comprare biglietti ogni volta\n\n**Evitate la Firenze Card se:**\n• Visitate solo 2-3 musei (comprate biglietti singoli)\n• Visitate in bassa stagione (gli Uffizi costano solo €12)\n• Avete un budget limitato (la card richiede €85 in anticipo)\n• Viaggiate con bambini sotto i 18 anni (entrano gratis comunque)\n\nPer la maggior parte dei visitatori che trascorrono 3-4 giorni a Firenze, singoli biglietti salta-fila per Uffizi e Accademia, più un biglietto combinato per Palazzo Pitti/Boboli, è di solito più conveniente della card.",
+          "**Comprate la Firenze Card se:**\n• Visitate 5+ musei in 3 giorni\n• Visitate in alta stagione e volete evitare le code alla biglietteria\n• Siete viaggiatori spontanei che vogliono entrare nei musei senza comprare biglietti ogni volta\n\n**Evitate la Firenze Card se:**\n• Visitate solo 2-3 musei (comprate biglietti singoli)\n• Visitate in bassa stagione (le code sono già brevi)\n• Avete un budget limitato (la card richiede €85 in anticipo)\n• Viaggiate con bambini sotto i 18 anni (entrano gratis comunque)\n\nPer la maggior parte dei visitatori che trascorrono 3-4 giorni a Firenze, singoli biglietti con ingresso a orario prestabilito per Uffizi e Accademia, più un biglietto combinato per Palazzo Pitti/Boboli, è di solito più conveniente della card.",
       },
     ],
     faq: [
@@ -283,8 +283,8 @@ export const blogPostsIt: Record<string, BlogPostI18n> = {
         a: "€85 per 72 ore di accesso a 72+ musei e monumenti. Il conto alla rovescia parte dalla prima visita al museo.",
       },
       {
-        q: "La Firenze Card include il salta-fila?",
-        a: "Sì, include l'accesso prioritario nei musei aderenti. Per Uffizi e Accademia, dovreste comunque prenotare una fascia oraria tramite il sistema della card.",
+        q: "Con la Firenze Card si evita la coda?",
+        a: "Include l'accesso prioritario nei musei aderenti, quindi si salta la fila alla biglietteria. Per Uffizi e Accademia dovreste comunque prenotare una fascia oraria tramite il sistema della card — e agli Uffizi si entra comunque dalla Porta 1 passando un breve controllo di sicurezza.",
       },
       {
         q: "I bambini possono usare la Firenze Card?",
@@ -305,7 +305,7 @@ export const blogPostsIt: Record<string, BlogPostI18n> = {
       {
         heading: "Arte e Musei",
         content:
-          "**1. Ammirare la Nascita di Venere di Botticelli agli Uffizi** — La più grande collezione al mondo di dipinti rinascimentali. Prenotate lo slot delle 8:15 e andate direttamente alla Sala di Botticelli. (€25, 2-4 ore)\n\n**2. Fermarsi davanti al David di Michelangelo all'Accademia** — Alto 5 metri, scolpito da un unico blocco di marmo, il David è davvero mozzafiato dal vivo. (€16, 1,5 ore)\n\n**3. Esplorare Palazzo Pitti** — La grandiosa residenza della famiglia Medici con quattro musei. La Galleria Palatina ha Raffaello e Tiziano con una frazione della folla degli Uffizi. (€16, 2-3 ore)\n\n**4. Scoprire il Bargello** — Il sottovalutato museo di scultura di Firenze. Il David in bronzo di Donatello e il Bacco di Michelangelo in una fortezza medievale. (€9, 1-2 ore)\n\n**5. Vedere gli affreschi del Beato Angelico a San Marco** — Ogni cella del monaco ha il proprio affresco intimo. L'Annunciazione in cima alle scale è indimenticabile. (€8, 1 ora)",
+          "**1. Ammirare la Nascita di Venere di Botticelli agli Uffizi** — La più grande collezione al mondo di dipinti rinascimentali. Prenotate lo slot delle 8:15 e andate direttamente alla Sala di Botticelli. (€29 in anticipo / €25 in biglietteria, 2-4 ore)\n\n**2. Fermarsi davanti al David di Michelangelo all'Accademia** — Alto 5 metri, scolpito da un unico blocco di marmo, il David è davvero mozzafiato dal vivo. (€16, 1,5 ore)\n\n**3. Esplorare Palazzo Pitti** — La grandiosa residenza della famiglia Medici con quattro musei. La Galleria Palatina ha Raffaello e Tiziano con una frazione della folla degli Uffizi. (€16, 2-3 ore)\n\n**4. Scoprire il Bargello** — Il sottovalutato museo di scultura di Firenze. Il David in bronzo di Donatello e il Bacco di Michelangelo in una fortezza medievale. (€9, 1-2 ore)\n\n**5. Vedere gli affreschi del Beato Angelico a San Marco** — Ogni cella del monaco ha il proprio affresco intimo. L'Annunciazione in cima alle scale è indimenticabile. (€8, 1 ora)",
       },
       {
         heading: "Architettura e Panorami",
@@ -399,3 +399,7 @@ export const blogPostsIt: Record<string, BlogPostI18n> = {
     ],
   },
 };
+
+// Merge new blog post translations (posts 1-20)
+import { blogPostsNewIt } from "./blog-posts-new-it";
+Object.assign(blogPostsIt, blogPostsNewIt);

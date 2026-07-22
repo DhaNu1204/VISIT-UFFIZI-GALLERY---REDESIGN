@@ -14,6 +14,66 @@ import { getTicketsContent } from "@/data/content/tickets";
 
 type Props = { params: Promise<{ locale: string }> };
 
+type PriceRow = { type: string; price: string; notes: string };
+
+const PRICE_ROWS: Record<string, PriceRow[]> = {
+  en: [
+    { type: "Online Ticket", price: "€29", notes: "Booked in advance" },
+    { type: "Ticket Office", price: "€25", notes: "Same day, at the ticket office" },
+    { type: "Afternoon Entry (from 4 PM)", price: "€16 / €20", notes: "Same day / booked in advance" },
+    { type: "EU Citizens (18-25)", price: "€2", notes: "Valid ID required" },
+    { type: "Under 18", price: "Free", notes: "Any nationality — nominative ticket" },
+    { type: "Uffizi + Vasari Corridor", price: "€43 / €47", notes: "Same day / booked in advance" },
+    { type: "PassePartout 5 Days", price: "€40", notes: "Uffizi, Pitti, Boboli & Bardini — Uffizi first" },
+    { type: "Timed-Entry Ticket + Audio Guide", price: "From €26", notes: "Reserved entry time" },
+    { type: "Guided Tour + Entry", price: "From €49", notes: "2-hour expert tour" },
+  ],
+  it: [
+    { type: "Biglietto Online", price: "€29", notes: "Prenotato in anticipo" },
+    { type: "Biglietteria", price: "€25", notes: "In giornata, alla biglietteria" },
+    { type: "Ingresso Pomeridiano (dalle 16:00)", price: "€16 / €20", notes: "In giornata / in anticipo" },
+    { type: "Cittadini UE (18-25)", price: "€2", notes: "Documento richiesto" },
+    { type: "Minori di 18", price: "Gratis", notes: "Qualsiasi nazionalità — biglietto nominativo" },
+    { type: "Uffizi + Corridoio Vasariano", price: "€43 / €47", notes: "In giornata / in anticipo" },
+    { type: "PassePartout 5 Giorni", price: "€40", notes: "Uffizi, Pitti, Boboli e Bardini — Uffizi per primo" },
+    { type: "Biglietto con Orario + Audioguida", price: "Da €26", notes: "Orario di ingresso riservato" },
+    { type: "Visita Guidata + Ingresso", price: "Da €49", notes: "Tour di 2 ore" },
+  ],
+  de: [
+    { type: "Online-Ticket", price: "€29", notes: "Im Voraus gebucht" },
+    { type: "Ticketkasse", price: "€25", notes: "Am selben Tag an der Kasse" },
+    { type: "Nachmittagseintritt (ab 16:00 Uhr)", price: "€16 / €20", notes: "Am selben Tag / im Voraus" },
+    { type: "EU-Bürger (18-25)", price: "€2", notes: "Gültiger Ausweis erforderlich" },
+    { type: "Unter 18", price: "Kostenlos", notes: "Jede Nationalität — personalisiertes Ticket" },
+    { type: "Uffizien + Vasarikorridor", price: "€43 / €47", notes: "Am selben Tag / im Voraus" },
+    { type: "PassePartout 5 Tage", price: "€40", notes: "Uffizien, Pitti, Boboli & Bardini — Uffizien zuerst" },
+    { type: "Ticket mit Zeitfenster + Audioguide", price: "Ab €26", notes: "Reservierte Eintrittszeit" },
+    { type: "Führung + Eintritt", price: "Ab €49", notes: "2-stündige Expertenführung" },
+  ],
+  es: [
+    { type: "Entrada Online", price: "€29", notes: "Reservada con antelación" },
+    { type: "Taquilla", price: "€25", notes: "El mismo día, en taquilla" },
+    { type: "Entrada de Tarde (desde las 16:00)", price: "€16 / €20", notes: "El mismo día / con antelación" },
+    { type: "Ciudadanos UE (18-25)", price: "€2", notes: "Documento válido requerido" },
+    { type: "Menores de 18", price: "Gratis", notes: "Cualquier nacionalidad — entrada nominativa" },
+    { type: "Uffizi + Corredor Vasariano", price: "€43 / €47", notes: "El mismo día / con antelación" },
+    { type: "PassePartout 5 Días", price: "€40", notes: "Uffizi, Pitti, Boboli y Bardini — Uffizi primero" },
+    { type: "Entrada con Hora Reservada + Audioguía", price: "Desde €26", notes: "Hora de entrada reservada" },
+    { type: "Visita Guiada + Entrada", price: "Desde €49", notes: "Visita de 2 horas" },
+  ],
+  fr: [
+    { type: "Billet en Ligne", price: "€29", notes: "Réservé à l'avance" },
+    { type: "Billetterie", price: "€25", notes: "Le jour même, à la billetterie" },
+    { type: "Entrée de l'Après-midi (dès 16h00)", price: "€16 / €20", notes: "Le jour même / à l'avance" },
+    { type: "Citoyens UE (18-25)", price: "€2", notes: "Pièce d'identité requise" },
+    { type: "Moins de 18 ans", price: "Gratuit", notes: "Toute nationalité — billet nominatif" },
+    { type: "Offices + Corridor de Vasari", price: "€43 / €47", notes: "Le jour même / à l'avance" },
+    { type: "PassePartout 5 Jours", price: "€40", notes: "Offices, Pitti, Boboli & Bardini — Offices en premier" },
+    { type: "Billet à Horaire Réservé + Audioguide", price: "Dès €26", notes: "Heure d'entrée réservée" },
+    { type: "Visite Guidée + Entrée", price: "Dès €49", notes: "Visite de 2 heures" },
+  ],
+};
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const c = getTicketsContent(locale);
@@ -21,7 +81,28 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: c.meta.title,
     description: c.meta.description,
     alternates: {
-      canonical: `https://visituffizi.com/${locale}/tickets`,
+      canonical: `https://visituffizi.com/${locale}/tickets/`,
+    },
+    openGraph: {
+      title: c.meta.title,
+      description: c.meta.description,
+      url: `https://visituffizi.com/${locale}/tickets/`,
+      siteName: "Visit Uffizi",
+      type: "website",
+      locale,
+      images: [
+        {
+          url: "https://visituffizi.com/images/og/default.jpg",
+          width: 1200,
+          height: 630,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: c.meta.title,
+      description: c.meta.description,
+      images: ["https://visituffizi.com/images/og/default.jpg"],
     },
   };
 }
@@ -37,9 +118,9 @@ export default async function TicketsPage({ params }: Props) {
       <JsonLd
         type="Product"
         data={{
-          name: "Uffizi Gallery Skip-the-Line Ticket",
+          name: "Uffizi Gallery Timed-Entry Ticket",
           description:
-            "Pre-booked timed entry ticket to the Uffizi Gallery with skip-the-line access via Door 1.",
+            "Reserved timed-entry ticket to the Uffizi Gallery: a guaranteed entry time at Door 1, with no ticket-office queue.",
           price: "26",
           url: "https://widgets.bokun.io/online-sales/b3f14469-0594-44c7-909d-81e89e845a68/experience/961802",
         }}
@@ -73,16 +154,7 @@ export default async function TicketsPage({ params }: Props) {
 
         <PriceTable
           title={c.priceSection.tableTitle}
-          data={[
-            { type: locale === "it" ? "Biglietto Online" : "Online Ticket", price: "€29", notes: locale === "it" ? "Prenotazione sito ufficiale" : "Official website booking" },
-            { type: locale === "it" ? "Biglietteria" : "Ticket Office", price: "€25", notes: locale === "it" ? "Porta 2" : "Door 2 walk-up" },
-            { type: locale === "it" ? "Ingresso Pomeridiano (dopo le 16:00)" : "Afternoon Entry (after 4 PM)", price: "€20", notes: locale === "it" ? "Prenotazione online" : "Online booking" },
-            { type: locale === "it" ? "Cittadini UE (18-25)" : "EU Citizens (18-25)", price: "€2", notes: locale === "it" ? "Documento richiesto" : "Valid ID required" },
-            { type: locale === "it" ? "Minori di 18" : "Under 18", price: locale === "it" ? "Gratis" : "Free", notes: locale === "it" ? "Qualsiasi nazionalità" : "Any nationality" },
-            { type: locale === "it" ? "Over 65 (UE)" : "Over 65 (EU)", price: "€2", notes: locale === "it" ? "Documento richiesto" : "Valid ID required" },
-            { type: "Skip-the-Line (online)", price: locale === "it" ? "Da €26" : "From €26", notes: locale === "it" ? "Rivenditori autorizzati" : "Authorized resellers" },
-            { type: locale === "it" ? "Visita Guidata + Ingresso" : "Guided Tour + Entry", price: locale === "it" ? "Da €49" : "From €49", notes: locale === "it" ? "Tour di 2 ore" : "2-hour expert tour" },
-          ]}
+          data={PRICE_ROWS[locale] ?? PRICE_ROWS.en}
         />
 
         {/* Banner Ad */}
@@ -121,7 +193,7 @@ export default async function TicketsPage({ params }: Props) {
 
         <div className="my-6 text-center">
           <Link
-            href={`/${locale}/tickets/skip-the-line`}
+            href={`/${locale}/tickets/skip-the-line/`}
             className="text-sm font-semibold text-burgundy underline decoration-burgundy/30 hover:text-burgundy/80"
           >
             {c.skipLine.link}
@@ -149,14 +221,14 @@ export default async function TicketsPage({ params }: Props) {
               {locale === "it" ? "Prima visita:" : "First-time visitors:"}
             </strong>{" "}
             <Link
-              href={`/${locale}/tours/guided-tour`}
+              href={`/${locale}/tours/guided-tour/`}
               className="font-medium text-burgundy hover:text-burgundy/80"
             >
               {locale === "it" ? "Visita guidata" : "Guided tour"}
             </Link>{" "}
             — {locale === "it"
-              ? "vale ogni euro per il contesto e l'accesso prioritario"
-              : "worth every euro for context and priority access"}
+              ? "vale ogni euro per il contesto e per l'orario di ingresso riservato"
+              : "worth every euro for the context and the reserved entry time"}
           </li>
           <li className="text-charcoal/85">
             <strong className="text-navy">
@@ -165,10 +237,10 @@ export default async function TicketsPage({ params }: Props) {
                 : "Art lovers & repeat visitors:"}
             </strong>{" "}
             <Link
-              href={`/${locale}/tickets/skip-the-line`}
+              href={`/${locale}/tickets/skip-the-line/`}
               className="font-medium text-burgundy hover:text-burgundy/80"
             >
-              {locale === "it" ? "Biglietto salta la fila" : "Skip-the-line ticket"}
+              {locale === "it" ? "Biglietto con orario riservato" : "Timed-entry ticket"}
             </Link>{" "}
             — {locale === "it"
               ? "esplora al tuo ritmo"
@@ -179,7 +251,7 @@ export default async function TicketsPage({ params }: Props) {
               {locale === "it" ? "Famiglie con bambini:" : "Families with kids:"}
             </strong>{" "}
             <Link
-              href={`/${locale}/tours/private-tour`}
+              href={`/${locale}/tours/private-tour/`}
               className="font-medium text-burgundy hover:text-burgundy/80"
             >
               {locale === "it" ? "Tour privato" : "Private tour"}
@@ -193,7 +265,7 @@ export default async function TicketsPage({ params }: Props) {
               {locale === "it" ? "Poco tempo:" : "Short on time:"}
             </strong>{" "}
             <Link
-              href={`/${locale}/uffizi-gallery-in-2-hours-what-to-see-and-where-to-look`}
+              href={`/${locale}/uffizi-gallery-in-2-hours-what-to-see-and-where-to-look/`}
               className="font-medium text-burgundy hover:text-burgundy/80"
             >
               {locale === "it"

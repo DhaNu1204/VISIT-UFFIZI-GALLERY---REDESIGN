@@ -67,7 +67,7 @@ const en: ToursPrivateContent = {
       { label: "Duration", value: "2.5 hours (extendable)" },
       { label: "Group Size", value: "Just you and your group" },
       { label: "Languages", value: "English, Italian, Spanish, French, German" },
-      { label: "Entry", value: "Skip-the-line tickets included" },
+      { label: "Entry", value: "Reserved timed-entry tickets included" },
       { label: "Price", value: "From \u20AC189 per group (not per person)" },
       { label: "Cancellation", value: "Free up to 24 hours before" },
     ],
@@ -108,7 +108,7 @@ const en: ToursPrivateContent = {
   faq: [
     {
       q: "How much does a private Uffizi tour cost?",
-      a: "Private tours start from \u20AC189 per group (not per person). This typically covers up to 6 people including skip-the-line entry, a licensed guide, and headsets. Larger groups may pay a small supplement.",
+      a: "Private tours start from \u20AC189 per group (not per person). This typically covers up to 6 people including reserved timed entry, a licensed guide, and headsets. Larger groups may pay a small supplement.",
     },
     {
       q: "Can I customize the tour route?",
@@ -163,7 +163,7 @@ const it: ToursPrivateContent = {
       { label: "Durata", value: "2,5 ore (prolungabile)" },
       { label: "Gruppo", value: "Solo voi e il vostro gruppo" },
       { label: "Lingue", value: "Italiano, inglese, spagnolo, francese, tedesco" },
-      { label: "Ingresso", value: "Biglietti salta la fila inclusi" },
+      { label: "Ingresso", value: "Biglietti a orario prestabilito inclusi" },
       { label: "Prezzo", value: "Da \u20AC189 a gruppo (non a persona)" },
       { label: "Cancellazione", value: "Gratuita fino a 24 ore prima" },
     ],
@@ -204,7 +204,7 @@ const it: ToursPrivateContent = {
   faq: [
     {
       q: "Quanto costa un tour privato degli Uffizi?",
-      a: "I tour privati partono da \u20AC189 a gruppo (non a persona). Il prezzo copre fino a 6 persone e include ingresso salta la fila, guida abilitata e auricolari. I gruppi pi\u00F9 numerosi possono avere un piccolo supplemento.",
+      a: "I tour privati partono da \u20AC189 a gruppo (non a persona). Il prezzo copre fino a 6 persone e include l'ingresso a orario prestabilito, guida abilitata e auricolari. I gruppi pi\u00F9 numerosi possono avere un piccolo supplemento.",
     },
     {
       q: "Posso personalizzare il percorso del tour?",
@@ -225,7 +225,7 @@ const de: ToursPrivateContent = {
   meta: {
     title: "Private Uffizi Tour 2026 | Ihr eigener Experten-Guide",
     description:
-      "Buchen Sie eine private Uffizi Tour mit Ihrem eigenen lizenzierten Kunsthistoriker. Individuelle Route, familienfreundlich, flexibles Tempo. Ab 189 \u20AC pro Gruppe.",
+      "Buchen Sie eine private Uffizi Tour mit eigenem lizenzierten Kunsthistoriker. Individuelle Route, familienfreundlich, flexibles Tempo. Ab 189\u20AC.",
   },
   breadcrumbs: {
     tours: "Touren",
@@ -259,7 +259,7 @@ const de: ToursPrivateContent = {
       { label: "Dauer", value: "2,5 Stunden (verl\u00E4ngerbar)" },
       { label: "Gruppengr\u00F6\u00DFe", value: "Nur Sie und Ihre Gruppe" },
       { label: "Sprachen", value: "Deutsch, Englisch, Italienisch, Spanisch, Franz\u00F6sisch" },
-      { label: "Eintritt", value: "Tickets ohne Anstehen inklusive" },
+      { label: "Eintritt", value: "Tickets mit Zeitfenster inklusive" },
       { label: "Preis", value: "Ab 189 \u20AC pro Gruppe (nicht pro Person)" },
       { label: "Stornierung", value: "Kostenlos bis 24 Stunden vorher" },
     ],
@@ -300,7 +300,7 @@ const de: ToursPrivateContent = {
   faq: [
     {
       q: "Was kostet eine private Uffizi Tour?",
-      a: "Private Touren beginnen ab 189 \u20AC pro Gruppe (nicht pro Person). Dies deckt in der Regel bis zu 6 Personen ab, inklusive Eintritt ohne Anstehen, lizenziertem Guide und Headsets. Gr\u00F6\u00DFere Gruppen zahlen eventuell einen kleinen Aufpreis.",
+      a: "Private Touren beginnen ab 189 \u20AC pro Gruppe (nicht pro Person). Dies deckt in der Regel bis zu 6 Personen ab, inklusive Eintritt mit reserviertem Zeitfenster, lizenziertem Guide und Headsets. Gr\u00F6\u00DFere Gruppen zahlen eventuell einen kleinen Aufpreis.",
     },
     {
       q: "Kann ich die Tour-Route individuell anpassen?",
@@ -355,7 +355,7 @@ const fr: ToursPrivateContent = {
       { label: "Duree", value: "2h30 (prolongeable)" },
       { label: "Taille du groupe", value: "Vous et votre groupe uniquement" },
       { label: "Langues", value: "Francais, anglais, italien, espagnol, allemand" },
-      { label: "Entree", value: "Billets coupe-file inclus" },
+      { label: "Entree", value: "Billets a horaire reserve inclus" },
       { label: "Prix", value: "A partir de 189 EUR par groupe (non par personne)" },
       { label: "Annulation", value: "Gratuite jusqu'a 24 heures avant" },
     ],
@@ -396,7 +396,7 @@ const fr: ToursPrivateContent = {
   faq: [
     {
       q: "Combien coute une visite privee des Offices ?",
-      a: "Les visites privees commencent a partir de 189 EUR par groupe (non par personne). Cela couvre generalement jusqu'a 6 personnes, incluant l'entree coupe-file, un guide agree et des casques audio. Les groupes plus importants peuvent avoir un petit supplement.",
+      a: "Les visites privees commencent a partir de 189 EUR par groupe (non par personne). Cela couvre generalement jusqu'a 6 personnes, incluant l'entree a horaire reserve, un guide agree et des casques audio. Les groupes plus importants peuvent avoir un petit supplement.",
     },
     {
       q: "Puis-je personnaliser le parcours de la visite ?",
@@ -451,7 +451,7 @@ const es: ToursPrivateContent = {
       { label: "Duracion", value: "2,5 horas (ampliable)" },
       { label: "Tamano del grupo", value: "Solo tu y tu grupo" },
       { label: "Idiomas", value: "Espanol, ingles, italiano, frances, aleman" },
-      { label: "Entrada", value: "Entradas sin colas incluidas" },
+      { label: "Entrada", value: "Entradas con hora reservada incluidas" },
       { label: "Precio", value: "Desde 189 EUR por grupo (no por persona)" },
       { label: "Cancelacion", value: "Gratuita hasta 24 horas antes" },
     ],
@@ -492,7 +492,7 @@ const es: ToursPrivateContent = {
   faq: [
     {
       q: "Cuanto cuesta un tour privado de los Uffizi?",
-      a: "Los tours privados empiezan desde 189 EUR por grupo (no por persona). Esto cubre normalmente hasta 6 personas, incluyendo entrada sin colas, guia autorizado y auriculares. Los grupos mas grandes pueden tener un pequeno suplemento.",
+      a: "Los tours privados empiezan desde 189 EUR por grupo (no por persona). Esto cubre normalmente hasta 6 personas, incluyendo entrada con hora reservada, guia autorizado y auriculares. Los grupos mas grandes pueden tener un pequeno suplemento.",
     },
     {
       q: "Puedo personalizar la ruta del tour?",

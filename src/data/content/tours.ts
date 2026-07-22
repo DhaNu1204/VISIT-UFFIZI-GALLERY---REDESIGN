@@ -32,19 +32,19 @@ const en: ToursContent = {
   meta: {
     title: "Uffizi Gallery Tours 2026 | Guided, Private & Combo Tours",
     description:
-      "Book an Uffizi Gallery tour with a licensed Florentine guide. Guided group tours, private tours & Uffizi + Accademia combos. Skip-the-line included.",
+      "Book an Uffizi Gallery tour with a licensed Florentine guide. Guided group tours, private tours & Uffizi + Accademia combos. Reserved timed entry included.",
   },
   breadcrumb: "Tours",
   h1: "Uffizi Gallery Tours",
   introParagraphs: [
     "Let me share something most visitors discover too late: the Uffizi is overwhelming without context. Over 2,000 artworks across 101 rooms, spanning five centuries of art history. Without a guide, you'll walk past masterpieces without understanding why a particular brushstroke changed the course of Western art. With a licensed Florentine art historian by your side, every painting tells a story.",
-    "All our recommended tours include skip-the-line entry — you bypass the queue entirely and start your experience the moment you arrive. Your guide handles everything: tickets, entry logistics, and navigation through the gallery's most important rooms.",
+    "All our recommended tours include reserved timed entry — you skip the ticket-office queue and walk in at Door 1 at your reserved time, after the short security screening everyone goes through. Your guide handles everything: tickets, entry logistics, and navigation through the gallery's most important rooms.",
   ],
   tourCards: [
     {
       title: "Guided Uffizi Gallery Tour",
       description:
-        "Small-group tour (max 15) led by a licensed art historian. Covers Botticelli, Leonardo, Michelangelo & more. Skip-the-line entry included.",
+        "Small-group tour (max 15) led by a licensed art historian. Covers Botticelli, Leonardo, Michelangelo & more. Reserved timed entry included.",
     },
     {
       title: "Private Uffizi Tour",
@@ -68,7 +68,7 @@ const en: ToursContent = {
     h2: "Which Tour Is Right for You?",
     guided: {
       h3: "Guided Group Tour — Best for Most Visitors",
-      p: "The sweet spot between value and experience. Small groups (max 15 people) with a licensed guide, covering all the highlights in about 2 hours. You'll see Botticelli Hall, the Leonardo room, Michelangelo's Doni Tondo, and the panoramic terrace. Skip-the-line entry is included.",
+      p: "The sweet spot between value and experience. Small groups (max 15 people) with a licensed guide, covering all the highlights in about 2 hours. You'll see Botticelli Hall, the Leonardo room, Michelangelo's Doni Tondo, and the panoramic terrace. Reserved timed entry is included.",
       link: "Full details →",
     },
     private: {
@@ -78,14 +78,14 @@ const en: ToursContent = {
     },
     combo: {
       h3: "Uffizi + Accademia Combo — Best for First-Time Florence Visitors",
-      p: "If this is your first time in Florence, this combo covers both must-see museums in one efficient day. Morning at the Uffizi for Renaissance paintings, a lunch break (on your own), then afternoon at the Accademia to see Michelangelo's David. Both skip-the-line entries included.",
+      p: "If this is your first time in Florence, this combo covers both must-see museums in one efficient day. Morning at the Uffizi for Renaissance paintings, a lunch break (on your own), then afternoon at the Accademia to see Michelangelo's David. Both reserved timed entries included.",
       link: "Full details →",
     },
   },
   whatToExpect: {
     h2: "What to Expect on Your Tour",
     paragraphs: [
-      "All tours follow a similar pattern. You'll meet your guide at a designated point near the Uffizi (usually Piazza della Signoria). They'll give a brief introduction to the gallery's history, then walk you through security via the priority entrance. Inside, your guide uses a whisper system so you can hear clearly even in crowded rooms.",
+      "All tours follow a similar pattern. You'll meet your guide at a designated point near the Uffizi (usually Piazza della Signoria). They'll give a brief introduction to the gallery's history, then walk you through the security check at Door 1, where everyone now enters. Inside, your guide uses a whisper system so you can hear clearly even in crowded rooms.",
       "A typical guided route covers 15-20 key rooms, stopping at approximately 25-30 artworks. The guide won't rush you — there's always time for questions and photos. After the tour ends inside the gallery, you're free to continue exploring on your own. Your entry ticket doesn't have an expiration time once you're inside.",
     ],
   },
@@ -98,7 +98,7 @@ const en: ToursContent = {
     },
     {
       q: "Are Uffizi tours worth the money?",
-      a: "For first-time visitors, absolutely. A licensed guide transforms the experience — you'll understand not just what you're looking at, but why these paintings changed the history of art. The skip-the-line entry alone saves 1-3 hours of waiting.",
+      a: "For first-time visitors, absolutely. A licensed guide transforms the experience — you'll understand not just what you're looking at, but why these paintings changed the history of art. The guaranteed time slot alone is worth it — it skips the ticket-office queue, and in peak season slots sell out days ahead.",
     },
     {
       q: "What's the difference between a guided and private tour?",
@@ -119,19 +119,19 @@ const it: ToursContent = {
   meta: {
     title: "Visite Guidate Uffizi 2026 | Tour Guidati, Privati e Combinati",
     description:
-      "Prenota un tour degli Uffizi con guida fiorentina abilitata. Visite guidate, tour privati e combo Uffizi + Accademia. Ingresso salta la fila incluso.",
+      "Prenota un tour degli Uffizi con guida fiorentina abilitata. Visite guidate, tour privati e combo Uffizi + Accademia. Ingresso a orario prestabilito.",
   },
   breadcrumb: "Tour",
   h1: "Tour della Galleria degli Uffizi",
   introParagraphs: [
     "C'è una cosa che molti visitatori capiscono troppo tardi: gli Uffizi, senza contesto, disorientano. Oltre 2.000 opere in 101 sale, cinque secoli di storia dell'arte. Senza una guida, passerai davanti a capolavori senza capire perché una certa pennellata ha cambiato il corso dell'arte occidentale. Con uno storico dell'arte fiorentino al tuo fianco, ogni dipinto racconta una storia.",
-    "Tutti i tour che consigliamo includono l'ingresso salta la fila — salti completamente la coda e inizi la tua esperienza appena arrivi. La guida si occupa di tutto: biglietti, logistica d'ingresso e navigazione attraverso le sale più importanti della galleria.",
+    "Tutti i tour che consigliamo includono il biglietto con ingresso a orario prestabilito — salti la fila alla biglietteria ed entri dalla Porta 1 all'orario riservato, dopo il breve controllo di sicurezza previsto per tutti. La guida si occupa di tutto: biglietti, logistica d'ingresso e navigazione attraverso le sale più importanti della galleria.",
   ],
   tourCards: [
     {
       title: "Visita Guidata Galleria degli Uffizi",
       description:
-        "Tour in piccoli gruppi (max 15) con storico dell'arte abilitato. Botticelli, Leonardo, Michelangelo e molto altro. Ingresso salta la fila incluso.",
+        "Tour in piccoli gruppi (max 15) con storico dell'arte abilitato. Botticelli, Leonardo, Michelangelo e molto altro. Ingresso a orario prestabilito incluso.",
     },
     {
       title: "Tour Privato degli Uffizi",
@@ -155,7 +155,7 @@ const it: ToursContent = {
     h2: "Quale Tour Fa per Te?",
     guided: {
       h3: "Tour di Gruppo — Ideale per la Maggior Parte dei Visitatori",
-      p: "Il miglior rapporto qualità-prezzo. Piccoli gruppi (max 15 persone) con guida abilitata, che copre tutti i punti salienti in circa 2 ore. Vedrai la Sala di Botticelli, la sala di Leonardo, il Tondo Doni di Michelangelo e la terrazza panoramica. Ingresso salta la fila incluso.",
+      p: "Il miglior rapporto qualità-prezzo. Piccoli gruppi (max 15 persone) con guida abilitata, che copre tutti i punti salienti in circa 2 ore. Vedrai la Sala di Botticelli, la sala di Leonardo, il Tondo Doni di Michelangelo e la terrazza panoramica. Ingresso a orario prestabilito incluso.",
       link: "Tutti i dettagli →",
     },
     private: {
@@ -165,14 +165,14 @@ const it: ToursContent = {
     },
     combo: {
       h3: "Combo Uffizi + Accademia — Ideale per Chi Visita Firenze per la Prima Volta",
-      p: "Se è la tua prima volta a Firenze, questo combo copre entrambi i musei imperdibili in una giornata. La mattina agli Uffizi per i dipinti rinascimentali, pausa pranzo (libera), poi il pomeriggio all'Accademia per ammirare il David di Michelangelo. Entrambi gli ingressi salta la fila inclusi.",
+      p: "Se è la tua prima volta a Firenze, questo combo copre entrambi i musei imperdibili in una giornata. La mattina agli Uffizi per i dipinti rinascimentali, pausa pranzo (libera), poi il pomeriggio all'Accademia per ammirare il David di Michelangelo. Entrambi gli ingressi a orario prestabilito inclusi.",
       link: "Tutti i dettagli →",
     },
   },
   whatToExpect: {
     h2: "Cosa Aspettarti dal Tour",
     paragraphs: [
-      "Tutti i tour seguono una struttura simile. Incontrerai la guida in un punto designato vicino agli Uffizi (di solito Piazza della Signoria). Ti darà una breve introduzione sulla storia della galleria, poi ti accompagnerà attraverso i controlli di sicurezza dall'ingresso prioritario. All'interno, la guida usa un sistema di auricolari per farti sentire chiaramente anche nelle sale affollate.",
+      "Tutti i tour seguono una struttura simile. Incontrerai la guida in un punto designato vicino agli Uffizi (di solito Piazza della Signoria). Ti darà una breve introduzione sulla storia della galleria, poi ti accompagnerà al controllo di sicurezza alla Porta 1, da dove oggi entrano tutti. All'interno, la guida usa un sistema di auricolari per farti sentire chiaramente anche nelle sale affollate.",
       "Un percorso guidato tipico copre 15-20 sale principali, con soste davanti a circa 25-30 opere. La guida non ti metterà fretta — c'è sempre tempo per domande e foto. Quando il tour finisce all'interno della galleria, sei libero di continuare a esplorare per conto tuo. Il tuo biglietto d'ingresso non ha scadenza una volta dentro.",
     ],
   },
@@ -185,7 +185,7 @@ const it: ToursContent = {
     },
     {
       q: "Vale la pena fare un tour guidato agli Uffizi?",
-      a: "Per chi visita per la prima volta, assolutamente sì. Una guida abilitata trasforma l'esperienza — capirai non solo cosa stai guardando, ma perché questi dipinti hanno cambiato la storia dell'arte. Il solo ingresso salta la fila ti fa risparmiare 1-3 ore di coda.",
+      a: "Per chi visita per la prima volta, assolutamente sì. Una guida abilitata trasforma l'esperienza — capirai non solo cosa stai guardando, ma perché questi dipinti hanno cambiato la storia dell'arte. Già solo l'orario d'ingresso garantito vale il prezzo: salti la fila alla biglietteria e in alta stagione gli slot si esauriscono con giorni di anticipo.",
     },
     {
       q: "Che differenza c'è tra tour guidato e tour privato?",
@@ -206,19 +206,19 @@ const de: ToursContent = {
   meta: {
     title: "Uffizi Galerie Führungen 2026 | Geführte, Private & Kombi-Touren",
     description:
-      "Buchen Sie eine Uffizi Galerie Führung mit lizenziertem Florentiner Kunsthistoriker. Gruppenführungen, Privattouren & Uffizi + Accademia Kombis. Ohne Anstehen.",
+      "Buchen Sie eine Uffizi Führung mit lizenziertem Florentiner Kunsthistoriker. Gruppenführungen, Privattouren & Uffizi + Accademia Kombis. Mit Zeitfenster-Ticket.",
   },
   breadcrumb: "Touren",
   h1: "Uffizi Galerie Touren & Führungen",
   introParagraphs: [
     "Was viele Besucher erst zu spät erkennen: Die Uffizien sind ohne Kontext schlicht überwältigend. Über 2.000 Kunstwerke in 101 Sälen, fünf Jahrhunderte Kunstgeschichte. Ohne Führung gehen Sie an Meisterwerken vorbei, ohne zu verstehen, warum ein bestimmter Pinselstrich den Lauf der westlichen Kunst verändert hat. Mit einem lizenzierten Florentiner Kunsthistoriker an Ihrer Seite erzählt jedes Gemälde eine Geschichte.",
-    "Alle unsere empfohlenen Touren beinhalten bevorzugten Einlass ohne Anstehen — Sie umgehen die Warteschlange vollständig und beginnen Ihr Erlebnis sofort nach Ankunft. Ihr Guide kümmert sich um alles: Tickets, Einlasslogistik und die Navigation durch die wichtigsten Säle der Galerie.",
+    "Alle unsere empfohlenen Touren beinhalten ein Ticket mit Zeitfenster — Sie umgehen die Warteschlange an der Kasse und betreten die Galerie zu Ihrer reservierten Uhrzeit durch Eingang 1, nach der kurzen Sicherheitskontrolle, die für alle gilt. Ihr Guide kümmert sich um alles: Tickets, Einlasslogistik und die Navigation durch die wichtigsten Säle der Galerie.",
   ],
   tourCards: [
     {
       title: "Geführte Uffizi Galerie Tour",
       description:
-        "Kleingruppen-Führung (max. 15 Personen) mit lizenziertem Kunsthistoriker. Botticelli, Leonardo, Michelangelo und mehr. Einlass ohne Anstehen inklusive.",
+        "Kleingruppen-Führung (max. 15 Personen) mit lizenziertem Kunsthistoriker. Botticelli, Leonardo, Michelangelo und mehr. Ticket mit Zeitfenster inklusive.",
     },
     {
       title: "Private Uffizi Führung",
@@ -242,7 +242,7 @@ const de: ToursContent = {
     h2: "Welche Tour passt zu Ihnen?",
     guided: {
       h3: "Gruppenführung — Die beste Wahl für die meisten Besucher",
-      p: "Das optimale Verhältnis von Preis und Erlebnis. Kleine Gruppen (max. 15 Personen) mit lizenziertem Guide, alle Highlights in etwa 2 Stunden. Sie sehen den Botticelli-Saal, den Leonardo-Raum, Michelangelos Tondo Doni und die Panoramaterrasse. Einlass ohne Anstehen ist inklusive.",
+      p: "Das optimale Verhältnis von Preis und Erlebnis. Kleine Gruppen (max. 15 Personen) mit lizenziertem Guide, alle Highlights in etwa 2 Stunden. Sie sehen den Botticelli-Saal, den Leonardo-Raum, Michelangelos Tondo Doni und die Panoramaterrasse. Das Ticket mit Zeitfenster ist inklusive.",
       link: "Alle Details →",
     },
     private: {
@@ -252,14 +252,14 @@ const de: ToursContent = {
     },
     combo: {
       h3: "Uffizi + Accademia Kombi — Ideal beim ersten Florenz-Besuch",
-      p: "Wenn Sie zum ersten Mal in Florenz sind, deckt dieses Kombi-Angebot beide Pflichtmuseen an einem Tag ab. Vormittags die Uffizien mit ihren Renaissance-Gemälden, Mittagspause in Eigenregie, nachmittags die Accademia mit Michelangelos David. Beide Eintritte ohne Anstehen inklusive.",
+      p: "Wenn Sie zum ersten Mal in Florenz sind, deckt dieses Kombi-Angebot beide Pflichtmuseen an einem Tag ab. Vormittags die Uffizien mit ihren Renaissance-Gemälden, Mittagspause in Eigenregie, nachmittags die Accademia mit Michelangelos David. Beide Eintritte mit reserviertem Zeitfenster inklusive.",
       link: "Alle Details →",
     },
   },
   whatToExpect: {
     h2: "Was Sie bei Ihrer Führung erwartet",
     paragraphs: [
-      "Alle Touren folgen einem ähnlichen Ablauf. Sie treffen Ihren Guide an einem festgelegten Treffpunkt nahe den Uffizien (in der Regel Piazza della Signoria). Nach einer kurzen Einführung in die Geschichte der Galerie führt er Sie über den Prioritätseingang durch die Sicherheitskontrolle. Im Inneren nutzt Ihr Guide ein Flüstersystem mit Kopfhörern, damit Sie auch in vollen Sälen alles klar verstehen.",
+      "Alle Touren folgen einem ähnlichen Ablauf. Sie treffen Ihren Guide an einem festgelegten Treffpunkt nahe den Uffizien (in der Regel Piazza della Signoria). Nach einer kurzen Einführung in die Geschichte der Galerie führt er Sie durch die Sicherheitskontrolle an Eingang 1, durch den heute alle Besucher eintreten. Im Inneren nutzt Ihr Guide ein Flüstersystem mit Kopfhörern, damit Sie auch in vollen Sälen alles klar verstehen.",
       "Eine typische Führung umfasst 15–20 wichtige Säle mit Halt vor etwa 25–30 Kunstwerken. Der Guide hetzt Sie nicht — es bleibt immer Zeit für Fragen und Fotos. Nach Ende der Führung innerhalb der Galerie können Sie auf eigene Faust weiter erkunden. Ihr Eintrittticket hat nach dem Einlass keine zeitliche Begrenzung.",
     ],
   },
@@ -272,7 +272,7 @@ const de: ToursContent = {
     },
     {
       q: "Lohnt sich eine geführte Tour durch die Uffizien?",
-      a: "Für Erstbesucher auf jeden Fall. Ein lizenzierter Guide verwandelt das Erlebnis — Sie verstehen nicht nur, was Sie sehen, sondern warum diese Gemälde die Kunstgeschichte verändert haben. Allein der Einlass ohne Anstehen spart Ihnen 1–3 Stunden Wartezeit.",
+      a: "Für Erstbesucher auf jeden Fall. Ein lizenzierter Guide verwandelt das Erlebnis — Sie verstehen nicht nur, was Sie sehen, sondern warum diese Gemälde die Kunstgeschichte verändert haben. Allein das garantierte Zeitfenster lohnt sich: Sie umgehen die Warteschlange an der Kasse, und in der Hochsaison sind die Zeitfenster Tage im Voraus ausgebucht.",
     },
     {
       q: "Was ist der Unterschied zwischen Gruppenführung und Privatführung?",
@@ -293,19 +293,19 @@ const fr: ToursContent = {
   meta: {
     title: "Visites Guidees Offices 2026 | Tours Guides, Prives & Combos",
     description:
-      "Reservez une visite guidee de la Galerie des Offices avec un guide florentin agree. Visites en groupe, tours prives & combos Offices + Accademia. Coupe-file inclus.",
+      "Visite guidee des Offices avec guide florentin agree. Visites en groupe, tours prives & combos Offices + Accademia. Billet a horaire reserve inclus.",
   },
   breadcrumb: "Visites",
   h1: "Visites de la Galerie des Offices",
   introParagraphs: [
     "Permettez-moi de partager ce que la plupart des visiteurs decouvrent trop tard : la Galerie des Offices est ecrasante sans contexte. Plus de 2 000 oeuvres reparties dans 101 salles, couvrant cinq siecles d'histoire de l'art. Sans guide, vous passerez devant des chefs-d'oeuvre sans comprendre pourquoi un certain coup de pinceau a change le cours de l'art occidental. Avec un historien de l'art florentin a vos cotes, chaque tableau raconte une histoire.",
-    "Toutes nos visites recommandees incluent l'entree coupe-file -- vous evitez entierement la queue et commencez votre experience des votre arrivee. Votre guide s'occupe de tout : billets, logistique d'entree et parcours a travers les salles les plus importantes de la galerie.",
+    "Toutes nos visites recommandees incluent un billet a horaire reserve -- vous evitez la file d'attente a la billetterie et entrez par la Porte 1 a l'heure reservee, apres le bref controle de securite obligatoire pour tous. Votre guide s'occupe de tout : billets, logistique d'entree et parcours a travers les salles les plus importantes de la galerie.",
   ],
   tourCards: [
     {
       title: "Visite Guidee de la Galerie des Offices",
       description:
-        "Visite en petit groupe (max 15) avec un historien de l'art agree. Botticelli, Leonard de Vinci, Michel-Ange et plus encore. Entree coupe-file incluse.",
+        "Visite en petit groupe (max 15) avec un historien de l'art agree. Botticelli, Leonard de Vinci, Michel-Ange et plus encore. Entree a horaire reserve incluse.",
     },
     {
       title: "Visite Privee des Offices",
@@ -329,7 +329,7 @@ const fr: ToursContent = {
     h2: "Quelle visite guidee des Offices vous convient ?",
     guided: {
       h3: "Visite en Groupe -- Le meilleur choix pour la plupart des visiteurs",
-      p: "Le meilleur equilibre entre prix et experience. Petits groupes (max 15 personnes) avec un guide agree, couvrant tous les points forts en environ 2 heures. Vous verrez la Salle Botticelli, la salle Leonard de Vinci, le Tondo Doni de Michel-Ange et la terrasse panoramique. Entree coupe-file incluse.",
+      p: "Le meilleur equilibre entre prix et experience. Petits groupes (max 15 personnes) avec un guide agree, couvrant tous les points forts en environ 2 heures. Vous verrez la Salle Botticelli, la salle Leonard de Vinci, le Tondo Doni de Michel-Ange et la terrasse panoramique. Entree a horaire reserve incluse.",
       link: "Tous les details \u2192",
     },
     private: {
@@ -339,14 +339,14 @@ const fr: ToursContent = {
     },
     combo: {
       h3: "Combo Offices + Accademia -- Ideal pour une premiere visite a Florence",
-      p: "Si c'est votre premiere visite a Florence, ce combo couvre les deux musees incontournables en une journee. Les Offices le matin pour les peintures de la Renaissance, une pause dejeuner (libre), puis l'Accademia l'apres-midi pour admirer le David de Michel-Ange. Les deux entrees coupe-file incluses.",
+      p: "Si c'est votre premiere visite a Florence, ce combo couvre les deux musees incontournables en une journee. Les Offices le matin pour les peintures de la Renaissance, une pause dejeuner (libre), puis l'Accademia l'apres-midi pour admirer le David de Michel-Ange. Les deux entrees a horaire reserve incluses.",
       link: "Tous les details \u2192",
     },
   },
   whatToExpect: {
     h2: "A quoi s'attendre lors de votre visite guidee",
     paragraphs: [
-      "Toutes les visites suivent un deroulement similaire. Vous retrouverez votre guide a un point de rendez-vous designe pres des Offices (generalement Piazza della Signoria). Il vous donnera une breve introduction sur l'histoire de la galerie, puis vous accompagnera a travers les controles de securite par l'entree prioritaire. A l'interieur, votre guide utilise un systeme de chuchotement avec ecouteurs pour que vous puissiez entendre clairement meme dans les salles bondees.",
+      "Toutes les visites suivent un deroulement similaire. Vous retrouverez votre guide a un point de rendez-vous designe pres des Offices (generalement Piazza della Signoria). Il vous donnera une breve introduction sur l'histoire de la galerie, puis vous accompagnera au controle de securite a la Porte 1, par laquelle tout le monde entre desormais. A l'interieur, votre guide utilise un systeme de chuchotement avec ecouteurs pour que vous puissiez entendre clairement meme dans les salles bondees.",
       "Un parcours guide typique couvre 15 a 20 salles cles, avec des arrets devant environ 25 a 30 oeuvres. Le guide ne vous pressera pas -- il y a toujours du temps pour les questions et les photos. A la fin de la visite a l'interieur de la galerie, vous etes libre de continuer a explorer par vous-meme. Votre billet d'entree n'a pas de limite de temps une fois que vous etes a l'interieur.",
     ],
   },
@@ -359,7 +359,7 @@ const fr: ToursContent = {
     },
     {
       q: "Une visite guidee des Offices vaut-elle le prix ?",
-      a: "Pour les visiteurs qui decouvrent le musee pour la premiere fois, absolument. Un guide agree transforme l'experience -- vous comprendrez non seulement ce que vous regardez, mais pourquoi ces peintures ont change l'histoire de l'art. L'entree coupe-file seule vous fait economiser 1 a 3 heures d'attente.",
+      a: "Pour les visiteurs qui decouvrent le musee pour la premiere fois, absolument. Un guide agree transforme l'experience -- vous comprendrez non seulement ce que vous regardez, mais pourquoi ces peintures ont change l'histoire de l'art. Le creneau horaire garanti vaut deja le prix a lui seul : vous evitez la file d'attente a la billetterie, et en haute saison les creneaux partent plusieurs jours a l'avance.",
     },
     {
       q: "Quelle est la difference entre une visite guidee et une visite privee ?",
@@ -380,19 +380,19 @@ const es: ToursContent = {
   meta: {
     title: "Tours Uffizi 2026 | Visitas Guiadas, Privadas y Combinadas",
     description:
-      "Reserva un tour de la Galeria Uffizi con guia florentino autorizado. Visitas guiadas, tours privados y combos Uffizi + Accademia. Entrada sin colas incluida.",
+      "Reserva un tour de la Galeria Uffizi con guia florentino autorizado. Visitas guiadas, privadas y combos Uffizi + Accademia. Entrada con hora reservada.",
   },
   breadcrumb: "Tours",
   h1: "Tours de la Galeria Uffizi",
   introParagraphs: [
     "Permiteme compartir algo que la mayoria de los visitantes descubren demasiado tarde: los Uffizi son abrumadores sin contexto. Mas de 2.000 obras en 101 salas, abarcando cinco siglos de historia del arte. Sin un guia, pasaras frente a obras maestras sin entender por que una pincelada concreta cambio el curso del arte occidental. Con un historiador del arte florentino a tu lado, cada cuadro cuenta una historia.",
-    "Todos nuestros tours recomendados incluyen entrada sin colas -- te saltas la fila por completo y comienzas tu experiencia en el momento en que llegas. Tu guia se encarga de todo: entradas, logistica de acceso y recorrido por las salas mas importantes de la galeria.",
+    "Todos nuestros tours recomendados incluyen entrada con hora reservada -- evitas la cola de la taquilla y entras por la Puerta 1 a tu hora reservada, tras el breve control de seguridad que se aplica a todos. Tu guia se encarga de todo: entradas, logistica de acceso y recorrido por las salas mas importantes de la galeria.",
   ],
   tourCards: [
     {
       title: "Visita Guiada a la Galeria Uffizi",
       description:
-        "Tour en grupo reducido (max 15) con un historiador del arte autorizado. Botticelli, Leonardo, Miguel Angel y mas. Entrada sin colas incluida.",
+        "Tour en grupo reducido (max 15) con un historiador del arte autorizado. Botticelli, Leonardo, Miguel Angel y mas. Entrada con hora reservada incluida.",
     },
     {
       title: "Tour Privado de los Uffizi",
@@ -416,7 +416,7 @@ const es: ToursContent = {
     h2: "Cual es el tour Uffizi adecuado para ti?",
     guided: {
       h3: "Tour en Grupo -- La mejor opcion para la mayoria de los visitantes",
-      p: "El mejor equilibrio entre precio y experiencia. Grupos reducidos (max 15 personas) con guia autorizado, cubriendo todos los puntos destacados en unas 2 horas. Veras la Sala Botticelli, la sala de Leonardo, el Tondo Doni de Miguel Angel y la terraza panoramica. Entrada sin colas incluida.",
+      p: "El mejor equilibrio entre precio y experiencia. Grupos reducidos (max 15 personas) con guia autorizado, cubriendo todos los puntos destacados en unas 2 horas. Veras la Sala Botticelli, la sala de Leonardo, el Tondo Doni de Miguel Angel y la terraza panoramica. Entrada con hora reservada incluida.",
       link: "Todos los detalles \u2192",
     },
     private: {
@@ -426,14 +426,14 @@ const es: ToursContent = {
     },
     combo: {
       h3: "Combo Uffizi + Accademia -- Ideal para quienes visitan Florencia por primera vez",
-      p: "Si es tu primera vez en Florencia, este combo cubre los dos museos imprescindibles en un solo dia. Los Uffizi por la manana para las pinturas renacentistas, una pausa para almorzar (por tu cuenta) y la Accademia por la tarde para admirar el David de Miguel Angel. Ambas entradas sin colas incluidas.",
+      p: "Si es tu primera vez en Florencia, este combo cubre los dos museos imprescindibles en un solo dia. Los Uffizi por la manana para las pinturas renacentistas, una pausa para almorzar (por tu cuenta) y la Accademia por la tarde para admirar el David de Miguel Angel. Ambas entradas con hora reservada incluidas.",
       link: "Todos los detalles \u2192",
     },
   },
   whatToExpect: {
     h2: "Que esperar de tu visita guiada Uffizi",
     paragraphs: [
-      "Todos los tours siguen una estructura similar. Te encontraras con tu guia en un punto de encuentro designado cerca de los Uffizi (normalmente en la Piazza della Signoria). Te dara una breve introduccion sobre la historia de la galeria y luego te acompanara a traves del control de seguridad por la entrada prioritaria. En el interior, tu guia utiliza un sistema de susurro con auriculares para que puedas escuchar con claridad incluso en las salas mas concurridas.",
+      "Todos los tours siguen una estructura similar. Te encontraras con tu guia en un punto de encuentro designado cerca de los Uffizi (normalmente en la Piazza della Signoria). Te dara una breve introduccion sobre la historia de la galeria y luego te acompanara al control de seguridad en la Puerta 1, por donde ahora entra todo el mundo. En el interior, tu guia utiliza un sistema de susurro con auriculares para que puedas escuchar con claridad incluso en las salas mas concurridas.",
       "Un recorrido guiado tipico cubre entre 15 y 20 salas clave, con paradas ante unas 25 a 30 obras. El guia no te metera prisa -- siempre hay tiempo para preguntas y fotos. Cuando la visita termina dentro de la galeria, eres libre de seguir explorando por tu cuenta. Tu entrada no tiene limite de tiempo una vez que estas dentro.",
     ],
   },
@@ -446,7 +446,7 @@ const es: ToursContent = {
     },
     {
       q: "Merece la pena una visita guiada a los Uffizi?",
-      a: "Para quienes visitan por primera vez, absolutamente. Un guia autorizado transforma la experiencia -- entenderas no solo lo que estas mirando, sino por que estas pinturas cambiaron la historia del arte. Solo la entrada sin colas te ahorra entre 1 y 3 horas de espera.",
+      a: "Para quienes visitan por primera vez, absolutamente. Un guia autorizado transforma la experiencia -- entenderas no solo lo que estas mirando, sino por que estas pinturas cambiaron la historia del arte. Solo la hora de entrada garantizada ya lo justifica: evitas la cola de la taquilla y, en temporada alta, los horarios se agotan con dias de antelacion.",
     },
     {
       q: "Cual es la diferencia entre un tour guiado y un tour privado?",

@@ -24,6 +24,7 @@ export type OpeningHoursContent = {
     tableTitle: string;
     closures: { type: string; price: string; notes: string }[];
     openHolidays: string;
+    freeEntryDay: string;
   };
   extendedHours: {
     h2: string;
@@ -77,12 +78,14 @@ const en: OpeningHoursContent = {
     p: "The Uffizi closes on two public holidays each year, plus every Monday:",
     tableTitle: "2026 Closure Dates",
     closures: [
-      { type: "Every Monday", price: "Closed", notes: "Year-round (except December 8)" },
+      { type: "Every Monday", price: "Closed", notes: "Year-round" },
       { type: "January 1 (New Year)", price: "Closed", notes: "Public Holiday" },
       { type: "December 25 (Christmas)", price: "Closed", notes: "Public Holiday" },
     ],
     openHolidays:
-      "All other public holidays \u2014 including Easter Sunday, Easter Monday, April 25 (Liberation Day), June 2 (Republic Day), August 15 (Ferragosto), and December 8 \u2014 the Uffizi is {open} on regular hours. However, these holidays tend to be very busy, so book your tickets well in advance.",
+      "On the other public holidays \u2014 Easter Sunday, May 1 (Labour Day), June 2 (Republic Day), August 15 (Ferragosto), and December 8 \u2014 the Uffizi is {open} on regular hours. However, these holidays tend to be very busy, so book your tickets well in advance.",
+    freeEntryDay:
+      "April 25 (Liberation Day) is the exception worth planning around: the Uffizi is open and admission is free for everyone. Free-entry days draw the heaviest crowds of the year, so arrive at opening time if you can.",
   },
   extendedHours: {
     h2: "Extended & Special Hours",
@@ -130,7 +133,7 @@ const en: OpeningHoursContent = {
       {
         label: "First Sunday of the month",
         description:
-          "Free entry day. Extremely crowded with 3-4 hour waits. Avoid unless you\u2019re on a very tight budget.",
+          "Free entry day for the gallery and the Vasari Corridor. A free nominative ticket is still required, and the Uffizi's is issued only at the ticket-office counter on the day. Extremely crowded with 3-4 hour waits. Avoid unless you\u2019re on a very tight budget.",
       },
     ],
   },
@@ -141,7 +144,7 @@ const en: OpeningHoursContent = {
       {
         label: "November \u2013 February (Low Season):",
         description:
-          "Smallest crowds, cheapest tickets (\u20AC12), most comfortable viewing. Florence is quieter, restaurants are easier to book, and you might have entire rooms to yourself.",
+          "Smallest crowds and the most comfortable viewing of the year. Florence is quieter, restaurants are easier to book, and you might have entire rooms to yourself.",
       },
       {
         label: "March \u2013 May (Spring):",
@@ -164,11 +167,11 @@ const en: OpeningHoursContent = {
   faq: [
     {
       q: "What are the Uffizi Gallery opening hours in 2026?",
-      a: "The Uffizi is open Tuesday through Sunday, 8:15 AM to 6:30 PM. Last entry is at 5:30 PM. The gallery is closed every Monday (except December 8, 2025), plus January 1 and December 25.",
+      a: "The Uffizi is open Tuesday through Sunday, 8:15 AM to 6:30 PM. Last entry is at 5:30 PM. The gallery is closed every Monday, plus January 1 and December 25.",
     },
     {
       q: "Is the Uffizi open on Mondays?",
-      a: "No. The Uffizi is closed every Monday, year-round. Exception: Monday, December 8, 2025 is open. Plan your visit for Tuesday through Sunday.",
+      a: "No. The Uffizi is closed every Monday, year-round, without exception. Plan your visit for Tuesday through Sunday.",
     },
     {
       q: "What is the best time to visit the Uffizi?",
@@ -176,7 +179,7 @@ const en: OpeningHoursContent = {
     },
     {
       q: "Is the Uffizi open on Italian public holidays?",
-      a: "Yes, the Uffizi is open on most public holidays including Easter, April 25, May 1 (Labour Day), June 2, August 15, and December 8. It only closes on January 1 and December 25.",
+      a: "Yes. The Uffizi is open on regular hours for Easter Sunday, May 1 (Labour Day), June 2, August 15 and December 8. April 25 (Liberation Day) is open too, with free admission for everyone. Apart from the weekly Monday closure, it only closes on January 1 and December 25 — and if a public holiday falls on a Monday, the gallery is still shut.",
     },
     {
       q: "Does the Uffizi have evening openings?",
@@ -215,7 +218,7 @@ const it: OpeningHoursContent = {
   },
   holidayClosures: {
     h2: "Chiusure Festive 2026",
-    p: "Gli Uffizi chiudono in tre festivit\u00E0 nazionali all\u2019anno, oltre a ogni luned\u00EC:",
+    p: "Gli Uffizi chiudono in due festivit\u00E0 nazionali all\u2019anno, oltre a ogni luned\u00EC:",
     tableTitle: "Date di Chiusura 2026",
     closures: [
       { type: "Ogni luned\u00EC", price: "Chiuso", notes: "Tutto l\u2019anno" },
@@ -224,15 +227,12 @@ const it: OpeningHoursContent = {
         price: "Chiuso",
         notes: "Mercoled\u00EC",
       },
-      {
-        type: "1 maggio (Festa del Lavoro)",
-        price: "Chiuso",
-        notes: "Venerd\u00EC",
-      },
       { type: "25 dicembre (Natale)", price: "Chiuso", notes: "Venerd\u00EC" },
     ],
     openHolidays:
-      "In tutte le altre festivit\u00E0 \u2014 Pasqua, Luned\u00EC dell\u2019Angelo, 25 aprile (Liberazione), 2 giugno (Festa della Repubblica), 15 agosto (Ferragosto) e 8 dicembre \u2014 gli Uffizi sono {open} con orario regolare. Queste giornate per\u00F2 sono molto affollate: prenota i biglietti con largo anticipo.",
+      "Nelle altre festivit\u00E0 \u2014 Pasqua, 1\u00B0 maggio (Festa del Lavoro), 2 giugno (Festa della Repubblica), 15 agosto (Ferragosto) e 8 dicembre \u2014 gli Uffizi sono {open} con orario regolare. Queste giornate per\u00F2 sono molto affollate: prenota i biglietti con largo anticipo.",
+    freeEntryDay:
+      "Il 25 aprile (Festa della Liberazione) \u00E8 l\u2019eccezione da tenere a mente: gli Uffizi sono aperti e l\u2019ingresso \u00E8 gratuito per tutti. Le giornate a ingresso libero sono le pi\u00F9 affollate dell\u2019anno: se puoi, presentati all\u2019apertura.",
   },
   extendedHours: {
     h2: "Aperture Serali e Orari Speciali",
@@ -282,7 +282,7 @@ const it: OpeningHoursContent = {
       {
         label: "Prima domenica del mese",
         description:
-          "Giornata a ingresso gratuito. Estremamente affollata con attese di 3-4 ore. Evita a meno che tu non abbia un budget molto limitato.",
+          "Giornata a ingresso gratuito per la galleria e il Corridoio Vasariano. Serve comunque un biglietto nominativo gratuito, e quello degli Uffizi si ritira solo allo sportello della biglietteria il giorno stesso. Estremamente affollata con attese di 3-4 ore. Evita a meno che tu non abbia un budget molto limitato.",
       },
     ],
   },
@@ -293,7 +293,7 @@ const it: OpeningHoursContent = {
       {
         label: "Novembre \u2013 Febbraio (Bassa Stagione):",
         description:
-          "Meno folla, biglietti pi\u00F9 economici (\u20AC12), visita pi\u00F9 confortevole. Firenze \u00E8 pi\u00F9 tranquilla, i ristoranti si prenotano facilmente e potresti avere intere sale tutte per te.",
+          "Meno folla e la visita pi\u00F9 confortevole dell\u2019anno. Firenze \u00E8 pi\u00F9 tranquilla, i ristoranti si prenotano facilmente e potresti avere intere sale tutte per te.",
       },
       {
         label: "Marzo \u2013 Maggio (Primavera):",
@@ -316,7 +316,7 @@ const it: OpeningHoursContent = {
   faq: [
     {
       q: "Quali sono gli orari di apertura degli Uffizi nel 2026?",
-      a: "Gli Uffizi sono aperti da marted\u00EC a domenica, dalle 8:15 alle 18:30. L\u2019ultimo ingresso \u00E8 alle 17:30. Il museo \u00E8 chiuso ogni luned\u00EC, oltre al 1\u00B0 gennaio, 1\u00B0 maggio e 25 dicembre.",
+      a: "Gli Uffizi sono aperti da marted\u00EC a domenica, dalle 8:15 alle 18:30. L\u2019ultimo ingresso \u00E8 alle 17:30. Il museo \u00E8 chiuso ogni luned\u00EC, oltre al 1\u00B0 gennaio e al 25 dicembre.",
     },
     {
       q: "Gli Uffizi sono aperti il luned\u00EC?",
@@ -328,7 +328,7 @@ const it: OpeningHoursContent = {
     },
     {
       q: "Gli Uffizi sono aperti nei giorni festivi?",
-      a: "S\u00EC, gli Uffizi sono aperti nella maggior parte delle festivit\u00E0, tra cui Pasqua, 25 aprile, 2 giugno, 15 agosto e 8 dicembre. Chiudono solo il 1\u00B0 gennaio, il 1\u00B0 maggio e il 25 dicembre.",
+      a: "S\u00EC. Gli Uffizi sono aperti con orario regolare a Pasqua, il 1\u00B0 maggio, il 2 giugno, il 15 agosto e l\u20198 dicembre. Anche il 25 aprile (Festa della Liberazione) sono aperti, con ingresso gratuito per tutti. Oltre alla consueta chiusura del luned\u00EC, chiudono solo il 1\u00B0 gennaio e il 25 dicembre: se una festivit\u00E0 cade di luned\u00EC, la galleria resta comunque chiusa.",
     },
     {
       q: "Gli Uffizi hanno aperture serali?",
@@ -366,7 +366,7 @@ const de: OpeningHoursContent = {
   },
   holidayClosures: {
     h2: "Feiertags-Schließungen 2026",
-    p: "Die Uffizien schließen an drei gesetzlichen Feiertagen im Jahr sowie jeden Montag:",
+    p: "Die Uffizien schließen an zwei gesetzlichen Feiertagen im Jahr sowie jeden Montag:",
     tableTitle: "Schließungstage 2026",
     closures: [
       { type: "Jeden Montag", price: "Geschlossen", notes: "Ganzjährig" },
@@ -376,18 +376,15 @@ const de: OpeningHoursContent = {
         notes: "Mittwoch",
       },
       {
-        type: "1. Mai (Tag der Arbeit)",
-        price: "Geschlossen",
-        notes: "Freitag",
-      },
-      {
         type: "25. Dezember (Weihnachten)",
         price: "Geschlossen",
         notes: "Freitag",
       },
     ],
     openHolidays:
-      "An allen anderen Feiertagen — Ostersonntag, Ostermontag, 25. April (Tag der Befreiung), 2. Juni (Tag der Republik), 15. August (Ferragosto) und 8. Dezember — sind die Uffizien zu den regulären Öffnungszeiten {open}. Diese Tage sind jedoch erfahrungsgemäß sehr gut besucht — buchen Sie Ihre Eintrittskarten frühzeitig.",
+      "An den übrigen Feiertagen — Ostersonntag, 1. Mai (Tag der Arbeit), 2. Juni (Tag der Republik), 15. August (Ferragosto) und 8. Dezember — sind die Uffizien zu den regulären Öffnungszeiten {open}. Diese Tage sind jedoch erfahrungsgemäß sehr gut besucht — buchen Sie Ihre Eintrittskarten frühzeitig.",
+    freeEntryDay:
+      "Der 25. April (Tag der Befreiung) ist die Ausnahme, die eine Planung wert ist: Die Uffizien sind geöffnet und der Eintritt ist für alle frei. Tage mit freiem Eintritt sind die besuchsstärksten des Jahres — kommen Sie nach Möglichkeit direkt zur Öffnung.",
   },
   extendedHours: {
     h2: "Verlängerte Öffnungszeiten & Sonderöffnungen",
@@ -435,7 +432,7 @@ const de: OpeningHoursContent = {
       {
         label: "Erster Sonntag im Monat",
         description:
-          "Freier Eintritt. Extrem überfüllt mit 3–4 Stunden Wartezeit. Nur empfehlenswert, wenn Sie wirklich sparen müssen.",
+          "Freier Eintritt für die Galerie und den Vasarikorridor. Ein kostenloses personalisiertes Ticket ist trotzdem nötig, und das der Uffizien gibt es nur am Schalter der Ticketkasse am Tag selbst. Extrem überfüllt mit 3–4 Stunden Wartezeit. Nur empfehlenswert, wenn Sie wirklich sparen müssen.",
       },
     ],
   },
@@ -446,7 +443,7 @@ const de: OpeningHoursContent = {
       {
         label: "November – Februar (Nebensaison):",
         description:
-          "Wenig Besucher, günstigere Tickets (12 €), entspanntes Besichtigen. Florenz ist ruhiger, Restaurants leichter zu reservieren, und Sie haben möglicherweise ganze Säle für sich allein.",
+          "Wenig Besucher und das entspannteste Besichtigen des Jahres. Florenz ist ruhiger, Restaurants leichter zu reservieren, und Sie haben möglicherweise ganze Säle für sich allein.",
       },
       {
         label: "März – Mai (Frühling):",
@@ -469,7 +466,7 @@ const de: OpeningHoursContent = {
   faq: [
     {
       q: "Wie sind die Öffnungszeiten der Uffizien 2026?",
-      a: "Die Uffizien sind dienstags bis sonntags von 8:15 bis 18:30 Uhr geöffnet. Letzter Einlass ist um 17:30 Uhr. Das Museum ist jeden Montag geschlossen sowie am 1. Januar, 1. Mai und 25. Dezember.",
+      a: "Die Uffizien sind dienstags bis sonntags von 8:15 bis 18:30 Uhr geöffnet. Letzter Einlass ist um 17:30 Uhr. Das Museum ist jeden Montag geschlossen sowie am 1. Januar und 25. Dezember.",
     },
     {
       q: "Sind die Uffizien montags geöffnet?",
@@ -481,7 +478,7 @@ const de: OpeningHoursContent = {
     },
     {
       q: "Haben die Uffizien an italienischen Feiertagen geöffnet?",
-      a: "Ja, die Uffizien sind an den meisten Feiertagen geöffnet, darunter Ostern, 25. April, 2. Juni, 15. August und 8. Dezember. Geschlossen wird nur am 1. Januar, 1. Mai und 25. Dezember.",
+      a: "Ja. Die Uffizien sind am Ostersonntag, 1. Mai, 2. Juni, 15. August und 8. Dezember zu den regulären Zeiten geöffnet. Auch am 25. April (Tag der Befreiung) ist geöffnet — mit freiem Eintritt für alle. Abgesehen von der wöchentlichen Montagsschließung wird nur am 1. Januar und 25. Dezember geschlossen — fällt ein Feiertag auf einen Montag, bleibt die Galerie dennoch zu.",
     },
     {
       q: "Gibt es Abendöffnungen in den Uffizien?",
@@ -499,7 +496,7 @@ const fr: OpeningHoursContent = {
     title:
       "Horaires Offices 2026 | Horaires Galerie des Offices Florence",
     description:
-      "Horaires Galerie des Offices : ouverte mar-dim 8h15-18h30, fermee le lundi. Meilleurs moments pour visiter, fermetures, ouvertures nocturnes et conseils pratiques.",
+      "Horaires Galerie des Offices : ouverte mar-dim 8h15-18h30, fermee le lundi. Meilleurs moments, fermetures, ouvertures nocturnes et conseils pratiques.",
   },
   breadcrumb: "Horaires d'ouverture",
   h1: "Horaires d'ouverture de la Galerie des Offices",
@@ -511,16 +508,16 @@ const fr: OpeningHoursContent = {
     tueSun: "Mardi \u2013 Dimanche",
     tueSunTime: "8h15 \u2013 18h30",
     lastEntry: "Derniere entree",
-    lastEntryTime: "17h40",
+    lastEntryTime: "17h30",
     ticketOffice: "Fermeture de la billetterie",
     ticketOfficeTime: "17h30",
     monday: "Lundi",
     mondayClosed: "FERME",
-    note: "Important : la derniere entree est a 17h40, et non a 18h30. Le personnel commence a evacuer les salles environ 15 minutes avant la fermeture. Si vous arrivez a 17h30, vous disposerez de moins d'une heure \u2014 insuffisant pour une visite satisfaisante. Prevoyez d'arriver au moins 2 heures avant la fermeture.",
+    note: "Important : la derniere entree est a 17h30, et non a 18h30. Le personnel commence a evacuer les salles environ 15 minutes avant la fermeture. Si vous arrivez a 17h30, vous disposerez de moins d'une heure \u2014 insuffisant pour une visite satisfaisante. Prevoyez d'arriver au moins 2 heures avant la fermeture.",
   },
   holidayClosures: {
     h2: "Fermetures les jours feries 2026",
-    p: "La Galerie des Offices ferme trois jours feries par an, en plus de chaque lundi :",
+    p: "La Galerie des Offices ferme deux jours feries par an, en plus de chaque lundi :",
     tableTitle: "Dates de fermeture 2026",
     closures: [
       { type: "Chaque lundi", price: "Ferme", notes: "Toute l'annee" },
@@ -529,15 +526,12 @@ const fr: OpeningHoursContent = {
         price: "Ferme",
         notes: "Mercredi",
       },
-      {
-        type: "1er mai (Fete du Travail)",
-        price: "Ferme",
-        notes: "Vendredi",
-      },
       { type: "25 decembre (Noel)", price: "Ferme", notes: "Vendredi" },
     ],
     openHolidays:
-      "Tous les autres jours feries \u2014 Paques, lundi de Paques, 25 avril (Fete de la Liberation), 2 juin (Fete de la Republique), 15 aout (Ferragosto) et 8 decembre \u2014 la Galerie des Offices est {open} aux horaires habituels. Ces jours sont toutefois tres frequentes : reservez vos billets bien a l'avance.",
+      "Les autres jours feries \u2014 dimanche de Paques, 1er mai (Fete du Travail), 2 juin (Fete de la Republique), 15 aout (Ferragosto) et 8 decembre \u2014 la Galerie des Offices est {open} aux horaires habituels. Ces jours sont toutefois tres frequentes : reservez vos billets bien a l'avance.",
+    freeEntryDay:
+      "Le 25 avril (Fete de la Liberation) est l'exception a retenir : la Galerie des Offices est ouverte et l'entree est gratuite pour tous. Les jours a entree gratuite sont les plus frequentes de l'annee : presentez-vous des l'ouverture si vous le pouvez.",
   },
   extendedHours: {
     h2: "Horaires prolonges et ouvertures speciales",
@@ -587,7 +581,7 @@ const fr: OpeningHoursContent = {
       {
         label: "Premier dimanche du mois",
         description:
-          "Entree gratuite. Extremement frequente avec 3 a 4 heures d'attente. A eviter sauf si votre budget est tres serre.",
+          "Entree gratuite pour la galerie et le Corridor de Vasari. Un billet nominatif gratuit reste obligatoire, et celui des Offices se retire uniquement au guichet de la billetterie le jour meme. Extremement frequente avec 3 a 4 heures d'attente. A eviter sauf si votre budget est tres serre.",
       },
     ],
   },
@@ -598,7 +592,7 @@ const fr: OpeningHoursContent = {
       {
         label: "Novembre \u2013 Fevrier (basse saison) :",
         description:
-          "Moins de monde, billets moins chers (12 \u20AC), visite plus confortable. Florence est plus calme, les restaurants sont plus faciles a reserver, et vous pourriez avoir des salles entieres pour vous seul.",
+          "Moins de monde et la visite la plus confortable de l'annee. Florence est plus calme, les restaurants sont plus faciles a reserver, et vous pourriez avoir des salles entieres pour vous seul.",
       },
       {
         label: "Mars \u2013 Mai (printemps) :",
@@ -621,7 +615,7 @@ const fr: OpeningHoursContent = {
   faq: [
     {
       q: "Quels sont les horaires d'ouverture de la Galerie des Offices en 2026 ?",
-      a: "La Galerie des Offices est ouverte du mardi au dimanche, de 8h15 a 18h30. La derniere entree est a 17h40. Le musee est ferme chaque lundi, ainsi que le 1er janvier, le 1er mai et le 25 decembre.",
+      a: "La Galerie des Offices est ouverte du mardi au dimanche, de 8h15 a 18h30. La derniere entree est a 17h30. Le musee est ferme chaque lundi, ainsi que le 1er janvier et le 25 decembre.",
     },
     {
       q: "La Galerie des Offices est-elle ouverte le lundi ?",
@@ -633,7 +627,7 @@ const fr: OpeningHoursContent = {
     },
     {
       q: "La Galerie des Offices est-elle ouverte les jours feries italiens ?",
-      a: "Oui, la Galerie des Offices est ouverte la plupart des jours feries, y compris Paques, le 25 avril, le 2 juin, le 15 aout et le 8 decembre. Elle ne ferme que le 1er janvier, le 1er mai et le 25 decembre.",
+      a: "Oui. La Galerie des Offices est ouverte aux horaires habituels le dimanche de Paques, le 1er mai, le 2 juin, le 15 aout et le 8 decembre. Le 25 avril (Fete de la Liberation), elle est egalement ouverte, avec une entree gratuite pour tous. Hormis la fermeture hebdomadaire du lundi, elle ne ferme que le 1er janvier et le 25 decembre : si un jour ferie tombe un lundi, la galerie reste fermee.",
     },
     {
       q: "La Galerie des Offices propose-t-elle des ouvertures nocturnes ?",
@@ -641,7 +635,7 @@ const fr: OpeningHoursContent = {
     },
     {
       q: "Combien de temps avant la fermeture faut-il arriver ?",
-      a: "Arrivez au moins 2 heures avant la fermeture (avant 16h30) pour une visite satisfaisante. La derniere entree est a 17h40, et le personnel commence a evacuer les salles 15 minutes avant la fermeture de 18h30.",
+      a: "Arrivez au moins 2 heures avant la fermeture (avant 16h30) pour une visite satisfaisante. La derniere entree est a 17h30, et le personnel commence a evacuer les salles 15 minutes avant la fermeture de 18h30.",
     },
   ],
 };
@@ -651,7 +645,7 @@ const es: OpeningHoursContent = {
     title:
       "Horario Uffizi 2026 | Horario Galeria Uffizi Florencia y Cierres",
     description:
-      "Horario Galeria Uffizi: abierta mar-dom 8:15-18:30, cerrada los lunes. Mejores momentos para visitar, cierres festivos, aperturas nocturnas y consejos practicos.",
+      "Horario Galeria Uffizi: abierta mar-dom 8:15-18:30, cerrada los lunes. Mejores momentos, cierres festivos, aperturas nocturnas y consejos practicos.",
   },
   breadcrumb: "Horarios de apertura",
   h1: "Horarios de apertura de la Galeria Uffizi",
@@ -672,7 +666,7 @@ const es: OpeningHoursContent = {
   },
   holidayClosures: {
     h2: "Cierres festivos 2026",
-    p: "La Galeria Uffizi cierra tres dias festivos al ano, ademas de todos los lunes:",
+    p: "La Galeria Uffizi cierra dos dias festivos al ano, ademas de todos los lunes:",
     tableTitle: "Fechas de cierre 2026",
     closures: [
       { type: "Todos los lunes", price: "Cerrado", notes: "Todo el ano" },
@@ -681,15 +675,12 @@ const es: OpeningHoursContent = {
         price: "Cerrado",
         notes: "Miercoles",
       },
-      {
-        type: "1 de mayo (Dia del Trabajo)",
-        price: "Cerrado",
-        notes: "Viernes",
-      },
       { type: "25 de diciembre (Navidad)", price: "Cerrado", notes: "Viernes" },
     ],
     openHolidays:
-      "Todos los demas dias festivos \u2014 Domingo de Pascua, Lunes de Pascua, 25 de abril (Dia de la Liberacion), 2 de junio (Dia de la Republica), 15 de agosto (Ferragosto) y 8 de diciembre \u2014 la Galeria Uffizi esta {open} en horario habitual. Sin embargo, estos dias suelen estar muy concurridos: reserva tus entradas con mucha antelacion.",
+      "Los demas dias festivos \u2014 Domingo de Pascua, 1 de mayo (Dia del Trabajo), 2 de junio (Dia de la Republica), 15 de agosto (Ferragosto) y 8 de diciembre \u2014 la Galeria Uffizi esta {open} en horario habitual. Sin embargo, estos dias suelen estar muy concurridos: reserva tus entradas con mucha antelacion.",
+    freeEntryDay:
+      "El 25 de abril (Dia de la Liberacion) es la excepcion que conviene tener en cuenta: la Galeria Uffizi abre y la entrada es gratuita para todos. Los dias de entrada gratuita son los mas concurridos del ano: si puedes, llega a la hora de apertura.",
   },
   extendedHours: {
     h2: "Horarios ampliados y aperturas especiales",
@@ -739,7 +730,7 @@ const es: OpeningHoursContent = {
       {
         label: "Primer domingo del mes",
         description:
-          "Entrada gratuita. Extremadamente concurrido con 3-4 horas de espera. Evitalo salvo que tu presupuesto sea muy ajustado.",
+          "Entrada gratuita para la galeria y el Corredor Vasariano. Sigue haciendo falta una entrada nominativa gratuita, y la de los Uffizi solo se recoge en el mostrador de taquilla el mismo dia. Extremadamente concurrido con 3-4 horas de espera. Evitalo salvo que tu presupuesto sea muy ajustado.",
       },
     ],
   },
@@ -750,7 +741,7 @@ const es: OpeningHoursContent = {
       {
         label: "Noviembre \u2013 Febrero (temporada baja):",
         description:
-          "Menos gente, entradas mas baratas (12 \u20AC), visita mas comoda. Florencia esta mas tranquila, los restaurantes son mas faciles de reservar, y podrias tener salas enteras para ti solo.",
+          "Menos gente y la visita mas comoda del ano. Florencia esta mas tranquila, los restaurantes son mas faciles de reservar, y podrias tener salas enteras para ti solo.",
       },
       {
         label: "Marzo \u2013 Mayo (primavera):",
@@ -773,7 +764,7 @@ const es: OpeningHoursContent = {
   faq: [
     {
       q: "Cual es el horario de la Galeria Uffizi en 2026?",
-      a: "La Galeria Uffizi esta abierta de martes a domingo, de 8:15 a 18:30. La ultima entrada es a las 17:30. El museo cierra todos los lunes, ademas del 1 de enero, 1 de mayo y 25 de diciembre.",
+      a: "La Galeria Uffizi esta abierta de martes a domingo, de 8:15 a 18:30. La ultima entrada es a las 17:30. El museo cierra todos los lunes, ademas del 1 de enero y el 25 de diciembre.",
     },
     {
       q: "Esta abierta la Galeria Uffizi los lunes?",
@@ -785,7 +776,7 @@ const es: OpeningHoursContent = {
     },
     {
       q: "Esta abierta la Galeria Uffizi en los dias festivos italianos?",
-      a: "Si, la Galeria Uffizi esta abierta la mayoria de los dias festivos, incluidos Pascua, 25 de abril, 2 de junio, 15 de agosto y 8 de diciembre. Solo cierra el 1 de enero, el 1 de mayo y el 25 de diciembre.",
+      a: "Si. La Galeria Uffizi abre en horario habitual el Domingo de Pascua, el 1 de mayo, el 2 de junio, el 15 de agosto y el 8 de diciembre. El 25 de abril (Dia de la Liberacion) tambien abre, con entrada gratuita para todos. Aparte del cierre semanal de los lunes, solo cierra el 1 de enero y el 25 de diciembre: si un dia festivo cae en lunes, la galeria permanece cerrada igualmente.",
     },
     {
       q: "Ofrece la Galeria Uffizi aperturas nocturnas?",

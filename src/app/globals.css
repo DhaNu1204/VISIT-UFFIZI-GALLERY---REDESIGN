@@ -6,8 +6,8 @@
   --color-burgundy: #6b2737;
   --color-cream: #faf8f5;
   --color-charcoal: #2d2d2d;
-  --font-heading: "Playfair Display", Georgia, "Times New Roman", serif;
-  --font-body: "Inter", system-ui, -apple-system, sans-serif;
+  --font-heading: var(--font-playfair), "Playfair Display", Georgia, "Times New Roman", serif;
+  --font-body: var(--font-inter), "Inter", system-ui, -apple-system, sans-serif;
 }
 
 body {

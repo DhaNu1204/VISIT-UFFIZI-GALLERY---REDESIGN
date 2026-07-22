@@ -1,8 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
 import LanguageSwitcher from "@/components/ui/LanguageSwitcher";
+import ScrollToTopLink from "@/components/ui/ScrollToTopLink";
 
 type NavItemType = {
   label: string;
@@ -59,26 +59,26 @@ export default function MobileNav({ items, isOpen, onClose }: Props) {
                   {expandedItem === item.label && (
                     <div className="pb-2 pl-4">
                       {item.children.map((child) => (
-                        <Link
+                        <ScrollToTopLink
                           key={child.href}
                           href={child.href}
                           onClick={onClose}
                           className="block py-2 text-sm text-white/70 transition-colors hover:text-gold"
                         >
                           {child.label}
-                        </Link>
+                        </ScrollToTopLink>
                       ))}
                     </div>
                   )}
                 </>
               ) : (
-                <Link
+                <ScrollToTopLink
                   href={item.href!}
                   onClick={onClose}
                   className="block py-3 text-base font-medium text-white/90 transition-colors hover:text-gold"
                 >
                   {item.label}
-                </Link>
+                </ScrollToTopLink>
               )}
             </div>
           ))}

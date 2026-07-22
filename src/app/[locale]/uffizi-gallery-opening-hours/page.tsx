@@ -8,6 +8,7 @@ import GetYourGuideWidget from "@/components/ui/GetYourGuideWidget";
 import Breadcrumbs from "@/components/layout/Breadcrumbs";
 import Hreflang from "@/components/seo/Hreflang";
 import JsonLd from "@/components/seo/JsonLd";
+import { InArticleAd } from "@/components/ads";
 import { getOpeningHoursContent } from "@/data/content/opening-hours";
 
 type Props = { params: Promise<{ locale: string }> };
@@ -19,7 +20,28 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: c.meta.title,
     description: c.meta.description,
     alternates: {
-      canonical: `https://visituffizi.com/${locale}/uffizi-gallery-opening-hours`,
+      canonical: `https://visituffizi.com/${locale}/uffizi-gallery-opening-hours/`,
+    },
+    openGraph: {
+      title: c.meta.title,
+      description: c.meta.description,
+      url: `https://visituffizi.com/${locale}/uffizi-gallery-opening-hours/`,
+      siteName: "Visit Uffizi",
+      type: "website",
+      locale,
+      images: [
+        {
+          url: "https://visituffizi.com/images/og/default.jpg",
+          width: 1200,
+          height: 630,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: c.meta.title,
+      description: c.meta.description,
+      images: ["https://visituffizi.com/images/og/default.jpg"],
     },
   };
 }
@@ -33,7 +55,14 @@ export default async function OpeningHoursPage({ params }: Props) {
   const [holidaysBefore, holidaysAfter] = c.holidayClosures.openHolidays.split(
     "{open}"
   );
-  const openWord = locale === "it" ? "aperti" : "open";
+  const OPEN_WORD: Record<string, string> = {
+    en: "open",
+    it: "aperti",
+    de: "geöffnet",
+    es: "abierta",
+    fr: "ouverte",
+  };
+  const openWord = OPEN_WORD[locale] ?? OPEN_WORD.en;
 
   /* Split the best-time paragraph on {doorLink} to render the Link inline */
   const [bestBefore, bestAfter] = c.bestTimes.best.p.split("{doorLink}");
@@ -120,6 +149,9 @@ export default async function OpeningHoursPage({ params }: Props) {
           <strong className="text-navy">{openWord}</strong>
           {holidaysAfter}
         </p>
+        <p className="mb-4 rounded-lg border-l-4 border-gold bg-cream p-4 leading-relaxed text-charcoal/85">
+          {c.holidayClosures.freeEntryDay}
+        </p>
 
         <h2 className="mb-4 mt-12 text-3xl font-bold text-navy">
           {c.extendedHours.h2}
@@ -141,7 +173,7 @@ export default async function OpeningHoursPage({ params }: Props) {
         <p className="mb-4 leading-relaxed text-charcoal/85">
           {bestBefore}
           <Link
-            href={`/${locale}/the-uffizi-gallery-door-3-importent-information`}
+            href={`/${locale}/the-uffizi-gallery-door-3-importent-information/`}
             className="font-medium text-burgundy hover:text-burgundy/80"
           >
             {c.bestTimes.best.doorLinkText}
@@ -197,6 +229,9 @@ export default async function OpeningHoursPage({ params }: Props) {
           link="https://widgets.bokun.io/online-sales/b3f14469-0594-44c7-909d-81e89e845a68/experience/961802"
           urgent
         />
+
+        {/* Ad - Mid Page */}
+        <InArticleAd adSlot="5754991454" className="my-8" />
 
         <FAQ items={c.faq} />
       </div>

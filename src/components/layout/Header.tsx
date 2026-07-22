@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useTranslations } from "next-intl";
 import { useParams } from "next/navigation";
 import LanguageSwitcher from "@/components/ui/LanguageSwitcher";
+import ScrollToTopLink from "@/components/ui/ScrollToTopLink";
 import MobileNav from "./MobileNav";
 
 export default function Header() {
@@ -21,49 +22,49 @@ export default function Header() {
   }, []);
 
   const navItems = [
-    { label: t("tickets"), href: `/${locale}/tickets` },
-    { label: t("tours"), href: `/${locale}/tours` },
+    { label: t("tickets"), href: `/${locale}/tickets/` },
+    { label: t("tours"), href: `/${locale}/tours/` },
     {
       label: t("visiting"),
       children: [
         {
           label: t("openingHours"),
-          href: `/${locale}/uffizi-gallery-opening-hours`,
+          href: `/${locale}/uffizi-gallery-opening-hours/`,
         },
-        { label: t("visitorInfo"), href: `/${locale}/visitor-info` },
-        { label: t("directions"), href: `/${locale}/directions` },
-        { label: t("history"), href: `/${locale}/history` },
+        { label: t("visitorInfo"), href: `/${locale}/visitor-info/` },
+        { label: t("directions"), href: `/${locale}/directions/` },
+        { label: t("history"), href: `/${locale}/history/` },
       ],
     },
-    { label: t("artworks"), href: `/${locale}/artworks` },
+    { label: t("artworks"), href: `/${locale}/artworks/` },
     {
       label: t("artists"),
       children: [
         {
           label: "Botticelli",
-          href: `/${locale}/artists/sandro-botticelli`,
+          href: `/${locale}/artists/sandro-botticelli/`,
         },
         {
           label: "Leonardo da Vinci",
-          href: `/${locale}/artists/leonardo-da-vinci`,
+          href: `/${locale}/artists/leonardo-da-vinci/`,
         },
-        { label: "Michelangelo", href: `/${locale}/artists/michelangelo` },
-        { label: "Caravaggio", href: `/${locale}/artists/caravaggio` },
-        { label: "Raphael", href: `/${locale}/artists/raphael` },
-        { label: "Giotto", href: `/${locale}/artists/giotto` },
-        { label: "Giorgio Vasari", href: `/${locale}/artists/giorgio-vasari` },
-        { label: "Titian", href: `/${locale}/artists/titian` },
-        { label: "Rembrandt", href: `/${locale}/artists/rembrandt` },
-        { label: "Filippo Brunelleschi", href: `/${locale}/artists/filippo-brunelleschi` },
-        { label: "Dante Alighieri", href: `/${locale}/artists/dante-alighieri` },
-        { label: "Piero della Francesca", href: `/${locale}/artists/piero-della-francesca` },
+        { label: "Michelangelo", href: `/${locale}/artists/michelangelo/` },
+        { label: "Caravaggio", href: `/${locale}/artists/caravaggio/` },
+        { label: "Raphael", href: `/${locale}/artists/raphael/` },
+        { label: "Giotto", href: `/${locale}/artists/giotto/` },
+        { label: "Giorgio Vasari", href: `/${locale}/artists/giorgio-vasari/` },
+        { label: "Titian", href: `/${locale}/artists/titian/` },
+        { label: "Rembrandt", href: `/${locale}/artists/rembrandt/` },
+        { label: "Filippo Brunelleschi", href: `/${locale}/artists/filippo-brunelleschi/` },
+        { label: "Dante Alighieri", href: `/${locale}/artists/dante-alighieri/` },
+        { label: "Piero della Francesca", href: `/${locale}/artists/piero-della-francesca/` },
       ],
     },
     {
       label: t("vasariCorridor"),
-      href: `/${locale}/vasari-corridor`,
+      href: `/${locale}/vasari-corridor/`,
     },
-    { label: t("blog"), href: `/${locale}/blog` },
+    { label: t("blog"), href: `/${locale}/blog/` },
   ];
 
   return (
@@ -77,12 +78,12 @@ export default function Header() {
       >
         <div className="mx-auto flex max-w-[1200px] items-center justify-between px-4 py-3">
           {/* Logo */}
-          <Link
-            href={`/${locale}`}
+          <ScrollToTopLink
+            href={`/${locale}/`}
             className="text-xl font-bold tracking-tight text-white"
           >
             <span className="text-gold">Visit</span>Uffizi
-          </Link>
+          </ScrollToTopLink>
 
           {/* Desktop Nav */}
           <nav className="hidden items-center gap-1 lg:flex">
@@ -170,13 +171,13 @@ function NavItem({ item }: { item: NavItemType }) {
           <div className="absolute left-0 top-full pt-1">
             <div className="min-w-[200px] rounded-lg bg-white py-2 shadow-xl ring-1 ring-black/5">
               {item.children.map((child) => (
-                <Link
+                <ScrollToTopLink
                   key={child.href}
                   href={child.href}
                   className="block px-4 py-2 text-sm text-charcoal transition-colors hover:bg-cream hover:text-burgundy"
                 >
                   {child.label}
-                </Link>
+                </ScrollToTopLink>
               ))}
             </div>
           </div>
@@ -186,11 +187,11 @@ function NavItem({ item }: { item: NavItemType }) {
   }
 
   return (
-    <Link
+    <ScrollToTopLink
       href={item.href!}
       className="rounded-md px-3 py-2 text-sm font-medium text-white/90 transition-colors hover:text-gold"
     >
       {item.label}
-    </Link>
+    </ScrollToTopLink>
   );
 }

@@ -1,12 +1,29 @@
 import type { Metadata } from "next";
 import Script from "next/script";
+import { Inter, Playfair_Display } from "next/font/google";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import CookieConsent from "@/components/gdpr/CookieConsent";
+import { getCookieConsentContent } from "@/data/content/cookieConsent";
 import "../globals.css";
+
+const inter = Inter({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  display: "swap",
+  variable: "--font-inter",
+});
+
+const playfairDisplay = Playfair_Display({
+  subsets: ["latin"],
+  weight: ["700", "800"],
+  display: "swap",
+  variable: "--font-playfair",
+});
 
 export const metadata: Metadata = {
   title: "Visit Uffizi Gallery | Florence, Italy",
@@ -35,13 +52,13 @@ export default async function LocaleLayout({ children, params }: Props) {
   const gscVerification = process.env.NEXT_PUBLIC_GSC_VERIFICATION;
 
   return (
-    <html lang={locale}>
+    <html lang={locale} className={`${inter.variable} ${playfairDisplay.variable}`}>
       <head>
         {/* Favicon */}
         <link rel="icon" href="/icon.svg" type="image/svg+xml" />
         <link rel="icon" href="/favicon.png" type="image/png" sizes="512x512" />
         <link rel="apple-touch-icon" href="/favicon.png" />
-        
+
         {/* Google Search Console verification */}
         {gscVerification && (
           <meta
@@ -50,24 +67,10 @@ export default async function LocaleLayout({ children, params }: Props) {
           />
         )}
 
-        {/* Google Fonts: Playfair Display + Inter */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossOrigin="anonymous"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap"
-          rel="stylesheet"
-        />
-
-        {/* Google AdSense */}
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5190790382711375"
-          crossOrigin="anonymous"
-        />
+        {/* DNS prefetch for third-party domains */}
+        <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com" />
+        <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+        <link rel="dns-prefetch" href="https://widget.getyourguide.com" />
 
         {/* Google Analytics 4 - only loads if NEXT_PUBLIC_GA_MEASUREMENT_ID is set */}
         {gaId && (
@@ -96,7 +99,18 @@ export default async function LocaleLayout({ children, params }: Props) {
           <Header />
           <main>{children}</main>
           <Footer locale={locale} />
+          <CookieConsent
+            locale={locale}
+            content={getCookieConsentContent(locale)}
+          />
         </NextIntlClientProvider>
+
+        {/* Google AdSense - loaded after page is interactive */}
+        <Script
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5190790382711375"
+          crossOrigin="anonymous"
+          strategy="lazyOnload"
+        />
 
         {/* GetYourGuide Analytics */}
         <Script

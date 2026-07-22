@@ -20,7 +20,28 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: c.meta.title,
     description: c.meta.description,
     alternates: {
-      canonical: `https://visituffizi.com/${locale}/tours`,
+      canonical: `https://visituffizi.com/${locale}/tours/`,
+    },
+    openGraph: {
+      title: c.meta.title,
+      description: c.meta.description,
+      url: `https://visituffizi.com/${locale}/tours/`,
+      siteName: "Visit Uffizi",
+      type: "website",
+      locale,
+      images: [
+        {
+          url: "https://visituffizi.com/images/og/default.jpg",
+          width: 1200,
+          height: 630,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: c.meta.title,
+      description: c.meta.description,
+      images: ["https://visituffizi.com/images/og/default.jpg"],
     },
   };
 }
@@ -99,7 +120,7 @@ export default async function ToursPage({ params }: Props) {
         <p className="mb-4 leading-relaxed text-charcoal/85">
           {c.whichTour.guided.p}{" "}
           <Link
-            href={`/${locale}/tours/guided-tour`}
+            href={`/${locale}/tours/guided-tour/`}
             className="font-medium text-burgundy hover:text-burgundy/80"
           >
             {c.whichTour.guided.link}
@@ -112,7 +133,7 @@ export default async function ToursPage({ params }: Props) {
         <p className="mb-4 leading-relaxed text-charcoal/85">
           {c.whichTour.private.p}{" "}
           <Link
-            href={`/${locale}/tours/private-tour`}
+            href={`/${locale}/tours/private-tour/`}
             className="font-medium text-burgundy hover:text-burgundy/80"
           >
             {c.whichTour.private.link}
@@ -125,7 +146,7 @@ export default async function ToursPage({ params }: Props) {
         <p className="mb-4 leading-relaxed text-charcoal/85">
           {c.whichTour.combo.p}{" "}
           <Link
-            href={`/${locale}/tours/uffizi-accademia-tour`}
+            href={`/${locale}/tours/uffizi-accademia-tour/`}
             className="font-medium text-burgundy hover:text-burgundy/80"
           >
             {c.whichTour.combo.link}
@@ -148,7 +169,7 @@ export default async function ToursPage({ params }: Props) {
           price="49"
           link="https://www.getyourguide.com/florence-l32/florence-uffizi-gallery-guided-tour-with-vasari-corridor-t1142368/?partner_id=Z35Q282&utm_medium=online_publisher&cmp=visit_uffizi_tour_page"
           duration="2 hours"
-          includes="Skip-the-line entry, licensed guide, headsets"
+          includes="Reserved timed entry, licensed guide, headsets"
         />
 
         <FAQ title={c.faqTitle} items={c.faq} />

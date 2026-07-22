@@ -16,7 +16,28 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: c.meta.title,
     description: c.meta.description,
     alternates: {
-      canonical: `https://visituffizi.com/${locale}/history`,
+      canonical: `https://visituffizi.com/${locale}/history/`,
+    },
+    openGraph: {
+      title: c.meta.title,
+      description: c.meta.description,
+      url: `https://visituffizi.com/${locale}/history/`,
+      siteName: "Visit Uffizi",
+      type: "website",
+      locale,
+      images: [
+        {
+          url: "https://visituffizi.com/images/og/default.jpg",
+          width: 1200,
+          height: 630,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: c.meta.title,
+      description: c.meta.description,
+      images: ["https://visituffizi.com/images/og/default.jpg"],
     },
   };
 }
@@ -39,7 +60,7 @@ export default async function HistoryPage({ params }: Props) {
         <p className="mb-6 text-lg leading-relaxed text-charcoal/85">
           {c.intro.before}
           <Link
-            href={`/${locale}/artists/giorgio-vasari`}
+            href={`/${locale}/artists/giorgio-vasari/`}
             className="font-medium text-burgundy hover:text-burgundy/80"
           >
             {c.intro.vasariLinkText}
@@ -56,7 +77,7 @@ export default async function HistoryPage({ params }: Props) {
         <p className="mb-4 leading-relaxed text-charcoal/85">
           {c.vasariSection.p2.before}
           <Link
-            href={`/${locale}/vasari-corridor`}
+            href={`/${locale}/vasari-corridor/`}
             className="font-medium text-burgundy hover:text-burgundy/80"
           >
             {c.vasariSection.p2.corridorLinkText}
@@ -97,7 +118,7 @@ export default async function HistoryPage({ params }: Props) {
         <p className="mb-4 leading-relaxed text-charcoal/85">
           {c.wwii.p.before}
           <Link
-            href={`/${locale}/vasari-corridor`}
+            href={`/${locale}/vasari-corridor/`}
             className="font-medium text-burgundy hover:text-burgundy/80"
           >
             {c.wwii.p.corridorLinkText}

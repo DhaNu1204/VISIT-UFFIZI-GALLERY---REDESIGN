@@ -91,7 +91,7 @@ const en: ArtworksContent = {
     h2: "How to Find Specific Artworks",
     p: "The Uffizi's collection is arranged chronologically across 101 rooms on two floors. The most famous Renaissance works are on the second floor (Rooms 10-45). The first floor galleries opened more recently and feature later periods — Caravaggio and the Baroque (Rooms 90-93), Rembrandt and the Dutch masters (Room 49), and special exhibitions. Free museum maps are available at the entrance, and every room is clearly numbered. Most visitors focus on Rooms 10-35 (Botticelli, Leonardo, Michelangelo, Raphael) and Rooms 83-93 (Titian, Caravaggio).",
   },
-  ctaTitle: "Skip the Line — Book Your Uffizi Tickets",
+  ctaTitle: "Reserved Timed Entry — Book Your Uffizi Tickets",
   faq: [
     {
       q: "What is the most famous artwork in the Uffizi Gallery?",
@@ -166,7 +166,7 @@ const it: ArtworksContent = {
     h2: "Come trovare opere specifiche",
     p: "La collezione degli Uffizi e disposta cronologicamente in 101 sale su due piani. Le opere rinascimentali piu famose sono al secondo piano (Sale 10-45). Le gallerie del primo piano sono state aperte piu di recente e presentano periodi successivi — Caravaggio e il Barocco (Sale 90-93), Rembrandt e i maestri olandesi (Sala 49), e mostre speciali. Mappe gratuite del museo sono disponibili all'ingresso, e ogni sala e chiaramente numerata. La maggior parte dei visitatori si concentra sulle Sale 10-35 (Botticelli, Leonardo, Michelangelo, Raffaello) e sulle Sale 83-93 (Tiziano, Caravaggio).",
   },
-  ctaTitle: "Salta la Fila — Prenota i Biglietti per gli Uffizi",
+  ctaTitle: "Ingresso a Orario Prestabilito — Prenota i Biglietti per gli Uffizi",
   faq: [
     {
       q: "Qual e l'opera d'arte piu famosa della Galleria degli Uffizi?",
@@ -199,7 +199,7 @@ const de: ArtworksContent = {
   meta: {
     title: "Kunstwerke der Uffizien | Geburt der Venus, Leonardo & mehr",
     description:
-      "Entdecken Sie die Meisterwerke der Uffizien: Botticellis Geburt der Venus & Primavera, Leonardos Verkündigung, Michelangelos Doni Tondo & mehr. Raume und Highlights.",
+      "Meisterwerke der Uffizien: Botticellis Geburt der Venus & Primavera, Leonardos Verkündigung, Michelangelos Doni Tondo & mehr. Raume und Highlights.",
   },
   breadcrumb: "Kunstwerke",
   h1: "Kunstwerke der Uffizien",
@@ -241,7 +241,7 @@ const de: ArtworksContent = {
     h2: "Wie man bestimmte Kunstwerke findet",
     p: "Die Sammlung der Uffizien ist chronologisch uber 101 Sale auf zwei Etagen angeordnet. Die beruhmtesten Renaissance-Werke befinden sich im zweiten Stock (Sale 10-45). Die Galerien im ersten Stock wurden erst kurzlich eroffnet und zeigen spatere Epochen — Caravaggio und den Barock (Sale 90-93), Rembrandt und die niederlandischen Meister (Saal 49) sowie Sonderausstellungen. Kostenlose Museumskarten sind am Eingang erhaltlich, und jeder Saal ist deutlich nummeriert. Die meisten Besucher konzentrieren sich auf die Sale 10-35 (Botticelli, Leonardo, Michelangelo, Raffael) und Sale 83-93 (Tizian, Caravaggio).",
   },
-  ctaTitle: "Ohne Anstehen — Buchen Sie Ihre Uffizien-Tickets",
+  ctaTitle: "Ticket mit Zeitfenster — Buchen Sie Ihre Uffizien-Tickets",
   faq: [
     {
       q: "Was ist das beruhmteste Kunstwerk in den Uffizien?",
@@ -316,7 +316,7 @@ const fr: ArtworksContent = {
     h2: "Comment trouver des oeuvres specifiques",
     p: "La collection des Offices est disposee chronologiquement dans 101 salles sur deux etages. Les oeuvres Renaissance les plus celebres se trouvent au deuxieme etage (Salles 10-45). Les galeries du premier etage ont ouvert plus recemment et presentent des periodes ulterieures — Le Caravage et le Baroque (Salles 90-93), Rembrandt et les maitres hollandais (Salle 49), et des expositions temporaires. Des plans gratuits du musee sont disponibles a l'entree, et chaque salle est clairement numerotee. La plupart des visiteurs se concentrent sur les Salles 10-35 (Botticelli, Leonard, Michel-Ange, Raphael) et les Salles 83-93 (Titien, Le Caravage).",
   },
-  ctaTitle: "Coupe-File — Reservez vos Billets pour les Offices",
+  ctaTitle: "Horaire Reserve — Reservez vos Billets pour les Offices",
   faq: [
     {
       q: "Quelle est l'oeuvre d'art la plus celebre de la Galerie des Offices ?",
@@ -349,7 +349,7 @@ const es: ArtworksContent = {
   meta: {
     title: "Obras de Arte de la Galeria Uffizi | Nacimiento de Venus y Mas",
     description:
-      "Descubre las obras maestras de los Uffizi: el Nacimiento de Venus y la Primavera de Botticelli, la Anunciacion de Leonardo, el Tondo Doni de Miguel Angel y mas. Salas y highlights.",
+      "Obras maestras de los Uffizi: Nacimiento de Venus y Primavera de Botticelli, Anunciacion de Leonardo, Tondo Doni de Miguel Angel. Salas y highlights.",
   },
   breadcrumb: "Obras de Arte",
   h1: "Obras de Arte de la Galeria Uffizi",
@@ -391,7 +391,7 @@ const es: ArtworksContent = {
     h2: "Como encontrar obras especificas",
     p: "La coleccion de los Uffizi esta dispuesta cronologicamente en 101 salas en dos pisos. Las obras renacentistas mas famosas estan en el segundo piso (Salas 10-45). Las galerias del primer piso se abrieron mas recientemente y presentan periodos posteriores — Caravaggio y el Barroco (Salas 90-93), Rembrandt y los maestros holandeses (Sala 49), y exposiciones especiales. Hay mapas gratuitos del museo disponibles en la entrada, y cada sala esta claramente numerada. La mayoria de los visitantes se centran en las Salas 10-35 (Botticelli, Leonardo, Miguel Angel, Rafael) y las Salas 83-93 (Tiziano, Caravaggio).",
   },
-  ctaTitle: "Sin Colas — Reserva tus Entradas para los Uffizi",
+  ctaTitle: "Hora Reservada — Reserva tus Entradas para los Uffizi",
   faq: [
     {
       q: "Cual es la obra de arte mas famosa de la Galeria Uffizi?",

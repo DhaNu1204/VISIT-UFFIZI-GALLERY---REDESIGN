@@ -51,9 +51,9 @@ export type TicketPricesContent = {
 
 const en: TicketPricesContent = {
   meta: {
-    title: "Uffizi Gallery Ticket Prices 2026 | Full Cost Guide & Discounts",
+    title: "Uffizi Ticket Prices 2026 | Full Cost & Discount Guide",
     description:
-      "Complete Uffizi Gallery ticket prices for 2026. Standard, reduced & free entry. Seasonal pricing, online booking fees & money-saving tips.",
+      "Every Uffizi ticket price for 2026: \u20ac25/\u20ac29 standard, \u20ac16/\u20ac20 afternoon, \u20ac2 reduced, free under 18, plus Vasari Corridor, PassePartout and money-saving tips.",
   },
   breadcrumbs: {
     tickets: "Tickets",
@@ -61,25 +61,36 @@ const en: TicketPricesContent = {
   },
   h1: "Uffizi Gallery Ticket Prices 2026",
   intro:
-    "Starting in 2026, the Uffizi Gallery has simplified its pricing structure with year-round rates. No more confusion about high season vs. low season \u2014 just consistent pricing throughout the year. Here's the complete breakdown of every ticket type, discount, and cost so you know exactly what to budget.",
+    "For 2026 the Uffizi Gallery keeps one set of rates all year \u2014 no more high-season/low-season confusion. The one thing worth understanding before you book is the advance/on-the-day split: any ticket bought before the calendar date of your visit costs \u20ac4 more, and that \u20ac4 is the reservation fee for locking in a date and time. Here's the complete breakdown of every ticket type, discount, and cost so you know exactly what to budget.",
   standardPrices: {
     h2: "Standard Ticket Prices",
-    tableTitle: "2026 Uffizi Gallery Admission",
+    tableTitle: "2026 Uffizi Gallery & Combined Tickets",
     rows: [
       {
-        type: "Online Ticket",
-        price: "\u20ac29",
-        notes: "Official website booking",
+        type: "Standard entry (before 4:00 PM)",
+        price: "\u20ac25 on the day / \u20ac29 in advance",
+        notes: "Timed entry \u2014 the \u20ac4 difference is the reservation fee",
       },
       {
-        type: "Ticket Office",
-        price: "\u20ac25",
-        notes: "Walk-up at Door 2",
+        type: "Afternoon entry (from 4:00 PM)",
+        price: "\u20ac16 on the day / \u20ac20 in advance",
+        notes: "The cheapest way in; last entry 5:30 PM, gallery closes 6:30 PM",
       },
       {
-        type: "Afternoon Entry (after 4 PM)",
-        price: "\u20ac20",
-        notes: "Online booking",
+        type: "Uffizi + Vasari Corridor",
+        price: "\u20ac43 on the day / \u20ac47 in advance",
+        notes: "Combined ticket for the gallery and the Vasari Corridor",
+      },
+      {
+        type: "PassePartout 5 Days",
+        price: "\u20ac40 per adult",
+        notes:
+          "5 consecutive days: one entry each to the Uffizi, Pitti Palace museums, Boboli Gardens and Bardini Garden",
+      },
+      {
+        type: "Pitti Palace + Boboli Gardens (one day)",
+        price: "\u20ac22 on the day / \u20ac25 in advance",
+        notes: "Combined ticket, valid for a single day",
       },
     ],
   },
@@ -96,12 +107,8 @@ const en: TicketPricesContent = {
       {
         type: "Under 18 (any nationality)",
         price: "Free",
-        notes: "Proof of age required",
-      },
-      {
-        type: "EU Citizens over 65",
-        price: "\u20ac2",
-        notes: "Valid ID required",
+        notes:
+          "Nominative ticket — the name on it must match the child's ID",
       },
       {
         type: "Disabled visitors + 1 companion",
@@ -126,37 +133,39 @@ const en: TicketPricesContent = {
     ],
   },
   onlineVsWalkUp: {
-    h2: "Online vs. Walk-Up Prices",
-    p: "Here's where people get confused. The base ticket price is the same whether you buy online or at the door. The difference is the booking fee and the time you save:",
+    h2: "In Advance vs. On the Day",
+    p: "Here's where people get confused. The base ticket price is the same either way. What changes is the \u20ac4 reservation fee: buy before the calendar date of your visit and you pay it, buy on the day itself and you don't. What the fee actually buys is a guaranteed time slot \u2014 and in peak season the slots for a given day are often gone well before you arrive:",
     tableTitle: "Cost Comparison",
     rows: [
       {
-        type: "Walk-up (Door 2)",
+        type: "On the day, at the ticket office",
         price: "\u20ac25",
-        notes: "1-3 hour wait",
+        notes:
+          "Cash at the self-service machines, card at the staffed counters; whatever slot is left",
       },
       {
-        type: "Official site pre-book",
+        type: "In advance, official site",
         price: "\u20ac29",
-        notes: "Standard entry, skip the line",
+        notes: "Standard entry plus the \u20ac4 reservation fee, timed slot",
       },
       {
-        type: "Authorized reseller",
+        type: "In advance, authorized reseller",
         price: "From \u20ac26",
-        notes: "Skip the line, free cancellation",
+        notes: "Timed slot + digital audio guide, free cancellation",
       },
     ],
-    footnote: "Afternoon tickets (after 4 PM) available for \u20ac20 online.",
+    footnote:
+      "Afternoon entry (from 4:00 PM) is \u20ac16 on the day or \u20ac20 in advance.",
     recommendation:
-      "My honest recommendation: book through an authorized reseller. The price is competitive, you get skip-the-line access, and most offer free cancellation up to 24 hours before your visit. That flexibility alone is worth it \u2014 Florence weather can be unpredictable, and plans change.",
+      "My honest recommendation: book through an authorized reseller. The price is competitive, you get a guaranteed entry slot plus a digital audio guide, and most offer free cancellation up to 24 hours before your visit. That flexibility alone is worth it \u2014 Florence weather can be unpredictable, and plans change. On the day itself you simply walk to Door 1 at your reserved time and skip the ticket-office queue; the short security screening applies to everyone.",
   },
-  ctaTop: "Best Value \u2014 Skip the Line Uffizi Tickets",
+  ctaTop: "Best Value \u2014 Uffizi Timed-Entry Ticket & Audio Guide",
   freeEntryDays: {
     h2: "Free Entry Days",
-    pPrefix: "The Uffizi offers free admission on the ",
+    pPrefix: "The Uffizi and the Vasari Corridor are both free on the ",
     pBold: "first Sunday of every month",
     pSuffix:
-      ". However, I need to be honest about this: free Sundays are a mixed blessing. The gallery becomes incredibly crowded, with wait times of 3-4 hours common. The experience inside is also less enjoyable when every room is packed. If budget is a concern, visiting during low season (\u20ac12) on a weekday gives you a much better experience than a free Sunday.",
+      ". A ticket is still required, and it is nominative \u2014 the visitor's name is on it. The Uffizi's free ticket is issued only at the ticket-office counter on the day and cannot be booked online, so expect to queue for it. The Vasari Corridor's must be booked online in advance, or collected at the ticket office on the day if a spot is still available. I also need to be honest: free Sundays are a mixed blessing. The gallery becomes incredibly crowded, with wait times of 3-4 hours common, and the experience inside is less enjoyable when every room is packed. If budget is a concern, an afternoon ticket at \u20ac16 on the day, on a quiet weekday, gives you a far better experience than a free Sunday.",
   },
   comboTickets: {
     h2: "Combo Tickets & Passes",
@@ -165,7 +174,7 @@ const en: TicketPricesContent = {
       {
         label: "Uffizi + Accademia combo tour",
         description:
-          "See both museums in one day with a guide. Typically \u20ac89-120 per person including skip-the-line entry to both.",
+          "See both museums in one day with a guide. Typically \u20ac89-120 per person including reserved entry to both.",
         hasLink: true,
         linkText: "See combo tour details \u2192",
       },
@@ -176,9 +185,21 @@ const en: TicketPricesContent = {
         hasLink: false,
       },
       {
-        label: "Uffizi + Palazzo Pitti + Boboli",
+        label: "Uffizi + Vasari Corridor",
         description:
-          "A combined 5-day pass is sometimes available through the official booking system. Check availability at the ticket office.",
+          "\u20ac43 on the day or \u20ac47 in advance \u2014 one combined ticket for the gallery and the Vasari Corridor.",
+        hasLink: false,
+      },
+      {
+        label: "PassePartout 5 Days",
+        description:
+          "\u20ac40 per adult, valid 5 consecutive days with one entry each to the Uffizi Gallery, the Pitti Palace museums, the Boboli Gardens and the Bardini Garden. You must reserve a specific date and time for the Uffizi, and the Uffizi has to be the first museum you visit. It gives priority admission, except during free-admission periods.",
+        hasLink: false,
+      },
+      {
+        label: "Pitti Palace + Boboli Gardens",
+        description:
+          "\u20ac22 on the day or \u20ac25 in advance for both on a single day \u2014 a good add-on if you're not doing the full 5-day pass.",
         hasLink: false,
       },
     ],
@@ -186,26 +207,32 @@ const en: TicketPricesContent = {
   moneySaving: {
     h2: "Money-Saving Tips",
     tips: [
-      "Book afternoon tickets (after 4 PM) for \u20ac20 instead of \u20ac29 standard entry",
+      "Choose afternoon entry (from 4:00 PM): \u20ac16 on the day or \u20ac20 in advance, against \u20ac25/\u20ac29 for standard entry",
+      "Buying on the day saves the \u20ac4 reservation fee \u2014 but you're gambling on availability, and busy days do sell out",
       "EU citizens aged 18-25 pay only \u20ac2 \u2014 always bring valid ID",
-      "Under 18? Entry is free for all nationalities \u2014 carry proof of age",
+      "Under 18? Entry is free for all nationalities \u2014 but you still need a free nominative ticket, and the name on it must match the ID",
       "Art and architecture students at EU universities get free entry \u2014 bring your enrollment certificate",
-      "Book through an authorized reseller for skip-the-line access and cancellation flexibility",
+      "Visiting Pitti Palace and the Boboli Gardens too? The PassePartout 5 Days covers all of them for \u20ac40",
+      "Book through an authorized reseller for a guaranteed entry slot, a digital audio guide and cancellation flexibility",
     ],
   },
   ctaBottom: "Book Uffizi Gallery Tickets",
   faq: [
     {
       q: "How much does the Uffizi Gallery cost in 2026?",
-      a: "\u20ac29 for online bookings, \u20ac25 at the ticket office. Afternoon tickets (after 4 PM) are \u20ac20 online. EU citizens 18-25 pay \u20ac2. Under 18 is free. Skip-the-line tickets from authorized resellers start from \u20ac26.",
+      a: "Standard entry (before 4:00 PM) is \u20ac25 on the day or \u20ac29 in advance. Afternoon entry (from 4:00 PM) is \u20ac16 on the day or \u20ac20 in advance. EU citizens 18-25 pay \u20ac2, and under 18 is free with a nominative ticket. Uffizi + Vasari Corridor is \u20ac43 on the day or \u20ac47 in advance. Reserved timed-entry tickets with a digital audio guide start from \u20ac26.",
     },
     {
       q: "Is there a booking fee for Uffizi tickets?",
-      a: "The official museum booking site price of \u20ac29 includes all fees. Authorized resellers typically charge from \u20ac26 for skip-the-line tickets, and most offer free cancellation.",
+      a: "Yes \u2014 \u20ac4. That's the whole difference between the on-the-day price and the advance price (\u20ac25 versus \u20ac29 for standard entry): a reservation fee for locking in a specific date and time. Authorized resellers charge from \u20ac26 for a timed-entry ticket with a digital audio guide, and most offer free cancellation.",
+    },
+    {
+      q: "What is the PassePartout 5 Days pass?",
+      a: "\u20ac40 per adult for 5 consecutive days, with one entry each to the Uffizi Gallery, the Pitti Palace museums, the Boboli Gardens and the Bardini Garden. You reserve a specific date and time for the Uffizi, and the Uffizi must be the first of the four you visit. It gives priority admission, except during free-admission periods.",
     },
     {
       q: "What ID do I need for reduced-price tickets?",
-      a: "Bring a valid passport or national ID card showing your date of birth and nationality. EU citizens 18-25 need proof they're under 26 and an EU citizen. Under-18s need age verification.",
+      a: "Bring a valid passport or national ID card showing your date of birth and nationality. EU citizens 18-25 need proof they're under 26 and an EU citizen. Under-18s get a free nominative ticket, so the name on it has to match their ID.",
     },
     {
       q: "Is the Firenze Card worth buying?",
@@ -219,7 +246,7 @@ const it: TicketPricesContent = {
     title:
       "Prezzi Biglietti Uffizi 2026 | Costi, Sconti e Riduzioni",
     description:
-      "Tutti i prezzi dei biglietti per gli Uffizi 2026. Tariffe standard, ridotte e gratuite. Costi stagionali, commissioni online e consigli per risparmiare.",
+      "Tutti i prezzi dei biglietti Uffizi 2026: \u20ac25/\u20ac29 standard, \u20ac16/\u20ac20 pomeriggio, \u20ac2 ridotto, gratis under 18, pi\u00f9 Corridoio Vasariano e PassePartout.",
   },
   breadcrumbs: {
     tickets: "Biglietti",
@@ -227,25 +254,38 @@ const it: TicketPricesContent = {
   },
   h1: "Prezzi Biglietti Galleria degli Uffizi 2026",
   intro:
-    "Dal 2026, la Galleria degli Uffizi ha semplificato la struttura dei prezzi con tariffe annuali. Niente pi\u00f9 confusione tra alta e bassa stagione \u2014 solo prezzi costanti tutto l'anno. Ecco il riepilogo completo di ogni tipo di biglietto, sconto e costo per sapere esattamente quanto mettere a budget.",
+    "Per il 2026 la Galleria degli Uffizi mantiene le stesse tariffe tutto l'anno: niente pi\u00f9 confusione tra alta e bassa stagione. L'unica cosa da capire prima di prenotare \u00e8 la differenza tra prevendita e acquisto in giornata: ogni biglietto acquistato prima della data della visita costa \u20ac4 in pi\u00f9, e quei \u20ac4 sono il diritto di prenotazione che ti blocca data e orario. Ecco il riepilogo completo di ogni tipo di biglietto, sconto e costo per sapere esattamente quanto mettere a budget.",
   standardPrices: {
     h2: "Prezzi Biglietti Standard",
-    tableTitle: "Tariffe Uffizi 2026",
+    tableTitle: "Tariffe Uffizi e Biglietti Cumulativi 2026",
     rows: [
       {
-        type: "Biglietto Online",
-        price: "\u20ac29",
-        notes: "Prenotazione sito ufficiale",
+        type: "Ingresso standard (prima delle 16:00)",
+        price: "\u20ac25 in giornata / \u20ac29 in prevendita",
+        notes:
+          "Ingresso a orario prestabilito \u2014 la differenza di \u20ac4 \u00e8 il diritto di prenotazione",
       },
       {
-        type: "Biglietteria",
-        price: "\u20ac25",
-        notes: "In cassa alla Porta 2",
+        type: "Ingresso pomeridiano (dalle 16:00)",
+        price: "\u20ac16 in giornata / \u20ac20 in prevendita",
+        notes:
+          "La tariffa pi\u00f9 economica; ultimo ingresso alle 17:30, chiusura alle 18:30",
       },
       {
-        type: "Ingresso Pomeridiano (dopo le 16:00)",
-        price: "\u20ac20",
-        notes: "Prenotazione online",
+        type: "Uffizi + Corridoio Vasariano",
+        price: "\u20ac43 in giornata / \u20ac47 in prevendita",
+        notes: "Biglietto cumulativo per la galleria e il Corridoio Vasariano",
+      },
+      {
+        type: "PassePartout 5 Days",
+        price: "\u20ac40 a persona (adulti)",
+        notes:
+          "5 giorni consecutivi: un ingresso ciascuno a Uffizi, musei di Palazzo Pitti, Giardino di Boboli e Giardino Bardini",
+      },
+      {
+        type: "Palazzo Pitti + Giardino di Boboli (un giorno)",
+        price: "\u20ac22 in giornata / \u20ac25 in prevendita",
+        notes: "Biglietto cumulativo, valido per un solo giorno",
       },
     ],
   },
@@ -262,12 +302,8 @@ const it: TicketPricesContent = {
       {
         type: "Minori di 18 anni (qualsiasi nazionalit\u00e0)",
         price: "Gratis",
-        notes: "Documento che attesti l'et\u00e0",
-      },
-      {
-        type: "Cittadini UE over 65",
-        price: "\u20ac2",
-        notes: "Documento d'identit\u00e0 richiesto",
+        notes:
+          "Biglietto nominativo \u2014 il nome deve corrispondere al documento",
       },
       {
         type: "Visitatori disabili + 1 accompagnatore",
@@ -292,38 +328,41 @@ const it: TicketPricesContent = {
     ],
   },
   onlineVsWalkUp: {
-    h2: "Prezzi Online vs. Biglietteria",
-    p: "Ecco dove nasce la confusione. Il prezzo base del biglietto \u00e8 lo stesso sia che acquisti online sia in cassa. La differenza sta nella commissione di prenotazione e nel tempo risparmiato:",
+    h2: "Prevendita vs. Acquisto in Giornata",
+    p: "Ecco dove nasce la confusione. Il prezzo base del biglietto \u00e8 lo stesso in entrambi i casi. Quello che cambia \u00e8 il diritto di prenotazione di \u20ac4: lo paghi se acquisti prima della data della visita, non lo paghi se compri il giorno stesso. Quei \u20ac4 servono a garantirti una fascia oraria \u2014 e in alta stagione le fasce di una giornata si esauriscono molto prima che tu arrivi:",
     tableTitle: "Confronto Costi",
     rows: [
       {
-        type: "In cassa (Porta 2)",
+        type: "In giornata, in biglietteria",
         price: "\u20ac25",
-        notes: "1-3 ore di coda",
+        notes:
+          "Contanti alle casse automatiche, carta agli sportelli con personale; prendi la fascia che resta",
       },
       {
-        type: "Prenotazione sito ufficiale",
+        type: "In prevendita, sito ufficiale",
         price: "\u20ac29",
-        notes: "Ingresso standard, salta la fila",
+        notes:
+          "Ingresso standard pi\u00f9 \u20ac4 di diritto di prenotazione, orario prestabilito",
       },
       {
-        type: "Rivenditore autorizzato",
+        type: "In prevendita, rivenditore autorizzato",
         price: "Da \u20ac26",
-        notes: "Salta la fila, cancellazione gratuita",
+        notes:
+          "Orario prestabilito + audioguida digitale, cancellazione gratuita",
       },
     ],
     footnote:
-      "Biglietti pomeridiani (dopo le 16:00) disponibili a \u20ac20 online.",
+      "L'ingresso pomeridiano (dalle 16:00) costa \u20ac16 in giornata o \u20ac20 in prevendita.",
     recommendation:
-      "Il mio consiglio sincero: prenota tramite un rivenditore autorizzato. Il prezzo \u00e8 competitivo, hai l'accesso salta la fila e la maggior parte offre cancellazione gratuita fino a 24 ore prima. Questa flessibilit\u00e0 da sola vale la differenza \u2014 il meteo a Firenze \u00e8 imprevedibile e i piani possono cambiare.",
+      "Il mio consiglio sincero: prenota tramite un rivenditore autorizzato. Il prezzo \u00e8 competitivo, ti garantisci una fascia oraria e un'audioguida digitale, e la maggior parte offre cancellazione gratuita fino a 24 ore prima. Questa flessibilit\u00e0 da sola vale la differenza \u2014 il meteo a Firenze \u00e8 imprevedibile e i piani possono cambiare. Il giorno della visita ti presenti alla Porta 1 all'orario prenotato e salti la fila alla biglietteria; il rapido controllo di sicurezza vale per tutti.",
   },
-  ctaTop: "Miglior Prezzo \u2014 Biglietti Salta la Fila Uffizi",
+  ctaTop: "Miglior Prezzo \u2014 Biglietto Uffizi a Orario e Audioguida",
   freeEntryDays: {
     h2: "Giornate ad Ingresso Gratuito",
-    pPrefix: "Gli Uffizi offrono l'ingresso gratuito la ",
+    pPrefix: "Gli Uffizi e il Corridoio Vasariano sono entrambi gratuiti la ",
     pBold: "prima domenica di ogni mese",
     pSuffix:
-      ". Devo per\u00f2 essere sincero: le domeniche gratuite sono un'arma a doppio taglio. La galleria diventa incredibilmente affollata, con tempi di attesa di 3-4 ore. Anche l'esperienza all'interno \u00e8 meno piacevole quando ogni sala \u00e8 stipata. Se il budget \u00e8 un problema, visitare in bassa stagione (\u20ac12) in un giorno feriale offre un'esperienza decisamente migliore di una domenica gratuita.",
+      ". Il biglietto serve comunque ed \u00e8 nominativo: riporta il nome del visitatore. Quello gratuito degli Uffizi si ritira solo allo sportello della biglietteria il giorno stesso e non \u00e8 prenotabile online, quindi mettete in conto la fila. Quello del Corridoio Vasariano va invece prenotato online in anticipo, oppure ritirato in biglietteria il giorno stesso se resta ancora posto. Devo per\u00f2 essere sincero: le domeniche gratuite sono un'arma a doppio taglio. La galleria diventa incredibilmente affollata, con tempi di attesa di 3-4 ore. Anche l'esperienza all'interno \u00e8 meno piacevole quando ogni sala \u00e8 stipata. Se il budget \u00e8 un problema, un biglietto pomeridiano a \u20ac16 in giornata, in un giorno feriale tranquillo, offre un'esperienza decisamente migliore di una domenica gratuita.",
   },
   comboTickets: {
     h2: "Biglietti Combinati e Pass",
@@ -332,7 +371,7 @@ const it: TicketPricesContent = {
       {
         label: "Tour combo Uffizi + Accademia",
         description:
-          "Visita entrambi i musei in un giorno con una guida. Generalmente \u20ac89-120 a persona, ingresso salta la fila incluso per entrambi.",
+          "Visita entrambi i musei in un giorno con una guida. Generalmente \u20ac89-120 a persona, ingresso riservato incluso per entrambi.",
         hasLink: true,
         linkText: "Dettagli tour combinato \u2192",
       },
@@ -343,9 +382,21 @@ const it: TicketPricesContent = {
         hasLink: false,
       },
       {
-        label: "Uffizi + Palazzo Pitti + Boboli",
+        label: "Uffizi + Corridoio Vasariano",
         description:
-          "Un pass cumulativo di 5 giorni \u00e8 talvolta disponibile tramite il sistema di prenotazione ufficiale. Verifica la disponibilit\u00e0 in biglietteria.",
+          "\u20ac43 in giornata o \u20ac47 in prevendita \u2014 un unico biglietto per la galleria e il Corridoio Vasariano.",
+        hasLink: false,
+      },
+      {
+        label: "PassePartout 5 Days",
+        description:
+          "\u20ac40 a persona per gli adulti, valido 5 giorni consecutivi con un ingresso ciascuno alla Galleria degli Uffizi, ai musei di Palazzo Pitti, al Giardino di Boboli e al Giardino Bardini. Devi prenotare data e orario precisi per gli Uffizi, che devono essere il primo museo che visiti. D\u00e0 diritto all'ingresso prioritario, tranne nei periodi di ingresso gratuito.",
+        hasLink: false,
+      },
+      {
+        label: "Palazzo Pitti + Giardino di Boboli",
+        description:
+          "\u20ac22 in giornata o \u20ac25 in prevendita per entrambi in un solo giorno \u2014 una buona aggiunta se non prendi il pass di 5 giorni.",
         hasLink: false,
       },
     ],
@@ -353,26 +404,32 @@ const it: TicketPricesContent = {
   moneySaving: {
     h2: "Consigli per Risparmiare",
     tips: [
-      "Prenota biglietti pomeridiani (dopo le 16:00) a \u20ac20 invece di \u20ac29 per l'ingresso standard",
+      "Scegli l'ingresso pomeridiano (dalle 16:00): \u20ac16 in giornata o \u20ac20 in prevendita, contro \u20ac25/\u20ac29 dell'ingresso standard",
+      "Comprare in giornata ti fa risparmiare i \u20ac4 di prenotazione \u2014 ma \u00e8 una scommessa sulla disponibilit\u00e0, e nei giorni di punta i posti si esauriscono",
       "I cittadini UE tra 18 e 25 anni pagano solo \u20ac2 \u2014 porta sempre un documento valido",
-      "Hai meno di 18 anni? L'ingresso \u00e8 gratuito per tutte le nazionalit\u00e0 \u2014 porta un documento che attesti l'et\u00e0",
+      "Hai meno di 18 anni? L'ingresso \u00e8 gratuito per tutte le nazionalit\u00e0 \u2014 serve comunque un biglietto nominativo gratuito e il nome deve corrispondere al documento",
       "Gli studenti di arte e architettura in universit\u00e0 UE entrano gratis \u2014 porta il certificato di iscrizione",
-      "Prenota tramite un rivenditore autorizzato per l'accesso salta la fila e la flessibilit\u00e0 di cancellazione",
+      "Visiti anche Palazzo Pitti e il Giardino di Boboli? Il PassePartout 5 Days li comprende tutti a \u20ac40",
+      "Prenota tramite un rivenditore autorizzato per avere una fascia oraria garantita, l'audioguida digitale e la flessibilit\u00e0 di cancellazione",
     ],
   },
   ctaBottom: "Prenota i Biglietti per gli Uffizi",
   faq: [
     {
       q: "Quanto costa il biglietto per gli Uffizi nel 2026?",
-      a: "\u20ac29 per prenotazioni online, \u20ac25 in biglietteria. Biglietti pomeridiani (dopo le 16:00) a \u20ac20 online. Cittadini UE 18-25 anni: \u20ac2. Under 18: gratis. Biglietti salta la fila da rivenditori autorizzati a partire da \u20ac26.",
+      a: "L'ingresso standard (prima delle 16:00) costa \u20ac25 in giornata o \u20ac29 in prevendita. L'ingresso pomeridiano (dalle 16:00) costa \u20ac16 in giornata o \u20ac20 in prevendita. I cittadini UE 18-25 anni pagano \u20ac2, gli under 18 entrano gratis con biglietto nominativo. Uffizi + Corridoio Vasariano costa \u20ac43 in giornata o \u20ac47 in prevendita. I biglietti con ingresso a orario prestabilito e audioguida digitale partono da \u20ac26.",
     },
     {
       q: "C'\u00e8 una commissione per la prenotazione dei biglietti?",
-      a: "Il prezzo del sito ufficiale di \u20ac29 include tutte le commissioni. I rivenditori autorizzati in genere applicano da \u20ac26 per biglietti salta la fila, e la maggior parte offre cancellazione gratuita.",
+      a: "S\u00ec \u2014 \u20ac4. \u00c8 tutta la differenza tra il prezzo in giornata e quello in prevendita (\u20ac25 contro \u20ac29 per l'ingresso standard): \u00e8 il diritto di prenotazione che ti blocca data e orario. I rivenditori autorizzati partono da \u20ac26 per un biglietto a orario prestabilito con audioguida digitale, e la maggior parte offre cancellazione gratuita.",
+    },
+    {
+      q: "Cos'\u00e8 il PassePartout 5 Days?",
+      a: "\u20ac40 a persona per gli adulti, valido 5 giorni consecutivi con un ingresso ciascuno alla Galleria degli Uffizi, ai musei di Palazzo Pitti, al Giardino di Boboli e al Giardino Bardini. Per gli Uffizi devi prenotare data e orario precisi, e gli Uffizi devono essere il primo dei quattro che visiti. D\u00e0 diritto all'ingresso prioritario, tranne nei periodi di ingresso gratuito.",
     },
     {
       q: "Quale documento serve per i biglietti ridotti?",
-      a: "Porta un passaporto o una carta d'identit\u00e0 valida che mostri data di nascita e nazionalit\u00e0. I cittadini UE 18-25 devono dimostrare di avere meno di 26 anni e la cittadinanza europea. I minori di 18 anni necessitano di un documento che attesti l'et\u00e0.",
+      a: "Porta un passaporto o una carta d'identit\u00e0 valida che mostri data di nascita e nazionalit\u00e0. I cittadini UE 18-25 devono dimostrare di avere meno di 26 anni e la cittadinanza europea. I minori di 18 anni ricevono un biglietto nominativo gratuito: il nome deve corrispondere a quello sul documento.",
     },
     {
       q: "Conviene acquistare la Firenze Card?",
@@ -384,9 +441,9 @@ const it: TicketPricesContent = {
 const de: TicketPricesContent = {
   meta: {
     title:
-      "Eintrittspreise Uffizi Galerie 2026 | Kosten, Ermäßigungen & Tipps",
+      "Eintrittspreise Uffizi 2026 | Kosten & Ermäßigungen",
     description:
-      "Alle Eintrittspreise der Uffizi Galerie 2026: Standard-, Ermäßigungs- und Gratis-Tickets. Saisonpreise, Online-Gebühren und Spartipps für Ihren Besuch.",
+      "Alle Uffizi-Preise 2026: 25/29 € Standard, 16/20 € nachmittags, 2 € ermäßigt, unter 18 frei, dazu Vasari-Korridor, PassePartout und Spartipps.",
   },
   breadcrumbs: {
     tickets: "Tickets",
@@ -394,25 +451,38 @@ const de: TicketPricesContent = {
   },
   h1: "Eintrittspreise Uffizi Galerie 2026",
   intro:
-    "Ab 2026 hat die Uffizi Galerie ihre Preisstruktur mit ganzjährigen Tarifen vereinfacht. Keine Verwirrung mehr zwischen Haupt- und Nebensaison — nur konstante Preise das ganze Jahr über. Hier finden Sie die vollständige Übersicht aller Ticketarten, Ermäßigungen und Kosten, damit Sie Ihr Budget genau planen können.",
+    "Für 2026 gelten in der Uffizi Galerie dieselben Tarife das ganze Jahr über — keine Verwirrung mehr zwischen Haupt- und Nebensaison. Wichtig zu verstehen ist nur der Unterschied zwischen Vorverkauf und Tageskasse: Jedes Ticket, das Sie vor dem Kalendertag Ihres Besuchs kaufen, kostet 4 € mehr, und diese 4 € sind die Reservierungsgebühr für ein festes Datum mit Uhrzeit. Hier finden Sie die vollständige Übersicht aller Ticketarten, Ermäßigungen und Kosten, damit Sie Ihr Budget genau planen können.",
   standardPrices: {
     h2: "Standard-Eintrittspreise",
-    tableTitle: "Uffizi Galerie Eintritt 2026",
+    tableTitle: "Uffizi Galerie & Kombitickets 2026",
     rows: [
       {
-        type: "Online-Ticket",
-        price: "29 €",
-        notes: "Offizielle Website-Buchung",
+        type: "Standardeintritt (vor 16:00 Uhr)",
+        price: "25 € am Besuchstag / 29 € im Vorverkauf",
+        notes:
+          "Zeitfenster-Ticket — die Differenz von 4 € ist die Reservierungsgebühr",
       },
       {
-        type: "Tageskasse",
-        price: "25 €",
-        notes: "An Tür 2",
+        type: "Nachmittagseintritt (ab 16:00 Uhr)",
+        price: "16 € am Besuchstag / 20 € im Vorverkauf",
+        notes:
+          "Der günstigste Weg hinein; letzter Einlass 17:30 Uhr, Schließung 18:30 Uhr",
       },
       {
-        type: "Nachmittagseintritt (nach 16:00 Uhr)",
-        price: "20 €",
-        notes: "Online-Buchung",
+        type: "Uffizi + Vasari-Korridor",
+        price: "43 € am Besuchstag / 47 € im Vorverkauf",
+        notes: "Kombiticket für die Galerie und den Vasari-Korridor",
+      },
+      {
+        type: "PassePartout 5 Days",
+        price: "40 € pro Erwachsenem",
+        notes:
+          "5 aufeinanderfolgende Tage: je ein Eintritt in die Uffizien, die Museen des Palazzo Pitti, den Boboli-Garten und den Bardini-Garten",
+      },
+      {
+        type: "Palazzo Pitti + Boboli-Garten (ein Tag)",
+        price: "22 € am Besuchstag / 25 € im Vorverkauf",
+        notes: "Kombiticket, gültig für einen einzigen Tag",
       },
     ],
   },
@@ -429,12 +499,8 @@ const de: TicketPricesContent = {
       {
         type: "Unter 18 Jahren (alle Nationalitäten)",
         price: "Kostenlos",
-        notes: "Altersnachweis erforderlich",
-      },
-      {
-        type: "EU-Bürger über 65 Jahre",
-        price: "2 €",
-        notes: "Gültiger Ausweis erforderlich",
+        notes:
+          "Personalisiertes Ticket — der Name muss mit dem Ausweis übereinstimmen",
       },
       {
         type: "Besucher mit Behinderung + 1 Begleitperson",
@@ -459,38 +525,39 @@ const de: TicketPricesContent = {
     ],
   },
   onlineVsWalkUp: {
-    h2: "Online-Preise vs. Tageskasse",
-    p: "Hier entsteht oft Verwirrung. Der Grundpreis des Tickets ist identisch — ob Sie online oder an der Kasse kaufen. Der Unterschied liegt in der Reservierungsgebühr und der Zeitersparnis:",
+    h2: "Vorverkauf vs. Tageskasse",
+    p: "Hier entsteht oft Verwirrung. Der Grundpreis des Tickets ist in beiden Fällen identisch. Der Unterschied ist die Reservierungsgebühr von 4 €: Sie zahlen sie, wenn Sie vor dem Kalendertag Ihres Besuchs kaufen, und Sie zahlen sie nicht, wenn Sie am Tag selbst kaufen. Wofür die Gebühr steht, ist ein garantiertes Zeitfenster — und in der Hauptsaison sind die Zeitfenster eines Tages längst vergeben, bevor Sie vor Ort sind:",
     tableTitle: "Kostenvergleich",
     rows: [
       {
-        type: "Tageskasse (Tür 2)",
+        type: "Am Besuchstag, an der Kasse",
         price: "25 €",
-        notes: "1–3 Stunden Wartezeit",
+        notes:
+          "Bar an den Selbstbedienungsautomaten, Karte an den besetzten Schaltern; Sie nehmen, was frei ist",
       },
       {
-        type: "Offizielle Website vorbuchen",
+        type: "Im Vorverkauf, offizielle Website",
         price: "29 €",
-        notes: "Standard-Eintritt, ohne Anstehen",
+        notes: "Standardeintritt plus 4 € Reservierungsgebühr, festes Zeitfenster",
       },
       {
-        type: "Autorisierter Wiederverkäufer",
+        type: "Im Vorverkauf, autorisierter Wiederverkäufer",
         price: "Ab 26 €",
-        notes: "Ohne Anstehen, kostenlose Stornierung",
+        notes: "Festes Zeitfenster + digitaler Audioguide, kostenlose Stornierung",
       },
     ],
     footnote:
-      "Nachmittagstickets (nach 16:00 Uhr) für 20 € online verfügbar.",
+      "Der Nachmittagseintritt (ab 16:00 Uhr) kostet 16 € am Besuchstag oder 20 € im Vorverkauf.",
     recommendation:
-      "Meine ehrliche Empfehlung: Buchen Sie über einen autorisierten Wiederverkäufer. Der Preis ist wettbewerbsfähig, Sie erhalten Ohne-Anstehen-Zugang, und die meisten bieten kostenlose Stornierung bis 24 Stunden vor dem Besuch. Allein diese Flexibilität ist es wert — das Wetter in Florenz kann unberechenbar sein, und Pläne ändern sich.",
+      "Meine ehrliche Empfehlung: Buchen Sie über einen autorisierten Wiederverkäufer. Der Preis ist wettbewerbsfähig, Sie sichern sich ein garantiertes Zeitfenster samt digitalem Audioguide, und die meisten bieten kostenlose Stornierung bis 24 Stunden vor dem Besuch. Allein diese Flexibilität ist es wert — das Wetter in Florenz kann unberechenbar sein, und Pläne ändern sich. Am Besuchstag gehen Sie zu Ihrer reservierten Zeit einfach zu Eingang 1 und umgehen die Warteschlange an der Kasse; die kurze Sicherheitskontrolle gilt für alle.",
   },
-  ctaTop: "Bester Preis — Uffizi Galerie Tickets Ohne Anstehen",
+  ctaTop: "Bester Preis — Uffizi Ticket mit Zeitfenster & Audioguide",
   freeEntryDays: {
     h2: "Tage mit freiem Eintritt",
-    pPrefix: "Die Uffizien bieten freien Eintritt am ",
+    pPrefix: "Die Uffizien und der Vasarikorridor sind beide kostenlos am ",
     pBold: "ersten Sonntag jedes Monats",
     pSuffix:
-      ". Allerdings muss ich ehrlich sein: Die kostenlosen Sonntage sind ein zweischneidiges Schwert. Die Galerie wird unglaublich voll, Wartezeiten von 3–4 Stunden sind keine Seltenheit. Auch das Erlebnis im Inneren leidet, wenn jeder Raum überfüllt ist. Wenn das Budget eine Rolle spielt, bietet ein Besuch in der Nebensaison (12 €) an einem Wochentag ein deutlich besseres Erlebnis als ein kostenloser Sonntag.",
+      ". Ein Ticket ist trotzdem nötig und personalisiert: Der Name des Besuchers steht darauf. Das kostenlose Uffizien-Ticket gibt es ausschliesslich am Schalter der Ticketkasse am Tag selbst und ist online nicht buchbar — rechnen Sie also mit der Schlange. Das Ticket für den Vasarikorridor muss dagegen online im Voraus gebucht oder am Tag selbst an der Kasse abgeholt werden, sofern noch ein Platz frei ist. Allerdings muss ich ehrlich sein: Die kostenlosen Sonntage sind ein zweischneidiges Schwert. Die Galerie wird unglaublich voll, Wartezeiten von 3–4 Stunden sind keine Seltenheit. Auch das Erlebnis im Inneren leidet, wenn jeder Raum überfüllt ist. Wenn das Budget eine Rolle spielt, bietet ein Nachmittagsticket für 16 € am Besuchstag, an einem ruhigen Wochentag, ein deutlich besseres Erlebnis als ein kostenloser Sonntag.",
   },
   comboTickets: {
     h2: "Kombi-Tickets und Pässe",
@@ -499,7 +566,7 @@ const de: TicketPricesContent = {
       {
         label: "Kombi-Tour Uffizi + Accademia",
         description:
-          "Besuchen Sie beide Museen an einem Tag mit einem Führer. In der Regel 89–120 € pro Person, inklusive Ohne-Anstehen-Einlass für beide Museen.",
+          "Besuchen Sie beide Museen an einem Tag mit einem Führer. In der Regel 89–120 € pro Person, inklusive reserviertem Einlass für beide Museen.",
         hasLink: true,
         linkText: "Details zur Kombi-Tour ansehen \u2192",
       },
@@ -510,9 +577,21 @@ const de: TicketPricesContent = {
         hasLink: false,
       },
       {
-        label: "Uffizi + Palazzo Pitti + Boboli",
+        label: "Uffizi + Vasari-Korridor",
         description:
-          "Ein kombinierter 5-Tage-Pass ist gelegentlich über das offizielle Buchungssystem erhältlich. Erkundigen Sie sich an der Tageskasse nach Verfügbarkeit.",
+          "43 € am Besuchstag oder 47 € im Vorverkauf — ein Kombiticket für die Galerie und den Vasari-Korridor.",
+        hasLink: false,
+      },
+      {
+        label: "PassePartout 5 Days",
+        description:
+          "40 € pro Erwachsenem, gültig an 5 aufeinanderfolgenden Tagen mit je einem Eintritt in die Uffizi Galerie, die Museen des Palazzo Pitti, den Boboli-Garten und den Bardini-Garten. Für die Uffizien müssen Sie ein festes Datum mit Uhrzeit reservieren, und die Uffizien müssen das erste Museum sein, das Sie besuchen. Der Pass gewährt bevorzugten Einlass, außer an Tagen mit freiem Eintritt.",
+        hasLink: false,
+      },
+      {
+        label: "Palazzo Pitti + Boboli-Garten",
+        description:
+          "22 € am Besuchstag oder 25 € im Vorverkauf für beides an einem Tag — eine gute Ergänzung, wenn Sie den 5-Tage-Pass nicht nehmen.",
         hasLink: false,
       },
     ],
@@ -520,26 +599,32 @@ const de: TicketPricesContent = {
   moneySaving: {
     h2: "Spartipps",
     tips: [
-      "Buchen Sie Nachmittagstickets (nach 16:00 Uhr) für 20 € statt 29 € Standard-Eintritt",
+      "Wählen Sie den Nachmittagseintritt (ab 16:00 Uhr): 16 € am Besuchstag oder 20 € im Vorverkauf statt 25/29 € für den Standardeintritt",
+      "Der Kauf am Besuchstag spart die 4 € Reservierungsgebühr — Sie wetten damit aber auf die Verfügbarkeit, und stark besuchte Tage sind ausverkauft",
       "EU-Bürger zwischen 18 und 25 Jahren zahlen nur 2 € — bringen Sie immer einen gültigen Ausweis mit",
-      "Unter 18? Der Eintritt ist für alle Nationalitäten kostenlos — Altersnachweis mitbringen",
+      "Unter 18? Der Eintritt ist für alle Nationalitäten kostenlos — Sie brauchen trotzdem ein kostenloses personalisiertes Ticket, dessen Name mit dem Ausweis übereinstimmt",
       "Kunst- und Architekturstudenten an EU-Universitäten erhalten freien Eintritt — Immatrikulationsbescheinigung nicht vergessen",
-      "Buchen Sie über einen autorisierten Wiederverkäufer für Ohne-Anstehen-Zugang und Stornierungsflexibilität",
+      "Besuchen Sie auch Palazzo Pitti und den Boboli-Garten? Der PassePartout 5 Days deckt alles für 40 € ab",
+      "Buchen Sie über einen autorisierten Wiederverkäufer für ein garantiertes Zeitfenster, einen digitalen Audioguide und Stornierungsflexibilität",
     ],
   },
   ctaBottom: "Uffizi Galerie Tickets buchen",
   faq: [
     {
       q: "Was kostet der Eintritt in die Uffizi Galerie 2026?",
-      a: "29 € für Online-Buchungen, 25 € an der Tageskasse. Nachmittagstickets (nach 16:00 Uhr) kosten 20 € online. EU-Bürger 18–25 Jahre zahlen 2 €. Unter 18 ist der Eintritt kostenlos. Ohne-Anstehen-Tickets von autorisierten Wiederverkäufern ab 26 €.",
+      a: "Der Standardeintritt (vor 16:00 Uhr) kostet 25 € am Besuchstag oder 29 € im Vorverkauf. Der Nachmittagseintritt (ab 16:00 Uhr) kostet 16 € am Besuchstag oder 20 € im Vorverkauf. EU-Bürger von 18–25 Jahren zahlen 2 €, unter 18 ist der Eintritt mit personalisiertem Ticket kostenlos. Uffizi + Vasari-Korridor kostet 43 € am Besuchstag oder 47 € im Vorverkauf. Tickets mit festem Zeitfenster und digitalem Audioguide gibt es ab 26 €.",
     },
     {
       q: "Gibt es eine Buchungsgebühr für Uffizi-Tickets?",
-      a: "Der Preis von 29 € auf der offiziellen Website beinhaltet alle Gebühren. Autorisierte Wiederverkäufer verlangen in der Regel ab 26 € für Ohne-Anstehen-Tickets, und die meisten bieten kostenlose Stornierung.",
+      a: "Ja — 4 €. Das ist genau die Differenz zwischen dem Preis am Besuchstag und im Vorverkauf (25 € gegenüber 29 € beim Standardeintritt): die Reservierungsgebühr dafür, dass Sie sich ein festes Datum mit Uhrzeit sichern. Autorisierte Wiederverkäufer verlangen ab 26 € für ein Ticket mit Zeitfenster und digitalem Audioguide, und die meisten bieten kostenlose Stornierung.",
+    },
+    {
+      q: "Was ist der PassePartout 5 Days?",
+      a: "40 € pro Erwachsenem für 5 aufeinanderfolgende Tage, mit je einem Eintritt in die Uffizi Galerie, die Museen des Palazzo Pitti, den Boboli-Garten und den Bardini-Garten. Für die Uffizien reservieren Sie ein festes Datum mit Uhrzeit, und die Uffizien müssen das erste der vier Häuser sein, das Sie besuchen. Der Pass gewährt bevorzugten Einlass, außer an Tagen mit freiem Eintritt.",
     },
     {
       q: "Welchen Ausweis brauche ich für ermäßigte Tickets?",
-      a: "Bringen Sie einen gültigen Reisepass oder Personalausweis mit, auf dem Ihr Geburtsdatum und Ihre Staatsangehörigkeit ersichtlich sind. EU-Bürger von 18–25 Jahren müssen nachweisen, dass sie unter 26 sind und die EU-Staatsbürgerschaft besitzen. Bei unter 18-Jährigen ist ein Altersnachweis erforderlich.",
+      a: "Bringen Sie einen gültigen Reisepass oder Personalausweis mit, auf dem Ihr Geburtsdatum und Ihre Staatsangehörigkeit ersichtlich sind. EU-Bürger von 18–25 Jahren müssen nachweisen, dass sie unter 26 sind und die EU-Staatsbürgerschaft besitzen. Unter 18-Jährige erhalten ein kostenloses personalisiertes Ticket, dessen Name mit dem Ausweis übereinstimmen muss.",
     },
     {
       q: "Lohnt sich die Firenze Card?",
@@ -550,9 +635,9 @@ const de: TicketPricesContent = {
 
 const fr: TicketPricesContent = {
   meta: {
-    title: "Tarifs Billets Galerie des Offices 2026 | Prix, Reductions et Conseils",
+    title: "Tarifs Billets Offices 2026 | Prix, R\u00e9ductions et Conseils",
     description:
-      "Tous les tarifs des billets Offices 2026. Tarifs standard, reduits et gratuits. Prix saisonniers, frais de reservation en ligne et astuces pour economiser.",
+      "Tous les tarifs Offices 2026 : 25/29 \u20ac standard, 16/20 \u20ac l'apr\u00e8s-midi, 2 \u20ac r\u00e9duit, gratuit avant 18 ans, plus Corridor de Vasari et PassePartout.",
   },
   breadcrumbs: {
     tickets: "Billets",
@@ -560,25 +645,38 @@ const fr: TicketPricesContent = {
   },
   h1: "Tarifs des Billets Galerie des Offices 2026",
   intro:
-    "A partir de 2026, la Galerie des Offices a simplifie sa structure tarifaire avec des tarifs annuels. Plus de confusion entre haute et basse saison \u2014 seulement des prix constants tout au long de l'annee. Voici le detail complet de chaque type de billet, reduction et cout pour savoir exactement quel budget prevoir.",
+    "Pour 2026, la Galerie des Offices applique les m\u00eames tarifs toute l'ann\u00e9e : plus de confusion entre haute et basse saison. La seule chose \u00e0 comprendre avant de r\u00e9server, c'est la diff\u00e9rence entre pr\u00e9vente et achat le jour m\u00eame : tout billet achet\u00e9 avant la date de votre visite co\u00fbte 4 \u20ac de plus, et ces 4 \u20ac correspondent aux frais de r\u00e9servation qui bloquent une date et un horaire. Voici le d\u00e9tail complet de chaque type de billet, r\u00e9duction et co\u00fbt pour savoir exactement quel budget pr\u00e9voir.",
   standardPrices: {
     h2: "Tarifs Standard",
-    tableTitle: "Tarifs Galerie des Offices 2026",
+    tableTitle: "Tarifs Offices et Billets Combin\u00e9s 2026",
     rows: [
       {
-        type: "Billet en ligne",
-        price: "29 \u20ac",
-        notes: "Reservation site officiel",
+        type: "Entr\u00e9e standard (avant 16h)",
+        price: "25 \u20ac le jour m\u00eame / 29 \u20ac en pr\u00e9vente",
+        notes:
+          "Entr\u00e9e \u00e0 horaire r\u00e9serv\u00e9 \u2014 l'\u00e9cart de 4 \u20ac correspond aux frais de r\u00e9servation",
       },
       {
-        type: "Guichet",
-        price: "25 \u20ac",
-        notes: "Sur place a la Porte 2",
+        type: "Entr\u00e9e de l'apr\u00e8s-midi (\u00e0 partir de 16h)",
+        price: "16 \u20ac le jour m\u00eame / 20 \u20ac en pr\u00e9vente",
+        notes:
+          "Le tarif le plus bas ; derni\u00e8re entr\u00e9e \u00e0 17h30, fermeture \u00e0 18h30",
       },
       {
-        type: "Entree apres-midi (apres 16h)",
-        price: "20 \u20ac",
-        notes: "Reservation en ligne",
+        type: "Offices + Corridor de Vasari",
+        price: "43 \u20ac le jour m\u00eame / 47 \u20ac en pr\u00e9vente",
+        notes: "Billet combin\u00e9 pour la galerie et le Corridor de Vasari",
+      },
+      {
+        type: "PassePartout 5 Days",
+        price: "40 \u20ac par adulte",
+        notes:
+          "5 jours cons\u00e9cutifs : une entr\u00e9e \u00e0 chacun des Offices, des mus\u00e9es du Palazzo Pitti, des Jardins de Boboli et du Jardin Bardini",
+      },
+      {
+        type: "Palazzo Pitti + Jardins de Boboli (une journ\u00e9e)",
+        price: "22 \u20ac le jour m\u00eame / 25 \u20ac en pr\u00e9vente",
+        notes: "Billet combin\u00e9, valable une seule journ\u00e9e",
       },
     ],
   },
@@ -595,12 +693,8 @@ const fr: TicketPricesContent = {
       {
         type: "Moins de 18 ans (toute nationalite)",
         price: "Gratuit",
-        notes: "Justificatif d'age requis",
-      },
-      {
-        type: "Citoyens UE de plus de 65 ans",
-        price: "2 \u20ac",
-        notes: "Piece d'identite requise",
+        notes:
+          "Billet nominatif — le nom doit correspondre à la pièce d'identité",
       },
       {
         type: "Visiteurs handicapes + 1 accompagnateur",
@@ -625,38 +719,40 @@ const fr: TicketPricesContent = {
     ],
   },
   onlineVsWalkUp: {
-    h2: "Tarifs en Ligne vs. Guichet",
-    p: "C'est la que les gens se perdent. Le prix de base du billet est le meme, que vous achetiez en ligne ou sur place. La difference reside dans les frais de reservation et le temps gagne :",
+    h2: "Pr\u00e9vente vs. Achat le Jour M\u00eame",
+    p: "C'est l\u00e0 que les gens se perdent. Le prix de base du billet est identique dans les deux cas. Ce qui change, ce sont les 4 \u20ac de frais de r\u00e9servation : vous les payez si vous achetez avant la date de votre visite, vous ne les payez pas le jour m\u00eame. Ce que ces 4 \u20ac ach\u00e8tent, c'est un cr\u00e9neau horaire garanti \u2014 et en haute saison, les cr\u00e9neaux d'une journ\u00e9e sont pris bien avant votre arriv\u00e9e :",
     tableTitle: "Comparaison des Couts",
     rows: [
       {
-        type: "Guichet (Porte 2)",
+        type: "Le jour m\u00eame, \u00e0 la billetterie",
         price: "25 \u20ac",
-        notes: "1 a 3 heures d'attente",
+        notes:
+          "Esp\u00e8ces aux bornes automatiques, carte aux guichets avec personnel ; vous prenez le cr\u00e9neau qui reste",
       },
       {
-        type: "Reservation site officiel",
+        type: "En pr\u00e9vente, site officiel",
         price: "29 \u20ac",
-        notes: "Entree standard, coupe-file",
+        notes:
+          "Entr\u00e9e standard plus 4 \u20ac de frais de r\u00e9servation, horaire r\u00e9serv\u00e9",
       },
       {
-        type: "Revendeur autorise",
+        type: "En pr\u00e9vente, revendeur agr\u00e9\u00e9",
         price: "A partir de 26 \u20ac",
-        notes: "Coupe-file, annulation gratuite",
+        notes: "Horaire r\u00e9serv\u00e9 + audioguide num\u00e9rique, annulation gratuite",
       },
     ],
     footnote:
-      "Billets apres-midi (apres 16h) disponibles a 20 \u20ac en ligne.",
+      "L'entr\u00e9e de l'apr\u00e8s-midi (\u00e0 partir de 16h) co\u00fbte 16 \u20ac le jour m\u00eame ou 20 \u20ac en pr\u00e9vente.",
     recommendation:
-      "Mon conseil sincere : reservez via un revendeur autorise. Le prix est competitif, vous beneficiez de l'acces coupe-file, et la plupart offrent l'annulation gratuite jusqu'a 24 heures avant votre visite. Cette flexibilite a elle seule en vaut la peine \u2014 la meteo a Florence peut etre imprevisible, et les plans changent.",
+      "Mon conseil sinc\u00e8re : r\u00e9servez via un revendeur agr\u00e9\u00e9. Le prix est comp\u00e9titif, vous vous assurez un cr\u00e9neau horaire garanti et un audioguide num\u00e9rique, et la plupart offrent l'annulation gratuite jusqu'\u00e0 24 heures avant votre visite. Cette flexibilit\u00e9 \u00e0 elle seule en vaut la peine \u2014 la m\u00e9t\u00e9o \u00e0 Florence peut \u00eatre impr\u00e9visible, et les plans changent. Le jour de la visite, vous vous pr\u00e9sentez \u00e0 la Porte 1 \u00e0 l'heure r\u00e9serv\u00e9e et vous \u00e9vitez la file d'attente \u00e0 la billetterie ; le court contr\u00f4le de s\u00e9curit\u00e9 s'applique \u00e0 tout le monde.",
   },
-  ctaTop: "Meilleur Prix \u2014 Billets Coupe-File Offices",
+  ctaTop: "Meilleur Prix \u2014 Billet Offices \u00e0 Horaire R\u00e9serv\u00e9 et Audioguide",
   freeEntryDays: {
     h2: "Jours d'Entree Gratuite",
-    pPrefix: "Les Offices offrent l'entree gratuite le ",
+    pPrefix: "Les Offices et le Corridor de Vasari sont tous deux gratuits le ",
     pBold: "premier dimanche de chaque mois",
     pSuffix:
-      ". Cependant, je dois etre honnete : les dimanches gratuits sont une arme a double tranchant. La galerie devient incroyablement bondee, avec des temps d'attente de 3 a 4 heures courants. L'experience a l'interieur est aussi moins agreable quand chaque salle est pleine a craquer. Si le budget est un souci, visiter en basse saison (12 \u20ac) un jour de semaine offre une bien meilleure experience qu'un dimanche gratuit.",
+      ". Un billet reste obligatoire et il est nominatif : le nom du visiteur y figure. Le billet gratuit des Offices est delivre uniquement au guichet de la billetterie le jour meme et n'est pas reservable en ligne — prevoyez donc la file. Celui du Corridor de Vasari doit au contraire etre reserve en ligne a l'avance, ou retire a la billetterie le jour meme s'il reste une place. Cependant, je dois etre honnete : les dimanches gratuits sont une arme a double tranchant. La galerie devient incroyablement bondee, avec des temps d'attente de 3 a 4 heures courants. L'experience a l'interieur est aussi moins agreable quand chaque salle est pleine a craquer. Si le budget est un souci, un billet de l'apr\u00e8s-midi \u00e0 16 \u20ac le jour m\u00eame, un jour de semaine tranquille, offre une bien meilleure exp\u00e9rience qu'un dimanche gratuit.",
   },
   comboTickets: {
     h2: "Billets Combines et Pass",
@@ -665,7 +761,7 @@ const fr: TicketPricesContent = {
       {
         label: "Tour combine Offices + Accademia",
         description:
-          "Visitez les deux musees en une journee avec un guide. Generalement 89-120 \u20ac par personne, entree coupe-file incluse pour les deux.",
+          "Visitez les deux mus\u00e9es en une journ\u00e9e avec un guide. G\u00e9n\u00e9ralement 89-120 \u20ac par personne, entr\u00e9e r\u00e9serv\u00e9e incluse pour les deux.",
         hasLink: true,
         linkText: "Voir les details du tour combine \u2192",
       },
@@ -676,9 +772,21 @@ const fr: TicketPricesContent = {
         hasLink: false,
       },
       {
-        label: "Offices + Palazzo Pitti + Boboli",
+        label: "Offices + Corridor de Vasari",
         description:
-          "Un pass combine de 5 jours est parfois disponible via le systeme de reservation officiel. Verifiez la disponibilite au guichet.",
+          "43 \u20ac le jour m\u00eame ou 47 \u20ac en pr\u00e9vente \u2014 un seul billet pour la galerie et le Corridor de Vasari.",
+        hasLink: false,
+      },
+      {
+        label: "PassePartout 5 Days",
+        description:
+          "40 \u20ac par adulte, valable 5 jours cons\u00e9cutifs avec une entr\u00e9e \u00e0 chacun : Galerie des Offices, mus\u00e9es du Palazzo Pitti, Jardins de Boboli et Jardin Bardini. Vous devez r\u00e9server une date et un horaire pr\u00e9cis pour les Offices, qui doivent \u00eatre le premier mus\u00e9e visit\u00e9. Il donne droit \u00e0 l'admission prioritaire, sauf pendant les p\u00e9riodes d'entr\u00e9e gratuite.",
+        hasLink: false,
+      },
+      {
+        label: "Palazzo Pitti + Jardins de Boboli",
+        description:
+          "22 \u20ac le jour m\u00eame ou 25 \u20ac en pr\u00e9vente pour les deux sur une seule journ\u00e9e \u2014 un bon compl\u00e9ment si vous ne prenez pas le pass de 5 jours.",
         hasLink: false,
       },
     ],
@@ -686,26 +794,32 @@ const fr: TicketPricesContent = {
   moneySaving: {
     h2: "Astuces pour Economiser",
     tips: [
-      "Reservez des billets apres-midi (apres 16h) a 20 \u20ac au lieu de 29 \u20ac pour l'entree standard",
+      "Choisissez l'entr\u00e9e de l'apr\u00e8s-midi (\u00e0 partir de 16h) : 16 \u20ac le jour m\u00eame ou 20 \u20ac en pr\u00e9vente, contre 25/29 \u20ac pour l'entr\u00e9e standard",
+      "Acheter le jour m\u00eame \u00e9conomise les 4 \u20ac de frais de r\u00e9servation \u2014 mais c'est un pari sur la disponibilit\u00e9, et les journ\u00e9es charg\u00e9es affichent complet",
       "Les citoyens UE de 18 a 25 ans ne paient que 2 \u20ac \u2014 ayez toujours une piece d'identite valide",
-      "Moins de 18 ans ? L'entree est gratuite pour toutes les nationalites \u2014 munissez-vous d'un justificatif d'age",
+      "Moins de 18 ans ? L'entr\u00e9e est gratuite pour toutes les nationalit\u00e9s \u2014 il faut tout de m\u00eame un billet nominatif gratuit, au nom figurant sur la pi\u00e8ce d'identit\u00e9",
       "Les etudiants en art et architecture des universites de l'UE entrent gratuitement \u2014 apportez votre certificat d'inscription",
-      "Reservez via un revendeur autorise pour l'acces coupe-file et la flexibilite d'annulation",
+      "Vous visitez aussi le Palazzo Pitti et les Jardins de Boboli ? Le PassePartout 5 Days couvre le tout pour 40 \u20ac",
+      "R\u00e9servez via un revendeur agr\u00e9\u00e9 pour un cr\u00e9neau garanti, un audioguide num\u00e9rique et la flexibilit\u00e9 d'annulation",
     ],
   },
   ctaBottom: "Reservez Vos Billets pour les Offices",
   faq: [
     {
       q: "Combien coutent les billets des Offices en 2026 ?",
-      a: "29 \u20ac pour les reservations en ligne, 25 \u20ac au guichet. Billets apres-midi (apres 16h) a 20 \u20ac en ligne. Citoyens UE 18-25 ans : 2 \u20ac. Moins de 18 ans : gratuit. Billets coupe-file des revendeurs autorises a partir de 26 \u20ac.",
+      a: "L'entr\u00e9e standard (avant 16h) co\u00fbte 25 \u20ac le jour m\u00eame ou 29 \u20ac en pr\u00e9vente. L'entr\u00e9e de l'apr\u00e8s-midi (\u00e0 partir de 16h) co\u00fbte 16 \u20ac le jour m\u00eame ou 20 \u20ac en pr\u00e9vente. Les citoyens UE de 18 \u00e0 25 ans paient 2 \u20ac, les moins de 18 ans entrent gratuitement avec un billet nominatif. Offices + Corridor de Vasari : 43 \u20ac le jour m\u00eame ou 47 \u20ac en pr\u00e9vente. Les billets \u00e0 horaire r\u00e9serv\u00e9 avec audioguide num\u00e9rique d\u00e9marrent \u00e0 26 \u20ac.",
     },
     {
       q: "Y a-t-il des frais de reservation pour les billets des Offices ?",
-      a: "Le prix de 29 \u20ac sur le site officiel inclut tous les frais. Les revendeurs autorises facturent generalement a partir de 26 \u20ac pour les billets coupe-file, et la plupart offrent l'annulation gratuite.",
+      a: "Oui \u2014 4 \u20ac. C'est tout l'\u00e9cart entre le prix du jour m\u00eame et celui de la pr\u00e9vente (25 \u20ac contre 29 \u20ac pour l'entr\u00e9e standard) : ce sont les frais de r\u00e9servation qui bloquent une date et un horaire pr\u00e9cis. Les revendeurs agr\u00e9\u00e9s facturent \u00e0 partir de 26 \u20ac pour un billet \u00e0 horaire r\u00e9serv\u00e9 avec audioguide num\u00e9rique, et la plupart offrent l'annulation gratuite.",
+    },
+    {
+      q: "Qu'est-ce que le PassePartout 5 Days ?",
+      a: "40 \u20ac par adulte pour 5 jours cons\u00e9cutifs, avec une entr\u00e9e \u00e0 chacun : Galerie des Offices, mus\u00e9es du Palazzo Pitti, Jardins de Boboli et Jardin Bardini. Vous r\u00e9servez une date et un horaire pr\u00e9cis pour les Offices, qui doivent \u00eatre le premier des quatre que vous visitez. Il donne droit \u00e0 l'admission prioritaire, sauf pendant les p\u00e9riodes d'entr\u00e9e gratuite.",
     },
     {
       q: "Quelle piece d'identite faut-il pour les billets a tarif reduit ?",
-      a: "Apportez un passeport ou une carte d'identite valide indiquant votre date de naissance et votre nationalite. Les citoyens UE de 18 a 25 ans doivent prouver qu'ils ont moins de 26 ans et qu'ils sont citoyens de l'UE. Les moins de 18 ans doivent fournir un justificatif d'age.",
+      a: "Apportez un passeport ou une carte d'identit\u00e9 valide indiquant votre date de naissance et votre nationalit\u00e9. Les citoyens UE de 18 \u00e0 25 ans doivent prouver qu'ils ont moins de 26 ans et qu'ils sont citoyens de l'UE. Les moins de 18 ans re\u00e7oivent un billet nominatif gratuit : le nom doit correspondre \u00e0 celui de la pi\u00e8ce d'identit\u00e9.",
     },
     {
       q: "La Firenze Card vaut-elle le coup ?",
@@ -716,9 +830,9 @@ const fr: TicketPricesContent = {
 
 const es: TicketPricesContent = {
   meta: {
-    title: "Precios Entradas Uffizi 2026 | Guia Completa de Costes y Descuentos",
+    title: "Precios Entradas Uffizi 2026 | Costes y Descuentos",
     description:
-      "Todos los precios de entradas Uffizi 2026. Tarifas estandar, reducidas y gratuitas. Precios por temporada, gastos de reserva online y consejos para ahorrar.",
+      "Todos los precios de entradas Uffizi 2026: 25/29 \u20ac est\u00e1ndar, 16/20 \u20ac de tarde, 2 \u20ac reducida, gratis menores de 18, m\u00e1s Corredor Vasariano y PassePartout.",
   },
   breadcrumbs: {
     tickets: "Entradas",
@@ -726,25 +840,38 @@ const es: TicketPricesContent = {
   },
   h1: "Precios de Entradas Galeria Uffizi 2026",
   intro:
-    "A partir de 2026, la Galeria Uffizi ha simplificado su estructura de precios con tarifas anuales. Ya no hay confusion entre temporada alta y baja \u2014 solo precios constantes durante todo el ano. Aqui tienes el desglose completo de cada tipo de entrada, descuento y coste para que sepas exactamente cuanto presupuestar.",
+    "Para 2026, la Galer\u00eda Uffizi mantiene las mismas tarifas todo el a\u00f1o: ya no hay confusi\u00f3n entre temporada alta y baja. Lo \u00fanico que conviene entender antes de reservar es la diferencia entre comprar por adelantado y comprar el mismo d\u00eda: cualquier entrada adquirida antes de la fecha de tu visita cuesta 4 \u20ac m\u00e1s, y esos 4 \u20ac son la tarifa de reserva que te bloquea fecha y hora. Aqu\u00ed tienes el desglose completo de cada tipo de entrada, descuento y coste para que sepas exactamente cu\u00e1nto presupuestar.",
   standardPrices: {
     h2: "Precios Estandar de Entradas",
-    tableTitle: "Tarifas Galeria Uffizi 2026",
+    tableTitle: "Tarifas Uffizi y Entradas Combinadas 2026",
     rows: [
       {
-        type: "Entrada online",
-        price: "29 \u20ac",
-        notes: "Reserva web oficial",
+        type: "Entrada est\u00e1ndar (antes de las 16:00)",
+        price: "25 \u20ac el mismo d\u00eda / 29 \u20ac por adelantado",
+        notes:
+          "Entrada con hora reservada \u2014 la diferencia de 4 \u20ac es la tarifa de reserva",
       },
       {
-        type: "Taquilla",
-        price: "25 \u20ac",
-        notes: "En la Puerta 2",
+        type: "Entrada de tarde (desde las 16:00)",
+        price: "16 \u20ac el mismo d\u00eda / 20 \u20ac por adelantado",
+        notes:
+          "La tarifa m\u00e1s econ\u00f3mica; \u00faltimo acceso a las 17:30, cierre a las 18:30",
       },
       {
-        type: "Entrada de tarde (despues de las 16:00)",
-        price: "20 \u20ac",
-        notes: "Reserva online",
+        type: "Uffizi + Corredor Vasariano",
+        price: "43 \u20ac el mismo d\u00eda / 47 \u20ac por adelantado",
+        notes: "Entrada combinada para la galer\u00eda y el Corredor Vasariano",
+      },
+      {
+        type: "PassePartout 5 Days",
+        price: "40 \u20ac por adulto",
+        notes:
+          "5 d\u00edas consecutivos: un acceso a cada uno de Uffizi, museos del Palazzo Pitti, Jardines de Boboli y Jard\u00edn Bardini",
+      },
+      {
+        type: "Palazzo Pitti + Jardines de Boboli (un d\u00eda)",
+        price: "22 \u20ac el mismo d\u00eda / 25 \u20ac por adelantado",
+        notes: "Entrada combinada, v\u00e1lida un solo d\u00eda",
       },
     ],
   },
@@ -761,12 +888,8 @@ const es: TicketPricesContent = {
       {
         type: "Menores de 18 anos (cualquier nacionalidad)",
         price: "Gratis",
-        notes: "Documento que acredite la edad",
-      },
-      {
-        type: "Ciudadanos UE mayores de 65 anos",
-        price: "2 \u20ac",
-        notes: "Documento de identidad requerido",
+        notes:
+          "Entrada nominativa — el nombre debe coincidir con el documento de identidad",
       },
       {
         type: "Visitantes con discapacidad + 1 acompanante",
@@ -791,38 +914,39 @@ const es: TicketPricesContent = {
     ],
   },
   onlineVsWalkUp: {
-    h2: "Precios Online vs. Taquilla",
-    p: "Aqui es donde la gente se confunde. El precio base de la entrada es el mismo tanto si compras online como en taquilla. La diferencia esta en los gastos de reserva y el tiempo que ahorras:",
+    h2: "Por Adelantado vs. El Mismo D\u00eda",
+    p: "Aqu\u00ed es donde la gente se confunde. El precio base de la entrada es el mismo en ambos casos. Lo que cambia son los 4 \u20ac de tarifa de reserva: los pagas si compras antes de la fecha de tu visita y no los pagas si compras el mismo d\u00eda. Lo que compran esos 4 \u20ac es una franja horaria garantizada \u2014 y en temporada alta las franjas de un d\u00eda se agotan mucho antes de que t\u00fa llegues:",
     tableTitle: "Comparacion de Costes",
     rows: [
       {
-        type: "Taquilla (Puerta 2)",
+        type: "El mismo d\u00eda, en taquilla",
         price: "25 \u20ac",
-        notes: "1-3 horas de espera",
+        notes:
+          "Efectivo en las m\u00e1quinas de autoservicio, tarjeta en los mostradores atendidos; te toca la franja que quede",
       },
       {
-        type: "Reserva web oficial",
+        type: "Por adelantado, web oficial",
         price: "29 \u20ac",
-        notes: "Entrada estandar, sin colas",
+        notes: "Entrada est\u00e1ndar m\u00e1s 4 \u20ac de tarifa de reserva, hora reservada",
       },
       {
-        type: "Revendedor autorizado",
+        type: "Por adelantado, revendedor autorizado",
         price: "Desde 26 \u20ac",
-        notes: "Sin colas, cancelacion gratuita",
+        notes: "Hora reservada + audiogu\u00eda digital, cancelaci\u00f3n gratuita",
       },
     ],
     footnote:
-      "Entradas de tarde (despues de las 16:00) disponibles por 20 \u20ac online.",
+      "La entrada de tarde (desde las 16:00) cuesta 16 \u20ac el mismo d\u00eda o 20 \u20ac por adelantado.",
     recommendation:
-      "Mi recomendacion sincera: reserva a traves de un revendedor autorizado. El precio es competitivo, obtienes acceso sin colas, y la mayoria ofrece cancelacion gratuita hasta 24 horas antes de tu visita. Esa flexibilidad por si sola merece la pena \u2014 el tiempo en Florencia puede ser impredecible, y los planes cambian.",
+      "Mi recomendaci\u00f3n sincera: reserva a trav\u00e9s de un revendedor autorizado. El precio es competitivo, te aseguras una franja horaria garantizada y una audiogu\u00eda digital, y la mayor\u00eda ofrece cancelaci\u00f3n gratuita hasta 24 horas antes de tu visita. Esa flexibilidad por s\u00ed sola merece la pena \u2014 el tiempo en Florencia puede ser impredecible y los planes cambian. El d\u00eda de la visita te presentas en la Puerta 1 a tu hora reservada y te ahorras la cola de la taquilla; el breve control de seguridad se aplica a todo el mundo.",
   },
-  ctaTop: "Mejor Precio \u2014 Entradas Sin Colas Uffizi",
+  ctaTop: "Mejor Precio \u2014 Entrada Uffizi con Hora Reservada y Audiogu\u00eda",
   freeEntryDays: {
     h2: "Dias de Entrada Gratuita",
-    pPrefix: "Los Uffizi ofrecen entrada gratuita el ",
+    pPrefix: "Los Uffizi y el Corredor Vasariano son gratuitos el ",
     pBold: "primer domingo de cada mes",
     pSuffix:
-      ". Sin embargo, debo ser honesto: los domingos gratuitos son un arma de doble filo. La galeria se llena increiblemente, con tiempos de espera de 3-4 horas habituales. La experiencia dentro tambien es menos agradable cuando cada sala esta abarrotada. Si el presupuesto es un problema, visitar en temporada baja (12 \u20ac) entre semana ofrece una experiencia mucho mejor que un domingo gratuito.",
+      ". La entrada sigue siendo necesaria y es nominativa: lleva el nombre del visitante. La de los Uffizi se emite unicamente en el mostrador de taquilla el mismo dia y no se puede reservar online, asi que cuenta con la cola. La del Corredor Vasariano, en cambio, debe reservarse online con antelacion o recogerse en taquilla el mismo dia si queda alguna plaza. Sin embargo, debo ser honesto: los domingos gratuitos son un arma de doble filo. La galeria se llena increiblemente, con tiempos de espera de 3-4 horas habituales. La experiencia dentro tambien es menos agradable cuando cada sala esta abarrotada. Si el presupuesto es un problema, una entrada de tarde por 16 \u20ac el mismo d\u00eda, entre semana y en un d\u00eda tranquilo, ofrece una experiencia mucho mejor que un domingo gratuito.",
   },
   comboTickets: {
     h2: "Entradas Combinadas y Pases",
@@ -831,7 +955,7 @@ const es: TicketPricesContent = {
       {
         label: "Tour combinado Uffizi + Accademia",
         description:
-          "Visita ambos museos en un dia con un guia. Normalmente 89-120 \u20ac por persona, con entrada sin colas incluida para ambos.",
+          "Visita ambos museos en un d\u00eda con un gu\u00eda. Normalmente 89-120 \u20ac por persona, con entrada reservada incluida para ambos.",
         hasLink: true,
         linkText: "Ver detalles del tour combinado \u2192",
       },
@@ -842,9 +966,21 @@ const es: TicketPricesContent = {
         hasLink: false,
       },
       {
-        label: "Uffizi + Palazzo Pitti + Boboli",
+        label: "Uffizi + Corredor Vasariano",
         description:
-          "Un pase combinado de 5 dias esta disponible ocasionalmente a traves del sistema de reserva oficial. Consulta disponibilidad en taquilla.",
+          "43 \u20ac el mismo d\u00eda o 47 \u20ac por adelantado \u2014 una sola entrada para la galer\u00eda y el Corredor Vasariano.",
+        hasLink: false,
+      },
+      {
+        label: "PassePartout 5 Days",
+        description:
+          "40 \u20ac por adulto, v\u00e1lido 5 d\u00edas consecutivos con un acceso a cada uno: Galer\u00eda Uffizi, museos del Palazzo Pitti, Jardines de Boboli y Jard\u00edn Bardini. Debes reservar fecha y hora concretas para los Uffizi, que adem\u00e1s tienen que ser el primer museo que visites. Da acceso prioritario, salvo en los periodos de entrada gratuita.",
+        hasLink: false,
+      },
+      {
+        label: "Palazzo Pitti + Jardines de Boboli",
+        description:
+          "22 \u20ac el mismo d\u00eda o 25 \u20ac por adelantado por ambos en una sola jornada \u2014 un buen complemento si no coges el pase de 5 d\u00edas.",
         hasLink: false,
       },
     ],
@@ -852,26 +988,32 @@ const es: TicketPricesContent = {
   moneySaving: {
     h2: "Consejos para Ahorrar",
     tips: [
-      "Reserva entradas de tarde (despues de las 16:00) por 20 \u20ac en lugar de 29 \u20ac para entrada estandar",
+      "Elige la entrada de tarde (desde las 16:00): 16 \u20ac el mismo d\u00eda o 20 \u20ac por adelantado, frente a 25/29 \u20ac de la entrada est\u00e1ndar",
+      "Comprar el mismo d\u00eda te ahorra los 4 \u20ac de tarifa de reserva \u2014 pero es una apuesta a la disponibilidad, y los d\u00edas de mucha afluencia se agotan",
       "Los ciudadanos UE de 18 a 25 anos pagan solo 2 \u20ac \u2014 lleva siempre un documento de identidad valido",
-      "Menos de 18 anos? La entrada es gratuita para todas las nacionalidades \u2014 lleva un justificante de edad",
+      "\u00bfMenos de 18 a\u00f1os? La entrada es gratuita para todas las nacionalidades \u2014 aun as\u00ed necesitas una entrada nominativa gratuita, y el nombre debe coincidir con el documento",
       "Los estudiantes de arte y arquitectura de universidades de la UE entran gratis \u2014 lleva tu certificado de matriculacion",
-      "Reserva a traves de un revendedor autorizado para acceso sin colas y flexibilidad de cancelacion",
+      "\u00bfVisitas tambi\u00e9n el Palazzo Pitti y los Jardines de Boboli? El PassePartout 5 Days lo cubre todo por 40 \u20ac",
+      "Reserva a trav\u00e9s de un revendedor autorizado para una franja horaria garantizada, audiogu\u00eda digital y flexibilidad de cancelaci\u00f3n",
     ],
   },
   ctaBottom: "Reserva Entradas para los Uffizi",
   faq: [
     {
       q: "Cuanto cuestan las entradas de los Uffizi en 2026?",
-      a: "29 \u20ac para reservas online, 25 \u20ac en taquilla. Entradas de tarde (despues de las 16:00) por 20 \u20ac online. Ciudadanos UE 18-25 anos: 2 \u20ac. Menores de 18: gratis. Entradas sin colas de revendedores autorizados desde 26 \u20ac.",
+      a: "La entrada est\u00e1ndar (antes de las 16:00) cuesta 25 \u20ac el mismo d\u00eda o 29 \u20ac por adelantado. La entrada de tarde (desde las 16:00) cuesta 16 \u20ac el mismo d\u00eda o 20 \u20ac por adelantado. Los ciudadanos de la UE de 18 a 25 a\u00f1os pagan 2 \u20ac, y los menores de 18 entran gratis con entrada nominativa. Uffizi + Corredor Vasariano: 43 \u20ac el mismo d\u00eda o 47 \u20ac por adelantado. Las entradas con hora reservada y audiogu\u00eda digital parten de 26 \u20ac.",
     },
     {
       q: "Hay gastos de reserva para las entradas de los Uffizi?",
-      a: "El precio de 29 \u20ac en la web oficial incluye todos los gastos. Los revendedores autorizados normalmente cobran desde 26 \u20ac por entradas sin colas, y la mayoria ofrece cancelacion gratuita.",
+      a: "S\u00ed \u2014 4 \u20ac. Es toda la diferencia entre el precio del mismo d\u00eda y el de la compra anticipada (25 \u20ac frente a 29 \u20ac en la entrada est\u00e1ndar): es la tarifa de reserva por bloquear una fecha y una hora concretas. Los revendedores autorizados cobran desde 26 \u20ac por una entrada con hora reservada y audiogu\u00eda digital, y la mayor\u00eda ofrece cancelaci\u00f3n gratuita.",
+    },
+    {
+      q: "Que es el PassePartout 5 Days?",
+      a: "40 \u20ac por adulto para 5 d\u00edas consecutivos, con un acceso a cada uno: Galer\u00eda Uffizi, museos del Palazzo Pitti, Jardines de Boboli y Jard\u00edn Bardini. Para los Uffizi reservas fecha y hora concretas, y los Uffizi deben ser el primero de los cuatro que visites. Da acceso prioritario, salvo en los periodos de entrada gratuita.",
     },
     {
       q: "Que documento necesito para las entradas con descuento?",
-      a: "Lleva un pasaporte o documento de identidad valido que muestre tu fecha de nacimiento y nacionalidad. Los ciudadanos UE de 18 a 25 anos deben demostrar que tienen menos de 26 anos y la ciudadania europea. Los menores de 18 necesitan un justificante de edad.",
+      a: "Lleva un pasaporte o documento de identidad v\u00e1lido que muestre tu fecha de nacimiento y nacionalidad. Los ciudadanos de la UE de 18 a 25 a\u00f1os deben demostrar que tienen menos de 26 a\u00f1os y la ciudadan\u00eda europea. Los menores de 18 reciben una entrada nominativa gratuita: el nombre debe coincidir con el del documento.",
     },
     {
       q: "Merece la pena la Firenze Card?",

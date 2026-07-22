@@ -16,7 +16,28 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: c.meta.title,
     description: c.meta.description,
     alternates: {
-      canonical: `https://visituffizi.com/${locale}/tickets/skip-the-line`,
+      canonical: `https://visituffizi.com/${locale}/tickets/skip-the-line/`,
+    },
+    openGraph: {
+      title: c.meta.title,
+      description: c.meta.description,
+      url: `https://visituffizi.com/${locale}/tickets/skip-the-line/`,
+      siteName: "Visit Uffizi",
+      type: "website",
+      locale,
+      images: [
+        {
+          url: "https://visituffizi.com/images/og/default.jpg",
+          width: 1200,
+          height: 630,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: c.meta.title,
+      description: c.meta.description,
+      images: ["https://visituffizi.com/images/og/default.jpg"],
     },
   };
 }
@@ -32,7 +53,7 @@ export default async function SkipTheLinePage({ params }: Props) {
       <Breadcrumbs
         locale={locale}
         items={[
-          { label: c.breadcrumbs.tickets, href: `/${locale}/tickets` },
+          { label: c.breadcrumbs.tickets, href: `/${locale}/tickets/` },
           { label: c.breadcrumbs.skipTheLine },
         ]}
       />
@@ -78,7 +99,7 @@ export default async function SkipTheLinePage({ params }: Props) {
                 <>
                   {" "}
                   <Link
-                    href={`/${locale}/the-uffizi-gallery-door-3-importent-information`}
+                    href={`/${locale}/the-uffizi-gallery-door-3-importent-information/`}
                     className="font-medium text-burgundy hover:text-burgundy/80"
                   >
                     {c.whichDoor.door3LinkText}
@@ -123,7 +144,7 @@ export default async function SkipTheLinePage({ params }: Props) {
           <strong className="text-navy">{c.whatsIncluded.noteBold}</strong>
           {c.whatsIncluded.noteSuffix}
           <Link
-            href={`/${locale}/tours/guided-tour`}
+            href={`/${locale}/tours/guided-tour/`}
             className="font-medium text-burgundy hover:text-burgundy/80"
           >
             {c.whatsIncluded.guidedTourLinkText}

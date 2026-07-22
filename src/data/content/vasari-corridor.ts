@@ -61,7 +61,7 @@ const en: VasariCorridorContent = {
   topCta: {
     title: "Small Group Uffizi Tour with Vasari Corridor Access",
     duration: "1.5 hours",
-    includes: "Skip-the-line entry, licensed guide",
+    includes: "Reserved timed entry, licensed guide",
   },
   history: {
     h2: "The History — A Passage Built for Power",
@@ -186,7 +186,7 @@ const it: VasariCorridorContent = {
   topCta: {
     title: "Tour del Corridoio Vasariano",
     duration: "1,5 ore",
-    includes: "Ingresso salta la fila, guida abilitata",
+    includes: "Ingresso a orario prestabilito, guida abilitata",
   },
   history: {
     h2: "La Storia — Un Passaggio Costruito per il Potere",
@@ -307,7 +307,7 @@ const de: VasariCorridorContent = {
     title:
       "Vasari-Korridor Florenz 2026 | Geschichte, Tickets & Besichtigung",
     description:
-      "Besuchen Sie den Vasari-Korridor — den geheimen Übergang über dem Ponte Vecchio, der die Uffizien mit dem Palazzo Pitti verbindet. Geschichte, Wiedereröffnung & Buchung.",
+      "Besuchen Sie den Vasari-Korridor — den geheimen Übergang über dem Ponte Vecchio zwischen Uffizien und Palazzo Pitti. Geschichte, Wiedereröffnung & Buchung.",
   },
   breadcrumb: "Vasari-Korridor",
   h1: "Der Vasari-Korridor",
@@ -316,7 +316,7 @@ const de: VasariCorridorContent = {
   topCta: {
     title: "Vasari-Korridor-Tour",
     duration: "1,5 Stunden",
-    includes: "Bevorzugter Einlass, lizenzierter Guide",
+    includes: "Ticket mit Zeitfenster, lizenzierter Guide",
   },
   history: {
     h2: "Die Geschichte — Ein Gang, gebaut für die Macht",
@@ -437,7 +437,7 @@ const fr: VasariCorridorContent = {
     title:
       "Corridor de Vasari Florence 2026 | Histoire, Billets et Visite",
     description:
-      "Visitez le Corridor de Vasari \u2014 le passage secret au-dessus du Ponte Vecchio reliant la Galerie des Offices au Palazzo Pitti. Histoire, reouverture et reservations.",
+      "Visitez le Corridor de Vasari \u2014 passage secret au-dessus du Ponte Vecchio reliant les Offices au Palazzo Pitti. Histoire, reouverture et reservations.",
   },
   breadcrumb: "Corridor de Vasari",
   h1: "Le Corridor de Vasari",
@@ -446,7 +446,7 @@ const fr: VasariCorridorContent = {
   topCta: {
     title: "Visite du Corridor de Vasari",
     duration: "1h30",
-    includes: "Entree coupe-file, guide agree",
+    includes: "Entree a horaire reserve, guide agree",
   },
   history: {
     h2: "L'Histoire \u2014 Un passage bati pour le pouvoir",
@@ -565,7 +565,7 @@ const fr: VasariCorridorContent = {
 const es: VasariCorridorContent = {
   meta: {
     title:
-      "Corredor Vasariano Florencia 2026 | Historia, Entradas y Como Visitarlo",
+      "Corredor Vasariano Florencia 2026 | Visita y Entradas",
     description:
       "Visita el Corredor Vasariano \u2014 el pasadizo secreto sobre el Ponte Vecchio que conecta la Galeria Uffizi con el Palazzo Pitti. Historia, reapertura y reservas.",
   },
@@ -576,7 +576,7 @@ const es: VasariCorridorContent = {
   topCta: {
     title: "Tour del Corredor Vasariano",
     duration: "1,5 horas",
-    includes: "Entrada sin colas, guia oficial",
+    includes: "Entrada con hora reservada, guia oficial",
   },
   history: {
     h2: "La Historia \u2014 Un pasaje construido para el poder",

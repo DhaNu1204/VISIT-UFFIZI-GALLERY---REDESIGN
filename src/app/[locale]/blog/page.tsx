@@ -16,7 +16,28 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: c.meta.title,
     description: c.meta.description,
     alternates: {
-      canonical: `https://visituffizi.com/${locale}/blog`,
+      canonical: `https://visituffizi.com/${locale}/blog/`,
+    },
+    openGraph: {
+      title: c.meta.title,
+      description: c.meta.description,
+      url: `https://visituffizi.com/${locale}/blog/`,
+      siteName: "Visit Uffizi",
+      type: "website",
+      locale,
+      images: [
+        {
+          url: "https://visituffizi.com/images/og/default.jpg",
+          width: 1200,
+          height: 630,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: c.meta.title,
+      description: c.meta.description,
+      images: ["https://visituffizi.com/images/og/default.jpg"],
     },
   };
 }
@@ -47,7 +68,7 @@ export default async function BlogPage({ params }: Props) {
           {posts.map((post) => (
             <Link
               key={post.slug}
-              href={`/${locale}/blog/${post.slug}`}
+              href={`/${locale}/blog/${post.slug}/`}
               className="group overflow-hidden rounded-xl border border-gold/20 bg-white transition-all hover:border-gold/40 hover:shadow-lg"
             >
               <div className="h-3 bg-burgundy" />

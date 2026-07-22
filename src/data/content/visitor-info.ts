@@ -54,7 +54,7 @@ const en: VisitorInfoContent = {
       { label: "Address", value: "Piazzale degli Uffizi, 6 \u2014 50122 Florence, Italy" },
       { label: "Hours", value: "Tue\u2013Sun: 8:15 AM \u2013 6:30 PM | Closed Mondays" },
       { label: "Last Entry", value: "5:30 PM" },
-      { label: "Tickets", value: "\u20AC29 (online) / \u20AC25 (ticket office) | Under 18 free" },
+      { label: "Tickets", value: "\u20AC25 on the day / \u20AC29 in advance | Under 18 free" },
       { label: "Phone", value: "+39 055 294883" },
       { label: "Website", value: "uffizi.it" },
     ],
@@ -105,8 +105,8 @@ const en: VisitorInfoContent = {
   },
   accessibility: {
     h2: "Accessibility",
-    p: "The Uffizi is partially accessible for visitors with mobility challenges. Elevators connect the ground floor to the gallery levels. Most gallery rooms are on the same level, but some sections require stairs. Wheelchair visitors should enter through",
-    doorLinkText: "Door 3",
+    p: "The Uffizi is partially accessible for visitors with mobility challenges. Elevators connect the ground floor to the gallery levels. Most gallery rooms are on the same level, but some sections require stairs. Like every other visitor, wheelchair users enter through",
+    doorLinkText: "Door 1",
     pAfterLink: ". Visitors with disabilities and one companion enter free with a valid disability certificate.",
   },
   photography: {
@@ -124,7 +124,7 @@ const en: VisitorInfoContent = {
       "Guided Tours",
     ],
   },
-  ctaTitle: "Book Skip-the-Line Tickets",
+  ctaTitle: "Book Timed-Entry Tickets",
   faq: [
     {
       q: "Can I bring a bag into the Uffizi?",
@@ -140,7 +140,7 @@ const en: VisitorInfoContent = {
     },
     {
       q: "Is the Uffizi wheelchair accessible?",
-      a: "Partially. Elevators connect the main floors, and most gallery rooms are on the same level. Enter through Door 3 for accessible entry. Visitors with disabilities plus one companion enter free.",
+      a: "Partially. Elevators connect the main floors, and most gallery rooms are on the same level. Everyone, including wheelchair users, now enters through Door 1, where staff can assist you. Visitors with disabilities plus one companion enter free.",
     },
   ],
 };
@@ -160,8 +160,8 @@ const it: VisitorInfoContent = {
     rows: [
       { label: "Indirizzo", value: "Piazzale degli Uffizi, 6 \u2014 50122 Firenze, Italia" },
       { label: "Orari", value: "Mar\u2013Dom: 8:15 \u2013 18:30 | Chiuso il luned\u00EC" },
-      { label: "Ultimo ingresso", value: "17:40" },
-      { label: "Biglietti", value: "\u20AC25 (alta stagione) / \u20AC12 (bassa stagione) | Sotto i 18 anni gratis" },
+      { label: "Ultimo ingresso", value: "17:30" },
+      { label: "Biglietti", value: "\u20AC25 in giornata / \u20AC29 in prevendita | Sotto i 18 anni gratis" },
       { label: "Telefono", value: "+39 055 294883" },
       { label: "Sito web", value: "uffizi.it" },
     ],
@@ -212,8 +212,8 @@ const it: VisitorInfoContent = {
   },
   accessibility: {
     h2: "Accessibilit\u00E0",
-    p: "Gli Uffizi sono parzialmente accessibili per i visitatori con difficolt\u00E0 motorie. Gli ascensori collegano il piano terra ai piani delle gallerie. La maggior parte delle sale si trova sullo stesso livello, ma alcune sezioni richiedono le scale. I visitatori in sedia a rotelle devono entrare dalla",
-    doorLinkText: "Porta 3",
+    p: "Gli Uffizi sono parzialmente accessibili per i visitatori con difficolt\u00E0 motorie. Gli ascensori collegano il piano terra ai piani delle gallerie. La maggior parte delle sale si trova sullo stesso livello, ma alcune sezioni richiedono le scale. Come tutti gli altri visitatori, chi si muove in sedia a rotelle entra dalla",
+    doorLinkText: "Porta 1",
     pAfterLink: ". I visitatori con disabilit\u00E0 e un accompagnatore entrano gratis con un certificato di invalidit\u00E0 valido.",
   },
   photography: {
@@ -231,7 +231,7 @@ const it: VisitorInfoContent = {
       "Visite Guidate",
     ],
   },
-  ctaTitle: "Prenota Biglietti Salta-la-Fila",
+  ctaTitle: "Prenota Biglietti con Ingresso a Orario",
   faq: [
     {
       q: "Posso portare una borsa agli Uffizi?",
@@ -247,7 +247,7 @@ const it: VisitorInfoContent = {
     },
     {
       q: "Gli Uffizi sono accessibili in sedia a rotelle?",
-      a: "Parzialmente. Gli ascensori collegano i piani principali e la maggior parte delle sale si trova sullo stesso livello. Entra dalla Porta 3 per l\u2019accesso facilitato. I visitatori con disabilit\u00E0 pi\u00F9 un accompagnatore entrano gratis.",
+      a: "Parzialmente. Gli ascensori collegano i piani principali e la maggior parte delle sale si trova sullo stesso livello. Oggi tutti, comprese le persone in sedia a rotelle, entrano dalla Porta 1, dove il personale pu\u00F2 assisterti. I visitatori con disabilit\u00E0 pi\u00F9 un accompagnatore entrano gratis.",
     },
   ],
 };
@@ -256,7 +256,7 @@ const de: VisitorInfoContent = {
   meta: {
     title: "Uffizi Besucherinfo 2026 | Praktischer Leitfaden",
     description:
-      "Kompletter Uffizi-Besucherleitfaden: Tickets, Zeiten, Regeln, Barrierefreiheit, Einrichtungen, Fotoregeln, Garderobe und praktische Tipps von einem Einheimischen.",
+      "Uffizi-Besucherleitfaden: Tickets, Zeiten, Regeln, Barrierefreiheit, Einrichtungen, Fotoregeln, Garderobe und praktische Tipps von einem Einheimischen.",
   },
   breadcrumb: "Besucherinfo",
   h1: "Besucherinformationen der Uffizien",
@@ -267,8 +267,8 @@ const de: VisitorInfoContent = {
     rows: [
       { label: "Adresse", value: "Piazzale degli Uffizi, 6 \u2014 50122 Florenz, Italien" },
       { label: "\u00D6ffnungszeiten", value: "Di\u2013So: 8:15 \u2013 18:30 Uhr | Montags geschlossen" },
-      { label: "Letzter Einlass", value: "17:40 Uhr" },
-      { label: "Tickets", value: "\u20AC25 (Hochsaison) / \u20AC12 (Nebensaison) | Unter 18 Jahren kostenlos" },
+      { label: "Letzter Einlass", value: "17:30 Uhr" },
+      { label: "Tickets", value: "\u20AC25 am Besuchstag / \u20AC29 im Vorverkauf | Unter 18 Jahren kostenlos" },
       { label: "Telefon", value: "+39 055 294883" },
       { label: "Website", value: "uffizi.it" },
     ],
@@ -319,8 +319,8 @@ const de: VisitorInfoContent = {
   },
   accessibility: {
     h2: "Barrierefreiheit",
-    p: "Die Uffizien sind f\u00FCr Besucher mit eingeschr\u00E4nkter Mobilit\u00E4t teilweise zug\u00E4nglich. Aufz\u00FCge verbinden das Erdgeschoss mit den Galerieebenen. Die meisten Galerier\u00E4ume befinden sich auf derselben Ebene, aber einige Bereiche erfordern Treppen. Rollstuhlfahrer sollten durch",
-    doorLinkText: "Eingang 3",
+    p: "Die Uffizien sind f\u00FCr Besucher mit eingeschr\u00E4nkter Mobilit\u00E4t teilweise zug\u00E4nglich. Aufz\u00FCge verbinden das Erdgeschoss mit den Galerieebenen. Die meisten Galerier\u00E4ume befinden sich auf derselben Ebene, aber einige Bereiche erfordern Treppen. Wie alle anderen Besucher betreten auch Rollstuhlfahrer die Galerie durch",
+    doorLinkText: "Eingang 1",
     pAfterLink: " eintreten. Besucher mit Behinderung und eine Begleitperson erhalten freien Eintritt mit g\u00FCltigem Behindertenausweis.",
   },
   photography: {
@@ -338,7 +338,7 @@ const de: VisitorInfoContent = {
       "Gef\u00FChrte Touren",
     ],
   },
-  ctaTitle: "Ohne-Anstehen-Tickets buchen",
+  ctaTitle: "Tickets mit Zeitfenster buchen",
   faq: [
     {
       q: "Darf ich eine Tasche in die Uffizien mitnehmen?",
@@ -354,7 +354,7 @@ const de: VisitorInfoContent = {
     },
     {
       q: "Sind die Uffizien rollstuhlgerecht?",
-      a: "Teilweise. Aufz\u00FCge verbinden die Hauptetagen und die meisten Galerier\u00E4ume befinden sich auf derselben Ebene. Nutzen Sie Eingang 3 f\u00FCr den barrierefreien Zugang. Besucher mit Behinderung und eine Begleitperson erhalten freien Eintritt.",
+      a: "Teilweise. Aufz\u00FCge verbinden die Hauptetagen und die meisten Galerier\u00E4ume befinden sich auf derselben Ebene. Alle Besucher, auch Rollstuhlfahrer, betreten die Galerie heute durch Eingang 1, wo das Personal Ihnen weiterhilft. Besucher mit Behinderung und eine Begleitperson erhalten freien Eintritt.",
     },
   ],
 };
@@ -374,8 +374,8 @@ const fr: VisitorInfoContent = {
     rows: [
       { label: "Adresse", value: "Piazzale degli Uffizi, 6 \u2014 50122 Florence, Italie" },
       { label: "Horaires", value: "Mar\u2013Dim : 8h15 \u2013 18h30 | Ferm\u00E9 le lundi" },
-      { label: "Derni\u00E8re entr\u00E9e", value: "17h40" },
-      { label: "Billets", value: "\u20AC25 (haute saison) / \u20AC12 (basse saison) | Moins de 18 ans gratuit" },
+      { label: "Derni\u00E8re entr\u00E9e", value: "17h30" },
+      { label: "Billets", value: "\u20AC25 le jour m\u00EAme / \u20AC29 \u00E0 l'avance | Moins de 18 ans gratuit" },
       { label: "T\u00E9l\u00E9phone", value: "+39 055 294883" },
       { label: "Site web", value: "uffizi.it" },
     ],
@@ -426,8 +426,8 @@ const fr: VisitorInfoContent = {
   },
   accessibility: {
     h2: "Accessibilit\u00E9",
-    p: "La Galerie des Offices est partiellement accessible aux visiteurs a mobilit\u00E9 r\u00E9duite. Des ascenseurs relient le rez-de-chauss\u00E9e aux \u00E9tages des galeries. La plupart des salles sont au m\u00EAme niveau, mais certaines sections n\u00E9cessitent des escaliers. Les visiteurs en fauteuil roulant doivent entrer par la",
-    doorLinkText: "Porte 3",
+    p: "La Galerie des Offices est partiellement accessible aux visiteurs a mobilit\u00E9 r\u00E9duite. Des ascenseurs relient le rez-de-chauss\u00E9e aux \u00E9tages des galeries. La plupart des salles sont au m\u00EAme niveau, mais certaines sections n\u00E9cessitent des escaliers. Comme tous les autres visiteurs, les personnes en fauteuil roulant entrent par la",
+    doorLinkText: "Porte 1",
     pAfterLink: ". Les visiteurs en situation de handicap et un accompagnateur entrent gratuitement sur pr\u00E9sentation d'un certificat d'invalidit\u00E9 valide.",
   },
   photography: {
@@ -445,7 +445,7 @@ const fr: VisitorInfoContent = {
       "Visites guid\u00E9es",
     ],
   },
-  ctaTitle: "R\u00E9servez vos billets coupe-file",
+  ctaTitle: "R\u00E9servez vos billets \u00E0 horaire r\u00E9serv\u00E9",
   faq: [
     {
       q: "Puis-je apporter un sac aux Offices ?",
@@ -461,7 +461,7 @@ const fr: VisitorInfoContent = {
     },
     {
       q: "Les Offices sont-ils accessibles en fauteuil roulant ?",
-      a: "Partiellement. Des ascenseurs relient les \u00E9tages principaux et la plupart des salles de galerie sont au m\u00EAme niveau. Entrez par la Porte 3 pour l'acc\u00E8s adapt\u00E9. Les visiteurs en situation de handicap et un accompagnateur entrent gratuitement.",
+      a: "Partiellement. Des ascenseurs relient les \u00E9tages principaux et la plupart des salles de galerie sont au m\u00EAme niveau. Tout le monde, y compris les personnes en fauteuil roulant, entre désormais par la Porte 1, où le personnel peut vous aider. Les visiteurs en situation de handicap et un accompagnateur entrent gratuitement.",
     },
   ],
 };
@@ -481,8 +481,8 @@ const es: VisitorInfoContent = {
     rows: [
       { label: "Direcci\u00F3n", value: "Piazzale degli Uffizi, 6 \u2014 50122 Florencia, Italia" },
       { label: "Horario", value: "Mar\u2013Dom: 8:15 \u2013 18:30 | Cerrado los lunes" },
-      { label: "\u00DAltima entrada", value: "17:40" },
-      { label: "Entradas", value: "\u20AC25 (temporada alta) / \u20AC12 (temporada baja) | Menores de 18 gratis" },
+      { label: "\u00DAltima entrada", value: "17:30" },
+      { label: "Entradas", value: "\u20AC25 el mismo d\u00EDa / \u20AC29 por anticipado | Menores de 18 gratis" },
       { label: "Tel\u00E9fono", value: "+39 055 294883" },
       { label: "Sitio web", value: "uffizi.it" },
     ],
@@ -533,8 +533,8 @@ const es: VisitorInfoContent = {
   },
   accessibility: {
     h2: "Accesibilidad",
-    p: "Los Uffizi son parcialmente accesibles para visitantes con movilidad reducida. Los ascensores conectan la planta baja con los pisos de las galer\u00EDas. La mayor\u00EDa de las salas est\u00E1n al mismo nivel, pero algunas secciones requieren escaleras. Los visitantes en silla de ruedas deben entrar por la",
-    doorLinkText: "Puerta 3",
+    p: "Los Uffizi son parcialmente accesibles para visitantes con movilidad reducida. Los ascensores conectan la planta baja con los pisos de las galer\u00EDas. La mayor\u00EDa de las salas est\u00E1n al mismo nivel, pero algunas secciones requieren escaleras. Igual que el resto de visitantes, quienes van en silla de ruedas entran por la",
+    doorLinkText: "Puerta 1",
     pAfterLink: ". Los visitantes con discapacidad y un acompa\u00F1ante entran gratis con un certificado de discapacidad v\u00E1lido.",
   },
   photography: {
@@ -552,7 +552,7 @@ const es: VisitorInfoContent = {
       "Visitas guiadas",
     ],
   },
-  ctaTitle: "Reserva entradas sin colas",
+  ctaTitle: "Reserva entradas con hora reservada",
   faq: [
     {
       q: "Puedo llevar un bolso a los Uffizi?",
@@ -568,7 +568,7 @@ const es: VisitorInfoContent = {
     },
     {
       q: "Son accesibles los Uffizi en silla de ruedas?",
-      a: "Parcialmente. Los ascensores conectan las plantas principales y la mayor\u00EDa de las salas est\u00E1n al mismo nivel. Entra por la Puerta 3 para el acceso adaptado. Los visitantes con discapacidad y un acompa\u00F1ante entran gratis.",
+      a: "Parcialmente. Los ascensores conectan las plantas principales y la mayor\u00EDa de las salas est\u00E1n al mismo nivel. Todo el mundo, incluidas las personas en silla de ruedas, entra ahora por la Puerta 1, donde el personal puede ayudarte. Los visitantes con discapacidad y un acompa\u00F1ante entran gratis.",
     },
   ],
 };

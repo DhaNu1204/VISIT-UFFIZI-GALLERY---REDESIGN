@@ -10,12 +10,12 @@ export const blogPostsEs: Record<string, BlogPostI18n> = {
       {
         heading: "La respuesta rapida",
         content:
-          "El mejor momento para visitar la Galeria Uffizi es de noviembre a febrero, un martes o miercoles por la manana. Conseguiras los precios de entrada mas bajos (12 € frente a 25 €), las multitudes mas pequenas y la experiencia mas agradable. Si no puedes ir en invierno, apunta a primera hora de la manana (8:15) o a ultima hora de la tarde (despues de las 16:00) cualquier dia entre semana.\n\nPero hay mas que considerar aparte de las multitudes. La epoca del ano afecta los precios de las entradas, los horarios de apertura, el clima y que mas puedes hacer en Florencia. Aqui tienes el desglose completo mes a mes.",
+          "El mejor momento para visitar la Galeria Uffizi es de noviembre a febrero, un martes o miercoles por la manana. Conseguiras las multitudes mas pequenas y la experiencia mas agradable. Si no puedes ir en invierno, apunta a primera hora de la manana (8:15) o a ultima hora de la tarde (despues de las 16:00) cualquier dia entre semana.\n\nPero hay mas que considerar aparte de las multitudes. La epoca del ano afecta los precios de las entradas, los horarios de apertura, el clima y que mas puedes hacer en Florencia. Aqui tienes el desglose completo mes a mes.",
       },
       {
         heading: "Guia mes a mes",
         content:
-          "**Enero-febrero (Mejor relacion calidad-precio):** Los meses mas tranquilos en los Uffizi. Las entradas cuestan 12 € (temporada baja). Compartiras la Sala Botticelli con un punado de visitantes en lugar de cientos. Florencia esta fresca (5-10 °C) pero hermosa — menos turistas en todas partes, los restaurantes son faciles de reservar y los precios de hotel estan en su nivel mas bajo. La desventaja: menos horas de luz y lluvias ocasionales.\n\n**Marzo (Aumentan las multitudes):** Comienza la temporada turistica. Los precios de las entradas suben a 25 € el 1 de marzo. La Semana Santa (si cae en marzo) es particularmente concurrida. Reserva entradas con al menos 2 semanas de antelacion. El clima mejora — temperaturas diurnas alrededor de 12-16 °C.\n\n**Abril-mayo (Comienza la temporada alta):** Clima hermoso (15-22 °C), pero los Uffizi se llenan, especialmente alrededor de Semana Santa, el 25 de abril (Dia de la Liberacion) y el 1 de mayo (Dia del Trabajo — la galeria cierra). Reserva entradas con un mes de antelacion para los fines de semana. Los turnos de manana se agotan rapido.\n\n**Junio (Temporada alta):** Clima caluroso (25-30 °C), dias largos y grandes multitudes. Posibles aperturas nocturnas los martes. Reserva el turno de las 8:15 o espera hasta despues de las 16:00. Asegurate de que tu alojamiento tenga aire acondicionado.\n\n**Julio-agosto (Maximo de multitudes y calor):** Los meses mas concurridos y calurosos (30-35 °C). Las colas en la Puerta 2 pueden superar las 3 horas. Las entradas sin colas son imprescindibles. La ventaja: posibles horarios ampliados. Muchos florentinos abandonan la ciudad en agosto, asi que los restaurantes estan mas tranquilos.\n\n**Septiembre (Todavia concurrido, mejorando):** Las multitudes disminuyen despues de mediados de septiembre. El clima sigue siendo calido (22-28 °C). Uno de los mejores meses para combinar visitas a museos con la Florencia al aire libre. Reserva entradas con 1-2 semanas de antelacion.\n\n**Octubre (El punto ideal):** Mi mes favorito. Suficientemente calido para cenar al aire libre (16-22 °C), el numero de turistas baja significativamente y los horarios de temporada alta siguen vigentes. Excelente combinacion de buen clima y multitudes manejables.\n\n**Noviembre-diciembre (Mejor experiencia):** Los precios de temporada baja vuelven el 1 de noviembre. Las multitudes se reducen drasticamente. Diciembre trae mercadillos navidenos y un ambiente festivo, pero la galeria cierra el 25 de diciembre. El clima es fresco (5-12 °C) con algunos dias lluviosos.",
+          "**Enero-febrero (Mejor relacion calidad-precio):** Los meses mas tranquilos en los Uffizi. La entrada estandar cuesta 29 € reservada con antelacion o 25 € comprada el mismo dia en taquilla. Compartiras la Sala Botticelli con un punado de visitantes en lugar de cientos. Florencia esta fresca (5-10 °C) pero hermosa — menos turistas en todas partes, los restaurantes son faciles de reservar y los precios de hotel estan en su nivel mas bajo. La desventaja: menos horas de luz y lluvias ocasionales.\n\n**Marzo (Aumentan las multitudes):** Comienza la temporada turistica. Reserva las entradas con al menos 2 semanas de antelacion. La Semana Santa (si cae en marzo) es particularmente concurrida. Reserva entradas con al menos 2 semanas de antelacion. El clima mejora — temperaturas diurnas alrededor de 12-16 °C.\n\n**Abril-mayo (Comienza la temporada alta):** Clima hermoso (15-22 °C), pero los Uffizi se llenan, especialmente alrededor de Semana Santa, el 25 de abril (Dia de la Liberacion) y el 1 de mayo (Dia del Trabajo). Reserva entradas con un mes de antelacion para los fines de semana. Los turnos de manana se agotan rapido.\n\n**Junio (Temporada alta):** Clima caluroso (25-30 °C), dias largos y grandes multitudes. Posibles aperturas nocturnas los martes. Reserva el turno de las 8:15 o espera hasta despues de las 16:00. Asegurate de que tu alojamiento tenga aire acondicionado.\n\n**Julio-agosto (Maximo de multitudes y calor):** Los meses mas concurridos y calurosos (30-35 °C). Las colas en la Puerta 1 pueden superar las 3 horas. Reservar online una entrada con hora reservada es imprescindible para reducir la espera. La ventaja: posibles horarios ampliados. Muchos florentinos abandonan la ciudad en agosto, asi que los restaurantes estan mas tranquilos.\n\n**Septiembre (Todavia concurrido, mejorando):** Las multitudes disminuyen despues de mediados de septiembre. El clima sigue siendo calido (22-28 °C). Uno de los mejores meses para combinar visitas a museos con la Florencia al aire libre. Reserva entradas con 1-2 semanas de antelacion.\n\n**Octubre (El punto ideal):** Mi mes favorito. Suficientemente calido para cenar al aire libre (16-22 °C), el numero de turistas baja significativamente y los horarios de temporada alta siguen vigentes. Excelente combinacion de buen clima y multitudes manejables.\n\n**Noviembre-diciembre (Mejor experiencia):** Las multitudes se reducen drasticamente. Diciembre trae mercadillos navidenos y un ambiente festivo, pero la galeria cierra el 25 de diciembre. El clima es fresco (5-12 °C) con algunos dias lluviosos.",
       },
       {
         heading: "Mejores dias de la semana",
@@ -30,13 +30,13 @@ export const blogPostsEs: Record<string, BlogPostI18n> = {
       {
         heading: "Consejos para ahorrar segun la temporada",
         content:
-          "**Temporada baja (nov-feb):** Las entradas bajan de 25 € a 12 €. Solo esto ahorra a una familia de cuatro mas de 50 €. Los hoteles y vuelos a Florencia tambien son significativamente mas baratos.\n\n**Domingos Gratuitos:** Los Uffizi ofrecen entrada gratuita el primer domingo de cada mes. Pero sinceramente no lo recomiendo — las multitudes son extremas (3-4 horas de espera) y la experiencia dentro se ve mermada. Pagar 12 € un martes tranquilo de invierno es infinitamente mejor.\n\n**Ciudadanos de la UE de 18-25 anos:** Solo 2 € durante todo el ano. Lleva siempre tu identificacion.\n\n**Menores de 18:** Entrada gratuita independientemente de la nacionalidad. Lleva documento que acredite la edad.\n\n**Reserva a traves de distribuidores:** A menudo mas barato que el sitio oficial e incluye cancelacion gratuita — util cuando los planes cambian.",
+          "**Reserva con antelacion:** Una entrada con hora reservada y audioguia digital cuesta desde 26 € online — te asegura el turno y te evita la cola de la taquilla. Los hoteles y vuelos a Florencia tambien son significativamente mas baratos en temporada baja.\n\n**Domingos Gratuitos:** Los Uffizi ofrecen entrada gratuita el primer domingo de cada mes. Pero sinceramente no lo recomiendo — las multitudes son extremas (3-4 horas de espera) y la experiencia dentro se ve mermada. Pagar 25 € en taquilla un martes tranquilo de invierno es infinitamente mejor.\n\n**Ciudadanos de la UE de 18-25 anos:** Solo 2 € durante todo el ano. Lleva siempre tu identificacion.\n\n**Menores de 18:** Entrada gratuita independientemente de la nacionalidad. Lleva documento que acredite la edad.\n\n**Reserva a traves de distribuidores:** A menudo mas barato que el sitio oficial e incluye cancelacion gratuita — util cuando los planes cambian.",
       },
     ],
     faq: [
       {
         q: "¿Cual es el mejor mes para visitar los Uffizi?",
-        a: "Octubre y noviembre son los puntos ideales — multitudes manejables, clima comodo y (desde noviembre) precios de temporada baja de 12 € en lugar de 25 €.",
+        a: "Octubre y noviembre son los puntos ideales — multitudes manejables y clima comodo. Reserva una entrada con hora reservada desde 26 € online.",
       },
       {
         q: "¿Cual es el dia menos concurrido en los Uffizi?",
@@ -44,11 +44,11 @@ export const blogPostsEs: Record<string, BlogPostI18n> = {
       },
       {
         q: "¿Deberia visitar los Uffizi en invierno?",
-        a: "Sin duda. El invierno (noviembre-febrero) ofrece las menores multitudes, los precios mas bajos (12 €) y la experiencia mas tranquila. Florencia esta mas tranquila en general, y tendras las salas practicamente para ti solo.",
+        a: "Sin duda. El invierno (noviembre-febrero) ofrece las menores multitudes y la experiencia mas tranquila. La entrada estandar cuesta 29 € con antelacion o 25 € el mismo dia en taquilla. Florencia esta mas tranquila en general, y tendras las salas practicamente para ti solo.",
       },
       {
         q: "¿Merece la pena visitar los Uffizi en verano?",
-        a: "Si, pero planifica con cuidado. Reserva el primer turno de la manana (8:15), usa entradas sin colas y preparate para el calor y las multitudes. La ultima hora de la tarde (despues de las 16:00) tambien es buena. Comprueba si hay posibles aperturas nocturnas.",
+        a: "Si, pero planifica con cuidado. Reserva el primer turno de la manana (8:15), asegura tu hora de entrada con mucha antelacion y preparate para el calor y las multitudes. La ultima hora de la tarde (despues de las 16:00) tambien es buena. Comprueba si hay posibles aperturas nocturnas.",
       },
     ],
   },
@@ -61,7 +61,7 @@ export const blogPostsEs: Record<string, BlogPostI18n> = {
       {
         heading: "Como funcionan los Domingos Gratuitos",
         content:
-          "El primer domingo de cada mes, todos los museos estatales italianos — incluida la Galeria Uffizi — ofrecen entrada completamente gratuita. No necesitas entrada. No se requiere reserva. Simplemente te acercas a la Puerta 2 y te unes a la cola.\n\nSuena fantastico. En la practica, es mas complicado. Los Domingos Gratuitos atraen enormes multitudes. La cola en la Puerta 2 puede alargarse 3-4 horas durante los meses punta. Una vez dentro, salas populares como la Sala Botticelli estan abarrotadas hombro con hombro. Si visitas Florencia con presupuesto limitado, el Domingo Gratuito puede ahorrarte 25 €. Pero si tu objetivo es disfrutar realmente del arte, pagar una entrada normal un dia laborable tranquilo te dara una experiencia dramaticamente mejor.",
+          "El primer domingo de cada mes la entrada es gratuita en la Galeria Uffizi — y tambien en el Corredor Vasariano. Estan incluidos los dos.\n\nGratis no significa sin entrada. La entrada sigue siendo necesaria y es nominativa: lleva el nombre del visitante y debe coincidir con su documento de identidad.\n\n**La entrada gratuita de los Uffizi se emite unicamente en el mostrador de taquilla, el mismo dia.** No se puede reservar online: el sistema de venta online sencillamente no la emite. Te presentas, haces cola en taquilla y recoges alli tu entrada nominativa gratuita. Cuenta con esa cola, porque es la parte que casi nadie espera.\n\n**El Corredor Vasariano funciona al reves.** Su entrada gratuita debe reservarse online con antelacion, o recogerse en taquilla el mismo dia si queda alguna plaza disponible. Las plazas son limitadas, asi que reservar con antelacion es la via fiable.\n\nEn la practica, por tanto, es mas complicado que un simple \"entrada gratis\". Los Domingos Gratuitos atraen enormes multitudes. Una vez dentro, salas populares como la Sala Botticelli estan abarrotadas hombro con hombro. Si visitas Florencia con presupuesto limitado, el Domingo Gratuito puede ahorrarte 25 €. Pero si tu objetivo es disfrutar realmente del arte, pagar una entrada normal un dia laborable tranquilo te dara una experiencia dramaticamente mejor.",
       },
       {
         heading: "Fechas de Domingos Gratuitos en 2026",
@@ -71,17 +71,17 @@ export const blogPostsEs: Record<string, BlogPostI18n> = {
       {
         heading: "Que esperar: Una valoracion honesta",
         content:
-          "**Tiempos de espera:** 2-4 horas durante primavera y verano. Incluso en invierno, calcula 1-2 horas. No hay opcion de saltarse la cola los Domingos Gratuitos — todos entran por la Puerta 2.\n\n**Dentro de la galeria:** Lleno. Las salas populares estan a tope. Pasaras mas tiempo esquivando multitudes que contemplando los cuadros. La Sala Botticelli, la Sala 35 (Leonardo/Miguel Angel) y la Sala 83 (Tiziano) son las mas congestionadas.\n\n**Lo positivo:** Es genuinamente gratis. Para viajeros con presupuesto ajustado, estudiantes y familias, ahorrar 25 € por persona es significativo. Y las salas menos famosas (particularmente salas 15-30 y salas 70-80) permanecen relativamente tranquilas incluso los Domingos Gratuitos.",
+          "**Tiempos de espera:** 2-4 horas durante primavera y verano. Incluso en invierno, calcula 1-2 horas. Los Domingos Gratuitos no existen las horas reservadas en los Uffizi ni se puede comprar por adelantado, asi que no hay forma de acortar la espera — todos hacen cola en taquilla para recoger la entrada nominativa gratuita y luego entran por la Puerta 1, la misma entrada de cada dia.\n\n**Dentro de la galeria:** Lleno. Las salas populares estan a tope. Pasaras mas tiempo esquivando multitudes que contemplando los cuadros. La Sala Botticelli, la Sala 35 (Leonardo/Miguel Angel) y la Sala 83 (Tiziano) son las mas congestionadas.\n\n**Lo positivo:** Es genuinamente gratis. Para viajeros con presupuesto ajustado, estudiantes y familias, ahorrar 25 € por persona es significativo. Y las salas menos famosas (particularmente salas 15-30 y salas 70-80) permanecen relativamente tranquilas incluso los Domingos Gratuitos.",
       },
       {
         heading: "Consejos si vas un Domingo Gratuito",
         content:
-          "**Llega a las 7:30:** Estate en la Puerta 2 al menos 45 minutos antes de la apertura a las 8:15. Los madrugadores entran rapidamente.\n\n**Ve directo a las salas superiores:** Salta la Sala Botticelli en tu primera pasada — estara abarrotada. Empieza por las salas 35-90, y luego vuelve a las salas 2-14 despues de que la avalancha inicial se calme (normalmente sobre la 13:00).\n\n**Visita en invierno:** Los Domingos Gratuitos en noviembre, diciembre, enero y febrero son mucho mas manejables. Puedes esperar solo 30-60 minutos.\n\n**Usa el bano antes de entrar:** Las colas para los aseos dentro son largas los Domingos Gratuitos.\n\n**Lleva aperitivos y agua:** Estaras en la cola un rato. La cafeteria interior tambien estara abarrotada.",
+          "**Llega a las 7:30:** Estate en la taquilla al menos 45 minutos antes de la apertura a las 8:15 — antes de entrar tienes que recoger en el mostrador tu entrada nominativa gratuita, asi que cuenta tambien con esa cola. Lleva documento con foto de cada persona del grupo: el nombre de cada entrada debe coincidir.\n\n**Resuelve antes el Corredor Vasariano:** Si tambien quieres ver el corredor, reserva su entrada gratuita online con antelacion. Dejarlo para la taquilla del mismo dia solo funciona si queda alguna plaza.\n\n**Ve directo a las salas superiores:** Salta la Sala Botticelli en tu primera pasada — estara abarrotada. Empieza por las salas 35-90, y luego vuelve a las salas 2-14 despues de que la avalancha inicial se calme (normalmente sobre la 13:00).\n\n**Visita en invierno:** Los Domingos Gratuitos en noviembre, diciembre, enero y febrero son mucho mas manejables. Puedes esperar solo 30-60 minutos.\n\n**Usa el bano antes de entrar:** Las colas para los aseos dentro son largas los Domingos Gratuitos.\n\n**Lleva aperitivos y agua:** Estaras en la cola un rato. La cafeteria interior tambien estara abarrotada.",
       },
       {
         heading: "Mi recomendacion honesta",
         content:
-          "A menos que el presupuesto sea tu maxima prioridad, evita el Domingo Gratuito. Una entrada de temporada baja cuesta solo 12 € (noviembre-febrero), y la experiencia es incomparablemente mejor. Incluso en temporada alta, una entrada sin colas de 20 € te ofrece una visita tranquila y sin prisas donde realmente puedes ver las pinturas.\n\nLos Domingos Gratuitos son ideales para residentes locales que visitan regularmente y no les importan las multitudes. Para una visita unica en la vida, invierte en la entrada.",
+          "A menos que el presupuesto sea tu maxima prioridad, evita el Domingo Gratuito. Una entrada estandar cuesta 29 € reservada con antelacion o 25 € en taquilla un dia laborable tranquilo, y la experiencia es incomparablemente mejor.\n\nSi aun asi vas a ir, planteate una visita guiada ese dia. La entrada no te cuesta nada, asi que lo que pagas es unicamente el guia — y un buen historiador del arte es lo que convierte una galeria abarrotada y abrumadora en una visita que tiene sentido. En el dia mas concurrido del mes eso vale mas de lo habitual, no menos.\n\nLos Domingos Gratuitos son ideales para residentes locales que visitan regularmente y no les importan las multitudes. Para una visita unica en la vida, elige un dia mas tranquilo.",
       },
     ],
     faq: [
@@ -90,8 +90,8 @@ export const blogPostsEs: Record<string, BlogPostI18n> = {
         a: "El primer domingo de cada mes: 4 de enero, 1 de febrero, 1 de marzo, 5 de abril, 3 de mayo, 7 de junio, 5 de julio, 2 de agosto, 6 de septiembre, 4 de octubre, 1 de noviembre, 6 de diciembre.",
       },
       {
-        q: "¿Necesito reserva para el Domingo Gratuito?",
-        a: "No se necesita reserva. Haces cola en la Puerta 2 para acceso general. No hay opcion de saltarse la cola los Domingos Gratuitos.",
+        q: "¿Necesito entrada para el Domingo Gratuito?",
+        a: "Si. La entrada es gratuita pero sigue siendo necesaria, y es nominativa: lleva el nombre del visitante y debe coincidir con su documento. Para los Uffizi se recoge en el mostrador de taquilla el mismo dia y no se puede reservar online. El Corredor Vasariano, tambien gratuito ese dia, funciona al reves: se reserva online con antelacion, o se recoge en taquilla el mismo dia si queda plaza.",
       },
       {
         q: "¿Cuanto se espera en los Domingos Gratuitos?",
@@ -99,7 +99,7 @@ export const blogPostsEs: Record<string, BlogPostI18n> = {
       },
       {
         q: "¿Merece la pena el Domingo Gratuito en los Uffizi?",
-        a: "Para viajeros con presupuesto limitado, si — te ahorras 25 €. Para la mejor experiencia, no. Las multitudes reducen significativamente el disfrute. Una entrada de 12 € en temporada baja un martes tranquilo ofrece una visita mucho mejor.",
+        a: "Para viajeros con presupuesto limitado, si — te ahorras 25 €. Para la mejor experiencia, no. Las multitudes reducen significativamente el disfrute. Una entrada estandar un martes tranquilo ofrece una visita mucho mejor.",
       },
     ],
   },
@@ -127,12 +127,12 @@ export const blogPostsEs: Record<string, BlogPostI18n> = {
       {
         heading: "Entradas y precios",
         content:
-          "**Entradas para los Uffizi:**\n• Online: 29 €\n• Taquilla: 25 €\n• Tarde (despues de las 16:00): 20 € online\n• Sin colas desde 26 € online\n\n**Entradas para la Accademia:**\n• Estandar: 16 € todo el ano\n• Sin colas desde 15-20 € online\n\n**Tour combinado (ambos museos):** Desde 89 € con guia y acceso sin colas a ambos. Es la mejor relacion calidad-precio si quieres visitas guiadas — comprar por separado costaria mas de 88 €.",
+          "**Entradas para los Uffizi:**\n• Reservada con antelacion: 29 €\n• Comprada el mismo dia en taquilla: 25 €\n• Entrada de tarde (desde las 16:00): 20 € con antelacion / 16 € el mismo dia\n• Entrada con hora reservada y audioguia digital: desde 26 € online\n• Ciudadanos de la UE 18-25: 2 € | Menores de 18: gratis\n\n**Entradas para la Accademia:**\n• Estandar: 16 € todo el ano\n• Entrada reservada desde 15-20 € online\n\n**Tour combinado (ambos museos):** Desde 89 € con guia y horas de entrada ya reservadas en ambos museos. Es la mejor relacion calidad-precio si quieres visitas guiadas.",
       },
       {
         heading: "Multitudes y esperas",
         content:
-          "Ambos museos atraen colas enormes, pero los patrones son diferentes:\n\n**Uffizi:** Mas concurrido de 10:00 a 14:00. La cola en la Puerta 2 puede alcanzar 2-3 horas. Las entradas sin colas son esenciales en temporada alta. Dentro, la Sala Botticelli (salas 10-14) es la mas congestionada.\n\n**Accademia:** La cola puede ser incluso mas larga que la de los Uffizi porque el museo es mas pequeno y los visitantes pasan mas lentamente. Esperas punta: 2-3 horas. Las entradas sin colas son posiblemente aun mas importantes aqui. Dentro, la sala con el David se llena pero es manejable ya que la estatua es tan grande.\n\n**Consejo profesional:** Visita los Uffizi a las 8:15 (mejor hora) y la Accademia a primera hora de la tarde cuando la avalancha de la manana ha pasado.",
+          "Ambos museos atraen colas enormes, pero los patrones son diferentes:\n\n**Uffizi:** Mas concurrido de 10:00 a 14:00. La cola en la Puerta 1 puede alcanzar 2-3 horas. En temporada alta, reservar online una hora de entrada reduce mucho la espera. Dentro, la Sala Botticelli (salas 10-14) es la mas congestionada.\n\n**Accademia:** La cola puede ser incluso mas larga que la de los Uffizi porque el museo es mas pequeno y los visitantes pasan mas lentamente. Esperas punta: 2-3 horas. Reservar una hora de entrada es posiblemente aun mas importante aqui. Dentro, la sala con el David se llena pero es manejable ya que la estatua es tan grande.\n\n**Consejo profesional:** Visita los Uffizi a las 8:15 (mejor hora) y la Accademia a primera hora de la tarde cuando la avalancha de la manana ha pasado.",
       },
       {
         heading: "¿Cual es mejor para familias?",
@@ -142,7 +142,7 @@ export const blogPostsEs: Record<string, BlogPostI18n> = {
       {
         heading: "Mi recomendacion",
         content:
-          "**Visita ambos.** Los dos museos mas grandes de Florencia se complementan perfectamente — pinturas en los Uffizi, escultura en la Accademia. Si realmente solo puedes visitar uno:\n\n• **Elige los Uffizi** si te encanta la pintura, quieres la experiencia artistica mas amplia o te interesa la historia del arte desde la epoca medieval hasta el Barroco.\n\n• **Elige la Accademia** si ver el David de Miguel Angel es tu maxima prioridad, tienes tiempo limitado (menos de 2 horas) o visitas con ninos pequenos.\n\n• **Elige el tour combinado** si quieres ambos museos, comentarios de un experto y la comodidad de la entrada sin colas gestionada por ti.",
+          "**Visita ambos.** Los dos museos mas grandes de Florencia se complementan perfectamente — pinturas en los Uffizi, escultura en la Accademia. Si realmente solo puedes visitar uno:\n\n• **Elige los Uffizi** si te encanta la pintura, quieres la experiencia artistica mas amplia o te interesa la historia del arte desde la epoca medieval hasta el Barroco.\n\n• **Elige la Accademia** si ver el David de Miguel Angel es tu maxima prioridad, tienes tiempo limitado (menos de 2 horas) o visitas con ninos pequenos.\n\n• **Elige el tour combinado** si quieres ambos museos, comentarios de un experto y la comodidad de tener las horas de entrada ya reservadas por ti.",
       },
     ],
     faq: [
@@ -156,7 +156,7 @@ export const blogPostsEs: Record<string, BlogPostI18n> = {
       },
       {
         q: "¿Cual tiene colas mas largas?",
-        a: "La Accademia suele tener esperas relativamente mas largas porque es un museo mas pequeno. Ambos pueden alcanzar 2-3 horas en temporada alta. Las entradas sin colas son esenciales para ambos.",
+        a: "La Accademia suele tener esperas relativamente mas largas porque es un museo mas pequeno. Ambos pueden alcanzar 2-3 horas en temporada alta. Una entrada con hora reservada es esencial para ambos.",
       },
       {
         q: "¿Que distancia hay entre los Uffizi y la Accademia?",
@@ -178,7 +178,7 @@ export const blogPostsEs: Record<string, BlogPostI18n> = {
       {
         heading: "1. Galeria Uffizi",
         content:
-          "**Por que:** La mayor coleccion de pinturas del Renacimiento italiano del mundo. Botticelli, Leonardo, Miguel Angel, Rafael, Tiziano, Caravaggio — todos bajo un mismo techo.\n**Tiempo necesario:** 2-4 horas\n**Entradas:** 25 € (temporada alta) / 12 € (temporada baja)\n**No te pierdas:** La Sala Botticelli (salas 10-14), la terraza panoramica y las galerias de la planta baja recientemente abiertas.\n**Consejo:** Reserva el turno de las 8:15 para la mejor experiencia.",
+          "**Por que:** La mayor coleccion de pinturas del Renacimiento italiano del mundo. Botticelli, Leonardo, Miguel Angel, Rafael, Tiziano, Caravaggio — todos bajo un mismo techo.\n**Tiempo necesario:** 2-4 horas\n**Entradas:** 29 € (con antelacion) / 25 € (el mismo dia en taquilla)\n**No te pierdas:** La Sala Botticelli (salas 10-14), la terraza panoramica y las galerias de la planta baja recientemente abiertas.\n**Consejo:** Reserva el turno de las 8:15 para la mejor experiencia.",
       },
       {
         heading: "2. Galeria de la Academia",
@@ -223,7 +223,7 @@ export const blogPostsEs: Record<string, BlogPostI18n> = {
       {
         heading: "Pases para ahorrar",
         content:
-          "**Firenze Card (85 €/72 horas):** Acceso a mas de 72 museos incluyendo los Uffizi, la Accademia, el Palazzo Pitti y los Jardines de Boboli. Incluye acceso sin colas. Merece la pena si visitaras mas de 5 museos en 3 dias.\n\n**Primeros domingos:** Todos los museos estatales (Uffizi, Accademia, Bargello, Capillas de los Medici, San Marco, Palazzo Pitti) son gratuitos el primer domingo de cada mes. Espera grandes multitudes.\n\n**Menores de 18:** Entrada gratuita a todos los museos estatales independientemente de la nacionalidad.\n\n**Ciudadanos de la UE de 18-25 anos:** 2 € en museos estatales. Lleva tu identificacion.",
+          "**Firenze Card (85 €/72 horas):** Acceso a mas de 72 museos incluyendo los Uffizi, la Accademia, el Palazzo Pitti y los Jardines de Boboli. El acceso prioritario te evita la cola de la taquilla. Merece la pena si visitaras mas de 5 museos en 3 dias.\n\n**Primeros domingos:** Todos los museos estatales (Uffizi, Accademia, Bargello, Capillas de los Medici, San Marco, Palazzo Pitti) son gratuitos el primer domingo de cada mes. Espera grandes multitudes.\n\n**Menores de 18:** Entrada gratuita a todos los museos estatales independientemente de la nacionalidad.\n\n**Ciudadanos de la UE de 18-25 anos:** 2 € en museos estatales. Lleva tu identificacion.",
       },
     ],
     faq: [
@@ -233,7 +233,7 @@ export const blogPostsEs: Record<string, BlogPostI18n> = {
       },
       {
         q: "¿Merece la pena la Firenze Card?",
-        a: "A 85 € por 72 horas, la Firenze Card merece la pena si visitaras mas de 5 museos. Uffizi (25 €) + Accademia (16 €) + Palazzo Pitti (16 €) + Boboli (10 €) = 67 €, asi que un 5.o museo la hace rentable.",
+        a: "A 85 € por 72 horas, la Firenze Card merece la pena si visitaras mas de 5 museos. Uffizi (29 €) + Accademia (16 €) + Palazzo Pitti (16 €) + Boboli (10 €) = 71 €, asi que un 5.o museo la hace rentable.",
       },
       {
         q: "¿Cual es el mejor museo de Florencia para ninos?",
@@ -248,33 +248,33 @@ export const blogPostsEs: Record<string, BlogPostI18n> = {
   "florence-city-pass-2026": {
     title: "Firenze Card 2026 | ¿Merece la pena?",
     description:
-      "Guia completa de la Firenze Card / Pase de Florencia 2026. Coste, museos incluidos, acceso sin colas, calculo de rentabilidad y opinion honesta.",
+      "Guia completa de la Firenze Card / Pase de Florencia 2026. Coste, museos incluidos, acceso prioritario, calculo de rentabilidad y opinion honesta.",
     h1: "Pase de Florencia 2026 — ¿Merece la pena la Firenze Card?",
     sections: [
       {
         heading: "¿Que es la Firenze Card?",
         content:
-          "La Firenze Card es el pase oficial de museos de Florencia. Por 85 €, obtienes 72 horas de acceso a mas de 72 museos y monumentos, incluyendo todas las atracciones principales: la Galeria Uffizi, la Galeria de la Academia, el Palazzo Pitti, los Jardines de Boboli, el Bargello, las Capillas de los Medici y muchos mas. La tarjeta tambien incluye acceso sin colas en los museos participantes — lo que puede ahorrarte horas de espera.\n\n¿Pero realmente merece la pena 85 €? La respuesta depende completamente de cuantos museos planeas visitar y cuando.",
+          "La Firenze Card es el pase oficial de museos de Florencia. Por 85 €, obtienes 72 horas de acceso a mas de 72 museos y monumentos, incluyendo todas las atracciones principales: la Galeria Uffizi, la Galeria de la Academia, el Palazzo Pitti, los Jardines de Boboli, el Bargello, las Capillas de los Medici y muchos mas. La tarjeta tambien te permite evitar la cola de la taquilla en los museos participantes — lo que puede ahorrarte horas de espera.\n\n¿Pero realmente merece la pena 85 €? La respuesta depende completamente de cuantos museos planeas visitar y cuando.",
       },
       {
         heading: "Que incluye",
         content:
-          "La Firenze Card cubre la entrada a mas de 72 museos y atracciones. Los principales incluyen:\n\n• Galeria Uffizi (normalmente 25 € en temporada alta)\n• Galeria de la Academia (16 €)\n• Palazzo Pitti — todos los museos (16 €)\n• Jardines de Boboli (10 €)\n• Museo Nacional del Bargello (9 €)\n• Capillas de los Medici (9 €)\n• Museo de San Marco (8 €)\n• Palazzo Vecchio (14 €)\n• Complejo del Museo dell'Opera del Duomo (30 €)\n• Museo Galileo (12 €)\n• Mas de 60 museos, iglesias y galerias menores\n\nCada museo solo puede visitarse una vez con la tarjeta. El temporizador de 72 horas comienza desde tu primera visita a un museo.",
+          "La Firenze Card cubre la entrada a mas de 72 museos y atracciones. Los principales incluyen:\n\n• Galeria Uffizi (normalmente 29 € reservada con antelacion)\n• Galeria de la Academia (16 €)\n• Palazzo Pitti — todos los museos (16 €)\n• Jardines de Boboli (10 €)\n• Museo Nacional del Bargello (9 €)\n• Capillas de los Medici (9 €)\n• Museo de San Marco (8 €)\n• Palazzo Vecchio (14 €)\n• Complejo del Museo dell'Opera del Duomo (30 €)\n• Museo Galileo (12 €)\n• Mas de 60 museos, iglesias y galerias menores\n\nCada museo solo puede visitarse una vez con la tarjeta. El temporizador de 72 horas comienza desde tu primera visita a un museo.",
       },
       {
         heading: "Los numeros — Cuando compensa",
         content:
-          "Vamos a hacer cuentas para itinerarios tipicos:\n\n**Itinerario ligero (2-3 museos):**\nUffizi (25 €) + Accademia (16 €) = 41 €. La tarjeta cuesta 85 €. **No compensa.**\n\n**Itinerario estandar (4-5 museos):**\nUffizi (25 €) + Accademia (16 €) + Palazzo Pitti (16 €) + Boboli (10 €) = 67 €. Aun faltan 18 €. Anade el Bargello (9 €) = 76 €. **Se acerca pero todavia no llega.**\n\n**Itinerario intensivo (5+ museos):**\nUffizi (25 €) + Accademia (16 €) + Palazzo Pitti (16 €) + Boboli (10 €) + Bargello (9 €) + San Marco (8 €) = 84 €. **Se amortiza.**\n\nAnade el complejo del Duomo (30 €) o el Palazzo Vecchio (14 €) y la tarjeta se convierte en una verdadera ganga.\n\n**En temporada baja (nov-feb):** Los Uffizi bajan a 12 €, lo que hace mas dificil justificar la tarjeta.",
+          "Vamos a hacer cuentas para itinerarios tipicos:\n\n**Itinerario ligero (2-3 museos):**\nUffizi (29 €) + Accademia (16 €) = 45 €. La tarjeta cuesta 85 €. **No compensa.**\n\n**Itinerario estandar (4-5 museos):**\nUffizi (29 €) + Accademia (16 €) + Palazzo Pitti (16 €) + Boboli (10 €) = 71 €. Aun faltan 14 €. Anade el Bargello (9 €) = 80 €. **Se acerca pero todavia no llega.**\n\n**Itinerario intensivo (5+ museos):**\nUffizi (29 €) + Accademia (16 €) + Palazzo Pitti (16 €) + Boboli (10 €) + Bargello (9 €) + San Marco (8 €) = 88 €. **Se amortiza.**\n\nAnade el complejo del Duomo (30 €) o el Palazzo Vecchio (14 €) y la tarjeta se convierte en una verdadera ganga.\n\n**Entradas con hora reservada:** Una entrada reservada con audioguia digital cuesta desde 26 € online, lo que puede cambiar las cuentas.",
       },
       {
-        heading: "Beneficio del acceso sin colas",
+        heading: "El beneficio frente a las colas",
         content:
-          "Este es el valor oculto de la Firenze Card. Durante la temporada alta (marzo-octubre), el acceso sin colas en los Uffizi y la Accademia puede ahorrarte 2-3 horas por museo. Si tu tiempo en Florencia es limitado, esas horas ahorradas tienen un valor real — puedes usarlas para visitar un museo adicional o simplemente disfrutar de la ciudad.\n\nSin embargo, ten en cuenta que incluso con la Firenze Card, deberias reservar franja horaria en los Uffizi y la Accademia a traves del sistema de reservas de la tarjeta. La tarjeta te da entrada prioritaria, pero una reserva asegura tu horario preferido.",
+          "Este es el valor oculto de la Firenze Card. Durante la temporada alta (marzo-octubre), evitar la cola de la taquilla en los Uffizi y la Accademia puede ahorrarte 2-3 horas por museo. Si tu tiempo en Florencia es limitado, esas horas ahorradas tienen un valor real — puedes usarlas para visitar un museo adicional o simplemente disfrutar de la ciudad.\n\nSin embargo, ten en cuenta que incluso con la Firenze Card, deberias reservar franja horaria en los Uffizi y la Accademia a traves del sistema de reservas de la tarjeta. La tarjeta te ahorra la taquilla, pero una reserva asegura tu horario preferido. Y se realista: en los Uffizi todos entran por la Puerta 1 a su hora reservada y todos pasan un breve control de seguridad.",
       },
       {
         heading: "Mi recomendacion honesta",
         content:
-          "**Compra la Firenze Card si:**\n• Vas a visitar mas de 5 museos en 3 dias\n• Visitas en temporada alta y valoras el acceso sin colas\n• Eres un viajero espontaneo que quiere entrar en museos sin comprar entradas cada vez\n\n**No compres la Firenze Card si:**\n• Solo vas a visitar 2-3 museos (compra entradas individuales)\n• Visitas en temporada baja (los Uffizi cuestan solo 12 €)\n• Tienes presupuesto ajustado (la tarjeta requiere 85 € por adelantado)\n• Viajas con menores de 18 anos (entran gratis de todos modos)\n\nPara la mayoria de visitantes que pasan 3-4 dias en Florencia, comprar entradas individuales sin colas para los Uffizi y la Accademia, mas una entrada combinada para el Palazzo Pitti/Boboli, suele ser mas rentable que la tarjeta.",
+          "**Compra la Firenze Card si:**\n• Vas a visitar mas de 5 museos en 3 dias\n• Visitas en temporada alta y quieres evitar las colas de las taquillas\n• Eres un viajero espontaneo que quiere entrar en museos sin comprar entradas cada vez\n\n**No compres la Firenze Card si:**\n• Solo vas a visitar 2-3 museos (compra entradas individuales)\n• Visitas en temporada baja (las colas ya son cortas)\n• Tienes presupuesto ajustado (la tarjeta requiere 85 € por adelantado)\n• Viajas con menores de 18 anos (entran gratis de todos modos)\n\nPara la mayoria de visitantes que pasan 3-4 dias en Florencia, comprar entradas individuales con hora reservada para los Uffizi y la Accademia, mas una entrada combinada para el Palazzo Pitti/Boboli, suele ser mas rentable que la tarjeta.",
       },
     ],
     faq: [
@@ -283,8 +283,8 @@ export const blogPostsEs: Record<string, BlogPostI18n> = {
         a: "85 € por 72 horas de acceso a mas de 72 museos y monumentos. El temporizador comienza desde tu primera visita a un museo.",
       },
       {
-        q: "¿La Firenze Card incluye acceso sin colas?",
-        a: "Si, incluye acceso prioritario en los museos participantes. Para los Uffizi y la Accademia, aun deberias reservar franja horaria a traves del sistema de la tarjeta.",
+        q: "¿Con la Firenze Card se evita la cola?",
+        a: "Incluye acceso prioritario en los museos participantes, asi que evitas la cola de la taquilla. Para los Uffizi y la Accademia aun deberias reservar franja horaria a traves del sistema de la tarjeta — y en los Uffizi sigues entrando por la Puerta 1 pasando un breve control de seguridad.",
       },
       {
         q: "¿Pueden los ninos usar la Firenze Card?",
@@ -305,7 +305,7 @@ export const blogPostsEs: Record<string, BlogPostI18n> = {
       {
         heading: "Arte y museos",
         content:
-          "**1. Ver el Nacimiento de Venus de Botticelli en los Uffizi** — La mayor coleccion de pinturas renacentistas del mundo. Reserva el turno de las 8:15 y ve directo a la Sala Botticelli. (25 €, 2-4 horas)\n\n**2. Contemplar el David de Miguel Angel en la Accademia** — Con 5 metros de altura, tallado en un solo bloque de marmol, el David es genuinamente sobrecogedor en persona. (16 €, 1,5 horas)\n\n**3. Explorar el Palazzo Pitti** — La gran residencia de la familia Medici con cuatro museos. La Galeria Palatina tiene obras de Rafael y Tiziano con una fraccion de las multitudes de los Uffizi. (16 €, 2-3 horas)\n\n**4. Descubrir el Bargello** — El infravalorado museo de escultura de Florencia. El David de bronce de Donatello y el Baco de Miguel Angel en una fortaleza medieval. (9 €, 1-2 horas)\n\n**5. Ver los frescos de Fra Angelico en San Marco** — Cada celda de monje tiene su propio fresco intimo. La Anunciacion en lo alto de las escaleras es inolvidable. (8 €, 1 hora)",
+          "**1. Ver el Nacimiento de Venus de Botticelli en los Uffizi** — La mayor coleccion de pinturas renacentistas del mundo. Reserva el turno de las 8:15 y ve directo a la Sala Botticelli. (29 € con antelacion / 25 € en taquilla, 2-4 horas)\n\n**2. Contemplar el David de Miguel Angel en la Accademia** — Con 5 metros de altura, tallado en un solo bloque de marmol, el David es genuinamente sobrecogedor en persona. (16 €, 1,5 horas)\n\n**3. Explorar el Palazzo Pitti** — La gran residencia de la familia Medici con cuatro museos. La Galeria Palatina tiene obras de Rafael y Tiziano con una fraccion de las multitudes de los Uffizi. (16 €, 2-3 horas)\n\n**4. Descubrir el Bargello** — El infravalorado museo de escultura de Florencia. El David de bronce de Donatello y el Baco de Miguel Angel en una fortaleza medieval. (9 €, 1-2 horas)\n\n**5. Ver los frescos de Fra Angelico en San Marco** — Cada celda de monje tiene su propio fresco intimo. La Anunciacion en lo alto de las escaleras es inolvidable. (8 €, 1 hora)",
       },
       {
         heading: "Arquitectura y vistas",
@@ -399,3 +399,7 @@ export const blogPostsEs: Record<string, BlogPostI18n> = {
     ],
   },
 };
+
+// Merge new blog post translations (posts 1-20)
+import { blogPostsNewEs } from "./blog-posts-new-es";
+Object.assign(blogPostsEs, blogPostsNewEs);

@@ -48,6 +48,7 @@ export default function InArticleAd({
         data-ad-slot={adSlot}
         data-ad-layout="in-article"
         data-ad-format="fluid"
+        data-full-width-responsive="true"
       />
     </div>
   );

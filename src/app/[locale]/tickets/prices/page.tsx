@@ -17,7 +17,28 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: c.meta.title,
     description: c.meta.description,
     alternates: {
-      canonical: `https://visituffizi.com/${locale}/tickets/prices`,
+      canonical: `https://visituffizi.com/${locale}/tickets/prices/`,
+    },
+    openGraph: {
+      title: c.meta.title,
+      description: c.meta.description,
+      url: `https://visituffizi.com/${locale}/tickets/prices/`,
+      siteName: "Visit Uffizi",
+      type: "website",
+      locale,
+      images: [
+        {
+          url: "https://visituffizi.com/images/og/default.jpg",
+          width: 1200,
+          height: 630,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: c.meta.title,
+      description: c.meta.description,
+      images: ["https://visituffizi.com/images/og/default.jpg"],
     },
   };
 }
@@ -33,7 +54,7 @@ export default async function TicketPricesPage({ params }: Props) {
       <Breadcrumbs
         locale={locale}
         items={[
-          { label: c.breadcrumbs.tickets, href: `/${locale}/tickets` },
+          { label: c.breadcrumbs.tickets, href: `/${locale}/tickets/` },
           { label: c.breadcrumbs.prices },
         ]}
       />
@@ -107,7 +128,7 @@ export default async function TicketPricesPage({ params }: Props) {
                 <>
                   {" "}
                   <Link
-                    href={`/${locale}/tours/uffizi-accademia-tour`}
+                    href={`/${locale}/tours/uffizi-accademia-tour/`}
                     className="font-medium text-burgundy hover:text-burgundy/80"
                   >
                     {option.linkText}

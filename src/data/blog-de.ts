@@ -10,12 +10,12 @@ export const blogPostsDe: Record<string, BlogPostI18n> = {
       {
         heading: "Die kurze Antwort",
         content:
-          "Die beste Zeit für einen Besuch der Uffizien ist November bis Februar an einem Dienstag- oder Mittwochmorgen. Sie erhalten die niedrigsten Ticketpreise (12 EUR statt 25 EUR), die geringsten Menschenmengen und das angenehmste Erlebnis. Wenn Sie nicht im Winter kommen können, planen Sie einen frühen Morgen (8:15 Uhr) oder späten Nachmittag (nach 16 Uhr) an einem beliebigen Wochentag.\n\nAber es gibt mehr zu bedenken als nur Menschenmengen. Die Jahreszeit beeinflusst Ticketpreise, Öffnungszeiten, Wetter und was Sie sonst noch in Florenz unternehmen können. Hier ist die vollständige Aufschlüsselung Monat für Monat.",
+          "Die beste Zeit für einen Besuch der Uffizien ist November bis Februar an einem Dienstag- oder Mittwochmorgen. Sie erhalten die geringsten Menschenmengen und das angenehmste Erlebnis. Wenn Sie nicht im Winter kommen können, planen Sie einen frühen Morgen (8:15 Uhr) oder späten Nachmittag (nach 16 Uhr) an einem beliebigen Wochentag.\n\nAber es gibt mehr zu bedenken als nur Menschenmengen. Die Jahreszeit beeinflusst Ticketpreise, Öffnungszeiten, Wetter und was Sie sonst noch in Florenz unternehmen können. Hier ist die vollständige Aufschlüsselung Monat für Monat.",
       },
       {
         heading: "Monat-für-Monat-Führer",
         content:
-          "**Januar-Februar (Bestes Preis-Leistungs-Verhältnis):** Die ruhigsten Monate in den Uffizien. Tickets kosten 12 EUR (Nebensaison). Sie teilen den Botticelli-Saal mit einer Handvoll Besucher statt mit Hunderten. Florenz ist kühl (5-10 Grad), aber wunderschön -- überall weniger Touristen, Restaurants sind leicht zu buchen, und Hotelpreise sind am niedrigsten. Der Nachteil: kürzere Tageslichtstunden und gelegentlicher Regen.\n\n**März (steigende Besucherzahlen):** Die Touristensaison beginnt. Die Ticketpreise steigen am 1. März auf 25 EUR. Die Osterwoche (falls sie im März liegt) ist besonders voll. Buchen Sie Tickets mindestens 2 Wochen im Voraus. Das Wetter bessert sich -- Tagestemperaturen um 12-16 Grad.\n\n**April-Mai (Beginn der Hochsaison):** Wunderbares Wetter (15-22 Grad), aber die Uffizien werden voll, besonders um Ostern, den 25. April (Tag der Befreiung) und den 1. Mai (Tag der Arbeit -- Galerie geschlossen). Buchen Sie Tickets einen Monat im Voraus für Wochenenden. Morgen-Zeitfenster sind schnell ausverkauft.\n\n**Juni (Hochsaison):** Heisses Wetter (25-30 Grad), lange Tage und grosse Menschenmengen. Mögliche Abendöffnungen dienstags. Buchen Sie das 8:15-Uhr-Zeitfenster oder warten Sie bis nach 16 Uhr. Stellen Sie sicher, dass Ihre Unterkunft eine Klimaanlage hat.\n\n**Juli-August (Höchste Besucherzahlen und Hitze):** Die vollsten und heissesten Monate (30-35 Grad). Warteschlangen an Tür 2 können 3 Stunden überschreiten. Tickets ohne Anstehen sind unverzichtbar. Der Vorteil: möglicherweise verlängerte Öffnungszeiten. Viele Florentiner verlassen die Stadt im August, sodass Restaurants ruhiger sind.\n\n**September (noch voll, wird besser):** Die Menschenmengen lichten sich nach Mitte September. Das Wetter bleibt warm (22-28 Grad). Einer der besten Monate, um Museumsbesuche mit dem Erkunden von Florenz im Freien zu verbinden. Buchen Sie Tickets 1-2 Wochen im Voraus.\n\n**Oktober (der ideale Zeitpunkt):** Mein persönlicher Lieblingsmonat. Warm genug für Essen im Freien (16-22 Grad), die Besucherzahlen sinken deutlich, und die Hochsaison-Öffnungszeiten gelten noch. Eine hervorragende Kombination aus gutem Wetter und erträglichen Menschenmengen.\n\n**November-Dezember (Bestes Erlebnis):** Am 1. November kehren die Nebensaisonpreise zurück. Die Menschenmengen schrumpfen dramatisch. Der Dezember bringt Weihnachtsmärkte und eine festliche Atmosphäre, aber die Galerie schliesst am 25. Dezember. Das Wetter ist kühl (5-12 Grad) mit einigen Regentagen.",
+          "**Januar-Februar (Bestes Preis-Leistungs-Verhältnis):** Die ruhigsten Monate in den Uffizien. Das Standardticket kostet 29 EUR im Voraus gebucht oder 25 EUR am Besuchstag an der Kasse. Sie teilen den Botticelli-Saal mit einer Handvoll Besucher statt mit Hunderten. Florenz ist kühl (5-10 Grad), aber wunderschön -- überall weniger Touristen, Restaurants sind leicht zu buchen, und Hotelpreise sind am niedrigsten. Der Nachteil: kürzere Tageslichtstunden und gelegentlicher Regen.\n\n**März (steigende Besucherzahlen):** Die Touristensaison beginnt. Buchen Sie Ihre Tickets mindestens zwei Wochen im Voraus. Die Osterwoche (falls sie im März liegt) ist besonders voll. Buchen Sie Tickets mindestens 2 Wochen im Voraus. Das Wetter bessert sich -- Tagestemperaturen um 12-16 Grad.\n\n**April-Mai (Beginn der Hochsaison):** Wunderbares Wetter (15-22 Grad), aber die Uffizien werden voll, besonders um Ostern, den 25. April (Tag der Befreiung) und den 1. Mai (Tag der Arbeit). Buchen Sie Tickets einen Monat im Voraus für Wochenenden. Morgen-Zeitfenster sind schnell ausverkauft.\n\n**Juni (Hochsaison):** Heisses Wetter (25-30 Grad), lange Tage und grosse Menschenmengen. Mögliche Abendöffnungen dienstags. Buchen Sie das 8:15-Uhr-Zeitfenster oder warten Sie bis nach 16 Uhr. Stellen Sie sicher, dass Ihre Unterkunft eine Klimaanlage hat.\n\n**Juli-August (Höchste Besucherzahlen und Hitze):** Die vollsten und heissesten Monate (30-35 Grad). Warteschlangen an Tür 1 können 3 Stunden überschreiten. Ein online gebuchtes Ticket mit Zeitfenster ist unverzichtbar, um die Wartezeit zu verkürzen. Der Vorteil: möglicherweise verlängerte Öffnungszeiten. Viele Florentiner verlassen die Stadt im August, sodass Restaurants ruhiger sind.\n\n**September (noch voll, wird besser):** Die Menschenmengen lichten sich nach Mitte September. Das Wetter bleibt warm (22-28 Grad). Einer der besten Monate, um Museumsbesuche mit dem Erkunden von Florenz im Freien zu verbinden. Buchen Sie Tickets 1-2 Wochen im Voraus.\n\n**Oktober (der ideale Zeitpunkt):** Mein persönlicher Lieblingsmonat. Warm genug für Essen im Freien (16-22 Grad), die Besucherzahlen sinken deutlich, und die Hochsaison-Öffnungszeiten gelten noch. Eine hervorragende Kombination aus gutem Wetter und erträglichen Menschenmengen.\n\n**November-Dezember (Bestes Erlebnis):** Die Menschenmengen schrumpfen dramatisch. Der Dezember bringt Weihnachtsmärkte und eine festliche Atmosphäre, aber die Galerie schliesst am 25. Dezember. Das Wetter ist kühl (5-12 Grad) mit einigen Regentagen.",
       },
       {
         heading: "Beste Wochentage",
@@ -30,13 +30,13 @@ export const blogPostsDe: Record<string, BlogPostI18n> = {
       {
         heading: "Spartipps nach Saison",
         content:
-          "**Nebensaison (Nov-Feb):** Tickets sinken von 25 EUR auf 12 EUR. Das allein spart einer vierköpfigen Familie über 50 EUR. Hotels und Flüge nach Florenz sind ebenfalls deutlich günstiger.\n\n**Kostenlose erste Sonntage:** Die Uffizien bieten am ersten Sonntag jedes Monats freien Eintritt. Doch ich empfehle es ehrlich gesagt nicht -- die Menschenmengen sind extrem (3-4 Stunden Wartezeit) und das Erlebnis im Inneren ist geschmälert. 12 EUR an einem ruhigen Winter-Dienstag zu bezahlen ist unendlich besser.\n\n**EU-Bürger 18-25 Jahre:** Nur 2 EUR das ganze Jahr über. Führen Sie immer Ihren Ausweis mit.\n\n**Unter 18 Jahre:** Freier Eintritt unabhängig von der Nationalität. Bringen Sie einen Altersnachweis mit.\n\n**Über Wiederverkäufer buchen:** Oft günstiger als die offizielle Website und mit kostenloser Stornierung -- nützlich, wenn sich Pläne ändern.",
+          "**Im Voraus buchen:** Ein Ticket mit Zeitfenster und digitalem Audioguide gibt es ab 26 EUR online -- es sichert Ihnen den Slot und Sie umgehen die Warteschlange an der Kasse. Hotels und Flüge nach Florenz sind in der Nebensaison ebenfalls deutlich günstiger.\n\n**Kostenlose erste Sonntage:** Die Uffizien bieten am ersten Sonntag jedes Monats freien Eintritt. Doch ich empfehle es ehrlich gesagt nicht -- die Menschenmengen sind extrem (3-4 Stunden Wartezeit) und das Erlebnis im Inneren ist geschmälert. 25 EUR an der Kasse an einem ruhigen Winter-Dienstag zu bezahlen ist unendlich besser.\n\n**EU-Bürger 18-25 Jahre:** Nur 2 EUR das ganze Jahr über. Führen Sie immer Ihren Ausweis mit.\n\n**Unter 18 Jahre:** Freier Eintritt unabhängig von der Nationalität. Bringen Sie einen Altersnachweis mit.\n\n**Über Wiederverkäufer buchen:** Oft günstiger als die offizielle Website und mit kostenloser Stornierung -- nützlich, wenn sich Pläne ändern.",
       },
     ],
     faq: [
       {
         q: "Welcher ist der beste Monat für einen Besuch der Uffizien?",
-        a: "Oktober und November sind die idealen Zeitpunkte -- erträgliche Menschenmengen, angenehmes Wetter und (ab November) Nebensaison-Ticketpreise von 12 EUR statt 25 EUR.",
+        a: "Oktober und November sind die idealen Zeitpunkte -- erträgliche Menschenmengen und angenehmes Wetter. Buchen Sie ein Ticket mit Zeitfenster ab 26 EUR online.",
       },
       {
         q: "Welcher ist der ruhigste Tag in den Uffizien?",
@@ -44,11 +44,11 @@ export const blogPostsDe: Record<string, BlogPostI18n> = {
       },
       {
         q: "Sollte man die Uffizien im Winter besuchen?",
-        a: "Auf jeden Fall. Der Winter (November-Februar) bietet die geringsten Menschenmengen, die niedrigsten Preise (12 EUR) und das friedlichste Erlebnis. Florenz ist insgesamt ruhiger, und Sie haben die Räume praktisch für sich allein.",
+        a: "Auf jeden Fall. Der Winter (November-Februar) bietet die geringsten Menschenmengen und das friedlichste Erlebnis. Das Standardticket kostet 29 EUR im Voraus oder 25 EUR am Besuchstag an der Kasse. Florenz ist insgesamt ruhiger, und Sie haben die Räume praktisch für sich allein.",
       },
       {
         q: "Lohnt sich ein Besuch der Uffizien im Sommer?",
-        a: "Ja, aber planen Sie sorgfältig. Buchen Sie das früheste Morgen-Zeitfenster (8:15 Uhr), nutzen Sie Tickets ohne Anstehen und bereiten Sie sich auf Hitze und Menschenmengen vor. Der späte Nachmittag (nach 16 Uhr) ist ebenfalls gut. Prüfen Sie mögliche Abendöffnungen.",
+        a: "Ja, aber planen Sie sorgfältig. Buchen Sie das früheste Morgen-Zeitfenster (8:15 Uhr), reservieren Sie Ihr Zeitfenster rechtzeitig und bereiten Sie sich auf Hitze und Menschenmengen vor. Der späte Nachmittag (nach 16 Uhr) ist ebenfalls gut. Prüfen Sie mögliche Abendöffnungen.",
       },
     ],
   },
@@ -61,7 +61,7 @@ export const blogPostsDe: Record<string, BlogPostI18n> = {
       {
         heading: "Wie funktionieren die kostenlosen Sonntage?",
         content:
-          "Am ersten Sonntag jedes Monats bieten alle italienischen Staatsmuseen -- einschliesslich der Uffizien -- völlig kostenlosen Eintritt. Kein Ticket erforderlich. Keine Reservierung nötig. Sie gehen einfach zu Tür 2 und stellen sich in die Warteschlange.\n\nKlingt fantastisch. In der Praxis ist es komplizierter. Kostenlose Sonntage ziehen enorme Menschenmengen an. Die Warteschlange an Tür 2 kann in den Spitzenmonaten 3-4 Stunden lang sein. Im Inneren sind beliebte Räume wie der Botticelli-Saal Schulter an Schulter gedrängt. Wenn Sie Florenz mit kleinem Budget besuchen, kann der kostenlose Sonntag Ihnen 25 EUR sparen. Aber wenn Ihr Ziel ist, die Kunst wirklich zu geniessen, wird Ihnen ein reguläres Ticket an einem ruhigen Wochentag ein dramatisch besseres Erlebnis bieten.",
+          "Am ersten Sonntag jedes Monats ist der Eintritt in die Uffizien kostenlos -- und in den Vasarikorridor ebenfalls. Beides ist eingeschlossen.\n\nKostenlos heisst nicht ohne Ticket. Sie brauchen weiterhin ein Ticket, und es ist personalisiert: Der Name der Besucherin oder des Besuchers steht darauf und muss mit dem Ausweis übereinstimmen.\n\n**Das kostenlose Uffizien-Ticket gibt es ausschliesslich am Schalter der Ticketkasse, am Tag selbst.** Online lässt es sich nicht buchen -- das Online-System verkauft es schlicht nicht. Sie kommen vorbei, stellen sich an der Kasse an und holen dort Ihr kostenloses personalisiertes Ticket. Rechnen Sie diese Schlange ein, denn damit rechnen die wenigsten.\n\n**Beim Vasarikorridor ist es genau umgekehrt.** Dessen kostenloses Ticket muss online im Voraus gebucht werden -- oder am Tag selbst an der Kasse abgeholt werden, sofern noch ein Platz frei ist. Die Plätze sind begrenzt, die verlässliche Variante ist also die Vorausbuchung.\n\nIn der Praxis ist es damit komplizierter als blosser \"freier Eintritt\". Kostenlose Sonntage ziehen enorme Menschenmengen an. Im Inneren sind beliebte Räume wie der Botticelli-Saal Schulter an Schulter gedrängt. Wenn Sie Florenz mit kleinem Budget besuchen, kann der kostenlose Sonntag Ihnen 25 EUR sparen. Aber wenn Ihr Ziel ist, die Kunst wirklich zu geniessen, wird Ihnen ein reguläres Ticket an einem ruhigen Wochentag ein dramatisch besseres Erlebnis bieten.",
       },
       {
         heading: "Kostenlose Sonntage 2026 -- Termine",
@@ -71,17 +71,17 @@ export const blogPostsDe: Record<string, BlogPostI18n> = {
       {
         heading: "Was Sie erwartet: Eine ehrliche Einschätzung",
         content:
-          "**Wartezeiten:** 2-4 Stunden im Frühling und Sommer. Selbst im Winter müssen Sie mit 1-2 Stunden rechnen. Es gibt an kostenlosen Sonntagen keine Option zum Überspringen der Warteschlange -- alle betreten das Museum durch Tür 2.\n\n**Im Inneren der Galerie:** Voll. Beliebte Räume sind bis auf den letzten Platz gefüllt. Sie verbringen mehr Zeit damit, sich durch Menschenmengen zu navigieren, als Gemälde zu betrachten. Der Botticelli-Saal, Raum 35 (Leonardo/Michelangelo) und Raum 83 (Tizian) sind am stärksten überfüllt.\n\n**Der Vorteil:** Es ist wirklich kostenlos. Für Budgetreisende, Studenten und Familien ist eine Ersparnis von 25 EUR pro Person erheblich. Und die weniger berühmten Räume (insbesondere Räume 15-30 und 70-80) bleiben auch an kostenlosen Sonntagen relativ ruhig.",
+          "**Wartezeiten:** 2-4 Stunden im Frühling und Sommer. Selbst im Winter müssen Sie mit 1-2 Stunden rechnen. An kostenlosen Sonntagen gibt es für die Uffizien keine Zeitfenster und keine Möglichkeit, im Voraus zu kaufen, die Wartezeit lässt sich also nicht verkürzen -- alle stellen sich an der Kasse für das kostenlose personalisierte Ticket an und betreten das Museum anschliessend durch Tür 1, denselben Eingang wie an jedem anderen Tag.\n\n**Im Inneren der Galerie:** Voll. Beliebte Räume sind bis auf den letzten Platz gefüllt. Sie verbringen mehr Zeit damit, sich durch Menschenmengen zu navigieren, als Gemälde zu betrachten. Der Botticelli-Saal, Raum 35 (Leonardo/Michelangelo) und Raum 83 (Tizian) sind am stärksten überfüllt.\n\n**Der Vorteil:** Es ist wirklich kostenlos. Für Budgetreisende, Studenten und Familien ist eine Ersparnis von 25 EUR pro Person erheblich. Und die weniger berühmten Räume (insbesondere Räume 15-30 und 70-80) bleiben auch an kostenlosen Sonntagen relativ ruhig.",
       },
       {
         heading: "Tipps für den kostenlosen Sonntag",
         content:
-          "**Seien Sie um 7:30 Uhr da:** Stehen Sie mindestens 45 Minuten vor der Öffnung um 8:15 Uhr an Tür 2. Die Frühaufsteher kommen schnell hinein.\n\n**Gehen Sie direkt zu den oberen Räumen:** Überspringen Sie beim ersten Durchgang den Botticelli-Saal -- er wird überrannt. Beginnen Sie mit den Räumen 35-90 und kehren Sie dann zu den Räumen 2-14 zurück, nachdem der erste Ansturm nachgelassen hat (normalerweise gegen 13 Uhr).\n\n**Besuchen Sie im Winter:** Kostenlose Sonntage im November, Dezember, Januar und Februar sind wesentlich angenehmer. Sie warten vielleicht nur 30-60 Minuten.\n\n**Benutzen Sie die Toilette vor dem Eintritt:** Die Toiletten-Warteschlangen im Inneren sind an kostenlosen Sonntagen lang.\n\n**Bringen Sie Snacks und Wasser mit:** Sie werden eine Weile in der Schlange stehen. Das Cafe im Inneren ist ebenfalls überfüllt.",
+          "**Seien Sie um 7:30 Uhr da:** Stehen Sie mindestens 45 Minuten vor der Öffnung um 8:15 Uhr an der Ticketkasse -- Sie müssen Ihr kostenloses personalisiertes Ticket erst am Schalter abholen, bevor Sie hineinkommen, planen Sie diese Schlange also zusätzlich ein. Bringen Sie für jede Person Ihrer Gruppe einen Lichtbildausweis mit; der Name auf jedem Ticket muss übereinstimmen.\n\n**Klären Sie den Vasarikorridor vorab:** Wenn Sie auch den Korridor sehen möchten, buchen Sie dessen kostenloses Ticket online im Voraus. Auf die Kasse am Tag selbst zu setzen, funktioniert nur, wenn noch ein Platz frei ist.\n\n**Gehen Sie direkt zu den oberen Räumen:** Überspringen Sie beim ersten Durchgang den Botticelli-Saal -- er wird überrannt. Beginnen Sie mit den Räumen 35-90 und kehren Sie dann zu den Räumen 2-14 zurück, nachdem der erste Ansturm nachgelassen hat (normalerweise gegen 13 Uhr).\n\n**Besuchen Sie im Winter:** Kostenlose Sonntage im November, Dezember, Januar und Februar sind wesentlich angenehmer. Sie warten vielleicht nur 30-60 Minuten.\n\n**Benutzen Sie die Toilette vor dem Eintritt:** Die Toiletten-Warteschlangen im Inneren sind an kostenlosen Sonntagen lang.\n\n**Bringen Sie Snacks und Wasser mit:** Sie werden eine Weile in der Schlange stehen. Das Cafe im Inneren ist ebenfalls überfüllt.",
       },
       {
         heading: "Meine ehrliche Empfehlung",
         content:
-          "Sofern Ihr Budget nicht die absolut höchste Priorität hat, verzichten Sie auf den kostenlosen Sonntag. Ein Nebensaison-Ticket kostet nur 12 EUR (November-Februar), und das Erlebnis ist unvergleichlich besser. Selbst in der Hochsaison bietet ein 20-EUR-Ticket ohne Anstehen einen ruhigen, entspannten Besuch, bei dem Sie die Gemälde tatsächlich sehen können.\n\nKostenlose Sonntage sind grossartig für Einheimische, die regelmässig vorbeikommen und die Menschenmengen nicht stören. Für einen einmaligen Besuch investieren Sie in das Ticket.",
+          "Sofern Ihr Budget nicht die absolut höchste Priorität hat, verzichten Sie auf den kostenlosen Sonntag. Ein Standardticket kostet 29 EUR im Voraus oder 25 EUR an der Kasse an einem ruhigen Wochentag, und das Erlebnis ist unvergleichlich besser.\n\nWenn Sie ohnehin hingehen, ziehen Sie an diesem Tag eine Führung in Betracht. Der Eintritt kostet Sie nichts, Sie bezahlen also ausschliesslich die Führung -- und eine gute Kunsthistorikerin oder ein guter Kunsthistoriker ist genau das, was aus einer überfüllten, überwältigenden Galerie einen Besuch macht, der Sinn ergibt. Am vollsten Tag des Monats ist das mehr wert als sonst, nicht weniger.\n\nKostenlose Sonntage sind grossartig für Einheimische, die regelmässig vorbeikommen und die Menschenmengen nicht stören. Für einen einmaligen Besuch wählen Sie einen ruhigeren Tag.",
       },
     ],
     faq: [
@@ -90,8 +90,8 @@ export const blogPostsDe: Record<string, BlogPostI18n> = {
         a: "Am ersten Sonntag jedes Monats: 4. Januar, 1. Februar, 1. März, 5. April, 3. Mai, 7. Juni, 5. Juli, 2. August, 6. September, 4. Oktober, 1. November, 6. Dezember.",
       },
       {
-        q: "Brauche ich eine Reservierung für den kostenlosen Sonntag?",
-        a: "Nein, keine Reservierung nötig. Sie stellen sich an Tür 2 für den allgemeinen Eintritt an. Es gibt an kostenlosen Sonntagen keine Option zum Überspringen der Warteschlange.",
+        q: "Brauche ich ein Ticket für den kostenlosen Sonntag?",
+        a: "Ja. Der Eintritt ist frei, ein Ticket ist aber weiterhin nötig und personalisiert -- der Name steht darauf und muss mit dem Ausweis übereinstimmen. Für die Uffizien holen Sie es am Tag selbst am Schalter der Ticketkasse ab; online buchbar ist es nicht. Beim Vasarikorridor, an diesem Tag ebenfalls kostenlos, ist es umgekehrt: online im Voraus buchen oder am Tag selbst an der Kasse versuchen, sofern noch ein Platz frei ist.",
       },
       {
         q: "Wie lang ist die Wartezeit an kostenlosen Sonntagen?",
@@ -99,7 +99,7 @@ export const blogPostsDe: Record<string, BlogPostI18n> = {
       },
       {
         q: "Lohnt sich der kostenlose Sonntag in den Uffizien?",
-        a: "Für Budgetreisende ja -- Sie sparen 25 EUR. Für das beste Erlebnis nein. Die Menschenmengen mindern den Genuss erheblich. Ein 12-EUR-Nebensaison-Ticket an einem ruhigen Dienstag bietet einen weit besseren Besuch.",
+        a: "Für Budgetreisende ja -- Sie sparen 25 EUR. Für das beste Erlebnis nein. Die Menschenmengen mindern den Genuss erheblich. Ein Standardticket an einem ruhigen Dienstag bietet einen weit besseren Besuch.",
       },
     ],
   },
@@ -127,12 +127,12 @@ export const blogPostsDe: Record<string, BlogPostI18n> = {
       {
         heading: "Tickets und Preise",
         content:
-          "**Uffizien-Tickets:**\n\u2022 Hochsaison (März-Oktober): 25 EUR\n\u2022 Nebensaison (November-Februar): 12 EUR\n\u2022 Ohne Anstehen ab 20 EUR online\n\n**Accademia-Tickets:**\n\u2022 Standard: 16 EUR ganzjährig\n\u2022 Ohne Anstehen ab 15-20 EUR online\n\n**Kombinationstour (beide Museen):** Ab 89 EUR mit Führung und Einlass ohne Anstehen in beiden. Dies ist das beste Preis-Leistungs-Verhältnis, wenn Sie geführte Touren wünschen -- der Einzelkauf würde über 88 EUR kosten.",
+          "**Uffizien-Tickets:**\n\u2022 Im Voraus gebucht: 29 EUR\n\u2022 Am Besuchstag an der Kasse: 25 EUR\n\u2022 Nachmittagseintritt (ab 16 Uhr): 20 EUR im Voraus / 16 EUR am Besuchstag\n• Ticket mit Zeitfenster und digitalem Audioguide: ab 26 EUR online\n• EU-Bürger 18-25: 2 EUR | Unter 18: frei\n\n**Accademia-Tickets:**\n\u2022 Standard: 16 EUR ganzjährig\n\u2022 Reservierter Einlass ab 15-20 EUR online\n\n**Kombinationstour (beide Museen):** Ab 89 EUR mit Führung und reservierten Einlasszeiten in beiden Museen. Dies ist das beste Preis-Leistungs-Verhältnis, wenn Sie geführte Touren wünschen.",
       },
       {
         heading: "Menschenmengen und Wartezeiten",
         content:
-          "Beide Museen ziehen grosse Warteschlangen an, aber die Muster sind unterschiedlich:\n\n**Uffizien:** Am vollsten von 10 bis 14 Uhr. Die Warteschlange an Tür 2 kann 2-3 Stunden erreichen. Tickets ohne Anstehen sind in der Hochsaison unverzichtbar. Im Inneren ist der Botticelli-Saal (Räume 10-14) am stärksten überfüllt.\n\n**Accademia:** Die Warteschlange kann sogar länger sein als bei den Uffizien, weil das Museum kleiner ist und die Besucher langsamer durchgehen. Spitzenwartezeiten: 2-3 Stunden. Tickets ohne Anstehen sind hier wohl noch wichtiger. Im Inneren wird der Saal mit dem David voll, aber es ist handhabbar, da die Statü so gross ist.\n\n**Profi-Tipp:** Besuchen Sie die Uffizien um 8:15 Uhr (beste Zeit) und die Accademia am frühen Nachmittag, wenn der Morgenansturm vorüber ist.",
+          "Beide Museen ziehen grosse Warteschlangen an, aber die Muster sind unterschiedlich:\n\n**Uffizien:** Am vollsten von 10 bis 14 Uhr. Die Warteschlange an Tür 1 kann 2-3 Stunden erreichen. In der Hochsaison verkürzt ein online reserviertes Zeitfenster die Wartezeit erheblich. Im Inneren ist der Botticelli-Saal (Räume 10-14) am stärksten überfüllt.\n\n**Accademia:** Die Warteschlange kann sogar länger sein als bei den Uffizien, weil das Museum kleiner ist und die Besucher langsamer durchgehen. Spitzenwartezeiten: 2-3 Stunden. Ein reserviertes Zeitfenster ist hier wohl noch wichtiger. Im Inneren wird der Saal mit dem David voll, aber es ist handhabbar, da die Statü so gross ist.\n\n**Profi-Tipp:** Besuchen Sie die Uffizien um 8:15 Uhr (beste Zeit) und die Accademia am frühen Nachmittag, wenn der Morgenansturm vorüber ist.",
       },
       {
         heading: "Welches Museum ist besser für Familien?",
@@ -142,7 +142,7 @@ export const blogPostsDe: Record<string, BlogPostI18n> = {
       {
         heading: "Meine Empfehlung",
         content:
-          "**Besuchen Sie beide.** Die zwei grössten Museen von Florenz ergänzen sich perfekt -- Gemälde in den Uffizien, Skulpturen in der Accademia. Wenn Sie wirklich auf eines beschränkt sind:\n\n\u2022 **Wählen Sie die Uffizien**, wenn Sie Malerei lieben, das breiteste Kunsterlebnis wünschen oder sich für Kunstgeschichte vom Mittelalter bis zum Barock interessieren.\n\n\u2022 **Wählen Sie die Accademia**, wenn Michelangelos David Ihre höchste Priorität ist, Sie nur wenig Zeit haben (unter 2 Stunden) oder mit kleinen Kindern reisen.\n\n\u2022 **Wählen Sie die Kombinationstour**, wenn Sie beide Museen, fachkundige Kommentare und den Komfort eines organisierten Einlasses ohne Anstehen wünschen.",
+          "**Besuchen Sie beide.** Die zwei grössten Museen von Florenz ergänzen sich perfekt -- Gemälde in den Uffizien, Skulpturen in der Accademia. Wenn Sie wirklich auf eines beschränkt sind:\n\n\u2022 **Wählen Sie die Uffizien**, wenn Sie Malerei lieben, das breiteste Kunsterlebnis wünschen oder sich für Kunstgeschichte vom Mittelalter bis zum Barock interessieren.\n\n\u2022 **Wählen Sie die Accademia**, wenn Michelangelos David Ihre höchste Priorität ist, Sie nur wenig Zeit haben (unter 2 Stunden) oder mit kleinen Kindern reisen.\n\n\u2022 **Wählen Sie die Kombinationstour**, wenn Sie beide Museen, fachkundige Kommentare und den Komfort bereits reservierter Einlasszeiten wünschen.",
       },
     ],
     faq: [
@@ -156,7 +156,7 @@ export const blogPostsDe: Record<string, BlogPostI18n> = {
       },
       {
         q: "Welches Museum hat längere Warteschlangen?",
-        a: "Die Accademia hat oft relativ längere Wartezeiten, weil sie ein kleineres Museum ist. Beide können in der Hochsaison 2-3 Stunden erreichen. Tickets ohne Anstehen sind für beide unverzichtbar.",
+        a: "Die Accademia hat oft relativ längere Wartezeiten, weil sie ein kleineres Museum ist. Beide können in der Hochsaison 2-3 Stunden erreichen. Ein Ticket mit reserviertem Zeitfenster ist für beide unverzichtbar.",
       },
       {
         q: "Wie weit sind die Uffizien und die Accademia voneinander entfernt?",
@@ -178,7 +178,7 @@ export const blogPostsDe: Record<string, BlogPostI18n> = {
       {
         heading: "1. Uffizien",
         content:
-          "**Warum:** Die grösste Sammlung italienischer Renaissance-Gemälde der Welt. Botticelli, Leonardo, Michelangelo, Raffäl, Tizian, Caravaggio -- alles unter einem Dach.\n**Zeitbedarf:** 2-4 Stunden\n**Tickets:** 25 EUR (Hochsaison) / 12 EUR (Nebensaison)\n**Nicht verpassen:** Botticelli-Saal (Räume 10-14), die Panoramaterrasse und die neu eröffneten Erdgeschoss-Galerien.\n**Profi-Tipp:** Buchen Sie das 8:15-Uhr-Zeitfenster für das beste Erlebnis.",
+          "**Warum:** Die grösste Sammlung italienischer Renaissance-Gemälde der Welt. Botticelli, Leonardo, Michelangelo, Raffäl, Tizian, Caravaggio -- alles unter einem Dach.\n**Zeitbedarf:** 2-4 Stunden\n**Tickets:** 29 EUR (im Voraus) / 25 EUR (am Besuchstag an der Kasse)\n**Nicht verpassen:** Botticelli-Saal (Räume 10-14), die Panoramaterrasse und die neu eröffneten Erdgeschoss-Galerien.\n**Profi-Tipp:** Buchen Sie das 8:15-Uhr-Zeitfenster für das beste Erlebnis.",
       },
       {
         heading: "2. Galleria dell'Accademia",
@@ -223,7 +223,7 @@ export const blogPostsDe: Record<string, BlogPostI18n> = {
       {
         heading: "Spar-Pässe",
         content:
-          "**Firenze Card (85 EUR/72 Stunden):** Zugang zu über 72 Museen einschliesslich Uffizien, Accademia, Palazzo Pitti und Boboli-Gärten. Beinhaltet Einlass ohne Anstehen. Lohnt sich, wenn Sie in 3 Tagen 5 oder mehr Museen besuchen.\n\n**Kostenlose Sonntage:** Alle Staatsmuseen (Uffizien, Accademia, Bargello, Medici-Kapellen, San Marco, Palazzo Pitti) sind am ersten Sonntag jedes Monats kostenlos. Erwarten Sie grosse Menschenmengen.\n\n**Unter 18 Jahre:** Freier Eintritt in alle Staatsmuseen unabhängig von der Nationalität.\n\n**EU-Bürger 18-25 Jahre:** 2 EUR in Staatsmuseen. Ausweis mitbringen.",
+          "**Firenze Card (85 EUR/72 Stunden):** Zugang zu über 72 Museen einschliesslich Uffizien, Accademia, Palazzo Pitti und Boboli-Gärten. Der bevorzugte Einlass umgeht die Warteschlange an der Kasse. Lohnt sich, wenn Sie in 3 Tagen 5 oder mehr Museen besuchen.\n\n**Kostenlose Sonntage:** Alle Staatsmuseen (Uffizien, Accademia, Bargello, Medici-Kapellen, San Marco, Palazzo Pitti) sind am ersten Sonntag jedes Monats kostenlos. Erwarten Sie grosse Menschenmengen.\n\n**Unter 18 Jahre:** Freier Eintritt in alle Staatsmuseen unabhängig von der Nationalität.\n\n**EU-Bürger 18-25 Jahre:** 2 EUR in Staatsmuseen. Ausweis mitbringen.",
       },
     ],
     faq: [
@@ -233,7 +233,7 @@ export const blogPostsDe: Record<string, BlogPostI18n> = {
       },
       {
         q: "Lohnt sich die Firenze Card?",
-        a: "Bei 85 EUR für 72 Stunden lohnt sich die Firenze Card, wenn Sie 5 oder mehr Museen besuchen. Uffizien (25 EUR) + Accademia (16 EUR) + Palazzo Pitti (16 EUR) + Boboli (10 EUR) = 67 EUR, ein 5. Museum macht sie lohnenswert.",
+        a: "Bei 85 EUR für 72 Stunden lohnt sich die Firenze Card, wenn Sie 5 oder mehr Museen besuchen. Uffizien (29 EUR) + Accademia (16 EUR) + Palazzo Pitti (16 EUR) + Boboli (10 EUR) = 71 EUR, ein 5. Museum macht sie lohnenswert.",
       },
       {
         q: "Welches Florentiner Museum ist am besten für Kinder?",
@@ -248,33 +248,33 @@ export const blogPostsDe: Record<string, BlogPostI18n> = {
   "florence-city-pass-2026": {
     title: "Firenze Card 2026 | Florence City Pass -- Lohnt sie sich?",
     description:
-      "Vollständiger Firenze Card / Florence City Pass Test 2026. Kosten, enthaltene Museen, Einlass ohne Anstehen, Rechenbeispiel und ehrliche Empfehlung.",
+      "Vollständiger Firenze Card / Florence City Pass Test 2026. Kosten, enthaltene Museen, bevorzugter Einlass, Rechenbeispiel und ehrliche Empfehlung.",
     h1: "Firenze Card 2026 -- Lohnt sich der Florence City Pass?",
     sections: [
       {
         heading: "Was ist die Firenze Card?",
         content:
-          "Die Firenze Card ist der offizielle Museumspass von Florenz. Für 85 EUR erhalten Sie 72 Stunden Zugang zu über 72 Museen und Denkmälern, darunter alle wichtigen Sehenswürdigkeiten: die Uffizien, die Galleria dell'Accademia, den Palazzo Pitti, die Boboli-Gärten, den Bargello, die Medici-Kapellen und viele mehr. Die Karte beinhaltet auch Einlass ohne Anstehen in teilnehmenden Museen -- was Ihnen möglicherweise stundenlange Wartezeiten erspart.\n\nAber ist sie die 85 EUR wirklich wert? Die Antwort hängt ausschliesslich davon ab, wie viele Museen Sie besuchen möchten und wann.",
+          "Die Firenze Card ist der offizielle Museumspass von Florenz. Für 85 EUR erhalten Sie 72 Stunden Zugang zu über 72 Museen und Denkmälern, darunter alle wichtigen Sehenswürdigkeiten: die Uffizien, die Galleria dell'Accademia, den Palazzo Pitti, die Boboli-Gärten, den Bargello, die Medici-Kapellen und viele mehr. Mit der Karte umgehen Sie ausserdem die Warteschlange an der Kasse teilnehmender Museen -- was Ihnen möglicherweise stundenlange Wartezeiten erspart.\n\nAber ist sie die 85 EUR wirklich wert? Die Antwort hängt ausschliesslich davon ab, wie viele Museen Sie besuchen möchten und wann.",
       },
       {
         heading: "Was ist enthalten?",
         content:
-          "Die Firenze Card deckt den Eintritt zu über 72 Museen und Sehenswürdigkeiten ab. Die wichtigsten sind:\n\n\u2022 Uffizien (regulär 25 EUR in der Hochsaison)\n\u2022 Galleria dell'Accademia (16 EUR)\n\u2022 Palazzo Pitti -- alle Museen (16 EUR)\n\u2022 Boboli-Gärten (10 EUR)\n\u2022 Nationalmuseum Bargello (9 EUR)\n\u2022 Medici-Kapellen (9 EUR)\n\u2022 Museo di San Marco (8 EUR)\n\u2022 Palazzo Vecchio (14 EUR)\n\u2022 Museo dell'Opera del Duomo-Komplex (30 EUR)\n\u2022 Galileo-Museum (12 EUR)\n\u2022 Plus über 60 kleinere Museen, Kirchen und Galerien\n\nJedes Museum kann mit der Karte nur einmal besucht werden. Der 72-Stunden-Zähler beginnt mit Ihrem ersten Museumsbesuch.",
+          "Die Firenze Card deckt den Eintritt zu über 72 Museen und Sehenswürdigkeiten ab. Die wichtigsten sind:\n\n\u2022 Uffizien (regulär 29 EUR im Voraus gebucht)\n\u2022 Galleria dell'Accademia (16 EUR)\n\u2022 Palazzo Pitti -- alle Museen (16 EUR)\n\u2022 Boboli-Gärten (10 EUR)\n\u2022 Nationalmuseum Bargello (9 EUR)\n\u2022 Medici-Kapellen (9 EUR)\n\u2022 Museo di San Marco (8 EUR)\n\u2022 Palazzo Vecchio (14 EUR)\n\u2022 Museo dell'Opera del Duomo-Komplex (30 EUR)\n\u2022 Galileo-Museum (12 EUR)\n\u2022 Plus über 60 kleinere Museen, Kirchen und Galerien\n\nJedes Museum kann mit der Karte nur einmal besucht werden. Der 72-Stunden-Zähler beginnt mit Ihrem ersten Museumsbesuch.",
       },
       {
         heading: "Die Rechnung -- Wann lohnt sie sich?",
         content:
-          "Rechnen wir für typische Reisepläne durch:\n\n**Leichtes Programm (2-3 Museen):**\nUffizien (25 EUR) + Accademia (16 EUR) = 41 EUR. Die Karte kostet 85 EUR. **Lohnt sich nicht.**\n\n**Standardprogramm (4-5 Museen):**\nUffizien (25 EUR) + Accademia (16 EUR) + Palazzo Pitti (16 EUR) + Boboli (10 EUR) = 67 EUR. Noch 18 EUR entfernt. Plus Bargello (9 EUR) = 76 EUR. **Kommt nah heran, reicht aber noch nicht ganz.**\n\n**Museumsintensives Programm (5+ Museen):**\nUffizien (25 EUR) + Accademia (16 EUR) + Palazzo Pitti (16 EUR) + Boboli (10 EUR) + Bargello (9 EUR) + San Marco (8 EUR) = 84 EUR. **Zahlt sich aus.**\n\nFügen Sie den Domkomplex (30 EUR) oder den Palazzo Vecchio (14 EUR) hinzu, und die Karte wird wirklich lohnenswert.\n\n**In der Nebensaison (Nov-Feb):** Die Uffizien sinken auf 12 EUR, was die Karte schwerer zu rechtfertigen macht.",
+          "Rechnen wir für typische Reisepläne durch:\n\n**Leichtes Programm (2-3 Museen):**\nUffizien (29 EUR) + Accademia (16 EUR) = 45 EUR. Die Karte kostet 85 EUR. **Lohnt sich nicht.**\n\n**Standardprogramm (4-5 Museen):**\nUffizien (29 EUR) + Accademia (16 EUR) + Palazzo Pitti (16 EUR) + Boboli (10 EUR) = 71 EUR. Noch 14 EUR entfernt. Plus Bargello (9 EUR) = 80 EUR. **Kommt nah heran, reicht aber noch nicht ganz.**\n\n**Museumsintensives Programm (5+ Museen):**\nUffizien (29 EUR) + Accademia (16 EUR) + Palazzo Pitti (16 EUR) + Boboli (10 EUR) + Bargello (9 EUR) + San Marco (8 EUR) = 88 EUR. **Zahlt sich aus.**\n\nFügen Sie den Domkomplex (30 EUR) oder den Palazzo Vecchio (14 EUR) hinzu, und die Karte wird wirklich lohnenswert.\n\n**Tickets mit Zeitfenster:** Ein reserviertes Ticket mit digitalem Audioguide gibt es ab 26 EUR online, was die Rechnung verändern kann.",
       },
       {
-        heading: "Vorteil: Einlass ohne Anstehen",
+        heading: "Vorteil bei den Warteschlangen",
         content:
-          "Dies ist der versteckte Wert der Firenze Card. Während der Hochsaison (März-Oktober) kann der Einlass ohne Anstehen bei den Uffizien und der Accademia 2-3 Stunden pro Museum sparen. Wenn Ihre Zeit in Florenz begrenzt ist, haben diese gesparten Stunden einen echten Wert -- Sie können sie für den Besuch eines weiteren Museums nutzen oder einfach die Stadt geniessen.\n\nBeachten Sie jedoch, dass Sie auch mit der Firenze Card ein Zeitfenster bei den Uffizien und der Accademia über das Online-Reservierungssystem der Karte reservieren sollten. Die Karte gibt Ihnen bevorzugten Eintritt, aber eine Reservierung sichert Ihnen Ihre bevorzugte Uhrzeit.",
+          "Dies ist der versteckte Wert der Firenze Card. Während der Hochsaison (März-Oktober) kann das Umgehen der Kassenschlange bei den Uffizien und der Accademia 2-3 Stunden pro Museum sparen. Wenn Ihre Zeit in Florenz begrenzt ist, haben diese gesparten Stunden einen echten Wert -- Sie können sie für den Besuch eines weiteren Museums nutzen oder einfach die Stadt geniessen.\n\nBeachten Sie jedoch, dass Sie auch mit der Firenze Card ein Zeitfenster bei den Uffizien und der Accademia über das Online-Reservierungssystem der Karte reservieren sollten. Die Karte spart Ihnen den Gang zur Kasse, aber eine Reservierung sichert Ihnen Ihre bevorzugte Uhrzeit. Und bleiben Sie realistisch: In den Uffizien betreten alle das Museum zur reservierten Zeit durch Tür 1 und durchlaufen eine kurze Sicherheitskontrolle.",
       },
       {
         heading: "Meine ehrliche Empfehlung",
         content:
-          "**Kaufen Sie die Firenze Card, wenn:**\n\u2022 Sie in 3 Tagen 5 oder mehr Museen besuchen\n\u2022 Sie in der Hochsaison kommen und den Einlass ohne Anstehen schätzen\n\u2022 Sie ein spontaner Reisender sind, der gerne ohne Einzeltickets in Museen gehen möchte\n\n**Verzichten Sie auf die Firenze Card, wenn:**\n\u2022 Sie nur 2-3 Museen besuchen (kaufen Sie Einzeltickets)\n\u2022 Sie in der Nebensaison kommen (die Uffizien kosten nur 12 EUR)\n\u2022 Sie ein knappes Budget haben (die Karte erfordert 85 EUR im Voraus)\n\u2022 Sie mit Kindern unter 18 reisen (sie haben ohnehin freien Eintritt)\n\nFür die meisten Besucher, die 3-4 Tage in Florenz verbringen, sind Einzeltickets ohne Anstehen für Uffizien und Accademia plus ein Kombiticket für Palazzo Pitti/Boboli in der Regel kostengünstiger als die Karte.",
+          "**Kaufen Sie die Firenze Card, wenn:**\n\u2022 Sie in 3 Tagen 5 oder mehr Museen besuchen\n\u2022 Sie in der Hochsaison kommen und die Warteschlangen an der Kasse vermeiden möchten\n\u2022 Sie ein spontaner Reisender sind, der gerne ohne Einzeltickets in Museen gehen möchte\n\n**Verzichten Sie auf die Firenze Card, wenn:**\n\u2022 Sie nur 2-3 Museen besuchen (kaufen Sie Einzeltickets)\n\u2022 Sie in der Nebensaison kommen (die Warteschlangen sind ohnehin kurz)\n\u2022 Sie ein knappes Budget haben (die Karte erfordert 85 EUR im Voraus)\n\u2022 Sie mit Kindern unter 18 reisen (sie haben ohnehin freien Eintritt)\n\nFür die meisten Besucher, die 3-4 Tage in Florenz verbringen, sind einzelne Tickets mit Zeitfenster für Uffizien und Accademia plus ein Kombiticket für Palazzo Pitti/Boboli in der Regel kostengünstiger als die Karte.",
       },
     ],
     faq: [
@@ -283,8 +283,8 @@ export const blogPostsDe: Record<string, BlogPostI18n> = {
         a: "85 EUR für 72 Stunden Zugang zu über 72 Museen und Denkmälern. Der Zähler beginnt mit Ihrem ersten Museumsbesuch.",
       },
       {
-        q: "Beinhaltet die Firenze Card Einlass ohne Anstehen?",
-        a: "Ja, sie beinhaltet bevorzugten Zugang in teilnehmenden Museen. Für Uffizien und Accademia sollten Sie dennoch ein Zeitfenster über das System der Karte reservieren.",
+        q: "Kann ich mit der Firenze Card die Warteschlange umgehen?",
+        a: "Sie beinhaltet bevorzugten Zugang in teilnehmenden Museen, Sie umgehen also die Warteschlange an der Kasse. Für Uffizien und Accademia sollten Sie dennoch ein Zeitfenster über das System der Karte reservieren -- und in den Uffizien betreten Sie das Museum weiterhin durch Tür 1 mit kurzer Sicherheitskontrolle.",
       },
       {
         q: "Können Kinder die Firenze Card nutzen?",
@@ -305,7 +305,7 @@ export const blogPostsDe: Record<string, BlogPostI18n> = {
       {
         heading: "Kunst und Museen",
         content:
-          "**1. Botticellis Geburt der Venus in den Uffizien sehen** -- Die weltweit grösste Sammlung von Renaissance-Gemälden. Buchen Sie das 8:15-Uhr-Zeitfenster und gehen Sie direkt zum Botticelli-Saal. (25 EUR, 2-4 Stunden)\n\n**2. Vor Michelangelos David in der Accademia stehen** -- Mit über 5 Metern Höhe, aus einem einzigen Marmorblock gemeisselt, ist der David in Wirklichkeit wirklich atemberaubend. (16 EUR, 1,5 Stunden)\n\n**3. Den Palazzo Pitti erkunden** -- Die prachtvolle Residenz der Medici mit vier Museen. Die Palatina-Galerie bietet Raffäls und Tizians mit einem Bruchteil der Uffizien-Menschenmengen. (16 EUR, 2-3 Stunden)\n\n**4. Den Bargello entdecken** -- Das unterschätzte Skulpturmuseum von Florenz. Donatellos Bronze-David und Michelangelos Bacchus in einer mittelalterlichen Festung. (9 EUR, 1-2 Stunden)\n\n**5. Fra Angelicos Fresken in San Marco sehen** -- Jede Mönchszelle hat ihr eigenes intimes Fresko. Die Verkündigung am oberen Ende der Treppe ist unvergesslich. (8 EUR, 1 Stunde)",
+          "**1. Botticellis Geburt der Venus in den Uffizien sehen** -- Die weltweit grösste Sammlung von Renaissance-Gemälden. Buchen Sie das 8:15-Uhr-Zeitfenster und gehen Sie direkt zum Botticelli-Saal. (29 EUR im Voraus / 25 EUR an der Kasse, 2-4 Stunden)\n\n**2. Vor Michelangelos David in der Accademia stehen** -- Mit über 5 Metern Höhe, aus einem einzigen Marmorblock gemeisselt, ist der David in Wirklichkeit wirklich atemberaubend. (16 EUR, 1,5 Stunden)\n\n**3. Den Palazzo Pitti erkunden** -- Die prachtvolle Residenz der Medici mit vier Museen. Die Palatina-Galerie bietet Raffäls und Tizians mit einem Bruchteil der Uffizien-Menschenmengen. (16 EUR, 2-3 Stunden)\n\n**4. Den Bargello entdecken** -- Das unterschätzte Skulpturmuseum von Florenz. Donatellos Bronze-David und Michelangelos Bacchus in einer mittelalterlichen Festung. (9 EUR, 1-2 Stunden)\n\n**5. Fra Angelicos Fresken in San Marco sehen** -- Jede Mönchszelle hat ihr eigenes intimes Fresko. Die Verkündigung am oberen Ende der Treppe ist unvergesslich. (8 EUR, 1 Stunde)",
       },
       {
         heading: "Architektur und Aussichten",
@@ -399,3 +399,7 @@ export const blogPostsDe: Record<string, BlogPostI18n> = {
     ],
   },
 };
+
+// Merge new blog post translations (posts 1-20)
+import { blogPostsNewDe } from "./blog-posts-new-de";
+Object.assign(blogPostsDe, blogPostsNewDe);

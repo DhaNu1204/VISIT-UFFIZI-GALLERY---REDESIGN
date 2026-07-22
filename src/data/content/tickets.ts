@@ -25,17 +25,17 @@ export type TicketsContent = {
 
 const en: TicketsContent = {
   meta: {
-    title: "Uffizi Gallery Tickets 2026 | Prices, Skip the Line & Book Online",
+    title: "Uffizi Gallery Tickets 2026 | Prices & Timed Entry Booking",
     description:
-      "Book Uffizi Gallery tickets from €26. Skip the line entry, guided tour tickets & free entry days. Full 2026 price guide with discounts.",
+      "Book Uffizi Gallery tickets from €26 with reserved timed entry & digital audio guide. Full 2026 price guide: €25–€29 standard, reduced & free entry.",
   },
   h1: "Uffizi Gallery Tickets",
   intro:
-    "If there's one piece of advice I give every visitor to Florence, it's this: do not show up at the Uffizi without a ticket. I've watched people stand in line for three hours under the July sun, only to find out the afternoon slots were sold out. A pre-booked ticket costs the same — or less — than buying at the door, and you skip the line entirely.",
+    "If there's one piece of advice I give every visitor to Florence, it's this: do not show up at the Uffizi without a ticket. I've watched people stand in line for three hours under the July sun, only to find out the afternoon slots were sold out. Booking ahead costs €4 more than the door price — that's the reservation fee — and in return you get a guaranteed entry time and a ticket-office queue you never have to join.",
   ctaTitle: "Uffizi Gallery Reserved Ticket & Digital Audio Guide",
   priceSection: {
     h2: "Ticket Types & Prices 2026",
-    p: "The Uffizi has updated its pricing for 2026. Tickets purchased online cost €29, while same-day tickets at the ticket office cost €25. Special early morning and afternoon rates are available. Here's the complete breakdown:",
+    p: "The Uffizi has updated its pricing for 2026. A standard ticket (entry before 4:00 PM) costs €25 on the day or €29 booked in advance — the €4 difference is the reservation fee. Afternoon entry (from 4:00 PM) costs €16 on the day or €20 in advance. All tickets are timed entry. Here's the complete breakdown:",
     tableTitle: "Uffizi Gallery Ticket Prices 2026",
   },
   howToBuy: {
@@ -44,26 +44,26 @@ const en: TicketsContent = {
     options: [
       {
         h3: "1. Online Pre-Booking (Recommended)",
-        p: "Book through an authorized reseller to get a timed-entry ticket with skip-the-line access. You'll receive a mobile voucher — no printing needed. Walk directly to Door 1, scan your ticket, and you're in. Available up to several months in advance, and I strongly recommend booking at least 2 weeks ahead during spring and summer.",
+        p: "Book through an authorized reseller to get a reserved timed-entry ticket with a digital audio guide. You'll receive a QR code by email — show it on your phone or print it, there's nothing to collect. Walk straight to Door 1 at your reserved time, pass the short security check, and you're in. Available up to several months in advance, and I strongly recommend booking at least 2 weeks ahead during spring and summer.",
       },
       {
         h3: "2. Official Website (b-ticket.com/uffizi)",
-        p: "The museum's official booking platform charges the base ticket price plus a €4 booking fee. You'll select a timed entry slot. The interface can be slow during peak booking periods, and popular time slots sell out quickly.",
+        p: "The museum's official booking platform charges the base ticket price plus a €4 reservation fee (€29 total for standard entry). You'll select a timed entry slot. The interface can be slow during peak booking periods, and popular time slots sell out quickly.",
       },
       {
-        h3: "3. Walk-Up Tickets (Not Recommended)",
-        p: "You can buy tickets at Door 2 on the day of your visit, but expect long waits — typically 1-3 hours from March through October. During peak days (weekends, holidays, rainy days when outdoor plans change), the gallery can sell out entirely. Walk-up prices are the same as the base ticket price.",
+        h3: "3. Buying On-Site (Not Recommended)",
+        p: "You can buy tickets at the ticket office on the day of your visit — pay cash at the self-service machines or by card at the staffed counters. A same-day standard ticket costs €25, but all tickets are timed entry, and on busy days (weekends, holidays, rainy days when outdoor plans change) the next available slot may be hours away — or the day can sell out entirely. Everyone enters through Door 1.",
       },
     ],
   },
   freeEntry: {
     h2: "Free Entry Days",
-    p: "The Uffizi offers free admission on the first Sunday of every month. Sounds great, right? In practice, these days are incredibly crowded — lines can exceed 4 hours, and the galleries feel packed. If you visit on a free Sunday, arrive by 7:30 AM. Otherwise, I'd recommend paying for a regular ticket on a quieter day for a far better experience.",
+    p: "The Uffizi offers free admission on the first Sunday of every month, and so does the Vasari Corridor. A ticket is still required and it is nominative — the visitor's name is on it. The Uffizi's free ticket is issued only at the ticket-office counter on the day and cannot be booked online; the Vasari Corridor's must be booked online in advance, or picked up at the ticket office on the day if a spot is still available. In practice, these days are incredibly crowded — lines can exceed 4 hours, and the galleries feel packed. If you visit on a free Sunday, arrive by 7:30 AM. Otherwise, I'd recommend paying for a regular ticket on a quieter day for a far better experience.",
   },
   skipLine: {
-    h2: "Skip the Line: How It Works",
-    p: "When you book a skip-the-line ticket, you'll receive a confirmation with a specific entry time (e.g., 10:00-10:15 AM). On the day of your visit, go to Door 1 (or Door 3 for groups). Show your mobile voucher and ID, pass through security screening, and you're inside. The entire process takes 5-10 minutes.",
-    link: "Complete skip-the-line guide →",
+    h2: "Timed Entry: How It Works",
+    p: "Since September 2025, under the new CoopCulture management, every Uffizi ticket is a timed-entry ticket and everyone enters through Door 1 — the old voucher-exchange point at Door 3 no longer operates, and there are no paper vouchers. When you book, you receive a QR code by email with a specific entry time (e.g., 10:00-10:15 AM). Show it on your phone (or printed) at Door 1, pass the short security screening that applies to all visitors, and you're inside.",
+    link: "Complete timed-entry guide →",
   },
   whenToBook: {
     h2: "When to Book",
@@ -80,15 +80,15 @@ const en: TicketsContent = {
   faq: [
     {
       q: "How much are Uffizi tickets in 2026?",
-      a: "Standard tickets cost €29 online or €25 at the ticket office. Skip-the-line tickets are available from €26 online. EU citizens aged 18-25 pay €2. Under 18 from any country is free.",
+      a: "A standard ticket (entry before 4:00 PM) costs €25 on the day or €29 in advance. Afternoon entry (from 4:00 PM) is €16 on the day or €20 in advance. EU citizens aged 18-25 pay €2. Under 18 from any country is free. Reserved timed-entry tickets with a digital audio guide start from €26 online.",
     },
     {
       q: "Can I buy Uffizi tickets at the door?",
-      a: "Yes, but expect 1-3 hour waits during peak season. Walk-up tickets are sold at Door 2. The gallery can sell out on busy days, so pre-booking is strongly recommended.",
+      a: "Yes — pay cash at the self-service machines or by card at the staffed counters. A same-day standard ticket costs €25, but entry is timed and busy days can sell out, so pre-booking is strongly recommended. Everyone enters through Door 1.",
     },
     {
-      q: "What does 'skip the line' mean at the Uffizi?",
-      a: "Skip-the-line tickets include timed entry — you go directly to Door 1 at your reserved time and bypass the general admission queue. Entry typically takes 5-10 minutes through security.",
+      q: "Can I still skip the line at the Uffizi?",
+      a: "There is no separate skip-the-line ticket anymore — all tickets are timed entry. With a reserved slot you skip the ticket-office queue: go straight to Door 1 at your entry time, show the QR code from your booking email, and pass the short security check that applies to everyone.",
     },
     {
       q: "Can I get a refund on Uffizi tickets?",
@@ -96,28 +96,28 @@ const en: TicketsContent = {
     },
     {
       q: "Is the Uffizi ever free?",
-      a: "Yes, on the first Sunday of every month. However, these days are extremely crowded with waits of 3-4 hours. Most visitors have a better experience paying for a regular ticket on a quieter day.",
+      a: "Yes, on the first Sunday of every month — the Vasari Corridor is free that day too. You still need a free nominative ticket: for the Uffizi, only from the ticket-office counter on the day (it cannot be booked online); for the corridor, booked online in advance or from the counter if a spot remains. These days are extremely crowded with waits of 3-4 hours, so most visitors have a better experience paying for a regular ticket on a quieter day.",
     },
     {
       q: "Do children need tickets for the Uffizi?",
-      a: "Children under 18 enter free regardless of nationality. They still need to pass through security and should carry ID or a document showing their age.",
+      a: "Children under 18 enter free regardless of nationality, but they still need a free nominative ticket — the name on the ticket must match their ID. They also pass through the security check at Door 1 like everyone else.",
     },
   ],
 };
 
 const it: TicketsContent = {
   meta: {
-    title: "Biglietti Galleria degli Uffizi 2026 | Prezzi, Salta la Fila e Prenota",
+    title: "Biglietti Galleria degli Uffizi 2026 | Prezzi e Prenotazione",
     description:
-      "Acquista biglietti per gli Uffizi da €26. Ingresso salta la fila, visite guidate e giornate gratuite. Guida completa prezzi 2026 con sconti e riduzioni.",
+      "Acquista biglietti Uffizi da €26 con ingresso a orario prestabilito e audioguida digitale. Guida prezzi 2026: €25–€29 standard, ridotti e gratuiti.",
   },
   h1: "Biglietti Galleria degli Uffizi",
   intro:
-    "Se c'è un consiglio che do a ogni visitatore di Firenze, è questo: non presentarti agli Uffizi senza biglietto. Ho visto persone fare tre ore di coda sotto il sole di luglio, per poi scoprire che le fasce pomeridiane erano esaurite. Un biglietto prenotato online costa uguale — o meno — rispetto a quello in biglietteria, e salti completamente la fila.",
+    "Se c'è un consiglio che do a ogni visitatore di Firenze, è questo: non presentarti agli Uffizi senza biglietto. Ho visto persone fare tre ore di coda sotto il sole di luglio, per poi scoprire che le fasce pomeridiane erano esaurite. Prenotare in anticipo costa €4 in più rispetto alla biglietteria — è il diritto di prenotazione — e in cambio hai un orario di ingresso garantito e la fila alla biglietteria non la fai mai.",
   ctaTitle: "Biglietto Riservato Galleria degli Uffizi e Audioguida Digitale",
   priceSection: {
     h2: "Tipologie di Biglietti e Prezzi 2026",
-    p: "Gli Uffizi applicano tariffe stagionali. L'alta stagione va dal 1° marzo al 31 ottobre, nei mesi di maggior affluenza turistica. La bassa stagione (1° novembre – 28 febbraio) offre risparmi significativi. Ecco il riepilogo completo:",
+    p: "Gli Uffizi hanno aggiornato le tariffe per il 2026. Il biglietto standard (ingresso prima delle 16:00) costa €25 in giornata o €29 in prevendita — la differenza di €4 è il diritto di prenotazione. L'ingresso pomeridiano (dalle 16:00) costa €16 in giornata o €20 in prevendita. Tutti i biglietti sono a orario prestabilito. Ecco il riepilogo completo:",
     tableTitle: "Prezzi Biglietti Uffizi 2026",
   },
   howToBuy: {
@@ -126,26 +126,26 @@ const it: TicketsContent = {
     options: [
       {
         h3: "1. Prenotazione Online (Consigliata)",
-        p: "Prenota tramite un rivenditore autorizzato per ottenere un biglietto con ingresso a orario e accesso salta la fila. Riceverai un voucher digitale sul telefono — non serve stampare nulla. Vai direttamente alla Porta 1, fai scansionare il biglietto e sei dentro. Disponibile con mesi di anticipo: consiglio di prenotare almeno 2 settimane prima in primavera e in estate.",
+        p: "Prenota tramite un rivenditore autorizzato per ottenere un biglietto con ingresso a orario prestabilito e audioguida digitale. Riceverai un QR code via email — mostralo sul telefono o stampalo, non c'è nulla da ritirare. Vai direttamente alla Porta 1 all'orario prenotato, supera il rapido controllo di sicurezza e sei dentro. Disponibile con mesi di anticipo: consiglio di prenotare almeno 2 settimane prima in primavera e in estate.",
       },
       {
         h3: "2. Sito Ufficiale (b-ticket.com/uffizi)",
-        p: "La piattaforma ufficiale del museo applica il prezzo base del biglietto più €4 di diritto di prenotazione. Selezionerai una fascia oraria. L'interfaccia può essere lenta nei periodi di picco e le fasce più richieste si esauriscono rapidamente.",
+        p: "La piattaforma ufficiale del museo applica il prezzo base del biglietto più €4 di diritto di prenotazione (€29 in totale per l'ingresso standard). Selezionerai una fascia oraria. L'interfaccia può essere lenta nei periodi di picco e le fasce più richieste si esauriscono rapidamente.",
       },
       {
-        h3: "3. Biglietto in Cassa (Sconsigliato)",
-        p: "Puoi acquistare i biglietti alla Porta 2 il giorno stesso, ma preparati ad aspettare — da 1 a 3 ore da marzo a ottobre. Nei giorni di punta (weekend, festivi, giornate di pioggia quando i piani all'aperto saltano), il museo può esaurire i posti. Il prezzo in cassa è uguale al prezzo base.",
+        h3: "3. Acquisto in Sede (Sconsigliato)",
+        p: "Puoi acquistare i biglietti in biglietteria il giorno stesso — in contanti alle casse automatiche o con carta agli sportelli con personale. Il biglietto standard in giornata costa €25, ma l'ingresso è a orario prestabilito e nei giorni di punta (weekend, festivi, giornate di pioggia quando i piani all'aperto saltano) la prima fascia disponibile può essere a ore di distanza — o i posti possono esaurirsi del tutto. Tutti entrano dalla Porta 1.",
       },
     ],
   },
   freeEntry: {
     h2: "Giornate ad Ingresso Gratuito",
-    p: "Gli Uffizi offrono l'ingresso gratuito la prima domenica di ogni mese. Sembra fantastico, vero? In pratica, queste giornate sono incredibilmente affollate — la coda può superare le 4 ore e le sale sono pienissime. Se visiti in una domenica gratuita, arriva entro le 7:30. Altrimenti, ti consiglio di pagare il biglietto in un giorno più tranquillo per un'esperienza decisamente migliore.",
+    p: "Gli Uffizi offrono l'ingresso gratuito la prima domenica di ogni mese, e lo stesso vale per il Corridoio Vasariano. Il biglietto serve comunque ed è nominativo: riporta il nome del visitatore. Quello gratuito degli Uffizi si ritira solo allo sportello della biglietteria il giorno stesso e non è prenotabile online; quello del Corridoio Vasariano va invece prenotato online in anticipo, oppure ritirato in biglietteria il giorno stesso se resta ancora posto. In pratica, queste giornate sono incredibilmente affollate — la coda può superare le 4 ore e le sale sono pienissime. Se visiti in una domenica gratuita, arriva entro le 7:30. Altrimenti, ti consiglio di pagare il biglietto in un giorno più tranquillo per un'esperienza decisamente migliore.",
   },
   skipLine: {
-    h2: "Salta la Fila: Come Funziona",
-    p: "Quando prenoti un biglietto salta la fila, ricevi una conferma con un orario di ingresso specifico (es. 10:00-10:15). Il giorno della visita, vai alla Porta 1 (o alla Porta 3 per i gruppi). Mostra il voucher digitale e un documento d'identità, passa il controllo di sicurezza e sei dentro. L'intero processo richiede 5-10 minuti.",
-    link: "Guida completa al salta la fila →",
+    h2: "Ingresso a Orario: Come Funziona",
+    p: "Da settembre 2025, con la nuova gestione CoopCulture, ogni biglietto degli Uffizi è a orario prestabilito e tutti entrano dalla Porta 1 — il vecchio punto di cambio voucher alla Porta 3 non è più operativo e non esistono voucher cartacei. Quando prenoti, ricevi un QR code via email con un orario di ingresso specifico (es. 10:00-10:15). Mostralo sul telefono (o stampato) alla Porta 1, supera il breve controllo di sicurezza previsto per tutti i visitatori e sei dentro.",
+    link: "Guida completa all'ingresso a orario →",
   },
   whenToBook: {
     h2: "Quando Prenotare",
@@ -162,15 +162,15 @@ const it: TicketsContent = {
   faq: [
     {
       q: "Quanto costano i biglietti per gli Uffizi nel 2026?",
-      a: "Il biglietto standard costa €25 (marzo–ottobre) o €12 (novembre–febbraio). I cittadini UE tra 18 e 25 anni pagano €2. I minori di 18 anni di qualsiasi nazionalità entrano gratis. I biglietti salta la fila online partono da €26.",
+      a: "Il biglietto standard (ingresso prima delle 16:00) costa €25 in giornata o €29 in prevendita. L'ingresso pomeridiano (dalle 16:00) costa €16 in giornata o €20 in prevendita. I cittadini UE tra 18 e 25 anni pagano €2. I minori di 18 anni di qualsiasi nazionalità entrano gratis. I biglietti con ingresso a orario prestabilito e audioguida digitale partono da €26 online.",
     },
     {
       q: "Posso comprare i biglietti per gli Uffizi in cassa?",
-      a: "Sì, ma preparati ad attendere 1-3 ore in alta stagione. I biglietti in cassa si vendono alla Porta 2. Nei giorni più affollati il museo può esaurire i posti, quindi la prenotazione anticipata è fortemente consigliata.",
+      a: "Sì — in contanti alle casse automatiche o con carta agli sportelli con personale. Il biglietto standard in giornata costa €25, ma l'ingresso è a orario e nei giorni più affollati i posti possono esaurirsi: la prenotazione anticipata è fortemente consigliata. Tutti entrano dalla Porta 1.",
     },
     {
-      q: "Cosa significa 'salta la fila' agli Uffizi?",
-      a: "I biglietti salta la fila includono l'ingresso a orario — vai direttamente alla Porta 1 all'orario prenotato e bypassi la coda dell'ingresso generale. L'ingresso richiede in genere 5-10 minuti per il controllo sicurezza.",
+      q: "Posso ancora saltare la fila agli Uffizi?",
+      a: "Non esiste più un biglietto salta fila separato — tutti i biglietti sono a orario prestabilito. Con una fascia oraria riservata salti la fila alla biglietteria: vai direttamente alla Porta 1 all'orario di ingresso, mostra il QR code ricevuto via email e supera il breve controllo di sicurezza previsto per tutti.",
     },
     {
       q: "Posso ottenere un rimborso sui biglietti degli Uffizi?",
@@ -178,28 +178,28 @@ const it: TicketsContent = {
     },
     {
       q: "Gli Uffizi sono mai gratuiti?",
-      a: "Sì, la prima domenica di ogni mese. Tuttavia, queste giornate sono estremamente affollate con attese di 3-4 ore. La maggior parte dei visitatori vive un'esperienza migliore pagando il biglietto in un giorno più tranquillo.",
+      a: "Sì, la prima domenica di ogni mese — quel giorno è gratuito anche il Corridoio Vasariano. Serve comunque un biglietto nominativo gratuito: per gli Uffizi si ritira solo allo sportello della biglietteria il giorno stesso e non è prenotabile online; per il corridoio va prenotato online in anticipo, oppure ritirato in biglietteria se resta posto. Queste giornate sono estremamente affollate, con attese di 3-4 ore: la maggior parte dei visitatori vive un'esperienza migliore pagando il biglietto in un giorno più tranquillo.",
     },
     {
       q: "I bambini hanno bisogno del biglietto per gli Uffizi?",
-      a: "I minori di 18 anni entrano gratis indipendentemente dalla nazionalità. Devono comunque passare i controlli di sicurezza e portare un documento che attesti l'età.",
+      a: "I minori di 18 anni entrano gratis indipendentemente dalla nazionalità, ma serve comunque un biglietto nominativo gratuito — il nome sul biglietto deve corrispondere al documento. Devono inoltre passare il controllo di sicurezza alla Porta 1 come tutti.",
     },
   ],
 };
 
 const de: TicketsContent = {
   meta: {
-    title: "Uffizi Galerie Tickets 2026 | Preise, Ohne Anstehen & Online buchen",
+    title: "Uffizi Galerie Tickets 2026 | Preise & Zeitfenster buchen",
     description:
-      "Uffizi Galerie Tickets ab €26 buchen. Eintritt ohne Anstehen, Führungen & kostenlose Eintrittstage. Vollständiger Preisüberblick 2026 mit Ermäßigungen.",
+      "Uffizi Tickets ab €26 mit Zeitfenster und digitalem Audioguide buchen. Alle Preise 2026: €25–€29 Standard, ermäßigter und freier Eintritt, plus Spartipps.",
   },
   h1: "Uffizi Galerie Tickets",
   intro:
-    "Wenn es einen Rat gibt, den ich jedem Florenz-Besucher gebe, dann diesen: Gehen Sie nicht ohne Ticket zu den Uffizien. Ich habe erlebt, wie Besucher drei Stunden in der Juli-Sonne angestanden haben — nur um dann zu erfahren, dass die Nachmittagsfenster ausverkauft waren. Ein vorab gebuchtes Ticket kostet genauso viel — oder sogar weniger — als an der Tageskasse, und Sie überspringen die Warteschlange komplett.",
+    "Wenn es einen Rat gibt, den ich jedem Florenz-Besucher gebe, dann diesen: Gehen Sie nicht ohne Ticket zu den Uffizien. Ich habe erlebt, wie Besucher drei Stunden in der Juli-Sonne angestanden haben — nur um dann zu erfahren, dass die Nachmittagsfenster ausverkauft waren. Eine Vorausbuchung kostet €4 mehr als an der Tageskasse — das ist die Reservierungsgebühr — und dafür haben Sie eine feste Eintrittszeit und müssen sich gar nicht erst an der Kasse anstellen.",
   ctaTitle: "Uffizi Galerie Reserviertes Ticket & Digitaler Audioguide",
   priceSection: {
     h2: "Ticketarten & Preise 2026",
-    p: "Die Uffizien arbeiten mit saisonalen Preisen. Die Hauptsaison läuft vom 1. März bis zum 31. Oktober — parallel zu den besucherstärksten Monaten. In der Nebensaison (1. November bis 28. Februar) sparen Sie erheblich. Hier die vollständige Übersicht:",
+    p: "Die Uffizien haben ihre Preise für 2026 aktualisiert. Das Standardticket (Einlass vor 16:00 Uhr) kostet €25 am Besuchstag oder €29 im Vorverkauf — die Differenz von €4 ist die Reservierungsgebühr. Der Nachmittagseintritt (ab 16:00 Uhr) kostet €16 am Besuchstag oder €20 im Vorverkauf. Alle Tickets sind Zeitfenster-Tickets. Hier die vollständige Übersicht:",
     tableTitle: "Uffizi Galerie Ticketpreise 2026",
   },
   howToBuy: {
@@ -208,26 +208,26 @@ const de: TicketsContent = {
     options: [
       {
         h3: "1. Online-Vorausbuchung (Empfohlen)",
-        p: "Buchen Sie über einen autorisierten Anbieter ein Zeitfenster-Ticket mit Eintritt ohne Anstehen. Sie erhalten einen mobilen Voucher — Ausdrucken ist nicht nötig. Gehen Sie direkt zu Tür 1, lassen Sie Ihr Ticket scannen und schon sind Sie drin. Buchbar bis zu mehrere Monate im Voraus — in der Frühlings- und Sommersaison empfehle ich, mindestens 2 Wochen vorher zu buchen.",
+        p: "Buchen Sie über einen autorisierten Anbieter ein Ticket mit Zeitfenster und digitalem Audioguide. Sie erhalten einen QR-Code per E-Mail — zeigen Sie ihn auf dem Handy vor oder drucken Sie ihn aus, es muss nichts abgeholt werden. Gehen Sie zu Ihrer reservierten Zeit direkt zu Eingang 1, passieren Sie die kurze Sicherheitskontrolle, und schon sind Sie drin. Buchbar bis zu mehrere Monate im Voraus — in der Frühlings- und Sommersaison empfehle ich, mindestens 2 Wochen vorher zu buchen.",
       },
       {
         h3: "2. Offizielle Website (b-ticket.com/uffizi)",
-        p: "Die offizielle Buchungsplattform des Museums berechnet den regulären Ticketpreis plus €4 Buchungsgebühr. Sie wählen ein Eintrittszeitfenster. Die Oberfläche kann in Stoßzeiten langsam sein, und beliebte Zeitfenster sind schnell ausverkauft.",
+        p: "Die offizielle Buchungsplattform des Museums berechnet den regulären Ticketpreis plus €4 Reservierungsgebühr (insgesamt €29 für den Standardeintritt). Sie wählen ein Eintrittszeitfenster. Die Oberfläche kann in Stoßzeiten langsam sein, und beliebte Zeitfenster sind schnell ausverkauft.",
       },
       {
-        h3: "3. Tickets an der Tageskasse (Nicht empfohlen)",
-        p: "Sie können an Tür 2 am Besuchstag Tickets kaufen, müssen aber mit langen Wartezeiten rechnen — in der Regel 1 bis 3 Stunden von März bis Oktober. An besonders stark frequentierten Tagen (Wochenenden, Feiertage, Regentage, wenn Outdoor-Pläne ins Wasser fallen) kann das Museum komplett ausverkauft sein. Die Preise an der Tageskasse entsprechen dem regulären Ticketpreis.",
+        h3: "3. Kauf vor Ort (Nicht empfohlen)",
+        p: "Sie können Tickets am Besuchstag an der Kasse kaufen — bar an den Selbstbedienungsautomaten oder mit Karte an den besetzten Schaltern. Das Standardticket kostet am Besuchstag €25, aber der Einlass erfolgt nur mit Zeitfenster, und an stark frequentierten Tagen (Wochenenden, Feiertage, Regentage, wenn Outdoor-Pläne ins Wasser fallen) kann das nächste freie Zeitfenster Stunden entfernt sein — oder der Tag ist komplett ausverkauft. Alle Besucher betreten das Museum durch Eingang 1.",
       },
     ],
   },
   freeEntry: {
     h2: "Tage mit freiem Eintritt",
-    p: "Die Uffizien bieten am ersten Sonntag jedes Monats freien Eintritt. Klingt verlockend, oder? In der Praxis sind diese Tage unglaublich überfüllt — die Warteschlange kann über 4 Stunden betragen und die Säle sind rappelvoll. Wenn Sie an einem kostenlosen Sonntag kommen, seien Sie spätestens um 7:30 Uhr vor Ort. Ansonsten rate ich Ihnen, ein reguläres Ticket an einem ruhigeren Tag zu kaufen — das Erlebnis ist unvergleichlich besser.",
+    p: "Die Uffizien bieten am ersten Sonntag jedes Monats freien Eintritt, ebenso der Vasarikorridor. Ein Ticket ist trotzdem nötig und personalisiert: Der Name des Besuchers steht darauf. Das kostenlose Uffizien-Ticket gibt es ausschliesslich am Schalter der Ticketkasse am Tag selbst und ist online nicht buchbar; das Ticket für den Vasarikorridor muss dagegen online im Voraus gebucht oder am Tag selbst an der Kasse abgeholt werden, sofern noch ein Platz frei ist. In der Praxis sind diese Tage unglaublich überfüllt — die Warteschlange kann über 4 Stunden betragen und die Säle sind rappelvoll. Wenn Sie an einem kostenlosen Sonntag kommen, seien Sie spätestens um 7:30 Uhr vor Ort. Ansonsten rate ich Ihnen, ein reguläres Ticket an einem ruhigeren Tag zu kaufen — das Erlebnis ist unvergleichlich besser.",
   },
   skipLine: {
-    h2: "Ohne Anstehen: So funktioniert es",
-    p: "Wenn Sie ein Ticket ohne Anstehen buchen, erhalten Sie eine Bestätigung mit einem bestimmten Eintrittszeitfenster (z. B. 10:00–10:15 Uhr). Am Besuchstag gehen Sie zu Tür 1 (oder Tür 3 für Gruppen). Zeigen Sie Ihren mobilen Voucher und Ihren Ausweis vor, durchlaufen Sie die Sicherheitskontrolle — und schon sind Sie drin. Der gesamte Vorgang dauert 5–10 Minuten.",
-    link: "Vollständiger Ratgeber zum Eintritt ohne Anstehen →",
+    h2: "Zeitfenster-Eintritt: So funktioniert es",
+    p: "Seit September 2025 ist unter der neuen CoopCulture-Verwaltung jedes Uffizi-Ticket ein Zeitfenster-Ticket, und alle Besucher betreten das Museum durch Eingang 1 — die alte Voucher-Umtauschstelle an Eingang 3 ist nicht mehr in Betrieb, Papier-Voucher gibt es nicht mehr. Bei der Buchung erhalten Sie einen QR-Code per E-Mail mit einer festen Eintrittszeit (z. B. 10:00–10:15 Uhr). Zeigen Sie ihn auf dem Handy (oder ausgedruckt) an Eingang 1 vor, durchlaufen Sie die kurze Sicherheitskontrolle, die für alle gilt — und schon sind Sie drin.",
+    link: "Vollständiger Ratgeber zum Zeitfenster-Eintritt →",
   },
   whenToBook: {
     h2: "Wann buchen?",
@@ -244,15 +244,15 @@ const de: TicketsContent = {
   faq: [
     {
       q: "Was kosten Uffizi-Tickets 2026?",
-      a: "Standardtickets kosten €25 (März–Oktober) oder €12 (November–Februar). EU-Bürger zwischen 18 und 25 Jahren zahlen €2. Unter 18 Jahren ist der Eintritt unabhängig von der Nationalität kostenlos. Online-Tickets ohne Anstehen gibt es ab €26.",
+      a: "Das Standardticket (Einlass vor 16:00 Uhr) kostet €25 am Besuchstag oder €29 im Vorverkauf. Der Nachmittagseintritt (ab 16:00 Uhr) kostet €16 am Besuchstag oder €20 im Vorverkauf. EU-Bürger zwischen 18 und 25 Jahren zahlen €2. Unter 18 Jahren ist der Eintritt unabhängig von der Nationalität kostenlos. Tickets mit Zeitfenster und digitalem Audioguide gibt es ab €26 online.",
     },
     {
       q: "Kann ich Uffizi-Tickets an der Tageskasse kaufen?",
-      a: "Ja, aber rechnen Sie mit 1–3 Stunden Wartezeit in der Hauptsaison. Tageskassen-Tickets werden an Tür 2 verkauft. An stark besuchten Tagen kann das Museum ausverkauft sein — eine Vorausbuchung wird daher dringend empfohlen.",
+      a: "Ja — bar an den Selbstbedienungsautomaten oder mit Karte an den besetzten Schaltern. Das Standardticket kostet am Besuchstag €25, aber der Einlass ist zeitgebunden und an stark besuchten Tagen kann das Museum ausverkauft sein — eine Vorausbuchung wird daher dringend empfohlen. Alle betreten das Museum durch Eingang 1.",
     },
     {
-      q: "Was bedeutet 'ohne Anstehen' an den Uffizien?",
-      a: "Tickets ohne Anstehen beinhalten einen Zeitfenster-Eintritt — Sie gehen zu Ihrem reservierten Zeitpunkt direkt zu Tür 1 und umgehen die Warteschlange für den regulären Einlass. Der Eintritt durch die Sicherheitskontrolle dauert in der Regel 5–10 Minuten.",
+      q: "Kann ich an den Uffizien noch die Warteschlange überspringen?",
+      a: "Ein separates Ohne-Anstehen-Ticket gibt es nicht mehr — alle Tickets sind Zeitfenster-Tickets. Mit einem reservierten Zeitfenster umgehen Sie die Warteschlange an der Kasse: Gehen Sie zu Ihrer Eintrittszeit direkt zu Eingang 1, zeigen Sie den QR-Code aus Ihrer Buchungsbestätigung vor und passieren Sie die kurze Sicherheitskontrolle, die für alle Besucher gilt.",
     },
     {
       q: "Kann ich Uffizi-Tickets stornieren?",
@@ -260,28 +260,28 @@ const de: TicketsContent = {
     },
     {
       q: "Gibt es freien Eintritt in die Uffizien?",
-      a: "Ja, am ersten Sonntag jedes Monats. Allerdings sind diese Tage extrem überlaufen mit Wartezeiten von 3–4 Stunden. Die meisten Besucher haben ein deutlich besseres Erlebnis, wenn Sie ein reguläres Ticket an einem ruhigeren Tag kaufen.",
+      a: "Ja, am ersten Sonntag jedes Monats — an diesem Tag ist auch der Vasarikorridor kostenlos. Ein kostenloses personalisiertes Ticket ist trotzdem nötig: für die Uffizien nur am Schalter der Ticketkasse am Tag selbst (online nicht buchbar), für den Korridor online im Voraus oder an der Kasse, sofern noch ein Platz frei ist. Diese Tage sind extrem überlaufen mit Wartezeiten von 3–4 Stunden. Die meisten Besucher haben ein deutlich besseres Erlebnis, wenn Sie ein reguläres Ticket an einem ruhigeren Tag kaufen.",
     },
     {
       q: "Brauchen Kinder ein Ticket für die Uffizi Galerie?",
-      a: "Kinder und Jugendliche unter 18 Jahren haben freien Eintritt, unabhängig von der Nationalität. Sie müssen trotzdem die Sicherheitskontrolle durchlaufen und sollten einen Ausweis oder ein Dokument mit Altersnachweis dabei haben.",
+      a: "Kinder und Jugendliche unter 18 Jahren haben freien Eintritt, unabhängig von der Nationalität — sie benötigen aber ein kostenloses personalisiertes Ticket, dessen Name mit dem Ausweis übereinstimmen muss. Sie müssen außerdem wie alle Besucher die Sicherheitskontrolle an Eingang 1 durchlaufen.",
     },
   ],
 };
 
 const fr: TicketsContent = {
   meta: {
-    title: "Billets Galerie des Offices 2026 | Tarifs, Coupe-File et Reservation",
+    title: "Billets Galerie des Offices 2026 | Tarifs et Réservation",
     description:
-      "Reservez vos billets Offices des 20EUR. Entree coupe-file, visites guidees et journees gratuites. Guide complet des tarifs 2026 avec reductions.",
+      "Réservez vos billets Offices dès 26 € : entrée à horaire réservé et audioguide numérique. Guide complet des tarifs 2026 : 25–29 € standard, réduits et gratuits.",
   },
   h1: "Billets Galerie des Offices",
   intro:
-    "S'il y a un conseil que je donne a chaque visiteur de Florence, c'est celui-ci : ne vous presentez pas aux Offices sans billet. J'ai vu des gens faire la queue pendant trois heures sous le soleil de juillet, pour finalement apprendre que les creneaux de l'apres-midi etaient complets. Un billet reserve en ligne coute le meme prix, voire moins, qu'a la billetterie sur place, et vous evitez completement la file d'attente.",
+    "S'il y a un conseil que je donne à chaque visiteur de Florence, c'est celui-ci : ne vous présentez pas aux Offices sans billet. J'ai vu des gens faire la queue pendant trois heures sous le soleil de juillet, pour finalement apprendre que les créneaux de l'après-midi étaient complets. Réserver à l'avance coûte 4 € de plus qu'au guichet — ce sont les frais de réservation — et en échange vous avez une heure d'entrée garantie et vous évitez la file d'attente à la billetterie.",
   ctaTitle: "Billet Réservé Galerie des Offices et Audioguide Numérique",
   priceSection: {
     h2: "Types de Billets et Tarifs 2026",
-    p: "Les Offices pratiquent une tarification saisonniere. La haute saison s'etend du 1er mars au 31 octobre, pendant les mois de forte affluence touristique. La basse saison (du 1er novembre au 28 fevrier) permet de realiser des economies significatives. Voici le detail complet :",
+    p: "Les Offices ont mis à jour leurs tarifs pour 2026. Le billet standard (entrée avant 16h) coûte 25 € le jour même ou 29 € en prévente — la différence de 4 € correspond aux frais de réservation. L'entrée de l'après-midi (à partir de 16h) coûte 16 € le jour même ou 20 € en prévente. Tous les billets sont à horaire réservé. Voici le détail complet :",
     tableTitle: "Tarifs des Billets Offices 2026",
   },
   howToBuy: {
@@ -290,26 +290,26 @@ const fr: TicketsContent = {
     options: [
       {
         h3: "1. Reservation en Ligne (Recommande)",
-        p: "Reservez aupres d'un revendeur agree pour obtenir un billet a creneau horaire avec acces coupe-file. Vous recevrez un bon numerique sur votre telephone, aucune impression necessaire. Rendez-vous directement a la Porte 1, faites scanner votre billet et vous etes a l'interieur. Disponible plusieurs mois a l'avance : je recommande vivement de reserver au moins 2 semaines avant en periode de printemps et d'ete.",
+        p: "Réservez auprès d'un revendeur agréé pour obtenir un billet à horaire réservé avec audioguide numérique. Vous recevrez un QR code par e-mail — montrez-le sur votre téléphone ou imprimez-le, il n'y a rien à retirer. Rendez-vous directement à la Porte 1 à l'heure réservée, passez le rapide contrôle de sécurité et vous êtes à l'intérieur. Disponible plusieurs mois à l'avance : je recommande vivement de réserver au moins 2 semaines avant au printemps et en été.",
       },
       {
         h3: "2. Site Officiel (b-ticket.com/uffizi)",
-        p: "La plateforme officielle du musee facture le prix de base du billet plus 4EUR de frais de reservation. Vous selectionnerez un creneau d'entree. L'interface peut etre lente en periode d'affluence, et les creneaux les plus demandes se vendent rapidement.",
+        p: "La plateforme officielle du musee facture le prix de base du billet plus 4 € de frais de réservation (29 € au total pour l'entrée standard). Vous selectionnerez un creneau d'entree. L'interface peut etre lente en periode d'affluence, et les creneaux les plus demandes se vendent rapidement.",
       },
       {
-        h3: "3. Achat sur Place (Deconseille)",
-        p: "Vous pouvez acheter des billets a la Porte 2 le jour de votre visite, mais attendez-vous a de longues files d'attente : generalement 1 a 3 heures de mars a octobre. Les jours de forte affluence (week-ends, jours feries, jours de pluie quand les activites en plein air tombent a l'eau), le musee peut afficher complet. Le prix sur place est identique au tarif de base.",
+        h3: "3. Achat sur Place (Déconseillé)",
+        p: "Vous pouvez acheter des billets à la billetterie le jour de votre visite — en espèces aux bornes automatiques ou par carte aux guichets avec personnel. Le billet standard coûte 25 € le jour même, mais l'entrée se fait uniquement à horaire réservé et, les jours de forte affluence (week-ends, jours fériés, jours de pluie quand les activités en plein air tombent à l'eau), le prochain créneau disponible peut être à plusieurs heures — ou la journée peut afficher complet. Tout le monde entre par la Porte 1.",
       },
     ],
   },
   freeEntry: {
     h2: "Journees a Entree Gratuite",
-    p: "Les Offices offrent l'entree gratuite le premier dimanche de chaque mois. Tentant, n'est-ce pas ? En pratique, ces journees sont incroyablement bondees : la file d'attente peut depasser 4 heures et les salles sont pleines a craquer. Si vous venez un dimanche gratuit, arrivez avant 7h30. Sinon, je vous conseille de payer un billet un jour plus calme pour une experience bien meilleure.",
+    p: "Les Offices offrent l'entree gratuite le premier dimanche de chaque mois, tout comme le Corridor de Vasari. Un billet reste obligatoire et il est nominatif : le nom du visiteur y figure. Le billet gratuit des Offices est delivre uniquement au guichet de la billetterie le jour meme et n'est pas reservable en ligne ; celui du Corridor de Vasari doit au contraire etre reserve en ligne a l'avance, ou retire a la billetterie le jour meme s'il reste une place. En pratique, ces journees sont incroyablement bondees : la file d'attente peut depasser 4 heures et les salles sont pleines a craquer. Si vous venez un dimanche gratuit, arrivez avant 7h30. Sinon, je vous conseille de payer un billet un jour plus calme pour une experience bien meilleure.",
   },
   skipLine: {
-    h2: "Coupe-File : Comment Ca Marche",
-    p: "Lorsque vous reservez un billet coupe-file, vous recevez une confirmation avec un creneau horaire precis (par exemple 10h00-10h15). Le jour de votre visite, rendez-vous a la Porte 1 (ou Porte 3 pour les groupes). Presentez votre bon numerique et une piece d'identite, passez le controle de securite, et vous etes a l'interieur. L'ensemble du processus prend 5 a 10 minutes.",
-    link: "Guide complet du coupe-file \u2192",
+    h2: "Entrée à Horaire Réservé : Comment Ça Marche",
+    p: "Depuis septembre 2025, sous la nouvelle gestion CoopCulture, chaque billet des Offices est un billet à horaire réservé et tout le monde entre par la Porte 1 — l'ancien point d'échange de bons à la Porte 3 ne fonctionne plus, et il n'existe plus de bons papier. Lors de la réservation, vous recevez un QR code par e-mail avec un horaire d'entrée précis (par exemple 10h00-10h15). Présentez-le sur votre téléphone (ou imprimé) à la Porte 1, passez le court contrôle de sécurité qui s'applique à tous les visiteurs, et vous êtes à l'intérieur.",
+    link: "Guide complet de l'entrée à horaire réservé →",
   },
   whenToBook: {
     h2: "Quand Reserver",
@@ -326,15 +326,15 @@ const fr: TicketsContent = {
   faq: [
     {
       q: "Combien coutent les billets des Offices en 2026 ?",
-      a: "Le billet standard coute 25EUR (mars-octobre) ou 12EUR (novembre-fevrier). Les citoyens de l'UE ages de 18 a 25 ans paient 2EUR. L'entree est gratuite pour les moins de 18 ans de toute nationalite. Les billets coupe-file en ligne sont disponibles des 20EUR.",
+      a: "Le billet standard (entrée avant 16h) coûte 25 € le jour même ou 29 € en prévente. L'entrée de l'après-midi (à partir de 16h) coûte 16 € le jour même ou 20 € en prévente. Les citoyens de l'UE âgés de 18 à 25 ans paient 2 €. L'entrée est gratuite pour les moins de 18 ans de toute nationalité. Les billets à horaire réservé avec audioguide numérique sont disponibles dès 26 € en ligne.",
     },
     {
       q: "Peut-on acheter des billets sur place aux Offices ?",
-      a: "Oui, mais attendez-vous a 1 a 3 heures d'attente en haute saison. Les billets sur place sont vendus a la Porte 2. Les jours d'affluence, le musee peut afficher complet : la reservation en avance est donc fortement recommandee.",
+      a: "Oui — en espèces aux bornes automatiques ou par carte aux guichets avec personnel. Le billet standard coûte 25 € le jour même, mais l'entrée est à horaire réservé et les jours d'affluence peuvent afficher complet : la réservation en avance est donc fortement recommandée. Tout le monde entre par la Porte 1.",
     },
     {
-      q: "Que signifie 'coupe-file' aux Offices ?",
-      a: "Les billets coupe-file incluent une entree a creneau horaire : vous vous rendez directement a la Porte 1 a l'heure reservee et evitez la file d'attente generale. L'entree prend generalement 5 a 10 minutes apres le controle de securite.",
+      q: "Peut-on encore couper la file aux Offices ?",
+      a: "Il n'existe plus de billet coupe-file séparé — tous les billets sont à horaire réservé. Avec un créneau réservé, vous évitez la file d'attente à la billetterie : rendez-vous directement à la Porte 1 à votre heure d'entrée, présentez le QR code reçu par e-mail et passez le court contrôle de sécurité qui s'applique à tous.",
     },
     {
       q: "Peut-on obtenir un remboursement des billets des Offices ?",
@@ -342,28 +342,28 @@ const fr: TicketsContent = {
     },
     {
       q: "Les Offices sont-ils parfois gratuits ?",
-      a: "Oui, le premier dimanche de chaque mois. Cependant, ces journees sont extremement bondees avec des files d'attente de 3 a 4 heures. La plupart des visiteurs vivent une meilleure experience en payant un billet un jour plus calme.",
+      a: "Oui, le premier dimanche de chaque mois — le Corridor de Vasari est gratuit lui aussi ce jour-la. Un billet nominatif gratuit reste obligatoire : pour les Offices, uniquement au guichet de la billetterie le jour meme (pas de reservation en ligne) ; pour le corridor, en ligne a l'avance ou au guichet s'il reste une place. Ces journees sont extremement bondees avec des files d'attente de 3 a 4 heures : la plupart des visiteurs vivent une meilleure experience en payant un billet un jour plus calme.",
     },
     {
       q: "Les enfants ont-ils besoin d'un billet pour les Offices ?",
-      a: "Les moins de 18 ans entrent gratuitement quelle que soit leur nationalite. Ils doivent neanmoins passer le controle de securite et presenter une piece d'identite ou un document attestant de leur age.",
+      a: "Les moins de 18 ans entrent gratuitement quelle que soit leur nationalité, mais il leur faut tout de même un billet nominatif gratuit — le nom sur le billet doit correspondre à la pièce d'identité. Ils passent aussi le contrôle de sécurité à la Porte 1 comme tout le monde.",
     },
   ],
 };
 
 const es: TicketsContent = {
   meta: {
-    title: "Entradas Galeria Uffizi 2026 | Precios, Sin Colas y Reserva Online",
+    title: "Entradas Galería Uffizi 2026 | Precios y Reserva Online",
     description:
-      "Reserva entradas Uffizi desde 20EUR. Entrada sin colas, visitas guiadas y dias gratuitos. Guia completa de precios 2026 con descuentos.",
+      "Reserva entradas Uffizi desde 26 € con hora reservada y audioguía digital. Guía completa de precios 2026: 25–29 € estándar, reducidas y gratuitas.",
   },
   h1: "Entradas Galeria Uffizi",
   intro:
-    "Si hay un consejo que doy a cada visitante de Florencia, es este: no te presentes en los Uffizi sin entrada. He visto a personas hacer cola durante tres horas bajo el sol de julio, solo para descubrir que las franjas de la tarde estaban agotadas. Una entrada reservada online cuesta lo mismo, o incluso menos, que en la taquilla, y te saltas la cola por completo.",
+    "Si hay un consejo que doy a cada visitante de Florencia, es este: no te presentes en los Uffizi sin entrada. He visto a personas hacer cola durante tres horas bajo el sol de julio, solo para descubrir que las franjas de la tarde estaban agotadas. Reservar por adelantado cuesta 4 € más que en taquilla — es la tarifa de reserva — y a cambio tienes una hora de entrada garantizada y te ahorras la cola de la taquilla.",
   ctaTitle: "Entrada Reservada Galería Uffizi y Audioguía Digital",
   priceSection: {
     h2: "Tipos de Entradas y Precios 2026",
-    p: "Los Uffizi aplican precios estacionales. La temporada alta va del 1 de marzo al 31 de octubre, coincidiendo con los meses de mayor afluencia turistica. La temporada baja (del 1 de noviembre al 28 de febrero) ofrece un ahorro significativo. Aqui tienes el desglose completo:",
+    p: "Los Uffizi han actualizado sus tarifas para 2026. La entrada estándar (acceso antes de las 16:00) cuesta 25 € el mismo día o 29 € por adelantado — la diferencia de 4 € es la tarifa de reserva. La entrada de tarde (desde las 16:00) cuesta 16 € el mismo día o 20 € por adelantado. Todas las entradas son con hora reservada. Aquí tienes el desglose completo:",
     tableTitle: "Precios de Entradas Uffizi 2026",
   },
   howToBuy: {
@@ -372,26 +372,26 @@ const es: TicketsContent = {
     options: [
       {
         h3: "1. Reserva Online (Recomendado)",
-        p: "Reserva a traves de un revendedor autorizado para obtener una entrada con horario asignado y acceso sin colas. Recibiras un bono digital en tu movil, sin necesidad de imprimir nada. Dirigete directamente a la Puerta 1, escanea tu entrada y ya estas dentro. Disponible con meses de antelacion: recomiendo encarecidamente reservar al menos 2 semanas antes en primavera y verano.",
+        p: "Reserva a través de un revendedor autorizado para obtener una entrada con hora reservada y audioguía digital. Recibirás un código QR por correo electrónico — muéstralo en tu móvil o imprímelo, no hay nada que recoger. Ve directamente a la Puerta 1 a tu hora reservada, pasa el breve control de seguridad y ya estás dentro. Disponible con meses de antelación: recomiendo encarecidamente reservar al menos 2 semanas antes en primavera y verano.",
       },
       {
         h3: "2. Web Oficial (b-ticket.com/uffizi)",
-        p: "La plataforma oficial del museo cobra el precio base de la entrada mas 4EUR de gastos de reserva. Seleccionaras una franja horaria de entrada. La interfaz puede ir lenta en periodos de alta demanda, y las franjas mas solicitadas se agotan rapidamente.",
+        p: "La plataforma oficial del museo cobra el precio base de la entrada más 4 € de gastos de reserva (29 € en total para la entrada estándar). Seleccionaras una franja horaria de entrada. La interfaz puede ir lenta en periodos de alta demanda, y las franjas mas solicitadas se agotan rapidamente.",
       },
       {
         h3: "3. Compra en Taquilla (No Recomendado)",
-        p: "Puedes comprar entradas en la Puerta 2 el mismo dia de tu visita, pero preparate para largas esperas: normalmente de 1 a 3 horas de marzo a octubre. En dias de maxima afluencia (fines de semana, festivos, dias de lluvia cuando los planes al aire libre se cancelan), el museo puede colgar el cartel de entradas agotadas. El precio en taquilla es el mismo que el precio base.",
+        p: "Puedes comprar entradas en la taquilla el mismo día de tu visita — en efectivo en las máquinas de autoservicio o con tarjeta en los mostradores atendidos. La entrada estándar del mismo día cuesta 25 €, pero el acceso es solo con hora reservada y, en días de máxima afluencia (fines de semana, festivos, días de lluvia cuando los planes al aire libre se cancelan), la siguiente franja disponible puede estar a horas de distancia — o el día puede agotarse por completo. Todo el mundo entra por la Puerta 1.",
       },
     ],
   },
   freeEntry: {
     h2: "Dias de Entrada Gratuita",
-    p: "Los Uffizi ofrecen entrada gratuita el primer domingo de cada mes. Suena genial, verdad? En la practica, estos dias son increiblemente concurridos: la cola puede superar las 4 horas y las salas estan abarrotadas. Si visitas un domingo gratuito, llega antes de las 7:30. De lo contrario, te recomiendo pagar una entrada en un dia mas tranquilo para una experiencia mucho mejor.",
+    p: "Los Uffizi ofrecen entrada gratuita el primer domingo de cada mes, igual que el Corredor Vasariano. La entrada sigue siendo necesaria y es nominativa: lleva el nombre del visitante. La entrada gratuita de los Uffizi se emite unicamente en el mostrador de taquilla el mismo dia y no se puede reservar online; la del Corredor Vasariano, en cambio, debe reservarse online con antelacion o recogerse en taquilla el mismo dia si queda alguna plaza. En la practica, estos dias son increiblemente concurridos: la cola puede superar las 4 horas y las salas estan abarrotadas. Si visitas un domingo gratuito, llega antes de las 7:30. De lo contrario, te recomiendo pagar una entrada en un dia mas tranquilo para una experiencia mucho mejor.",
   },
   skipLine: {
-    h2: "Sin Colas: Como Funciona",
-    p: "Cuando reservas una entrada sin colas, recibes una confirmacion con un horario de entrada especifico (por ejemplo, 10:00-10:15). El dia de tu visita, dirigete a la Puerta 1 (o Puerta 3 para grupos). Muestra tu bono digital y un documento de identidad, pasa el control de seguridad y ya estas dentro. Todo el proceso dura entre 5 y 10 minutos.",
-    link: "Guia completa de entrada sin colas \u2192",
+    h2: "Entrada con Hora Reservada: Cómo Funciona",
+    p: "Desde septiembre de 2025, con la nueva gestión de CoopCulture, todas las entradas de los Uffizi son con hora reservada y todo el mundo entra por la Puerta 1 — el antiguo punto de canje de bonos de la Puerta 3 ya no funciona y no existen bonos en papel. Al reservar, recibes un código QR por correo electrónico con un horario de entrada concreto (por ejemplo, 10:00-10:15). Muéstralo en tu móvil (o impreso) en la Puerta 1, pasa el breve control de seguridad que se aplica a todos los visitantes y ya estás dentro.",
+    link: "Guía completa de la entrada con hora reservada →",
   },
   whenToBook: {
     h2: "Cuando Reservar",
@@ -408,15 +408,15 @@ const es: TicketsContent = {
   faq: [
     {
       q: "Cuanto cuestan las entradas de los Uffizi en 2026?",
-      a: "La entrada estandar cuesta 25EUR (marzo-octubre) o 12EUR (noviembre-febrero). Los ciudadanos de la UE de 18 a 25 anos pagan 2EUR. Los menores de 18 anos de cualquier nacionalidad entran gratis. Las entradas sin colas online estan disponibles desde 20EUR.",
+      a: "La entrada estándar (acceso antes de las 16:00) cuesta 25 € el mismo día o 29 € por adelantado. La entrada de tarde (desde las 16:00) cuesta 16 € el mismo día o 20 € por adelantado. Los ciudadanos de la UE de 18 a 25 años pagan 2 €. Los menores de 18 años de cualquier nacionalidad entran gratis. Las entradas con hora reservada y audioguía digital están disponibles desde 26 € online.",
     },
     {
       q: "Se pueden comprar entradas en taquilla en los Uffizi?",
-      a: "Si, pero preparate para esperar de 1 a 3 horas en temporada alta. Las entradas en taquilla se venden en la Puerta 2. Los dias de mayor afluencia, el museo puede agotar las entradas, por lo que se recomienda encarecidamente reservar con antelacion.",
+      a: "Sí — en efectivo en las máquinas de autoservicio o con tarjeta en los mostradores atendidos. La entrada estándar del mismo día cuesta 25 €, pero el acceso es con hora reservada y los días de mayor afluencia pueden agotarse: se recomienda encarecidamente reservar con antelación. Todo el mundo entra por la Puerta 1.",
     },
     {
-      q: "Que significa 'sin colas' en los Uffizi?",
-      a: "Las entradas sin colas incluyen un acceso con horario asignado: te diriges directamente a la Puerta 1 a la hora reservada y evitas la cola de entrada general. El acceso suele tardar entre 5 y 10 minutos pasando por el control de seguridad.",
+      q: "Se puede seguir evitando la cola en los Uffizi?",
+      a: "Ya no existe una entrada sin colas separada — todas las entradas son con hora reservada. Con una franja reservada evitas la cola de la taquilla: ve directamente a la Puerta 1 a tu hora de entrada, muestra el código QR recibido por correo electrónico y pasa el breve control de seguridad que se aplica a todos.",
     },
     {
       q: "Se puede obtener un reembolso de las entradas de los Uffizi?",
@@ -424,11 +424,11 @@ const es: TicketsContent = {
     },
     {
       q: "Los Uffizi son alguna vez gratuitos?",
-      a: "Si, el primer domingo de cada mes. Sin embargo, esos dias son extremadamente concurridos, con esperas de 3 a 4 horas. La mayoria de los visitantes disfrutan de una experiencia mejor pagando una entrada en un dia mas tranquilo.",
+      a: "Si, el primer domingo de cada mes — ese dia el Corredor Vasariano tambien es gratuito. Sigue haciendo falta una entrada nominativa gratuita: para los Uffizi, solo en el mostrador de taquilla el mismo dia (no se puede reservar online); para el corredor, online con antelacion o en taquilla si queda plaza. Esos dias son extremadamente concurridos, con esperas de 3 a 4 horas, asi que la mayoria de los visitantes disfrutan de una experiencia mejor pagando una entrada en un dia mas tranquilo.",
     },
     {
       q: "Los ninos necesitan entrada para los Uffizi?",
-      a: "Los menores de 18 anos entran gratis independientemente de su nacionalidad. Aun asi deben pasar el control de seguridad y llevar un documento de identidad o un documento que acredite su edad.",
+      a: "Los menores de 18 años entran gratis independientemente de su nacionalidad, pero necesitan igualmente una entrada nominativa gratuita — el nombre de la entrada debe coincidir con el documento de identidad. Además, pasan el control de seguridad en la Puerta 1 como todo el mundo.",
     },
   ],
 };

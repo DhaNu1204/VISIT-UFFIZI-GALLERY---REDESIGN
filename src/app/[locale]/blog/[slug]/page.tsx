@@ -13,8 +13,30 @@ import {
   getLocalizedBlogPostBySlug,
   getAllBlogSlugs,
 } from "@/data/blog";
+import type { BlogImage } from "@/data/blog";
 import { getBlogPageContent } from "@/data/content/blog-page";
 import { routing } from "@/i18n/routing";
+
+function BlogFigure({ image }: { image: BlogImage }) {
+  return (
+    <figure className="my-8">
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+        src={image.src}
+        alt={image.alt}
+        width={image.width || 720}
+        height={image.height || 480}
+        className="w-full rounded-lg"
+        loading="lazy"
+      />
+      {image.caption && (
+        <figcaption className="mt-2 text-center text-sm text-charcoal/50">
+          {image.caption}
+        </figcaption>
+      )}
+    </figure>
+  );
+}
 
 type Props = { params: Promise<{ locale: string; slug: string }> };
 
@@ -34,7 +56,34 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: post.title,
     description: post.description,
     alternates: {
-      canonical: `https://visituffizi.com/${locale}/blog/${slug}`,
+      canonical: `https://visituffizi.com/${locale}/blog/${slug}/`,
+    },
+    openGraph: {
+      title: post.title,
+      description: post.description,
+      url: `https://visituffizi.com/${locale}/blog/${slug}/`,
+      siteName: "Visit Uffizi",
+      type: "website",
+      locale,
+      images: [
+        {
+          url: post.heroImage
+            ? `https://visituffizi.com${post.heroImage.src}`
+            : "https://visituffizi.com/images/og/default.jpg",
+          width: 1200,
+          height: 630,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.title,
+      description: post.description,
+      images: [
+        post.heroImage
+          ? `https://visituffizi.com${post.heroImage.src}`
+          : "https://visituffizi.com/images/og/default.jpg",
+      ],
     },
   };
 }
@@ -53,6 +102,26 @@ export default async function BlogPostPage({ params }: Props) {
     .filter((p) => p.slug !== slug)
     .slice(0, 3);
 
+  /* On free-entry guides the paid entry ticket is the wrong pitch — entry costs
+     nothing that day. Offer the guided tour instead: its value is the guide. */
+  const isFreeEntryPost = slug === "uffizi-gallery-free-sundays-2026";
+  const ctaProps = isFreeEntryPost
+    ? {
+        type: "tour" as const,
+        title: c.ctaTourTitle,
+        price: "49",
+        duration: "2 hours",
+        includes: "Licensed art historian",
+        link: "https://www.getyourguide.com/florence-l32/florence-uffizi-gallery-guided-tour-with-vasari-corridor-t1142368/?partner_id=Z35Q282&utm_medium=online_publisher&cmp=visit_uffizi_tour_page",
+      }
+    : {
+        type: "tickets" as const,
+        title: c.ctaDetailTitle,
+        price: "26",
+        duration: "Full day",
+        link: "https://widgets.bokun.io/online-sales/b3f14469-0594-44c7-909d-81e89e845a68/experience/961802",
+      };
+
   return (
     <>
       <Hreflang path={`blog/${slug}`} />
@@ -68,7 +137,7 @@ export default async function BlogPostPage({ params }: Props) {
       <Breadcrumbs
         locale={locale}
         items={[
-          { label: c.breadcrumb, href: `/${locale}/blog` },
+          { label: c.breadcrumb, href: `/${locale}/blog/` },
           { label: post.h1 },
         ]}
       />
@@ -90,6 +159,12 @@ export default async function BlogPostPage({ params }: Props) {
         <p className="mb-8 text-lg leading-relaxed text-charcoal/85">
           {post.description}
         </p>
+
+        {/* Hero Image */}
+        {post.heroImage && <BlogFigure image={post.heroImage} />}
+
+        {/* CTA - Top (after hero) */}
+        <BookingCard {...ctaProps} />
 
         {/* Table of Contents */}
         <nav className="mb-10 rounded-lg border border-gold/20 bg-cream/50 p-5">
@@ -139,22 +214,27 @@ export default async function BlogPostPage({ params }: Props) {
                 </p>
               );
             })}
-            
+
+            {/* Section image(s) */}
+            {section.image && <BlogFigure image={section.image} />}
+            {section.images?.map((img, imgIdx) => (
+              <BlogFigure key={imgIdx} image={img} />
+            ))}
+
             {/* Ad after every 2 sections */}
             {i > 0 && (i + 1) % 2 === 0 && (
               <InArticleAd adSlot="5754991454" className="my-8" />
+            )}
+
+            {/* CTA - Mid-article (after midpoint section) */}
+            {i === Math.floor(post.sections.length / 2) && (
+              <BookingCard {...ctaProps} />
             )}
           </div>
         ))}
 
         {/* CTA */}
-        <BookingCard
-          type="tickets"
-          title={c.ctaDetailTitle}
-          price="26"
-          duration="Full day"
-          link="https://widgets.bokun.io/online-sales/b3f14469-0594-44c7-909d-81e89e845a68/experience/961802"
-        />
+        <BookingCard {...ctaProps} />
 
         {/* FAQ */}
         <FAQ items={post.faq} />
@@ -167,7 +247,7 @@ export default async function BlogPostPage({ params }: Props) {
           {related.map((p) => (
             <Link
               key={p.slug}
-              href={`/${locale}/blog/${p.slug}`}
+              href={`/${locale}/blog/${p.slug}/`}
               className="group rounded-lg border border-gold/15 bg-white p-4 transition-all hover:border-gold/30 hover:shadow-md"
             >
               <h3 className="text-sm font-semibold text-navy group-hover:text-burgundy">

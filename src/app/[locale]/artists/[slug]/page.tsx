@@ -30,7 +30,28 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: artist.title,
     description: artist.description,
     alternates: {
-      canonical: `https://visituffizi.com/${locale}/artists/${slug}`,
+      canonical: `https://visituffizi.com/${locale}/artists/${slug}/`,
+    },
+    openGraph: {
+      title: artist.title,
+      description: artist.description,
+      url: `https://visituffizi.com/${locale}/artists/${slug}/`,
+      siteName: "Visit Uffizi",
+      type: "website",
+      locale,
+      images: [
+        {
+          url: "https://visituffizi.com/images/og/default.jpg",
+          width: 1200,
+          height: 630,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: artist.title,
+      description: artist.description,
+      images: ["https://visituffizi.com/images/og/default.jpg"],
     },
   };
 }
@@ -64,7 +85,7 @@ export default async function ArtistPage({ params }: Props) {
       <Breadcrumbs
         locale={locale}
         items={[
-          { label: c.artistsBreadcrumb, href: `/${locale}/artists` },
+          { label: c.artistsBreadcrumb, href: `/${locale}/artists/` },
           { label: artist.name },
         ]}
       />
@@ -126,7 +147,7 @@ export default async function ArtistPage({ params }: Props) {
           title={`${c.ctaDetailPrefix}${artist.name}${c.ctaDetailSuffix}`}
           price="49"
           duration="2 hours"
-          includes="Skip-the-line entry, licensed art historian"
+          includes="Reserved timed entry, licensed art historian"
           link="https://www.getyourguide.com/florence-l32/florence-uffizi-gallery-guided-tour-with-vasari-corridor-t1142368/?partner_id=Z35Q282&utm_medium=online_publisher&cmp=visit_uffizi_tour_page"
         />
 
@@ -141,7 +162,7 @@ export default async function ArtistPage({ params }: Props) {
           {related.map((a) => (
             <Link
               key={a.slug}
-              href={`/${locale}/artists/${a.slug}`}
+              href={`/${locale}/artists/${a.slug}/`}
               className="group rounded-lg border border-gold/15 bg-white p-4 transition-all hover:border-gold/30 hover:shadow-md"
             >
               <h3 className="font-semibold text-navy group-hover:text-burgundy">

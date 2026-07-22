@@ -1,6 +1,6 @@
-import Link from "next/link";
 import { useTranslations } from "next-intl";
 import LanguageSwitcher from "@/components/ui/LanguageSwitcher";
+import ScrollToTopLink from "@/components/ui/ScrollToTopLink";
 
 type Props = {
   locale: string;
@@ -15,11 +15,11 @@ export default function Footer({ locale }: Props) {
     {
       title: t("quickLinks"),
       links: [
-        { label: nav("tickets"), href: `/${locale}/tickets` },
-        { label: nav("tours"), href: `/${locale}/tours` },
-        { label: nav("artworks"), href: `/${locale}/artworks` },
-        { label: nav("artists"), href: `/${locale}/artists` },
-        { label: nav("blog"), href: `/${locale}/blog` },
+        { label: nav("tickets"), href: `/${locale}/tickets/` },
+        { label: nav("tours"), href: `/${locale}/tours/` },
+        { label: nav("artworks"), href: `/${locale}/artworks/` },
+        { label: nav("artists"), href: `/${locale}/artists/` },
+        { label: nav("blog"), href: `/${locale}/blog/` },
       ],
     },
     {
@@ -27,35 +27,35 @@ export default function Footer({ locale }: Props) {
       links: [
         {
           label: nav("openingHours"),
-          href: `/${locale}/uffizi-gallery-opening-hours`,
+          href: `/${locale}/uffizi-gallery-opening-hours/`,
         },
-        { label: nav("visitorInfo"), href: `/${locale}/visitor-info` },
-        { label: nav("directions"), href: `/${locale}/directions` },
+        { label: nav("visitorInfo"), href: `/${locale}/visitor-info/` },
+        { label: nav("directions"), href: `/${locale}/directions/` },
         {
           label: nav("vasariCorridor"),
-          href: `/${locale}/vasari-corridor`,
+          href: `/${locale}/vasari-corridor/`,
         },
-        { label: nav("history"), href: `/${locale}/history` },
+        { label: nav("history"), href: `/${locale}/history/` },
       ],
     },
     {
       title: t("about"),
       links: [
-        { label: nav("skipTheLine"), href: `/${locale}/tickets/skip-the-line` },
-        { label: nav("guidedTour"), href: `/${locale}/tours/guided-tour` },
-        { label: nav("privateTour"), href: `/${locale}/tours/private-tour` },
+        { label: nav("skipTheLine"), href: `/${locale}/tickets/skip-the-line/` },
+        { label: nav("guidedTour"), href: `/${locale}/tours/guided-tour/` },
+        { label: nav("privateTour"), href: `/${locale}/tours/private-tour/` },
         {
           label: nav("comboTour"),
-          href: `/${locale}/tours/uffizi-accademia-tour`,
+          href: `/${locale}/tours/uffizi-accademia-tour/`,
         },
       ],
     },
     {
       title: t("legal"),
       links: [
-        { label: t("privacy"), href: `/${locale}/privacy` },
-        { label: t("terms"), href: `/${locale}/terms` },
-        { label: t("cookies"), href: `/${locale}/cookies` },
+        { label: t("privacy"), href: `/${locale}/privacy/` },
+        { label: t("terms"), href: `/${locale}/terms/` },
+        { label: t("cookies"), href: `/${locale}/cookies/` },
       ],
     },
   ];
@@ -73,12 +73,12 @@ export default function Footer({ locale }: Props) {
               <ul className="space-y-2">
                 {col.links.map((link) => (
                   <li key={link.href}>
-                    <Link
+                    <ScrollToTopLink
                       href={link.href}
                       className="text-sm text-white/60 transition-colors hover:text-white"
                     >
                       {link.label}
-                    </Link>
+                    </ScrollToTopLink>
                   </li>
                 ))}
               </ul>
