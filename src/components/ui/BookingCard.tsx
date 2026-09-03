@@ -1,5 +1,6 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import { trackAffiliateClick } from "@/lib/analytics";
 
 type Props = {
@@ -23,6 +24,8 @@ export default function BookingCard({
   includes,
   position = "booking-card",
 }: Props) {
+  const t = useTranslations("booking");
+
   const handleClick = () => {
     trackAffiliateClick({
       linkType: type === "tickets" ? "ticket" : "tour",
@@ -72,6 +75,13 @@ export default function BookingCard({
             Book Now
           </a>
         </div>
+
+        {/* Dual-rate line: ticket cards only (both products start from these prices) */}
+        {type === "tickets" && price && (
+          <p className="mt-3 text-xs leading-snug text-charcoal/60">
+            {t("dualRate")}
+          </p>
+        )}
       </div>
     </div>
   );

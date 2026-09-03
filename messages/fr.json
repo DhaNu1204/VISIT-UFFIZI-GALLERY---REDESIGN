@@ -41,7 +41,8 @@
     "terms": "Conditions d'Utilisation",
     "cookies": "Politique de Cookies",
     "copyright": "© {year} Visit Uffizi. Tous droits réservés.",
-    "affiliate": "Ce site contient des liens affiliés. Nous pouvons percevoir une commission sans frais supplémentaires pour vous."
+    "affiliate": "Ce site contient des liens affiliés. Nous pouvons percevoir une commission sans frais supplémentaires pour vous.",
+    "legalOperator": "Visit Uffizi est un site indépendant d'information touristique et de réservation exploité par Florence With Locals S.r.l. — Via Taddea 35/R, 50123 Florence (FI), Italie · TVA IT07564730484 · Registre des entreprises de Florence n° 07564730484 · REA FI-712305 · Agence de voyages SCIA réf. 07564730484-23072026-0853 (SUAP Comune di Firenze). Nous ne sommes PAS affiliés aux Galeries des Offices ni à leur billetterie officielle (b-ticket.com/uffizi). Contact : contact@florencewithlocals.com"
   },
   "booking": {
     "from": "À partir de",
@@ -54,7 +55,8 @@
     "duration": "Durée",
     "languages": "Langues",
     "includes": "Inclus",
-    "meetingPoint": "Point de Rendez-vous"
+    "meetingPoint": "Point de Rendez-vous",
+    "dualRate": "Billet + appli guide dès 26 € · Billet + audioguide dès 49 €"
   },
   "home": {
     "hero": "Galerie des Offices Florence",

@@ -44,7 +44,7 @@ const en: TicketsContent = {
     options: [
       {
         h3: "1. Online Pre-Booking (Recommended)",
-        p: "Book through an authorized reseller to get a reserved timed-entry ticket with a digital audio guide. You'll receive a QR code by email — show it on your phone or print it, there's nothing to collect. Walk straight to Door 1 at your reserved time, pass the short security check, and you're in. Available up to several months in advance, and I strongly recommend booking at least 2 weeks ahead during spring and summer.",
+        p: "Book through an independent local agency to get a reserved timed-entry ticket with a digital audio guide. You'll receive a QR code by email — show it on your phone or print it, there's nothing to collect. Walk straight to Door 1 at your reserved time, pass the short security check, and you're in. Available up to several months in advance, and I strongly recommend booking at least 2 weeks ahead during spring and summer.",
       },
       {
         h3: "2. Official Website (b-ticket.com/uffizi)",
@@ -126,7 +126,7 @@ const it: TicketsContent = {
     options: [
       {
         h3: "1. Prenotazione Online (Consigliata)",
-        p: "Prenota tramite un rivenditore autorizzato per ottenere un biglietto con ingresso a orario prestabilito e audioguida digitale. Riceverai un QR code via email — mostralo sul telefono o stampalo, non c'è nulla da ritirare. Vai direttamente alla Porta 1 all'orario prenotato, supera il rapido controllo di sicurezza e sei dentro. Disponibile con mesi di anticipo: consiglio di prenotare almeno 2 settimane prima in primavera e in estate.",
+        p: "Prenota tramite un'agenzia locale indipendente per ottenere un biglietto con ingresso a orario prestabilito e audioguida digitale. Riceverai un QR code via email — mostralo sul telefono o stampalo, non c'è nulla da ritirare. Vai direttamente alla Porta 1 all'orario prenotato, supera il rapido controllo di sicurezza e sei dentro. Disponibile con mesi di anticipo: consiglio di prenotare almeno 2 settimane prima in primavera e in estate.",
       },
       {
         h3: "2. Sito Ufficiale (b-ticket.com/uffizi)",
@@ -208,7 +208,7 @@ const de: TicketsContent = {
     options: [
       {
         h3: "1. Online-Vorausbuchung (Empfohlen)",
-        p: "Buchen Sie über einen autorisierten Anbieter ein Ticket mit Zeitfenster und digitalem Audioguide. Sie erhalten einen QR-Code per E-Mail — zeigen Sie ihn auf dem Handy vor oder drucken Sie ihn aus, es muss nichts abgeholt werden. Gehen Sie zu Ihrer reservierten Zeit direkt zu Eingang 1, passieren Sie die kurze Sicherheitskontrolle, und schon sind Sie drin. Buchbar bis zu mehrere Monate im Voraus — in der Frühlings- und Sommersaison empfehle ich, mindestens 2 Wochen vorher zu buchen.",
+        p: "Buchen Sie über eine unabhängige lokale Agentur ein Ticket mit Zeitfenster und digitalem Audioguide. Sie erhalten einen QR-Code per E-Mail — zeigen Sie ihn auf dem Handy vor oder drucken Sie ihn aus, es muss nichts abgeholt werden. Gehen Sie zu Ihrer reservierten Zeit direkt zu Eingang 1, passieren Sie die kurze Sicherheitskontrolle, und schon sind Sie drin. Buchbar bis zu mehrere Monate im Voraus — in der Frühlings- und Sommersaison empfehle ich, mindestens 2 Wochen vorher zu buchen.",
       },
       {
         h3: "2. Offizielle Website (b-ticket.com/uffizi)",
@@ -290,7 +290,7 @@ const fr: TicketsContent = {
     options: [
       {
         h3: "1. Reservation en Ligne (Recommande)",
-        p: "Réservez auprès d'un revendeur agréé pour obtenir un billet à horaire réservé avec audioguide numérique. Vous recevrez un QR code par e-mail — montrez-le sur votre téléphone ou imprimez-le, il n'y a rien à retirer. Rendez-vous directement à la Porte 1 à l'heure réservée, passez le rapide contrôle de sécurité et vous êtes à l'intérieur. Disponible plusieurs mois à l'avance : je recommande vivement de réserver au moins 2 semaines avant au printemps et en été.",
+        p: "Réservez auprès d'une agence locale indépendante pour obtenir un billet à horaire réservé avec audioguide numérique. Vous recevrez un QR code par e-mail — montrez-le sur votre téléphone ou imprimez-le, il n'y a rien à retirer. Rendez-vous directement à la Porte 1 à l'heure réservée, passez le rapide contrôle de sécurité et vous êtes à l'intérieur. Disponible plusieurs mois à l'avance : je recommande vivement de réserver au moins 2 semaines avant au printemps et en été.",
       },
       {
         h3: "2. Site Officiel (b-ticket.com/uffizi)",
@@ -372,7 +372,7 @@ const es: TicketsContent = {
     options: [
       {
         h3: "1. Reserva Online (Recomendado)",
-        p: "Reserva a través de un revendedor autorizado para obtener una entrada con hora reservada y audioguía digital. Recibirás un código QR por correo electrónico — muéstralo en tu móvil o imprímelo, no hay nada que recoger. Ve directamente a la Puerta 1 a tu hora reservada, pasa el breve control de seguridad y ya estás dentro. Disponible con meses de antelación: recomiendo encarecidamente reservar al menos 2 semanas antes en primavera y verano.",
+        p: "Reserva a través de una agencia local independiente para obtener una entrada con hora reservada y audioguía digital. Recibirás un código QR por correo electrónico — muéstralo en tu móvil o imprímelo, no hay nada que recoger. Ve directamente a la Puerta 1 a tu hora reservada, pasa el breve control de seguridad y ya estás dentro. Disponible con meses de antelación: recomiendo encarecidamente reservar al menos 2 semanas antes en primavera y verano.",
       },
       {
         h3: "2. Web Oficial (b-ticket.com/uffizi)",

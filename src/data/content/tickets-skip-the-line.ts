@@ -119,7 +119,7 @@ const en: SkipTheLineContent = {
   },
   cancellation: {
     h2: "Cancellation & Refund Policy",
-    p: "Most timed-entry tickets booked through authorized resellers offer free cancellation up to 24 hours before your visit. This is one of the biggest advantages over the official museum booking system, which typically does not offer refunds. Always check the specific cancellation terms when booking.",
+    p: "Most timed-entry tickets booked through independent local agencies offer free cancellation up to 24 hours before your visit. This is one of the biggest advantages over the official museum booking system, which typically does not offer refunds. Always check the specific cancellation terms when booking.",
   },
   ctaBottom: "Book Your Uffizi Entry Time",
   faq: [
@@ -223,7 +223,7 @@ const it: SkipTheLineContent = {
   },
   cancellation: {
     h2: "Cancellazione e Rimborso",
-    p: "La maggior parte dei biglietti a orario prestabilito prenotati tramite rivenditori autorizzati offre la cancellazione gratuita fino a 24 ore prima della visita. Questo \u00e8 uno dei maggiori vantaggi rispetto al sistema di prenotazione ufficiale del museo, che generalmente non prevede rimborsi. Verifica sempre le condizioni specifiche di cancellazione al momento della prenotazione.",
+    p: "La maggior parte dei biglietti a orario prestabilito prenotati tramite agenzie locali indipendenti offre la cancellazione gratuita fino a 24 ore prima della visita. Questo \u00e8 uno dei maggiori vantaggi rispetto al sistema di prenotazione ufficiale del museo, che generalmente non prevede rimborsi. Verifica sempre le condizioni specifiche di cancellazione al momento della prenotazione.",
   },
   ctaBottom: "Prenota il Tuo Orario di Ingresso agli Uffizi",
   faq: [
@@ -327,7 +327,7 @@ const de: SkipTheLineContent = {
   },
   cancellation: {
     h2: "Stornierung und Erstattung",
-    p: "Die meisten Zeitfenster-Tickets, die über autorisierte Wiederverkäufer gebucht werden, bieten eine kostenlose Stornierung bis 24 Stunden vor dem Besuch. Das ist einer der größten Vorteile gegenüber dem offiziellen Buchungssystem des Museums, das in der Regel keine Erstattungen vorsieht. Prüfen Sie bei der Buchung immer die genauen Stornierungsbedingungen.",
+    p: "Die meisten Zeitfenster-Tickets, die über unabhängige lokale Agenturen gebucht werden, bieten eine kostenlose Stornierung bis 24 Stunden vor dem Besuch. Das ist einer der größten Vorteile gegenüber dem offiziellen Buchungssystem des Museums, das in der Regel keine Erstattungen vorsieht. Prüfen Sie bei der Buchung immer die genauen Stornierungsbedingungen.",
   },
   ctaBottom: "Jetzt Ihre Uffizi-Eintrittszeit buchen",
   faq: [
@@ -430,7 +430,7 @@ const fr: SkipTheLineContent = {
   },
   cancellation: {
     h2: "Annulation et Remboursement",
-    p: "La plupart des billets \u00e0 horaire r\u00e9serv\u00e9 achet\u00e9s via des revendeurs agr\u00e9\u00e9s offrent l'annulation gratuite jusqu'\u00e0 24 heures avant votre visite. C'est l'un des plus grands avantages par rapport au syst\u00e8me de r\u00e9servation officiel du mus\u00e9e, qui ne propose g\u00e9n\u00e9ralement pas de remboursements. V\u00e9rifiez toujours les conditions d'annulation sp\u00e9cifiques lors de la r\u00e9servation.",
+    p: "La plupart des billets \u00e0 horaire r\u00e9serv\u00e9 achet\u00e9s via des agences locales ind\u00e9pendantes offrent l'annulation gratuite jusqu'\u00e0 24 heures avant votre visite. C'est l'un des plus grands avantages par rapport au syst\u00e8me de r\u00e9servation officiel du mus\u00e9e, qui ne propose g\u00e9n\u00e9ralement pas de remboursements. V\u00e9rifiez toujours les conditions d'annulation sp\u00e9cifiques lors de la r\u00e9servation.",
   },
   ctaBottom: "R\u00e9servez Votre Heure d'Entr\u00e9e aux Offices",
   faq: [
@@ -532,7 +532,7 @@ const es: SkipTheLineContent = {
   },
   cancellation: {
     h2: "Politica de Cancelacion y Reembolso",
-    p: "La mayor\u00eda de las entradas con hora reservada compradas a trav\u00e9s de revendedores autorizados ofrecen cancelaci\u00f3n gratuita hasta 24 horas antes de tu visita. Esta es una de las mayores ventajas frente al sistema de reserva oficial del museo, que normalmente no ofrece reembolsos. Comprueba siempre las condiciones de cancelaci\u00f3n espec\u00edficas al reservar.",
+    p: "La mayor\u00eda de las entradas con hora reservada compradas a trav\u00e9s de agencias locales independientes ofrecen cancelaci\u00f3n gratuita hasta 24 horas antes de tu visita. Esta es una de las mayores ventajas frente al sistema de reserva oficial del museo, que normalmente no ofrece reembolsos. Comprueba siempre las condiciones de cancelaci\u00f3n espec\u00edficas al reservar.",
   },
   ctaBottom: "Reserva Tu Hora de Entrada a los Uffizi",
   faq: [

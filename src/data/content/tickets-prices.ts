@@ -149,7 +149,7 @@ const en: TicketPricesContent = {
         notes: "Standard entry plus the \u20ac4 reservation fee, timed slot",
       },
       {
-        type: "In advance, authorized reseller",
+        type: "In advance, independent local agency",
         price: "From \u20ac26",
         notes: "Timed slot + digital audio guide, free cancellation",
       },
@@ -157,7 +157,7 @@ const en: TicketPricesContent = {
     footnote:
       "Afternoon entry (from 4:00 PM) is \u20ac16 on the day or \u20ac20 in advance.",
     recommendation:
-      "My honest recommendation: book through an authorized reseller. The price is competitive, you get a guaranteed entry slot plus a digital audio guide, and most offer free cancellation up to 24 hours before your visit. That flexibility alone is worth it \u2014 Florence weather can be unpredictable, and plans change. On the day itself you simply walk to Door 1 at your reserved time and skip the ticket-office queue; the short security screening applies to everyone.",
+      "My honest recommendation: book through an independent local agency. The price is competitive, you get a guaranteed entry slot plus a digital audio guide, and most offer free cancellation up to 24 hours before your visit. That flexibility alone is worth it \u2014 Florence weather can be unpredictable, and plans change. On the day itself you simply walk to Door 1 at your reserved time and skip the ticket-office queue; the short security screening applies to everyone.",
   },
   ctaTop: "Best Value \u2014 Uffizi Timed-Entry Ticket & Audio Guide",
   freeEntryDays: {
@@ -213,7 +213,7 @@ const en: TicketPricesContent = {
       "Under 18? Entry is free for all nationalities \u2014 but you still need a free nominative ticket, and the name on it must match the ID",
       "Art and architecture students at EU universities get free entry \u2014 bring your enrollment certificate",
       "Visiting Pitti Palace and the Boboli Gardens too? The PassePartout 5 Days covers all of them for \u20ac40",
-      "Book through an authorized reseller for a guaranteed entry slot, a digital audio guide and cancellation flexibility",
+      "Book through an independent local agency for a guaranteed entry slot, a digital audio guide and cancellation flexibility",
     ],
   },
   ctaBottom: "Book Uffizi Gallery Tickets",
@@ -224,7 +224,7 @@ const en: TicketPricesContent = {
     },
     {
       q: "Is there a booking fee for Uffizi tickets?",
-      a: "Yes \u2014 \u20ac4. That's the whole difference between the on-the-day price and the advance price (\u20ac25 versus \u20ac29 for standard entry): a reservation fee for locking in a specific date and time. Authorized resellers charge from \u20ac26 for a timed-entry ticket with a digital audio guide, and most offer free cancellation.",
+      a: "Yes \u2014 \u20ac4. That's the whole difference between the on-the-day price and the advance price (\u20ac25 versus \u20ac29 for standard entry): a reservation fee for locking in a specific date and time. Independent local agencies charge from \u20ac26 for a timed-entry ticket with a digital audio guide, and most offer free cancellation.",
     },
     {
       q: "What is the PassePartout 5 Days pass?",
@@ -345,7 +345,7 @@ const it: TicketPricesContent = {
           "Ingresso standard pi\u00f9 \u20ac4 di diritto di prenotazione, orario prestabilito",
       },
       {
-        type: "In prevendita, rivenditore autorizzato",
+        type: "In prevendita, agenzia locale indipendente",
         price: "Da \u20ac26",
         notes:
           "Orario prestabilito + audioguida digitale, cancellazione gratuita",
@@ -354,7 +354,7 @@ const it: TicketPricesContent = {
     footnote:
       "L'ingresso pomeridiano (dalle 16:00) costa \u20ac16 in giornata o \u20ac20 in prevendita.",
     recommendation:
-      "Il mio consiglio sincero: prenota tramite un rivenditore autorizzato. Il prezzo \u00e8 competitivo, ti garantisci una fascia oraria e un'audioguida digitale, e la maggior parte offre cancellazione gratuita fino a 24 ore prima. Questa flessibilit\u00e0 da sola vale la differenza \u2014 il meteo a Firenze \u00e8 imprevedibile e i piani possono cambiare. Il giorno della visita ti presenti alla Porta 1 all'orario prenotato e salti la fila alla biglietteria; il rapido controllo di sicurezza vale per tutti.",
+      "Il mio consiglio sincero: prenota tramite un'agenzia locale indipendente. Il prezzo \u00e8 competitivo, ti garantisci una fascia oraria e un'audioguida digitale, e la maggior parte offre cancellazione gratuita fino a 24 ore prima. Questa flessibilit\u00e0 da sola vale la differenza \u2014 il meteo a Firenze \u00e8 imprevedibile e i piani possono cambiare. Il giorno della visita ti presenti alla Porta 1 all'orario prenotato e salti la fila alla biglietteria; il rapido controllo di sicurezza vale per tutti.",
   },
   ctaTop: "Miglior Prezzo \u2014 Biglietto Uffizi a Orario e Audioguida",
   freeEntryDays: {
@@ -410,7 +410,7 @@ const it: TicketPricesContent = {
       "Hai meno di 18 anni? L'ingresso \u00e8 gratuito per tutte le nazionalit\u00e0 \u2014 serve comunque un biglietto nominativo gratuito e il nome deve corrispondere al documento",
       "Gli studenti di arte e architettura in universit\u00e0 UE entrano gratis \u2014 porta il certificato di iscrizione",
       "Visiti anche Palazzo Pitti e il Giardino di Boboli? Il PassePartout 5 Days li comprende tutti a \u20ac40",
-      "Prenota tramite un rivenditore autorizzato per avere una fascia oraria garantita, l'audioguida digitale e la flessibilit\u00e0 di cancellazione",
+      "Prenota tramite un'agenzia locale indipendente per avere una fascia oraria garantita, l'audioguida digitale e la flessibilit\u00e0 di cancellazione",
     ],
   },
   ctaBottom: "Prenota i Biglietti per gli Uffizi",
@@ -421,7 +421,7 @@ const it: TicketPricesContent = {
     },
     {
       q: "C'\u00e8 una commissione per la prenotazione dei biglietti?",
-      a: "S\u00ec \u2014 \u20ac4. \u00c8 tutta la differenza tra il prezzo in giornata e quello in prevendita (\u20ac25 contro \u20ac29 per l'ingresso standard): \u00e8 il diritto di prenotazione che ti blocca data e orario. I rivenditori autorizzati partono da \u20ac26 per un biglietto a orario prestabilito con audioguida digitale, e la maggior parte offre cancellazione gratuita.",
+      a: "S\u00ec \u2014 \u20ac4. \u00c8 tutta la differenza tra il prezzo in giornata e quello in prevendita (\u20ac25 contro \u20ac29 per l'ingresso standard): \u00e8 il diritto di prenotazione che ti blocca data e orario. Le agenzie locali indipendenti partono da \u20ac26 per un biglietto a orario prestabilito con audioguida digitale, e la maggior parte offre cancellazione gratuita.",
     },
     {
       q: "Cos'\u00e8 il PassePartout 5 Days?",
@@ -541,7 +541,7 @@ const de: TicketPricesContent = {
         notes: "Standardeintritt plus 4 € Reservierungsgebühr, festes Zeitfenster",
       },
       {
-        type: "Im Vorverkauf, autorisierter Wiederverkäufer",
+        type: "Im Vorverkauf, unabhängige lokale Agentur",
         price: "Ab 26 €",
         notes: "Festes Zeitfenster + digitaler Audioguide, kostenlose Stornierung",
       },
@@ -549,7 +549,7 @@ const de: TicketPricesContent = {
     footnote:
       "Der Nachmittagseintritt (ab 16:00 Uhr) kostet 16 € am Besuchstag oder 20 € im Vorverkauf.",
     recommendation:
-      "Meine ehrliche Empfehlung: Buchen Sie über einen autorisierten Wiederverkäufer. Der Preis ist wettbewerbsfähig, Sie sichern sich ein garantiertes Zeitfenster samt digitalem Audioguide, und die meisten bieten kostenlose Stornierung bis 24 Stunden vor dem Besuch. Allein diese Flexibilität ist es wert — das Wetter in Florenz kann unberechenbar sein, und Pläne ändern sich. Am Besuchstag gehen Sie zu Ihrer reservierten Zeit einfach zu Eingang 1 und umgehen die Warteschlange an der Kasse; die kurze Sicherheitskontrolle gilt für alle.",
+      "Meine ehrliche Empfehlung: Buchen Sie über eine unabhängige lokale Agentur. Der Preis ist wettbewerbsfähig, Sie sichern sich ein garantiertes Zeitfenster samt digitalem Audioguide, und die meisten bieten kostenlose Stornierung bis 24 Stunden vor dem Besuch. Allein diese Flexibilität ist es wert — das Wetter in Florenz kann unberechenbar sein, und Pläne ändern sich. Am Besuchstag gehen Sie zu Ihrer reservierten Zeit einfach zu Eingang 1 und umgehen die Warteschlange an der Kasse; die kurze Sicherheitskontrolle gilt für alle.",
   },
   ctaTop: "Bester Preis — Uffizi Ticket mit Zeitfenster & Audioguide",
   freeEntryDays: {
@@ -605,7 +605,7 @@ const de: TicketPricesContent = {
       "Unter 18? Der Eintritt ist für alle Nationalitäten kostenlos — Sie brauchen trotzdem ein kostenloses personalisiertes Ticket, dessen Name mit dem Ausweis übereinstimmt",
       "Kunst- und Architekturstudenten an EU-Universitäten erhalten freien Eintritt — Immatrikulationsbescheinigung nicht vergessen",
       "Besuchen Sie auch Palazzo Pitti und den Boboli-Garten? Der PassePartout 5 Days deckt alles für 40 € ab",
-      "Buchen Sie über einen autorisierten Wiederverkäufer für ein garantiertes Zeitfenster, einen digitalen Audioguide und Stornierungsflexibilität",
+      "Buchen Sie über eine unabhängige lokale Agentur für ein garantiertes Zeitfenster, einen digitalen Audioguide und Stornierungsflexibilität",
     ],
   },
   ctaBottom: "Uffizi Galerie Tickets buchen",
@@ -616,7 +616,7 @@ const de: TicketPricesContent = {
     },
     {
       q: "Gibt es eine Buchungsgebühr für Uffizi-Tickets?",
-      a: "Ja — 4 €. Das ist genau die Differenz zwischen dem Preis am Besuchstag und im Vorverkauf (25 € gegenüber 29 € beim Standardeintritt): die Reservierungsgebühr dafür, dass Sie sich ein festes Datum mit Uhrzeit sichern. Autorisierte Wiederverkäufer verlangen ab 26 € für ein Ticket mit Zeitfenster und digitalem Audioguide, und die meisten bieten kostenlose Stornierung.",
+      a: "Ja — 4 €. Das ist genau die Differenz zwischen dem Preis am Besuchstag und im Vorverkauf (25 € gegenüber 29 € beim Standardeintritt): die Reservierungsgebühr dafür, dass Sie sich ein festes Datum mit Uhrzeit sichern. Unabhängige lokale Agenturen verlangen ab 26 € für ein Ticket mit Zeitfenster und digitalem Audioguide, und die meisten bieten kostenlose Stornierung.",
     },
     {
       q: "Was ist der PassePartout 5 Days?",
@@ -736,7 +736,7 @@ const fr: TicketPricesContent = {
           "Entr\u00e9e standard plus 4 \u20ac de frais de r\u00e9servation, horaire r\u00e9serv\u00e9",
       },
       {
-        type: "En pr\u00e9vente, revendeur agr\u00e9\u00e9",
+        type: "En pr\u00e9vente, agence locale ind\u00e9pendante",
         price: "A partir de 26 \u20ac",
         notes: "Horaire r\u00e9serv\u00e9 + audioguide num\u00e9rique, annulation gratuite",
       },
@@ -744,7 +744,7 @@ const fr: TicketPricesContent = {
     footnote:
       "L'entr\u00e9e de l'apr\u00e8s-midi (\u00e0 partir de 16h) co\u00fbte 16 \u20ac le jour m\u00eame ou 20 \u20ac en pr\u00e9vente.",
     recommendation:
-      "Mon conseil sinc\u00e8re : r\u00e9servez via un revendeur agr\u00e9\u00e9. Le prix est comp\u00e9titif, vous vous assurez un cr\u00e9neau horaire garanti et un audioguide num\u00e9rique, et la plupart offrent l'annulation gratuite jusqu'\u00e0 24 heures avant votre visite. Cette flexibilit\u00e9 \u00e0 elle seule en vaut la peine \u2014 la m\u00e9t\u00e9o \u00e0 Florence peut \u00eatre impr\u00e9visible, et les plans changent. Le jour de la visite, vous vous pr\u00e9sentez \u00e0 la Porte 1 \u00e0 l'heure r\u00e9serv\u00e9e et vous \u00e9vitez la file d'attente \u00e0 la billetterie ; le court contr\u00f4le de s\u00e9curit\u00e9 s'applique \u00e0 tout le monde.",
+      "Mon conseil sinc\u00e8re : r\u00e9servez via une agence locale ind\u00e9pendante. Le prix est comp\u00e9titif, vous vous assurez un cr\u00e9neau horaire garanti et un audioguide num\u00e9rique, et la plupart offrent l'annulation gratuite jusqu'\u00e0 24 heures avant votre visite. Cette flexibilit\u00e9 \u00e0 elle seule en vaut la peine \u2014 la m\u00e9t\u00e9o \u00e0 Florence peut \u00eatre impr\u00e9visible, et les plans changent. Le jour de la visite, vous vous pr\u00e9sentez \u00e0 la Porte 1 \u00e0 l'heure r\u00e9serv\u00e9e et vous \u00e9vitez la file d'attente \u00e0 la billetterie ; le court contr\u00f4le de s\u00e9curit\u00e9 s'applique \u00e0 tout le monde.",
   },
   ctaTop: "Meilleur Prix \u2014 Billet Offices \u00e0 Horaire R\u00e9serv\u00e9 et Audioguide",
   freeEntryDays: {
@@ -800,7 +800,7 @@ const fr: TicketPricesContent = {
       "Moins de 18 ans ? L'entr\u00e9e est gratuite pour toutes les nationalit\u00e9s \u2014 il faut tout de m\u00eame un billet nominatif gratuit, au nom figurant sur la pi\u00e8ce d'identit\u00e9",
       "Les etudiants en art et architecture des universites de l'UE entrent gratuitement \u2014 apportez votre certificat d'inscription",
       "Vous visitez aussi le Palazzo Pitti et les Jardins de Boboli ? Le PassePartout 5 Days couvre le tout pour 40 \u20ac",
-      "R\u00e9servez via un revendeur agr\u00e9\u00e9 pour un cr\u00e9neau garanti, un audioguide num\u00e9rique et la flexibilit\u00e9 d'annulation",
+      "R\u00e9servez via une agence locale ind\u00e9pendante pour un cr\u00e9neau garanti, un audioguide num\u00e9rique et la flexibilit\u00e9 d'annulation",
     ],
   },
   ctaBottom: "Reservez Vos Billets pour les Offices",
@@ -811,7 +811,7 @@ const fr: TicketPricesContent = {
     },
     {
       q: "Y a-t-il des frais de reservation pour les billets des Offices ?",
-      a: "Oui \u2014 4 \u20ac. C'est tout l'\u00e9cart entre le prix du jour m\u00eame et celui de la pr\u00e9vente (25 \u20ac contre 29 \u20ac pour l'entr\u00e9e standard) : ce sont les frais de r\u00e9servation qui bloquent une date et un horaire pr\u00e9cis. Les revendeurs agr\u00e9\u00e9s facturent \u00e0 partir de 26 \u20ac pour un billet \u00e0 horaire r\u00e9serv\u00e9 avec audioguide num\u00e9rique, et la plupart offrent l'annulation gratuite.",
+      a: "Oui \u2014 4 \u20ac. C'est tout l'\u00e9cart entre le prix du jour m\u00eame et celui de la pr\u00e9vente (25 \u20ac contre 29 \u20ac pour l'entr\u00e9e standard) : ce sont les frais de r\u00e9servation qui bloquent une date et un horaire pr\u00e9cis. Les agences locales ind\u00e9pendantes facturent \u00e0 partir de 26 \u20ac pour un billet \u00e0 horaire r\u00e9serv\u00e9 avec audioguide num\u00e9rique, et la plupart offrent l'annulation gratuite.",
     },
     {
       q: "Qu'est-ce que le PassePartout 5 Days ?",
@@ -930,7 +930,7 @@ const es: TicketPricesContent = {
         notes: "Entrada est\u00e1ndar m\u00e1s 4 \u20ac de tarifa de reserva, hora reservada",
       },
       {
-        type: "Por adelantado, revendedor autorizado",
+        type: "Por adelantado, agencia local independiente",
         price: "Desde 26 \u20ac",
         notes: "Hora reservada + audiogu\u00eda digital, cancelaci\u00f3n gratuita",
       },
@@ -938,7 +938,7 @@ const es: TicketPricesContent = {
     footnote:
       "La entrada de tarde (desde las 16:00) cuesta 16 \u20ac el mismo d\u00eda o 20 \u20ac por adelantado.",
     recommendation:
-      "Mi recomendaci\u00f3n sincera: reserva a trav\u00e9s de un revendedor autorizado. El precio es competitivo, te aseguras una franja horaria garantizada y una audiogu\u00eda digital, y la mayor\u00eda ofrece cancelaci\u00f3n gratuita hasta 24 horas antes de tu visita. Esa flexibilidad por s\u00ed sola merece la pena \u2014 el tiempo en Florencia puede ser impredecible y los planes cambian. El d\u00eda de la visita te presentas en la Puerta 1 a tu hora reservada y te ahorras la cola de la taquilla; el breve control de seguridad se aplica a todo el mundo.",
+      "Mi recomendaci\u00f3n sincera: reserva a trav\u00e9s de una agencia local independiente. El precio es competitivo, te aseguras una franja horaria garantizada y una audiogu\u00eda digital, y la mayor\u00eda ofrece cancelaci\u00f3n gratuita hasta 24 horas antes de tu visita. Esa flexibilidad por s\u00ed sola merece la pena \u2014 el tiempo en Florencia puede ser impredecible y los planes cambian. El d\u00eda de la visita te presentas en la Puerta 1 a tu hora reservada y te ahorras la cola de la taquilla; el breve control de seguridad se aplica a todo el mundo.",
   },
   ctaTop: "Mejor Precio \u2014 Entrada Uffizi con Hora Reservada y Audiogu\u00eda",
   freeEntryDays: {
@@ -994,7 +994,7 @@ const es: TicketPricesContent = {
       "\u00bfMenos de 18 a\u00f1os? La entrada es gratuita para todas las nacionalidades \u2014 aun as\u00ed necesitas una entrada nominativa gratuita, y el nombre debe coincidir con el documento",
       "Los estudiantes de arte y arquitectura de universidades de la UE entran gratis \u2014 lleva tu certificado de matriculacion",
       "\u00bfVisitas tambi\u00e9n el Palazzo Pitti y los Jardines de Boboli? El PassePartout 5 Days lo cubre todo por 40 \u20ac",
-      "Reserva a trav\u00e9s de un revendedor autorizado para una franja horaria garantizada, audiogu\u00eda digital y flexibilidad de cancelaci\u00f3n",
+      "Reserva a trav\u00e9s de una agencia local independiente para una franja horaria garantizada, audiogu\u00eda digital y flexibilidad de cancelaci\u00f3n",
     ],
   },
   ctaBottom: "Reserva Entradas para los Uffizi",
@@ -1005,7 +1005,7 @@ const es: TicketPricesContent = {
     },
     {
       q: "Hay gastos de reserva para las entradas de los Uffizi?",
-      a: "S\u00ed \u2014 4 \u20ac. Es toda la diferencia entre el precio del mismo d\u00eda y el de la compra anticipada (25 \u20ac frente a 29 \u20ac en la entrada est\u00e1ndar): es la tarifa de reserva por bloquear una fecha y una hora concretas. Los revendedores autorizados cobran desde 26 \u20ac por una entrada con hora reservada y audiogu\u00eda digital, y la mayor\u00eda ofrece cancelaci\u00f3n gratuita.",
+      a: "S\u00ed \u2014 4 \u20ac. Es toda la diferencia entre el precio del mismo d\u00eda y el de la compra anticipada (25 \u20ac frente a 29 \u20ac en la entrada est\u00e1ndar): es la tarifa de reserva por bloquear una fecha y una hora concretas. Las agencias locales independientes cobran desde 26 \u20ac por una entrada con hora reservada y audiogu\u00eda digital, y la mayor\u00eda ofrece cancelaci\u00f3n gratuita.",
     },
     {
       q: "Que es el PassePartout 5 Days?",

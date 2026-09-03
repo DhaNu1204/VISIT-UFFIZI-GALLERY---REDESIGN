@@ -102,6 +102,15 @@ export default function Footer({ locale }: Props) {
           </div>
         </div>
       </div>
+
+      {/* Legal operator strip (art. 2250 c.c.; D.lgs. 70/2003) */}
+      <div className="w-full border-t border-white/10 bg-black/20">
+        <div className="mx-auto max-w-[1200px] px-4 py-4">
+          <p className="break-words text-center text-[11px] leading-relaxed text-white/40 md:text-left">
+            {t("legalOperator")}
+          </p>
+        </div>
+      </div>
     </footer>
   );
 }

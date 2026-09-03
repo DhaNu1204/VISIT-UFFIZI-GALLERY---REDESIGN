@@ -41,7 +41,8 @@
     "terms": "Términos de Uso",
     "cookies": "Política de Cookies",
     "copyright": "© {year} Visit Uffizi. Todos los derechos reservados.",
-    "affiliate": "Este sitio contiene enlaces de afiliados. Podemos ganar una comisión sin coste adicional para ti."
+    "affiliate": "Este sitio contiene enlaces de afiliados. Podemos ganar una comisión sin coste adicional para ti.",
+    "legalOperator": "Visit Uffizi es un sitio web independiente de información turística y reservas gestionado por Florence With Locals S.r.l. — Via Taddea 35/R, 50123 Florencia (FI), Italia · IVA IT07564730484 · Registro Mercantil de Florencia n.º 07564730484 · REA FI-712305 · Agencia de viajes SCIA ref. 07564730484-23072026-0853 (SUAP Comune di Firenze). NO estamos afiliados a las Galerías Uffizi ni a su venta oficial de entradas (b-ticket.com/uffizi). Contacto: contact@florencewithlocals.com"
   },
   "booking": {
     "from": "Desde",
@@ -54,7 +55,8 @@
     "duration": "Duración",
     "languages": "Idiomas",
     "includes": "Incluye",
-    "meetingPoint": "Punto de Encuentro"
+    "meetingPoint": "Punto de Encuentro",
+    "dualRate": "Entrada + app guía desde 26 € · Entrada + audioguía desde 49 €"
   },
   "home": {
     "hero": "Galería Uffizi Florencia",

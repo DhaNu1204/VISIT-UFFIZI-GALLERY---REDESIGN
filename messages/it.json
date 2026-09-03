@@ -41,7 +41,8 @@
     "terms": "Termini di Utilizzo",
     "cookies": "Cookie Policy",
     "copyright": "© {year} Visit Uffizi. Tutti i diritti riservati.",
-    "affiliate": "Questo sito contiene link affiliati. Potremmo guadagnare una commissione senza costi aggiuntivi per te."
+    "affiliate": "Questo sito contiene link affiliati. Potremmo guadagnare una commissione senza costi aggiuntivi per te.",
+    "legalOperator": "Visit Uffizi è un sito indipendente di informazione turistica e prenotazione gestito da Florence With Locals S.r.l. — Via Taddea 35/R, 50123 Firenze (FI), Italia · P.IVA IT07564730484 · Registro Imprese di Firenze n. 07564730484 · REA FI-712305 · Agenzia di viaggi SCIA rif. 07564730484-23072026-0853 (SUAP Comune di Firenze). NON siamo affiliati alle Gallerie degli Uffizi né alla biglietteria ufficiale (b-ticket.com/uffizi). Contatto: contact@florencewithlocals.com"
   },
   "booking": {
     "from": "Da",
@@ -54,7 +55,8 @@
     "duration": "Durata",
     "languages": "Lingue",
     "includes": "Include",
-    "meetingPoint": "Punto di Incontro"
+    "meetingPoint": "Punto di Incontro",
+    "dualRate": "Biglietto + app guida da 26 € · Biglietto + audioguida da 49 €"
   },
   "home": {
     "hero": "Galleria degli Uffizi Firenze",
