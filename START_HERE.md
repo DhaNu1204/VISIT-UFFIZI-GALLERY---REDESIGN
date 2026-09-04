@@ -63,7 +63,7 @@ This guide contains:
 
 1. Log in to **Hostinger hPanel**
 2. Go to **File Manager**
-3. Navigate to `/public_html`
+3. Navigate to `~/domains/visituffizi.com/public_html` (NOT `~/public_html` — that is heritanceitaly.com)
 4. **BACKUP** existing WordPress files
 5. **DELETE** old files
 6. **UPLOAD** everything from the `out` folder

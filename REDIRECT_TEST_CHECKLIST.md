@@ -74,7 +74,7 @@ Use https://www.redirect-checker.org/ or https://httpstatus.io/ to test each URL
 
 ## ⚠️ Important Notes
 
-1. **Upload `.htaccess`**: Make sure to upload the updated `.htaccess` file from `out/.htaccess` to `/public_html/.htaccess` on Hostinger
+1. **Upload `.htaccess`**: Make sure to upload the updated `.htaccess` file from `out/.htaccess` to `~/domains/visituffizi.com/public_html/.htaccess` on Hostinger
 2. **Test with trailing slash**: Some old WordPress URLs may have trailing slashes, some may not. The `.htaccess` handles both.
 3. **Check 301 status**: Redirects MUST be 301 (permanent) not 302 (temporary) for SEO
 4. **Italian priority**: Italian URLs have high rankings - test these carefully!

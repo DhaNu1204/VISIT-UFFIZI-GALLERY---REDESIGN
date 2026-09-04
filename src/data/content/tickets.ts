@@ -32,7 +32,7 @@ const en: TicketsContent = {
   h1: "Uffizi Gallery Tickets",
   intro:
     "If there's one piece of advice I give every visitor to Florence, it's this: do not show up at the Uffizi without a ticket. I've watched people stand in line for three hours under the July sun, only to find out the afternoon slots were sold out. Booking ahead costs €4 more than the door price — that's the reservation fee — and in return you get a guaranteed entry time and a ticket-office queue you never have to join.",
-  ctaTitle: "Uffizi Gallery Reserved Ticket & Digital Audio Guide",
+  ctaTitle: "Uffizi Gallery Reserved Ticket & Digital Guide-Book App",
   priceSection: {
     h2: "Ticket Types & Prices 2026",
     p: "The Uffizi has updated its pricing for 2026. A standard ticket (entry before 4:00 PM) costs €25 on the day or €29 booked in advance — the €4 difference is the reservation fee. Afternoon entry (from 4:00 PM) costs €16 on the day or €20 in advance. All tickets are timed entry. Here's the complete breakdown:",
@@ -114,7 +114,7 @@ const it: TicketsContent = {
   h1: "Biglietti Galleria degli Uffizi",
   intro:
     "Se c'è un consiglio che do a ogni visitatore di Firenze, è questo: non presentarti agli Uffizi senza biglietto. Ho visto persone fare tre ore di coda sotto il sole di luglio, per poi scoprire che le fasce pomeridiane erano esaurite. Prenotare in anticipo costa €4 in più rispetto alla biglietteria — è il diritto di prenotazione — e in cambio hai un orario di ingresso garantito e la fila alla biglietteria non la fai mai.",
-  ctaTitle: "Biglietto Riservato Galleria degli Uffizi e Audioguida Digitale",
+  ctaTitle: "Biglietto Riservato Galleria degli Uffizi e App Guida Digitale",
   priceSection: {
     h2: "Tipologie di Biglietti e Prezzi 2026",
     p: "Gli Uffizi hanno aggiornato le tariffe per il 2026. Il biglietto standard (ingresso prima delle 16:00) costa €25 in giornata o €29 in prevendita — la differenza di €4 è il diritto di prenotazione. L'ingresso pomeridiano (dalle 16:00) costa €16 in giornata o €20 in prevendita. Tutti i biglietti sono a orario prestabilito. Ecco il riepilogo completo:",
@@ -196,7 +196,7 @@ const de: TicketsContent = {
   h1: "Uffizi Galerie Tickets",
   intro:
     "Wenn es einen Rat gibt, den ich jedem Florenz-Besucher gebe, dann diesen: Gehen Sie nicht ohne Ticket zu den Uffizien. Ich habe erlebt, wie Besucher drei Stunden in der Juli-Sonne angestanden haben — nur um dann zu erfahren, dass die Nachmittagsfenster ausverkauft waren. Eine Vorausbuchung kostet €4 mehr als an der Tageskasse — das ist die Reservierungsgebühr — und dafür haben Sie eine feste Eintrittszeit und müssen sich gar nicht erst an der Kasse anstellen.",
-  ctaTitle: "Uffizi Galerie Reserviertes Ticket & Digitaler Audioguide",
+  ctaTitle: "Uffizi Galerie Reserviertes Ticket & Digitale Guide-App",
   priceSection: {
     h2: "Ticketarten & Preise 2026",
     p: "Die Uffizien haben ihre Preise für 2026 aktualisiert. Das Standardticket (Einlass vor 16:00 Uhr) kostet €25 am Besuchstag oder €29 im Vorverkauf — die Differenz von €4 ist die Reservierungsgebühr. Der Nachmittagseintritt (ab 16:00 Uhr) kostet €16 am Besuchstag oder €20 im Vorverkauf. Alle Tickets sind Zeitfenster-Tickets. Hier die vollständige Übersicht:",
@@ -278,7 +278,7 @@ const fr: TicketsContent = {
   h1: "Billets Galerie des Offices",
   intro:
     "S'il y a un conseil que je donne à chaque visiteur de Florence, c'est celui-ci : ne vous présentez pas aux Offices sans billet. J'ai vu des gens faire la queue pendant trois heures sous le soleil de juillet, pour finalement apprendre que les créneaux de l'après-midi étaient complets. Réserver à l'avance coûte 4 € de plus qu'au guichet — ce sont les frais de réservation — et en échange vous avez une heure d'entrée garantie et vous évitez la file d'attente à la billetterie.",
-  ctaTitle: "Billet Réservé Galerie des Offices et Audioguide Numérique",
+  ctaTitle: "Billet Réservé Galerie des Offices et Appli Guide Numérique",
   priceSection: {
     h2: "Types de Billets et Tarifs 2026",
     p: "Les Offices ont mis à jour leurs tarifs pour 2026. Le billet standard (entrée avant 16h) coûte 25 € le jour même ou 29 € en prévente — la différence de 4 € correspond aux frais de réservation. L'entrée de l'après-midi (à partir de 16h) coûte 16 € le jour même ou 20 € en prévente. Tous les billets sont à horaire réservé. Voici le détail complet :",
@@ -360,7 +360,7 @@ const es: TicketsContent = {
   h1: "Entradas Galeria Uffizi",
   intro:
     "Si hay un consejo que doy a cada visitante de Florencia, es este: no te presentes en los Uffizi sin entrada. He visto a personas hacer cola durante tres horas bajo el sol de julio, solo para descubrir que las franjas de la tarde estaban agotadas. Reservar por adelantado cuesta 4 € más que en taquilla — es la tarifa de reserva — y a cambio tienes una hora de entrada garantizada y te ahorras la cola de la taquilla.",
-  ctaTitle: "Entrada Reservada Galería Uffizi y Audioguía Digital",
+  ctaTitle: "Entrada Reservada Galería Uffizi y App Guía Digital",
   priceSection: {
     h2: "Tipos de Entradas y Precios 2026",
     p: "Los Uffizi han actualizado sus tarifas para 2026. La entrada estándar (acceso antes de las 16:00) cuesta 25 € el mismo día o 29 € por adelantado — la diferencia de 4 € es la tarifa de reserva. La entrada de tarde (desde las 16:00) cuesta 16 € el mismo día o 20 € por adelantado. Todas las entradas son con hora reservada. Aquí tienes el desglose completo:",

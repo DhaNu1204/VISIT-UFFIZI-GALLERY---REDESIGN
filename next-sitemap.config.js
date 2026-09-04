@@ -3,7 +3,7 @@ module.exports = {
   siteUrl: "https://visituffizi.com",
   generateRobotsTxt: false, // We have a custom robots.txt
   generateIndexSitemap: false,
-  outDir: "./public",
+  outDir: "./out", // write into the export AFTER next build has copied public/ (was ./public → shipped a one-build-stale sitemap)
   changefreq: "weekly",
   priority: 0.7,
   sitemapSize: 5000,

@@ -87,7 +87,7 @@ const en: HomeContent = {
   ticketsSection: {
     h2: "Uffizi Gallery Tickets 2026",
     p1: "Skip the ticket-office queue — seriously. The line at the Uffizi ticket office can stretch over two hours during peak season (March through October). With a pre-booked timed-entry ticket, you walk straight to Door 1 at your reserved time — everyone passes a short security check — and you're inside in minutes. Standard tickets cost €25 on the day at the ticket office or €29 booked in advance online. EU citizens aged 18-25 pay just €2, and under-18s from any country enter free (nominative ticket — the name must match your ID).",
-    ctaTitle: "Uffizi Gallery Reserved Ticket & Digital Audio Guide",
+    ctaTitle: "Uffizi Gallery Reserved Ticket & Digital Guide-Book App",
     p2: "I always recommend booking the earliest morning slot — 8:15 AM. You'll have Botticelli Hall practically to yourself for the first 20 minutes. By 10:00 AM, the tour groups arrive and the experience changes completely. If mornings don't work, try after 4:00 PM when the day-trippers have left.",
     link: "See all ticket options & prices →",
   },
@@ -209,7 +209,7 @@ const it: HomeContent = {
   ticketsSection: {
     h2: "Biglietti Uffizi 2026",
     p1: "Salta la fila alla biglietteria — sul serio. La coda per comprare il biglietto agli Uffizi può superare le due ore in alta stagione (da marzo a ottobre). Con un biglietto a orario prestabilito prenotato online, vai direttamente alla Porta 1 al tuo orario — tutti passano un breve controllo di sicurezza — e sei dentro in pochi minuti. Il biglietto standard costa €25 alla biglietteria in giornata o €29 prenotato online in anticipo. I cittadini UE tra i 18 e i 25 anni pagano solo €2, e i minori di 18 anni di qualsiasi nazionalità entrano gratis (biglietto nominativo: il nome deve corrispondere al documento).",
-    ctaTitle: "Biglietto Riservato Galleria degli Uffizi e Audioguida Digitale",
+    ctaTitle: "Biglietto Riservato Galleria degli Uffizi e App Guida Digitale",
     p2: "Il mio consiglio è sempre lo stesso: prenota la prima fascia oraria — le 8:15. Avrai la sala di Botticelli praticamente tutta per te nei primi 20 minuti. Dalle 10:00 arrivano i gruppi e l'atmosfera cambia completamente. Se la mattina non è possibile, prova dopo le 16:00 quando i turisti giornalieri sono ripartiti.",
     link: "Vedi tutti i biglietti e i prezzi →",
   },
@@ -331,7 +331,7 @@ const de: HomeContent = {
   ticketsSection: {
     h2: "Uffizi Galerie Tickets 2026",
     p1: "Umgehen Sie die Warteschlange an der Kasse — im Ernst. Die Schlange am Ticketschalter der Uffizien kann in der Hauptsaison (März bis Oktober) über zwei Stunden betragen. Mit einem vorab gebuchten Ticket mit Zeitfenster gehen Sie zu Ihrer reservierten Uhrzeit direkt zu Eingang 1 — alle durchlaufen eine kurze Sicherheitskontrolle — und sind in wenigen Minuten drin. Standardtickets kosten €25 am selben Tag an der Kasse oder €29 im Voraus online gebucht. EU-Bürger zwischen 18 und 25 Jahren zahlen nur €2, und Besucher unter 18 Jahren aus jedem Land haben freien Eintritt (personalisiertes Ticket — der Name muss mit dem Ausweis übereinstimmen).",
-    ctaTitle: "Uffizi Galerie Reserviertes Ticket & Digitaler Audioguide",
+    ctaTitle: "Uffizi Galerie Reserviertes Ticket & Digitale Guide-App",
     p2: "Mein Tipp: Buchen Sie immer das früheste Zeitfenster — 8:15 Uhr. Sie haben den Botticelli-Saal in den ersten 20 Minuten praktisch für sich allein. Ab 10:00 Uhr kommen die Reisegruppen und die Atmosphäre verändert sich grundlegend. Falls der Morgen nicht passt, versuchen Sie es nach 16:00 Uhr, wenn die Tagesausflügler abgereist sind.",
     link: "Alle Tickets und Preise ansehen →",
   },
@@ -453,7 +453,7 @@ const fr: HomeContent = {
   ticketsSection: {
     h2: "Billets Offices 2026",
     p1: "Évitez la file d'attente à la billetterie, sérieusement. La queue pour acheter un billet aux Offices peut dépasser deux heures en haute saison (de mars à octobre). Avec un billet à horaire réservé acheté en ligne, vous vous rendez directement à la Porte 1 à votre créneau — tout le monde passe un bref contrôle de sécurité — et vous êtes à l'intérieur en quelques minutes. Le billet standard coûte €25 sur place le jour même ou €29 réservé en ligne à l'avance. Les citoyens de l'UE âgés de 18 à 25 ans ne paient que €2, et les moins de 18 ans de toute nationalité entrent gratuitement (billet nominatif : le nom doit correspondre à la pièce d'identité).",
-    ctaTitle: "Billet Réservé Galerie des Offices et Audioguide Numérique",
+    ctaTitle: "Billet Réservé Galerie des Offices et Appli Guide Numérique",
     p2: "Je recommande toujours de reserver le premier creneau du matin : 8h15. Vous aurez la salle Botticelli pratiquement pour vous pendant les 20 premieres minutes. A partir de 10h, les groupes arrivent et l'experience change du tout au tout. Si le matin n'est pas possible, essayez apres 16h, lorsque les excursionnistes sont repartis.",
     link: "Voir tous les billets et tarifs \u2192",
   },
@@ -575,7 +575,7 @@ const es: HomeContent = {
   ticketsSection: {
     h2: "Entradas Uffizi 2026",
     p1: "Evita la cola de la taquilla, en serio. La fila para comprar entradas en los Uffizi puede superar las dos horas en temporada alta (de marzo a octubre). Con una entrada con hora reservada comprada online, te diriges directamente a la Puerta 1 a tu hora — todos pasan un breve control de seguridad — y entras en minutos. La entrada estándar cuesta €25 en taquilla el mismo día o €29 reservada online con antelación. Los ciudadanos de la UE de 18 a 25 años pagan solo €2, y los menores de 18 años de cualquier nacionalidad entran gratis (entrada nominativa: el nombre debe coincidir con el documento).",
-    ctaTitle: "Entrada Reservada Galería Uffizi y Audioguía Digital",
+    ctaTitle: "Entrada Reservada Galería Uffizi y App Guía Digital",
     p2: "Siempre recomiendo reservar la primera franja horaria: las 8:15. Tendras la sala de Botticelli practicamente para ti solo durante los primeros 20 minutos. A partir de las 10:00 llegan los grupos y la experiencia cambia por completo. Si la manana no te va bien, prueba despues de las 16:00, cuando los excursionistas del dia ya se han marchado.",
     link: "Ver todas las entradas y precios \u2192",
   },

@@ -25,7 +25,7 @@ npm run lint      # ESLint
 `.htaccess` lives at `public/.htaccess` (single source of truth). The build copies it into
 `out/` automatically. `ads.txt` lives at `public/ads.txt`, same behavior.
 
-Deployment = build, then **manually upload `out/` contents to Hostinger `public_html`**. The
+Deployment = build, then **upload `out/` contents to Hostinger `~/domains/visituffizi.com/public_html`** (SSH port 65002, key-based; stream `out/` as a tar). **`~/public_html` is heritanceitaly.com (WordPress) — never deploy there.**. The
 upload is the owner's step (Claude has no credentials). There is no Git auto-deploy and no
 Vercel connection — `vercel.json` is unused, the live redirects come from `.htaccess`.
 

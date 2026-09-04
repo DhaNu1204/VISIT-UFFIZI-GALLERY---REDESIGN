@@ -159,7 +159,7 @@ const en: TicketPricesContent = {
     recommendation:
       "My honest recommendation: book through an independent local agency. The price is competitive, you get a guaranteed entry slot plus a digital audio guide, and most offer free cancellation up to 24 hours before your visit. That flexibility alone is worth it \u2014 Florence weather can be unpredictable, and plans change. On the day itself you simply walk to Door 1 at your reserved time and skip the ticket-office queue; the short security screening applies to everyone.",
   },
-  ctaTop: "Best Value \u2014 Uffizi Timed-Entry Ticket & Audio Guide",
+  ctaTop: "Best Value \u2014 Uffizi Timed-Entry Ticket & Guide-Book App",
   freeEntryDays: {
     h2: "Free Entry Days",
     pPrefix: "The Uffizi and the Vasari Corridor are both free on the ",
@@ -356,7 +356,7 @@ const it: TicketPricesContent = {
     recommendation:
       "Il mio consiglio sincero: prenota tramite un'agenzia locale indipendente. Il prezzo \u00e8 competitivo, ti garantisci una fascia oraria e un'audioguida digitale, e la maggior parte offre cancellazione gratuita fino a 24 ore prima. Questa flessibilit\u00e0 da sola vale la differenza \u2014 il meteo a Firenze \u00e8 imprevedibile e i piani possono cambiare. Il giorno della visita ti presenti alla Porta 1 all'orario prenotato e salti la fila alla biglietteria; il rapido controllo di sicurezza vale per tutti.",
   },
-  ctaTop: "Miglior Prezzo \u2014 Biglietto Uffizi a Orario e Audioguida",
+  ctaTop: "Miglior Prezzo \u2014 Biglietto Uffizi a Orario e App Guida",
   freeEntryDays: {
     h2: "Giornate ad Ingresso Gratuito",
     pPrefix: "Gli Uffizi e il Corridoio Vasariano sono entrambi gratuiti la ",
@@ -551,7 +551,7 @@ const de: TicketPricesContent = {
     recommendation:
       "Meine ehrliche Empfehlung: Buchen Sie über eine unabhängige lokale Agentur. Der Preis ist wettbewerbsfähig, Sie sichern sich ein garantiertes Zeitfenster samt digitalem Audioguide, und die meisten bieten kostenlose Stornierung bis 24 Stunden vor dem Besuch. Allein diese Flexibilität ist es wert — das Wetter in Florenz kann unberechenbar sein, und Pläne ändern sich. Am Besuchstag gehen Sie zu Ihrer reservierten Zeit einfach zu Eingang 1 und umgehen die Warteschlange an der Kasse; die kurze Sicherheitskontrolle gilt für alle.",
   },
-  ctaTop: "Bester Preis — Uffizi Ticket mit Zeitfenster & Audioguide",
+  ctaTop: "Bester Preis — Uffizi Ticket mit Zeitfenster & Guide-App",
   freeEntryDays: {
     h2: "Tage mit freiem Eintritt",
     pPrefix: "Die Uffizien und der Vasarikorridor sind beide kostenlos am ",
@@ -746,7 +746,7 @@ const fr: TicketPricesContent = {
     recommendation:
       "Mon conseil sinc\u00e8re : r\u00e9servez via une agence locale ind\u00e9pendante. Le prix est comp\u00e9titif, vous vous assurez un cr\u00e9neau horaire garanti et un audioguide num\u00e9rique, et la plupart offrent l'annulation gratuite jusqu'\u00e0 24 heures avant votre visite. Cette flexibilit\u00e9 \u00e0 elle seule en vaut la peine \u2014 la m\u00e9t\u00e9o \u00e0 Florence peut \u00eatre impr\u00e9visible, et les plans changent. Le jour de la visite, vous vous pr\u00e9sentez \u00e0 la Porte 1 \u00e0 l'heure r\u00e9serv\u00e9e et vous \u00e9vitez la file d'attente \u00e0 la billetterie ; le court contr\u00f4le de s\u00e9curit\u00e9 s'applique \u00e0 tout le monde.",
   },
-  ctaTop: "Meilleur Prix \u2014 Billet Offices \u00e0 Horaire R\u00e9serv\u00e9 et Audioguide",
+  ctaTop: "Meilleur Prix \u2014 Billet Offices \u00e0 Horaire R\u00e9serv\u00e9 et Appli Guide",
   freeEntryDays: {
     h2: "Jours d'Entree Gratuite",
     pPrefix: "Les Offices et le Corridor de Vasari sont tous deux gratuits le ",
@@ -940,7 +940,7 @@ const es: TicketPricesContent = {
     recommendation:
       "Mi recomendaci\u00f3n sincera: reserva a trav\u00e9s de una agencia local independiente. El precio es competitivo, te aseguras una franja horaria garantizada y una audiogu\u00eda digital, y la mayor\u00eda ofrece cancelaci\u00f3n gratuita hasta 24 horas antes de tu visita. Esa flexibilidad por s\u00ed sola merece la pena \u2014 el tiempo en Florencia puede ser impredecible y los planes cambian. El d\u00eda de la visita te presentas en la Puerta 1 a tu hora reservada y te ahorras la cola de la taquilla; el breve control de seguridad se aplica a todo el mundo.",
   },
-  ctaTop: "Mejor Precio \u2014 Entrada Uffizi con Hora Reservada y Audiogu\u00eda",
+  ctaTop: "Mejor Precio \u2014 Entrada Uffizi con Hora Reservada y App Gu\u00eda",
   freeEntryDays: {
     h2: "Dias de Entrada Gratuita",
     pPrefix: "Los Uffizi y el Corredor Vasariano son gratuitos el ",

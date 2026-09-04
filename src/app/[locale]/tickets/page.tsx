@@ -25,7 +25,8 @@ const PRICE_ROWS: Record<string, PriceRow[]> = {
     { type: "Under 18", price: "Free", notes: "Any nationality — nominative ticket" },
     { type: "Uffizi + Vasari Corridor", price: "€43 / €47", notes: "Same day / booked in advance" },
     { type: "PassePartout 5 Days", price: "€40", notes: "Uffizi, Pitti, Boboli & Bardini — Uffizi first" },
-    { type: "Timed-Entry Ticket + Audio Guide", price: "From €26", notes: "Reserved entry time" },
+    { type: "Timed-Entry Ticket + Guide-Book App", price: "From €26", notes: "Reserved entry time" },
+    { type: "Timed-Entry Ticket + Audio Guide", price: "From €49", notes: "Reserved entry time" },
     { type: "Guided Tour + Entry", price: "From €49", notes: "2-hour expert tour" },
   ],
   it: [
@@ -36,7 +37,8 @@ const PRICE_ROWS: Record<string, PriceRow[]> = {
     { type: "Minori di 18", price: "Gratis", notes: "Qualsiasi nazionalità — biglietto nominativo" },
     { type: "Uffizi + Corridoio Vasariano", price: "€43 / €47", notes: "In giornata / in anticipo" },
     { type: "PassePartout 5 Giorni", price: "€40", notes: "Uffizi, Pitti, Boboli e Bardini — Uffizi per primo" },
-    { type: "Biglietto con Orario + Audioguida", price: "Da €26", notes: "Orario di ingresso riservato" },
+    { type: "Biglietto con Orario + App Guida", price: "Da €26", notes: "Orario di ingresso riservato" },
+    { type: "Biglietto con Orario + Audioguida", price: "Da €49", notes: "Orario di ingresso riservato" },
     { type: "Visita Guidata + Ingresso", price: "Da €49", notes: "Tour di 2 ore" },
   ],
   de: [
@@ -47,7 +49,8 @@ const PRICE_ROWS: Record<string, PriceRow[]> = {
     { type: "Unter 18", price: "Kostenlos", notes: "Jede Nationalität — personalisiertes Ticket" },
     { type: "Uffizien + Vasarikorridor", price: "€43 / €47", notes: "Am selben Tag / im Voraus" },
     { type: "PassePartout 5 Tage", price: "€40", notes: "Uffizien, Pitti, Boboli & Bardini — Uffizien zuerst" },
-    { type: "Ticket mit Zeitfenster + Audioguide", price: "Ab €26", notes: "Reservierte Eintrittszeit" },
+    { type: "Ticket mit Zeitfenster + Guide-App", price: "Ab €26", notes: "Reservierte Eintrittszeit" },
+    { type: "Ticket mit Zeitfenster + Audioguide", price: "Ab €49", notes: "Reservierte Eintrittszeit" },
     { type: "Führung + Eintritt", price: "Ab €49", notes: "2-stündige Expertenführung" },
   ],
   es: [
@@ -58,7 +61,8 @@ const PRICE_ROWS: Record<string, PriceRow[]> = {
     { type: "Menores de 18", price: "Gratis", notes: "Cualquier nacionalidad — entrada nominativa" },
     { type: "Uffizi + Corredor Vasariano", price: "€43 / €47", notes: "El mismo día / con antelación" },
     { type: "PassePartout 5 Días", price: "€40", notes: "Uffizi, Pitti, Boboli y Bardini — Uffizi primero" },
-    { type: "Entrada con Hora Reservada + Audioguía", price: "Desde €26", notes: "Hora de entrada reservada" },
+    { type: "Entrada con Hora Reservada + App Guía", price: "Desde €26", notes: "Hora de entrada reservada" },
+    { type: "Entrada con Hora Reservada + Audioguía", price: "Desde €49", notes: "Hora de entrada reservada" },
     { type: "Visita Guiada + Entrada", price: "Desde €49", notes: "Visita de 2 horas" },
   ],
   fr: [
@@ -69,7 +73,8 @@ const PRICE_ROWS: Record<string, PriceRow[]> = {
     { type: "Moins de 18 ans", price: "Gratuit", notes: "Toute nationalité — billet nominatif" },
     { type: "Offices + Corridor de Vasari", price: "€43 / €47", notes: "Le jour même / à l'avance" },
     { type: "PassePartout 5 Jours", price: "€40", notes: "Offices, Pitti, Boboli & Bardini — Offices en premier" },
-    { type: "Billet à Horaire Réservé + Audioguide", price: "Dès €26", notes: "Heure d'entrée réservée" },
+    { type: "Billet à Horaire Réservé + Appli Guide", price: "Dès €26", notes: "Heure d'entrée réservée" },
+    { type: "Billet à Horaire Réservé + Audioguide", price: "Dès €49", notes: "Heure d'entrée réservée" },
     { type: "Visite Guidée + Entrée", price: "Dès €49", notes: "Visite de 2 heures" },
   ],
 };

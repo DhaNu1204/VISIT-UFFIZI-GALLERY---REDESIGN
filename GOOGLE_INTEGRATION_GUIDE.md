@@ -94,7 +94,7 @@ This will:
 
 ## 📤 Step 5: Upload to Hostinger
 
-Upload **everything** from `out` folder to `/public_html/`:
+Upload **everything** from `out` folder to `~/domains/visituffizi.com/public_html`:
 - All HTML files
 - All folders (`en`, `it`, `de`, `fr`, `es`)
 - `.htaccess` file

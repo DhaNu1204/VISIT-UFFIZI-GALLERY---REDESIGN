@@ -1,5 +1,7 @@
 # 🚀 Hostinger Deployment Guide
 
+> **WARNING:** on this Hostinger account `~/public_html` is a symlink to **heritanceitaly.com (WordPress)**. The visituffizi.com web root is `~/domains/visituffizi.com/public_html`. Never upload the Next.js build to `~/public_html`.
+
 ## Your Setup
 - **Hosting Plan:** Cloud Startup
 - **GitHub Repo:** https://github.com/DhaNu1204/VISIT-UFFIZI-GALLERY---REDESIGN
@@ -24,7 +26,7 @@ This is the easiest method for ongoing updates. Hostinger will automatically pul
 2. Fill in:
    - **Repository URL:** `https://github.com/DhaNu1204/VISIT-UFFIZI-GALLERY---REDESIGN.git`
    - **Branch:** `main`
-   - **Target directory:** `/public_html` (or your domain's root)
+   - **Target directory:** `~/domains/visituffizi.com/public_html`
    - **Build command:** `npm install && npm run build`
    - **Output directory:** `out`
 
@@ -50,7 +52,7 @@ Your `out` folder already contains all built files (ready to upload).
 #### Step 2: Upload to Hostinger
 1. Log in to **Hostinger hPanel**
 2. Go to **File Manager**
-3. Navigate to `/public_html` (or your domain's root folder)
+3. Navigate to `~/domains/visituffizi.com/public_html`
 4. **Delete** existing WordPress files (IMPORTANT: Backup first!)
 5. **Upload** all files from the `out` folder
 
@@ -65,14 +67,14 @@ Upload the `.htaccess` file from the next section to handle 301 redirects.
 Get these from: hPanel → Websites → FTP Accounts
 
 1. Use FileZilla or your preferred FTP client
-2. Upload contents of `out` folder to `/public_html`
+2. Upload contents of `out` folder to `~/domains/visituffizi.com/public_html`
 3. Upload `.htaccess` file
 
 ---
 
 ## 🔧 REQUIRED: .htaccess Configuration
 
-Create this file in your `/public_html` directory:
+Create this file in your `~/domains/visituffizi.com/public_html` directory:
 
 ```apache
 # Enable rewrite engine
@@ -209,7 +211,7 @@ After deploying:
 ## 🆘 TROUBLESHOOTING
 
 ### Issue: "Site shows old WordPress content"
-**Fix:** Make sure you uploaded to the correct directory (`/public_html`) and cleared cache.
+**Fix:** Make sure you uploaded to the correct directory (`~/domains/visituffizi.com/public_html`) and cleared cache.
 
 ### Issue: "Pages show 404 errors"
 **Fix:** Verify `.htaccess` file is uploaded and `mod_rewrite` is enabled in PHP settings.

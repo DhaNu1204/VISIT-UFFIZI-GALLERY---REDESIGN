@@ -51,7 +51,7 @@ const en: Door3Content = {
     label: "Quick answer",
     text: "Door 3 used to be where online visitors exchanged their voucher for a ticket. That system ended in September 2025. Today, every visitor enters the Uffizi through Door 1. If you booked online, there's nothing to collect — just show the QR code on your phone at Door 1 and go through security.",
   },
-  ctaTicketTitle: "Book Your Uffizi Ticket + Audio Guide",
+  ctaTicketTitle: "Book Your Uffizi Ticket + Guide-Book App",
   changed: {
     h2: "The Uffizi Changed Its Entrance System in 2025",
     paragraphs: [
@@ -178,7 +178,7 @@ const it: Door3Content = {
     label: "Risposta rapida",
     text: "La Porta 3 era il punto in cui chi aveva prenotato online scambiava il voucher con il biglietto. Quel sistema è finito a settembre 2025. Oggi tutti i visitatori entrano agli Uffizi dalla Porta 1. Se hai prenotato online non devi ritirare nulla: mostra il QR code sul telefono alla Porta 1 e passa il controllo di sicurezza.",
   },
-  ctaTicketTitle: "Prenota il Tuo Biglietto Uffizi + Audioguida",
+  ctaTicketTitle: "Prenota il Tuo Biglietto Uffizi + App Guida",
   changed: {
     h2: "Nel 2025 gli Uffizi Hanno Cambiato Sistema d'Ingresso",
     paragraphs: [
@@ -305,7 +305,7 @@ const de: Door3Content = {
     label: "Kurze Antwort",
     text: "An Tür 3 tauschten Online-Besucher früher ihren Voucher gegen ein Ticket. Dieses System endete im September 2025. Heute betreten alle Besucher die Uffizien durch Eingang 1. Wenn Sie online gebucht haben, gibt es nichts abzuholen — zeigen Sie einfach den QR-Code auf Ihrem Handy an Eingang 1 und gehen Sie durch die Sicherheitskontrolle.",
   },
-  ctaTicketTitle: "Buchen Sie Ihr Uffizien-Ticket + Audioguide",
+  ctaTicketTitle: "Buchen Sie Ihr Uffizien-Ticket + Guide-App",
   changed: {
     h2: "Die Uffizien haben 2025 ihr Eingangssystem geändert",
     paragraphs: [
@@ -433,7 +433,7 @@ const es: Door3Content = {
     label: "Respuesta rápida",
     text: "La Puerta 3 era donde los visitantes con reserva online cambiaban su voucher por la entrada. Ese sistema terminó en septiembre de 2025. Hoy todos los visitantes entran a los Uffizi por la Puerta 1. Si reservaste online no tienes que recoger nada: solo muestra el código QR en el móvil en la Puerta 1 y pasa el control de seguridad.",
   },
-  ctaTicketTitle: "Reserva Tu Entrada Uffizi + Audioguía",
+  ctaTicketTitle: "Reserva Tu Entrada Uffizi + App Guía",
   changed: {
     h2: "Los Uffizi Cambiaron Su Sistema de Entrada en 2025",
     paragraphs: [
@@ -560,7 +560,7 @@ const fr: Door3Content = {
     label: "Réponse rapide",
     text: "La Porte 3 était l'endroit où les visiteurs ayant réservé en ligne échangeaient leur voucher contre un billet. Ce système a pris fin en septembre 2025. Aujourd'hui, tous les visiteurs entrent aux Offices par la Porte 1. Si vous avez réservé en ligne, il n'y a rien à retirer : montrez simplement le QR code sur votre téléphone à la Porte 1 et passez le contrôle de sécurité.",
   },
-  ctaTicketTitle: "Réservez Votre Billet Offices + Audioguide",
+  ctaTicketTitle: "Réservez Votre Billet Offices + Appli Guide",
   changed: {
     h2: "Les Offices Ont Changé Leur Système d'Entrée en 2025",
     paragraphs: [

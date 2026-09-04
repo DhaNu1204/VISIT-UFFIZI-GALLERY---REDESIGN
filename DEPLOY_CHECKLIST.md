@@ -75,7 +75,7 @@ Test these old WordPress URLs redirect correctly:
 ## TROUBLESHOOTING 🔧
 
 ### If homepage shows old WordPress site:
-1. Make sure you uploaded to `/public_html`
+1. Make sure you uploaded to `~/domains/visituffizi.com/public_html` (NOT `~/public_html`, which is heritanceitaly.com)
 2. Clear Hostinger cache: hPanel → Performance → Clear Cache
 3. Clear browser cache (Ctrl+F5)
 

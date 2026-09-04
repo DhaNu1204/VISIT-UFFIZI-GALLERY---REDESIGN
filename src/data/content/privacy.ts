@@ -25,20 +25,20 @@ const en: PrivacyContent = {
   meta: {
     title: "Privacy Policy | Visit Uffizi",
     description:
-      "Privacy policy for VisitUffizi.com - an affiliate website providing Uffizi Gallery information and ticket booking services.",
+      "Privacy policy for VisitUffizi.com - the independent website operated by Florence With Locals S.r.l. providing Uffizi Gallery information, tickets and tour bookings.",
   },
   breadcrumb: "Privacy Policy",
   h1: "Privacy Policy",
   lastUpdated: "Last updated: March 12, 2026",
   disclaimer: {
     title: "Important Notice",
-    text: "VisitUffizi.com is an independent affiliate website providing information and booking services for the Uffizi Gallery in Florence. We are NOT the official Uffizi Gallery website. This is a commercial website that earns commissions from ticket sales and tour bookings through affiliate partnerships.",
+    text: "This website is operated by Florence With Locals S.r.l. — Via Taddea 35/R, 50123 Florence (FI), Italy · VAT IT07564730484 · Companies Register of Florence no. 07564730484 · REA FI-712305 · Contact: contact@florencewithlocals.com. VisitUffizi.com is an independent website providing information and booking services for the Uffizi Gallery in Florence. We are NOT the official Uffizi Gallery website. This is a commercial website: ticket products are sold by Florence With Locals S.r.l., and we may earn commissions on tour bookings made through partner links.",
   },
   sections: [
     {
       title: "1. Who We Are",
       paragraphs: [
-        "VisitUffizi.com is an independent travel information and affiliate booking website. We provide comprehensive information about the Uffizi Gallery and facilitate ticket and tour bookings through third-party providers.",
+        "Florence With Locals S.r.l. is the data controller for personal data processed through this website. VisitUffizi.com is an independent travel information and booking website. We provide comprehensive information about the Uffizi Gallery, sell Uffizi ticket products directly (Florence With Locals S.r.l., via our Bokun-powered checkout) and link to third-party partners for guided tours.",
         "We are not affiliated with, endorsed by, or officially connected to the Gallerie degli Uffizi, the Italian Ministry of Culture, or the city of Florence.",
       ],
     },
@@ -91,7 +91,8 @@ const en: PrivacyContent = {
       list: [
         "Google Analytics: Traffic analysis and user behavior tracking",
         "Google AdSense: Display advertising",
-        "GetYourGuide: Ticket and tour booking (affiliate partner)",
+        "Bokun: online checkout for ticket products sold by Florence With Locals S.r.l. (processes your booking and payment details)",
+        "GetYourGuide: Tour booking (affiliate partner)",
         "Tiqets: Ticket booking (affiliate partner)",
         "Viator: Tour booking (affiliate partner)",
         "",
@@ -101,7 +102,7 @@ const en: PrivacyContent = {
     {
       title: "6. Affiliate Disclosure",
       paragraphs: [
-        "VisitUffizi.com participates in affiliate programs with ticket vendors and tour operators. When you purchase tickets or book tours through our affiliate links, we earn a commission at no additional cost to you.",
+        "Uffizi ticket products on this website are sold directly by Florence With Locals S.r.l. For guided tours booked through partners (GetYourGuide, Tiqets, Viator and others) via our affiliate links, we earn a commission at no additional cost to you.",
         "These commissions help support the operation and maintenance of this website. Our affiliate relationships do not influence our editorial content or recommendations — we only recommend services we believe provide genuine value to visitors.",
       ],
     },
@@ -154,7 +155,7 @@ const en: PrivacyContent = {
   ],
   contact: {
     title: "Contact Us",
-    text: "If you have questions about this privacy policy or wish to exercise your data rights, please contact us through the contact information provided on our website.",
+    text: "If you have questions about this privacy policy or wish to exercise your data rights, please contact Florence With Locals S.r.l. at contact@florencewithlocals.com or by post at Via Taddea 35/R, 50123 Florence (FI), Italy.",
   },
 };
 
@@ -162,20 +163,20 @@ const it: PrivacyContent = {
   meta: {
     title: "Informativa sulla Privacy | Visit Uffizi",
     description:
-      "Informativa sulla privacy per VisitUffizi.com - un sito web affiliato che fornisce informazioni sulla Galleria degli Uffizi e servizi di prenotazione biglietti.",
+      "Informativa sulla privacy per VisitUffizi.com - il sito indipendente gestito da Florence With Locals S.r.l. con informazioni sulla Galleria degli Uffizi, biglietti e prenotazione di tour.",
   },
   breadcrumb: "Informativa sulla Privacy",
   h1: "Informativa sulla Privacy",
   lastUpdated: "Ultimo aggiornamento: 12 marzo 2026",
   disclaimer: {
     title: "Avviso Importante",
-    text: "VisitUffizi.com è un sito web affiliato indipendente che fornisce informazioni e servizi di prenotazione per la Galleria degli Uffizi di Firenze. NON siamo il sito ufficiale della Galleria degli Uffizi. Questo è un sito commerciale che guadagna commissioni dalla vendita di biglietti e prenotazioni di tour tramite partnership di affiliazione.",
+    text: "Questo sito è gestito da Florence With Locals S.r.l. — Via Taddea 35/R, 50123 Firenze (FI), Italia · P.IVA IT07564730484 · Registro Imprese di Firenze n. 07564730484 · REA FI-712305 · Contatto: contact@florencewithlocals.com. VisitUffizi.com è un sito indipendente che fornisce informazioni e servizi di prenotazione per la Galleria degli Uffizi di Firenze. NON siamo il sito ufficiale della Galleria degli Uffizi. Questo è un sito commerciale: i prodotti biglietto sono venduti da Florence With Locals S.r.l. e possiamo ricevere commissioni sulle prenotazioni di tour effettuate tramite link dei partner.",
   },
   sections: [
     {
       title: "1. Chi Siamo",
       paragraphs: [
-        "VisitUffizi.com è un sito web indipendente di informazioni di viaggio e prenotazioni affiliate. Forniamo informazioni complete sulla Galleria degli Uffizi e facilitiamo la prenotazione di biglietti e tour attraverso fornitori terzi.",
+        "Il titolare del trattamento dei dati personali raccolti tramite questo sito è Florence With Locals S.r.l. VisitUffizi.com è un sito indipendente di informazione turistica e prenotazione. Forniamo informazioni complete sulla Galleria degli Uffizi, vendiamo direttamente prodotti biglietto per gli Uffizi (Florence With Locals S.r.l., tramite il nostro sistema di acquisto basato su Bokun) e rimandiamo a partner terzi per le visite guidate.",
         "Non siamo affiliati, approvati o ufficialmente collegati alle Gallerie degli Uffizi, al Ministero della Cultura italiano o alla città di Firenze.",
       ],
     },
@@ -228,7 +229,8 @@ const it: PrivacyContent = {
       list: [
         "Google Analytics: Analisi del traffico e tracciamento del comportamento degli utenti",
         "Google AdSense: Pubblicità display",
-        "GetYourGuide: Prenotazione biglietti e tour (partner affiliato)",
+        "Bokun: sistema di acquisto online per i prodotti biglietto venduti da Florence With Locals S.r.l. (tratta i dati di prenotazione e pagamento)",
+        "GetYourGuide: Prenotazione tour (partner affiliato)",
         "Tiqets: Prenotazione biglietti (partner affiliato)",
         "Viator: Prenotazione tour (partner affiliato)",
         "",
@@ -238,7 +240,7 @@ const it: PrivacyContent = {
     {
       title: "6. Divulgazione Affiliazione",
       paragraphs: [
-        "VisitUffizi.com partecipa a programmi di affiliazione con venditori di biglietti e operatori turistici. Quando acquisti biglietti o prenoti tour tramite i nostri link di affiliazione, guadagniamo una commissione senza costi aggiuntivi per te.",
+        "I prodotti biglietto per gli Uffizi presenti su questo sito sono venduti direttamente da Florence With Locals S.r.l. Per le visite guidate prenotate tramite partner (GetYourGuide, Tiqets, Viator e altri) attraverso i nostri link di affiliazione, riceviamo una commissione senza costi aggiuntivi per te.",
         "Queste commissioni aiutano a sostenere il funzionamento e la manutenzione di questo sito web. Le nostre relazioni di affiliazione non influenzano i nostri contenuti editoriali o raccomandazioni: consigliamo solo servizi che riteniamo forniscano un valore genuino ai visitatori.",
       ],
     },
@@ -291,7 +293,7 @@ const it: PrivacyContent = {
   ],
   contact: {
     title: "Contattaci",
-    text: "Se hai domande su questa informativa sulla privacy o desideri esercitare i tuoi diritti sui dati, contattaci tramite le informazioni di contatto fornite sul nostro sito web.",
+    text: "Se hai domande su questa informativa sulla privacy o desideri esercitare i tuoi diritti sui dati, contatta Florence With Locals S.r.l. all'indirizzo contact@florencewithlocals.com o per posta a Via Taddea 35/R, 50123 Firenze (FI), Italia.",
   },
 };
 
@@ -299,20 +301,20 @@ const de: PrivacyContent = {
   meta: {
     title: "Datenschutzerklärung | Visit Uffizi",
     description:
-      "Datenschutzerklärung für VisitUffizi.com - eine Affiliate-Website mit Informationen über die Uffizien und Ticketbuchungsdiensten.",
+      "Datenschutzerklärung für VisitUffizi.com - die unabhängige, von Florence With Locals S.r.l. betriebene Website mit Informationen über die Uffizien, Tickets und Tourbuchungen.",
   },
   breadcrumb: "Datenschutzerklärung",
   h1: "Datenschutzerklärung",
   lastUpdated: "Zuletzt aktualisiert: 12. März 2026",
   disclaimer: {
     title: "Wichtiger Hinweis",
-    text: "VisitUffizi.com ist eine unabhängige Affiliate-Website, die Informationen und Buchungsdienste für die Uffizien in Florenz bereitstellt. Wir sind NICHT die offizielle Website der Uffizien. Dies ist eine kommerzielle Website, die Provisionen aus Ticketverkäufen und Tourbuchungen durch Affiliate-Partnerschaften verdient.",
+    text: "Diese Website wird betrieben von Florence With Locals S.r.l. — Via Taddea 35/R, 50123 Florenz (FI), Italien · USt-IdNr. IT07564730484 · Handelsregister Florenz Nr. 07564730484 · REA FI-712305 · Kontakt: contact@florencewithlocals.com. VisitUffizi.com ist eine unabhängige Website, die Informationen und Buchungsdienste für die Uffizien in Florenz bereitstellt. Wir sind NICHT die offizielle Website der Uffizien. Dies ist eine kommerzielle Website: Ticketprodukte werden von Florence With Locals S.r.l. verkauft, und für Tourbuchungen über Partnerlinks können wir Provisionen erhalten.",
   },
   sections: [
     {
       title: "1. Wer Wir Sind",
       paragraphs: [
-        "VisitUffizi.com ist eine unabhängige Reiseinformations- und Affiliate-Buchungswebsite. Wir bieten umfassende Informationen über die Uffizien und erleichtern Ticket- und Tourbuchungen über Drittanbieter.",
+        "Verantwortlicher im Sinne der DSGVO für die über diese Website verarbeiteten personenbezogenen Daten ist Florence With Locals S.r.l. VisitUffizi.com ist eine unabhängige Reiseinformations- und Buchungswebsite. Wir bieten umfassende Informationen über die Uffizien, verkaufen Uffizien-Ticketprodukte direkt (Florence With Locals S.r.l., über unseren Bokun-basierten Checkout) und verlinken für Führungen auf Drittpartner.",
         "Wir sind nicht verbunden mit, unterstützt von oder offiziell verbunden mit den Gallerie degli Uffizi, dem italienischen Kulturministerium oder der Stadt Florenz.",
       ],
     },
@@ -365,7 +367,8 @@ const de: PrivacyContent = {
       list: [
         "Google Analytics: Traffic-Analyse und Verfolgung des Benutzerverhaltens",
         "Google AdSense: Display-Werbung",
-        "GetYourGuide: Ticket- und Tourbuchung (Affiliate-Partner)",
+        "Bokun: Online-Checkout für die von Florence With Locals S.r.l. verkauften Ticketprodukte (verarbeitet Ihre Buchungs- und Zahlungsdaten)",
+        "GetYourGuide: Tourbuchung (Affiliate-Partner)",
         "Tiqets: Ticketbuchung (Affiliate-Partner)",
         "Viator: Tourbuchung (Affiliate-Partner)",
         "",
@@ -375,7 +378,7 @@ const de: PrivacyContent = {
     {
       title: "6. Affiliate-Offenlegung",
       paragraphs: [
-        "VisitUffizi.com nimmt an Affiliate-Programmen mit Ticketanbietern und Tourveranstaltern teil. Wenn Sie Tickets kaufen oder Touren über unsere Affiliate-Links buchen, verdienen wir eine Provision ohne zusätzliche Kosten für Sie.",
+        "Uffizien-Ticketprodukte auf dieser Website werden direkt von Florence With Locals S.r.l. verkauft. Für Führungen, die über Partner (GetYourGuide, Tiqets, Viator und andere) über unsere Affiliate-Links gebucht werden, erhalten wir eine Provision ohne zusätzliche Kosten für Sie.",
         "Diese Provisionen helfen dabei, den Betrieb und die Wartung dieser Website zu unterstützen. Unsere Affiliate-Beziehungen beeinflussen nicht unsere redaktionellen Inhalte oder Empfehlungen - wir empfehlen nur Dienste, von denen wir glauben, dass sie echten Mehrwert für Besucher bieten.",
       ],
     },
@@ -428,7 +431,7 @@ const de: PrivacyContent = {
   ],
   contact: {
     title: "Kontaktieren Sie Uns",
-    text: "Wenn Sie Fragen zu dieser Datenschutzerklärung haben oder Ihre Datenschutzrechte ausüben möchten, kontaktieren Sie uns bitte über die auf unserer Website angegebenen Kontaktinformationen.",
+    text: "Wenn Sie Fragen zu dieser Datenschutzerklärung haben oder Ihre Datenschutzrechte ausüben möchten, kontaktieren Sie bitte Florence With Locals S.r.l. unter contact@florencewithlocals.com oder per Post an Via Taddea 35/R, 50123 Florenz (FI), Italien.",
   },
 };
 
@@ -436,20 +439,20 @@ const fr: PrivacyContent = {
   meta: {
     title: "Politique de Confidentialité | Visit Uffizi",
     description:
-      "Politique de confidentialité de VisitUffizi.com - site affilié avec informations sur la Galerie des Offices et services de réservation de billets.",
+      "Politique de confidentialité de VisitUffizi.com - site indépendant exploité par Florence With Locals S.r.l. proposant informations sur la Galerie des Offices, billets et réservation de visites.",
   },
   breadcrumb: "Politique de Confidentialité",
   h1: "Politique de Confidentialité",
   lastUpdated: "Dernière mise à jour : 12 mars 2026",
   disclaimer: {
     title: "Avis Important",
-    text: "VisitUffizi.com est un site web affilié indépendant fournissant des informations et des services de réservation pour la Galerie des Offices à Florence. Nous ne sommes PAS le site officiel de la Galerie des Offices. Il s'agit d'un site commercial qui gagne des commissions sur les ventes de billets et les réservations de visites grâce à des partenariats d'affiliation.",
+    text: "Ce site est exploité par Florence With Locals S.r.l. — Via Taddea 35/R, 50123 Florence (FI), Italie · TVA IT07564730484 · Registre des entreprises de Florence n° 07564730484 · REA FI-712305 · Contact : contact@florencewithlocals.com. VisitUffizi.com est un site indépendant fournissant des informations et des services de réservation pour la Galerie des Offices à Florence. Nous ne sommes PAS le site officiel de la Galerie des Offices. Il s'agit d'un site commercial : les produits billetterie sont vendus par Florence With Locals S.r.l., et nous pouvons percevoir des commissions sur les réservations de visites effectuées via des liens partenaires.",
   },
   sections: [
     {
       title: "1. Qui Nous Sommes",
       paragraphs: [
-        "VisitUffizi.com est un site web indépendant d'informations de voyage et de réservation affiliée. Nous fournissons des informations complètes sur la Galerie des Offices et facilitons les réservations de billets et de visites via des fournisseurs tiers.",
+        "Le responsable du traitement des données personnelles collectées via ce site est Florence With Locals S.r.l. VisitUffizi.com est un site indépendant d'information touristique et de réservation. Nous fournissons des informations complètes sur la Galerie des Offices, vendons directement des produits billetterie pour les Offices (Florence With Locals S.r.l., via notre système de paiement propulsé par Bokun) et renvoyons vers des partenaires tiers pour les visites guidées.",
         "Nous ne sommes pas affiliés, approuvés ou officiellement connectés aux Gallerie degli Uffizi, au Ministère de la Culture italien ou à la ville de Florence.",
       ],
     },
@@ -502,7 +505,8 @@ const fr: PrivacyContent = {
       list: [
         "Google Analytics : Analyse du trafic et suivi du comportement des utilisateurs",
         "Google AdSense : Publicité display",
-        "GetYourGuide : Réservation de billets et de visites (partenaire affilié)",
+        "Bokun : système de paiement en ligne pour les produits billetterie vendus par Florence With Locals S.r.l. (traite vos données de réservation et de paiement)",
+        "GetYourGuide : Réservation de visites (partenaire affilié)",
         "Tiqets : Réservation de billets (partenaire affilié)",
         "Viator : Réservation de visites (partenaire affilié)",
         "",
@@ -512,7 +516,7 @@ const fr: PrivacyContent = {
     {
       title: "6. Divulgation d'Affiliation",
       paragraphs: [
-        "VisitUffizi.com participe à des programmes d'affiliation avec des vendeurs de billets et des opérateurs de visites. Lorsque vous achetez des billets ou réservez des visites via nos liens d'affiliation, nous gagnons une commission sans frais supplémentaires pour vous.",
+        "Les produits billetterie pour les Offices présents sur ce site sont vendus directement par Florence With Locals S.r.l. Pour les visites guidées réservées auprès de partenaires (GetYourGuide, Tiqets, Viator et autres) via nos liens d'affiliation, nous percevons une commission sans frais supplémentaires pour vous.",
         "Ces commissions aident à soutenir le fonctionnement et la maintenance de ce site web. Nos relations d'affiliation n'influencent pas notre contenu éditorial ou nos recommandations - nous ne recommandons que des services qui, selon nous, offrent une réelle valeur aux visiteurs.",
       ],
     },
@@ -565,7 +569,7 @@ const fr: PrivacyContent = {
   ],
   contact: {
     title: "Contactez-nous",
-    text: "Si vous avez des questions sur cette politique de confidentialité ou souhaitez exercer vos droits sur les données, veuillez nous contacter via les informations de contact fournies sur notre site web.",
+    text: "Si vous avez des questions sur cette politique de confidentialité ou souhaitez exercer vos droits sur les données, veuillez contacter Florence With Locals S.r.l. à contact@florencewithlocals.com ou par courrier à Via Taddea 35/R, 50123 Florence (FI), Italie.",
   },
 };
 
@@ -573,20 +577,20 @@ const es: PrivacyContent = {
   meta: {
     title: "Política de Privacidad | Visit Uffizi",
     description:
-      "Política de privacidad para VisitUffizi.com - un sitio web afiliado que proporciona información sobre la Galería Uffizi y servicios de reserva de entradas.",
+      "Política de privacidad para VisitUffizi.com - el sitio web independiente gestionado por Florence With Locals S.r.l. con información sobre la Galería Uffizi, entradas y reserva de tours.",
   },
   breadcrumb: "Política de Privacidad",
   h1: "Política de Privacidad",
   lastUpdated: "Última actualización: 12 de marzo de 2026",
   disclaimer: {
     title: "Aviso Importante",
-    text: "VisitUffizi.com es un sitio web afiliado independiente que proporciona información y servicios de reserva para la Galería Uffizi en Florencia. NO somos el sitio web oficial de la Galería Uffizi. Este es un sitio web comercial que gana comisiones de las ventas de entradas y reservas de tours a través de asociaciones de afiliados.",
+    text: "Este sitio web está gestionado por Florence With Locals S.r.l. — Via Taddea 35/R, 50123 Florencia (FI), Italia · IVA IT07564730484 · Registro Mercantil de Florencia n.º 07564730484 · REA FI-712305 · Contacto: contact@florencewithlocals.com. VisitUffizi.com es un sitio web independiente que proporciona información y servicios de reserva para la Galería Uffizi en Florencia. NO somos el sitio web oficial de la Galería Uffizi. Este es un sitio web comercial: los productos de entradas los vende Florence With Locals S.r.l., y podemos recibir comisiones por las reservas de tours realizadas a través de enlaces de socios.",
   },
   sections: [
     {
       title: "1. Quiénes Somos",
       paragraphs: [
-        "VisitUffizi.com es un sitio web independiente de información de viajes y reserva de afiliados. Proporcionamos información completa sobre la Galería Uffizi y facilitamos reservas de entradas y tours a través de proveedores de terceros.",
+        "El responsable del tratamiento de los datos personales recogidos a través de este sitio web es Florence With Locals S.r.l. VisitUffizi.com es un sitio web independiente de información turística y reservas. Proporcionamos información completa sobre la Galería Uffizi, vendemos directamente productos de entradas para los Uffizi (Florence With Locals S.r.l., a través de nuestro sistema de compra basado en Bokun) y enlazamos a socios externos para las visitas guiadas.",
         "No estamos afiliados, respaldados o conectados oficialmente con las Gallerie degli Uffizi, el Ministerio de Cultura italiano o la ciudad de Florencia.",
       ],
     },
@@ -639,7 +643,8 @@ const es: PrivacyContent = {
       list: [
         "Google Analytics: Análisis de tráfico y seguimiento del comportamiento del usuario",
         "Google AdSense: Publicidad display",
-        "GetYourGuide: Reserva de entradas y tours (socio afiliado)",
+        "Bokun: sistema de compra en línea para los productos de entradas vendidos por Florence With Locals S.r.l. (trata sus datos de reserva y pago)",
+        "GetYourGuide: Reserva de tours (socio afiliado)",
         "Tiqets: Reserva de entradas (socio afiliado)",
         "Viator: Reserva de tours (socio afiliado)",
         "",
@@ -649,7 +654,7 @@ const es: PrivacyContent = {
     {
       title: "6. Divulgación de Afiliados",
       paragraphs: [
-        "VisitUffizi.com participa en programas de afiliados con vendedores de entradas y operadores turísticos. Cuando compra entradas o reserva tours a través de nuestros enlaces de afiliados, ganamos una comisión sin costo adicional para usted.",
+        "Los productos de entradas para los Uffizi de este sitio web los vende directamente Florence With Locals S.r.l. Por las visitas guiadas reservadas a través de socios (GetYourGuide, Tiqets, Viator y otros) mediante nuestros enlaces de afiliados, recibimos una comisión sin coste adicional para usted.",
         "Estas comisiones ayudan a apoyar el funcionamiento y mantenimiento de este sitio web. Nuestras relaciones de afiliados no influyen en nuestro contenido editorial o recomendaciones: solo recomendamos servicios que creemos que proporcionan un valor genuino a los visitantes.",
       ],
     },
@@ -702,7 +707,7 @@ const es: PrivacyContent = {
   ],
   contact: {
     title: "Contáctenos",
-    text: "Si tiene preguntas sobre esta política de privacidad o desea ejercer sus derechos de datos, contáctenos a través de la información de contacto proporcionada en nuestro sitio web.",
+    text: "Si tiene preguntas sobre esta política de privacidad o desea ejercer sus derechos de datos, contacte con Florence With Locals S.r.l. en contact@florencewithlocals.com o por correo postal en Via Taddea 35/R, 50123 Florencia (FI), Italia.",
   },
 };
 
